@@ -26,6 +26,7 @@
     "@fontsource/fira-mono": "^4.5.0",
     "@lukeed/uuid": "^2.0.0",
     "cookie": "^0.4.1",
+    "leader-line": "github:anseki/leader-line",
     "matter-js": "^0.18.0"
   }
 }
