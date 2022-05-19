@@ -1,6 +1,6 @@
 <script>
   function contactMe () {
-    alert("Let's talk: travis.burandt@gmail ... thank you!")
+    alert("Let's talk: travis.burandt@gmail.com ... thank you!")
   }
 </script>
 <div class="card">
