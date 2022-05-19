@@ -9,7 +9,7 @@
     <span class="card-title">Travis Burandt</span>
   </div>
   <div class="card-content">
-    <p>Welcome to my website! Feel free to take a look around. Scramble is an Enigma Machine replica except built in the browser. Consensus is the Raft Algorithm running in the cloud/serverless. AI Bot is my assistant. Community or /community_folder/, is a social groups application which is software that I'm selling over at communityfolder.com. I have lot's of projects and stuff to do I guess :)</p>
+    <p>Welcome to my website! Feel free to take a look around. Scramble is an Enigma Machine replica except built in the browser. Consensus is the Raft Algorithm running in the cloud/serverless. AI Bot is my assistant. Community or /community_folder/, is a social groups application which is software that I'm selling over at communityfolder.com. I have lots of projects and stuff to do I guess :)</p>
   </div>
   <div class="card-action">
     <a href="#" on:click={() => contactMe()}>contact me</a>
