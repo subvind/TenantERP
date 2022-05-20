@@ -42,6 +42,10 @@
 <br />
 
 <style>
+  h1 {
+    font-size: 2em;
+    text-align: center;
+  }
   .consensus {
     min-height: 100vh;
   }

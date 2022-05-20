@@ -45,6 +45,10 @@
 <br />
 
 <style>
+  h1 {
+    font-size: 2em;
+    text-align: center;
+  }
   .tabs {
     background: transparent;
   }

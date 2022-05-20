@@ -39,6 +39,10 @@
 <br />
 
 <style>
+  h1 {
+    font-size: 2em;
+    text-align: center;
+  }
   .container {
     width: 100%;
     min-width: 950px;
