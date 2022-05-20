@@ -8,7 +8,7 @@
   import Map from '$lib/geo/Map.svelte'
   import Things from '$lib/geo/Things.svelte'
   import Connections from '$lib/geo/Connections.svelte'
-  import Messages from '$lib/geo/Messages.svelte'
+  import Scramblings from '$lib/geo/Scramblings.svelte'
   import About from '$lib/geo/About.svelte'
 
   onMount(() => {
@@ -17,16 +17,15 @@
   })
 </script>
 
-<br />
-<br />
 <div class="container">
+  <h1>Geographical Spatial<br /> Networking</h1>
   <Map />
   <br />
   <br />
   <ul class="tabs">
     <li class="tab col s3"><a class="active" href="#tabs-1">Things</a></li>
     <li class="tab col s3"><a href="#tabs-2">Connections</a></li>
-    <li class="tab col s3"><a href="#tabs-3">Messages</a></li>
+    <li class="tab col s3"><a href="#tabs-3">Scramblings</a></li>
     <li class="tab col s3"><a href="#tabs-4">About</a></li>
   </ul>
   <div id="tabs-1" class="col s12">
@@ -36,7 +35,7 @@
     <Connections />
   </div>
   <div id="tabs-3" class="col s12">
-    <Messages />
+    <Scramblings />
   </div>
   <div id="tabs-4" class="col s12">
     <About />

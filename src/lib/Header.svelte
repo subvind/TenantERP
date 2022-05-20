@@ -12,7 +12,7 @@
 					<a sveltekit:prefetch href="/scramble">Scramble</a>
 				</li>
 				<li class:active={$page.url.pathname === '/geo'}>
-					<a sveltekit:prefetch href="/geo">GEO</a>
+					<a sveltekit:prefetch href="/geo">Geo</a>
 				</li>
 				<li class:active={$page.url.pathname === '/consensus'}>
 					<a sveltekit:prefetch href="/consensus">Consensus</a>

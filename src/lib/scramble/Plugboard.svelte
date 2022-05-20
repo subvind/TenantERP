@@ -1,5 +1,6 @@
 <script lang="ts">
   import { onMount, onDestroy } from "svelte";
+  import { browser } from '$app/env';
 
   let alphabet = 'qwertzuioasdfghjkpyxcvbnml'
   let letters = alphabet.split('')
@@ -90,35 +91,38 @@
         color: '#ee6e73',
       }
     );
-  })
 
-	onDestroy(() => {
-    document.querySelectorAll(`.leader-line`).forEach((element) => {
-      element.remove()
-    })
-	});
+  })
+  
+  onDestroy(() => {
+    if (browser) {
+      document.querySelectorAll(`.leader-line`).forEach((element) => {
+        element.remove()
+      })
+    }
+  });
 </script>
 
-<div class="wrapper">
+<div class="plugboard">
   <div class="dots">
     {#each dots as dot}
       <div id={`header-${dot}`} class="dot" style={dot === connectOutbound[0] ? 'background: #ee6e73;' : 'background: transparent;'}></div>
     {/each}
   </div>
-  <div class="card keyboard">
+  <div class="card">
     <div class="dots">
       {#each dots as dot}
         <div id={`top-${dot}`} class="dot" style={dot === connectOutbound[0] ? 'background: #ee6e73;' : null}></div>
       {/each}
     </div>
-    <br />
+    <div class="title">(Plugboard)</div>
     {#each letters as letter, index}
       <a id={`middle-${letter}`} href="#" class="btn-floating btn-small grey black-text lighten-2 letter" style={letter === connectOutbound[0] || letter === connectOutbound[1] ? 'background: #ee6e73 !important; color: #fff !important;' : null}>{letter}</a>
       {#if index === 8 || index === 16}
         <br />
       {/if}
     {/each}
-    <br />
+    <div class="title">(Outbound: <span class="upper">{connectOutbound[0]}</span> to <span class="upper">{connectOutbound[1]}</span>, Inbound: )</div>
     <div class="dots">
       {#each dots as dot}
         <div id={`bottom-${dot}`} class="dot" style={dot === connectOutbound[1] ? 'background: #ee6e73;' : null}></div>
@@ -131,13 +135,9 @@
   :global(.leader-line) {
     z-index: 1000;
   }
-  .wrapper {
+  .plugboard {
     margin: 0 auto;
     text-align: center;
-  }
-  .keyboard {
-    width: 450px;
-    margin: 0 auto;
   }
   .letter {
     margin: 0.5em;
@@ -154,5 +154,8 @@
     background: #000;
     float: left;
     margin: 0.1em;
+  }
+  .upper {
+    text-transform: capitalize;
   }
 </style>

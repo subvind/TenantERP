@@ -16,10 +16,12 @@
 	<meta name="description" content="Svelte demo app" />
 </svelte:head>
 
-<main class="wrapper">
+<main class="container wrapper">
 	<Cradle />
 	<Profile />
 </main>
+<br />
+<br />
 
 
 <style>
