@@ -4,7 +4,7 @@
   import Plugboard from '$lib/scramble/Plugboard.svelte'
 
   let active = 'b'
-  let connect = ['c', 'a']
+  let connect = ['a', 'l']
 
   function change (letter: string) {
     active = letter

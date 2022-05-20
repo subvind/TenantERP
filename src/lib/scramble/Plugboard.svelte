@@ -1,15 +1,48 @@
 <script lang="ts">
-  import { onMount } from "svelte";
+  import { onMount, onDestroy } from "svelte";
 
   let alphabet = 'qwertzuioasdfghjkpyxcvbnml'
   let letters = alphabet.split('')
   let dots = letters
-  export let connect = ['a', 'b']
+  export let connectOutbound = ['a', 'b']
+
+  export let connections = [
+    ['a', 'b'],
+    ['c', 'd'],
+    ['e', 'f'],
+    ['g', 'h'],
+    ['i', 'j'],
+    ['k', 'l'],
+    ['m', 'n'],
+    ['o', 'p'],
+    ['q', 'r'],
+    ['s', 't'],
+    ['u', 'v'],
+    ['w', 'x'],
+    ['y', 'z'],
+  ]
+
+  function makeConnections() {
+    connections.forEach((join) => {
+      new window['LeaderLine'](
+        document.getElementById(`middle-${join[0]}`),
+        document.getElementById(`middle-${join[1]}`),
+        {
+          path: 'straight',
+          startPlug: 'disc',
+          endPlug: 'disc',
+          size: 1,
+          color: '#000',
+        }
+      );
+    })
+  }
 
   onMount(() => {
+    makeConnections()
     new window['LeaderLine'](
-      document.getElementById(`top-${connect[0]}`),
-      document.getElementById(`middle-${connect[0]}`),
+      document.getElementById(`header-${connectOutbound[0]}`),
+      document.getElementById(`top-${connectOutbound[0]}`),
       {
         path: 'straight',
         startSocket: 'bottom',
@@ -21,10 +54,12 @@
       }
     );
     new window['LeaderLine'](
-      document.getElementById(`middle-${connect[0]}`),
-      document.getElementById(`middle-${connect[1]}`),
+      document.getElementById(`top-${connectOutbound[0]}`),
+      document.getElementById(`middle-${connectOutbound[0]}`),
       {
         path: 'straight',
+        startSocket: 'bottom',
+        endSocket: 'top',
         startPlug: 'disc',
         endPlug: 'disc',
         size: 1,
@@ -32,8 +67,19 @@
       }
     );
     new window['LeaderLine'](
-      document.getElementById(`middle-${connect[1]}`),
-      document.getElementById(`bottom-${connect[1]}`),
+      document.getElementById(`middle-${connectOutbound[0]}`),
+      document.getElementById(`middle-${connectOutbound[1]}`),
+      {
+        path: 'grid',
+        startPlug: 'disc',
+        endPlug: 'disc',
+        size: 1,
+        color: '#ee6e73',
+      }
+    );
+    new window['LeaderLine'](
+      document.getElementById(`middle-${connectOutbound[1]}`),
+      document.getElementById(`bottom-${connectOutbound[1]}`),
       {
         path: 'straight',
         startSocket: 'bottom',
@@ -45,18 +91,29 @@
       }
     );
   })
+
+	onDestroy(() => {
+    document.querySelectorAll(`.leader-line`).forEach((element) => {
+      element.remove()
+    })
+	});
 </script>
 
 <div class="wrapper">
+  <div class="dots">
+    {#each dots as dot}
+      <div id={`header-${dot}`} class="dot" style={dot === connectOutbound[0] ? 'background: #ee6e73;' : 'background: transparent;'}></div>
+    {/each}
+  </div>
   <div class="card keyboard">
     <div class="dots">
       {#each dots as dot}
-        <div id={`top-${dot}`} class="dot" style={dot === connect[0] ? 'background: #ee6e73;' : null}></div>
+        <div id={`top-${dot}`} class="dot" style={dot === connectOutbound[0] ? 'background: #ee6e73;' : null}></div>
       {/each}
     </div>
     <br />
     {#each letters as letter, index}
-      <a id={`middle-${letter}`} href="#" class="btn-floating btn-small grey black-text lighten-2 letter" style={letter === connect[0] || letter === connect[1] ? 'background: #ee6e73 !important; color: #fff !important;' : null}>{letter}</a>
+      <a id={`middle-${letter}`} href="#" class="btn-floating btn-small grey black-text lighten-2 letter" style={letter === connectOutbound[0] || letter === connectOutbound[1] ? 'background: #ee6e73 !important; color: #fff !important;' : null}>{letter}</a>
       {#if index === 8 || index === 16}
         <br />
       {/if}
@@ -64,13 +121,16 @@
     <br />
     <div class="dots">
       {#each dots as dot}
-        <div id={`bottom-${dot}`} class="dot" style={dot === connect[1] ? 'background: #ee6e73;' : null}></div>
+        <div id={`bottom-${dot}`} class="dot" style={dot === connectOutbound[1] ? 'background: #ee6e73;' : null}></div>
       {/each}
     </div>
   </div>
 </div>
 
 <style>
+  :global(.leader-line) {
+    z-index: 1000;
+  }
   .wrapper {
     margin: 0 auto;
     text-align: center;
