@@ -27,7 +27,7 @@
 </script>
 
 <header on:mouseenter={() => go()} on:mouseleave={() => stop()}>
-  <nav>
+  <nav class="top">
 		<div class="nav-wrapper">
 			<a href="//communityfolder.com" class="btn right" style="margin: 1em;">community</a>
       <a href="/" class="brand-logo center">{name}</a>
@@ -56,6 +56,29 @@
 					<a sveltekit:prefetch href="/projects">Projects</a>
 				</li>
 			</ul>
+		<div>
   </nav>
-	<div>
 </header>
+
+<style>
+	header {
+		height: 4.25em;
+	}
+  .top {
+    z-index: 1000;
+    position: fixed;
+    right: 0;
+    left: 0;
+    margin: 0;
+    padding: 0;
+  }
+
+  .top > .col {
+    margin: 0;
+    padding: 0;
+  }
+
+  .top > .col .row {
+    margin: 0;
+  }
+</style>
