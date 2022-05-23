@@ -1,9 +1,9 @@
 <script lang="ts">
-  import Lightboard from '$lib/scramble/Lightboard.svelte'
-  import Keyboard from '$lib/scramble/Keyboard.svelte'
-  import Plugboard from '$lib/scramble/Plugboard.svelte'
-  import MachineLogs from '$lib/scramble/MachineLogs.svelte'
-  import Connections from '$lib/scramble/Connections.svelte'
+  import Lightboard from '$lib/components/scramble/Lightboard.svelte'
+  import Keyboard from '$lib/components/scramble/Keyboard.svelte'
+  import Plugboard from '$lib/components/scramble/Plugboard.svelte'
+  import MachineLogs from '$lib/components/scramble/MachineLogs.svelte'
+  import Connections from '$lib/components/scramble/Connections.svelte'
 
   let active = 'b'
   let connectOutbound = ['a', 'l']

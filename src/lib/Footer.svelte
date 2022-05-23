@@ -8,7 +8,7 @@
         </ul>
         <ul class="right">
           <li><a href={`/resume`}>Resume</a></li>
-          <li><a href={`https://github.com/trabur`}>Github</a></li>
+          <li><a href={`https://github.com/trabur`}>GitHub</a></li>
         </ul>
       </div>
     </div>

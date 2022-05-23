@@ -5,7 +5,7 @@
 <div class="card">
   <div class="card-content">
     <div class="card-title">
-      Things
+      Packets
     </div>
     erkgjnkjfbdb
   </div>

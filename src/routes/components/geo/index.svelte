@@ -5,11 +5,11 @@
 <script lang="ts">
   import { onMount } from 'svelte';
 
-  import Map from '$lib/geo/Map.svelte'
-  import Things from '$lib/geo/Things.svelte'
-  import Connections from '$lib/geo/Connections.svelte'
-  import Scramblings from '$lib/geo/Scramblings.svelte'
-  import About from '$lib/geo/About.svelte'
+  import Map from '$lib/components/geo/Map.svelte'
+  import Machines from '$lib/components/geo/Machines.svelte'
+  import Connections from '$lib/components/geo/Connections.svelte'
+  import Logs from '$lib/components/geo/Logs.svelte'
+  import About from '$lib/components/geo/About.svelte'
 
   onMount(() => {
     let el = document.querySelectorAll('.tabs')
@@ -23,19 +23,19 @@
   <br />
   <br />
   <ul class="tabs">
-    <li class="tab col s3"><a class="active" href="#tabs-1">Things</a></li>
+    <li class="tab col s3"><a class="active" href="#tabs-1">Machines</a></li>
     <li class="tab col s3"><a href="#tabs-2">Connections</a></li>
-    <li class="tab col s3"><a href="#tabs-3">Scramblings</a></li>
+    <li class="tab col s3"><a href="#tabs-3">Logs</a></li>
     <li class="tab col s3"><a href="#tabs-4">About</a></li>
   </ul>
   <div id="tabs-1" class="col s12">
-    <Things />
+    <Machines />
   </div>
   <div id="tabs-2" class="col s12">
     <Connections />
   </div>
   <div id="tabs-3" class="col s12">
-    <Scramblings />
+    <Logs />
   </div>
   <div id="tabs-4" class="col s12">
     <About />

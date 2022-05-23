@@ -7,21 +7,29 @@
 		<div class="nav-wrapper">
 			<a href="//community.istrav.com" class="btn right" style="margin: 1em;">community</a>
       <a href="/" class="brand-logo center">isTrav</a>
+			<ul id="nav-mobile" class="right hide-on-med-and-down">
+				<li class:active={$page.url.pathname === '/my-assistant'}>
+					<a sveltekit:prefetch href="/my-assistant">My Assistant</a>
+				</li>
+			</ul>
 			<ul id="nav-mobile" class="left hide-on-med-and-down">
-				<li class:active={$page.url.pathname === '/scramble'}>
-					<a sveltekit:prefetch href="/scramble">Scramble</a>
+				<li class:active={$page.url.pathname === '/production'}>
+					<a sveltekit:prefetch href="/production">Production</a>
 				</li>
-				<li class:active={$page.url.pathname === '/geo'}>
-					<a sveltekit:prefetch href="/geo">Geo</a>
+				<li class:active={$page.url.pathname === '/solutions'}>
+					<a sveltekit:prefetch href="/solutions">Solutions</a>
 				</li>
-				<li class:active={$page.url.pathname === '/consensus'}>
-					<a sveltekit:prefetch href="/consensus">Consensus</a>
+				<li class:active={$page.url.pathname === '/apps'}>
+					<a sveltekit:prefetch href="/apps">Apps</a>
 				</li>
-				<li class:active={$page.url.pathname === '/chains'}>
-					<a sveltekit:prefetch href="/chains">Chains</a>
+				<li class:active={$page.url.pathname === '/platforms'}>
+					<a sveltekit:prefetch href="/platforms">Platforms</a>
 				</li>
-				<li class:active={$page.url.pathname === '/ai-bot'}>
-					<a sveltekit:prefetch href="/ai-bot">AI Bot</a>
+				<li class:active={$page.url.pathname === '/projects'}>
+					<a sveltekit:prefetch href="/projects">Projects</a>
+				</li>
+				<li class:active={$page.url.pathname === '/about'}>
+					<a sveltekit:prefetch href="/about">About</a>
 				</li>
 			</ul>
   </nav>

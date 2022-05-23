@@ -6,7 +6,7 @@
 
 <script lang="ts">
 	import Cradle from "$lib/Cradle.svelte";
-	import Profile from "$lib/Profile.svelte";
+	import ReadMe from "$lib/ReadMe.svelte";
 
 
 </script>
@@ -18,7 +18,7 @@
 
 <main class="container wrapper">
 	<Cradle />
-	<Profile />
+	<ReadMe />
 </main>
 <br />
 <br />
@@ -27,6 +27,6 @@
 <style>
   .wrapper {
 		text-align: center;
-		height: 100vh;
+		min-height: 100vh;
   }
 </style>
