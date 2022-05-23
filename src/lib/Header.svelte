@@ -26,11 +26,11 @@
 	}
 </script>
 
-<header>
+<header on:mouseenter={() => go()} on:mouseleave={() => stop()}>
   <nav>
 		<div class="nav-wrapper">
 			<a href="//communityfolder.com" class="btn right" style="margin: 1em;">community</a>
-      <a href="/" class="brand-logo center" on:mouseenter={() => go()} on:mouseleave={() => stop()}>{name}</a>
+      <a href="/" class="brand-logo center">{name}</a>
 			<ul id="nav-mobile" class="right hide-on-med-and-down">
 				<li class:active={$page.url.pathname === '/about'}>
 					<a sveltekit:prefetch href="/about">About</a>
