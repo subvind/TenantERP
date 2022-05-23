@@ -32,8 +32,8 @@
 			<a href="//communityfolder.com" class="btn right" style="margin: 1em;">community</a>
       <a href="/" class="brand-logo center">{name}</a>
 			<ul id="nav-mobile" class="right hide-on-med-and-down">
-				<li class:active={$page.url.pathname === '/partners'}>
-					<a sveltekit:prefetch href="/partners">Partners</a>
+				<li class:active={$page.url.pathname === '/clients'}>
+					<a sveltekit:prefetch href="/clients">Clients</a>
 				</li>
 				<li class:active={$page.url.pathname === '/my-assistant'}>
 					<a sveltekit:prefetch href="/my-assistant">My Assistant</a>
