@@ -1,12 +1,36 @@
 <script lang="ts">
 	import { page } from '$app/stores';
+
+	let name = 'isTrav'
+	let letters: any = null
+	let timer: any = {}
+
+	function arrayRotate(arr: any, reverse: boolean) {
+		if (reverse) arr.unshift(arr.pop());
+		else arr.push(arr.shift());
+		return arr;
+	}
+
+	function go() {
+		// console.log('go')
+		timer = setInterval(() => {
+			let rotate: string[] = letters || name.split('')
+			letters = arrayRotate(rotate, true)
+			name = letters.join('')
+		}, 500)
+	}
+
+	function stop() {
+		// console.log('stop')
+		clearInterval(timer)
+	}
 </script>
 
 <header>
   <nav>
 		<div class="nav-wrapper">
 			<a href="//community.istrav.com" class="btn right" style="margin: 1em;">community</a>
-      <a href="/" class="brand-logo center">isTrav</a>
+      <a href="/" class="brand-logo center" on:mouseenter={() => go()} on:mouseleave={() => stop()}>{name}</a>
 			<ul id="nav-mobile" class="right hide-on-med-and-down">
 				<li class:active={$page.url.pathname === '/about'}>
 					<a sveltekit:prefetch href="/about">About</a>
