@@ -54,15 +54,15 @@
       <p class="demo-detail">(notice: /v/{folder}/ resets every 1 hour.)</p>
     </div>
     <button class="waves-effect waves-light btn grey" class:active={url === 'https://communityfolder.com'} on:click={() => url = `https://communityfolder.com`}>home</button>
-    <a class="waves-effect waves-light btn grey" class:active={url === `https://${folder}.communityfolder.com`} on:click={() => url = `https://${folder}.communityfolder.com`}>activity feed</a>
-    <a class="waves-effect waves-light btn grey" class:active={url === `https://${folder}.communityfolder.com/forums`} on:click={() => url = `https://${folder}.communityfolder.com/forums`}>forums</a>
-    <a class="waves-effect waves-light btn grey" class:active={url === `https://${folder}.communityfolder.com/blogs`} on:click={() => url = `https://${folder}.communityfolder.com/blogs`}>blogs</a>
-    <a class="waves-effect waves-light btn grey" class:active={url === `https://${folder}.communityfolder.com/calendars`} on:click={() => url = `https://${folder}.communityfolder.com/calendars`}>calendars</a>
-    <a class="waves-effect waves-light btn grey" class:active={url === `https://${folder}.communityfolder.com/downloads`} on:click={() => url = `https://${folder}.communityfolder.com/downloads`}>downloads</a>
-    <a class="waves-effect waves-light btn grey" class:active={url === `https://${folder}.communityfolder.com/storefronts`} on:click={() => url = `https://${folder}.communityfolder.com/storefronts`}>storefronts</a>
-    <a class="waves-effect waves-light btn grey" class:active={url === `https://${folder}.communityfolder.com/leaderboards`} on:click={() => url = `https://${folder}.communityfolder.com/leaderboards`}>leaderboards</a>
-    <a class="waves-effect waves-light btn grey" class:active={url === `https://${folder}.communityfolder.com/referrals`} on:click={() => url = `https://${folder}.communityfolder.com/referrals`}>referrals</a>
-    <a class="waves-effect waves-light btn grey" class:active={url === `https://${folder}.communityfolder.com/rules`} on:click={() => url = `https://${folder}.communityfolder.com/rules`}>rules</a>
+    <button class="waves-effect waves-light btn grey" class:active={url === `https://${folder}.communityfolder.com`} on:click={() => url = `https://${folder}.communityfolder.com`}>activity feed</button>
+    <button class="waves-effect waves-light btn grey" class:active={url === `https://${folder}.communityfolder.com/forums`} on:click={() => url = `https://${folder}.communityfolder.com/forums`}>forums</button>
+    <button class="waves-effect waves-light btn grey" class:active={url === `https://${folder}.communityfolder.com/blogs`} on:click={() => url = `https://${folder}.communityfolder.com/blogs`}>blogs</button>
+    <button class="waves-effect waves-light btn grey" class:active={url === `https://${folder}.communityfolder.com/calendars`} on:click={() => url = `https://${folder}.communityfolder.com/calendars`}>calendars</button>
+    <button class="waves-effect waves-light btn grey" class:active={url === `https://${folder}.communityfolder.com/downloads`} on:click={() => url = `https://${folder}.communityfolder.com/downloads`}>downloads</button>
+    <button class="waves-effect waves-light btn grey" class:active={url === `https://${folder}.communityfolder.com/storefronts`} on:click={() => url = `https://${folder}.communityfolder.com/storefronts`}>storefronts</button>
+    <button class="waves-effect waves-light btn grey" class:active={url === `https://${folder}.communityfolder.com/leaderboards`} on:click={() => url = `https://${folder}.communityfolder.com/leaderboards`}>leaderboards</button>
+    <button class="waves-effect waves-light btn grey" class:active={url === `https://${folder}.communityfolder.com/referrals`} on:click={() => url = `https://${folder}.communityfolder.com/referrals`}>referrals</button>
+    <button class="waves-effect waves-light btn grey" class:active={url === `https://${folder}.communityfolder.com/rules`} on:click={() => url = `https://${folder}.communityfolder.com/rules`}>rules</button>
   </div>
   <br />
   <br />
@@ -226,7 +226,7 @@
     background: #000;
   }
 
-  .panel a {
+  .panel button {
     margin: 0.2em;
   }
 </style>
