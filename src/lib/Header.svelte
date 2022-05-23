@@ -32,11 +32,14 @@
 			<a href="//communityfolder.com" class="btn right" style="margin: 1em;">community</a>
       <a href="/" class="brand-logo center">{name}</a>
 			<ul id="nav-mobile" class="right hide-on-med-and-down">
-				<li class:active={$page.url.pathname === '/about'}>
-					<a sveltekit:prefetch href="/about">About</a>
+				<li class:active={$page.url.pathname === '/partners'}>
+					<a sveltekit:prefetch href="/partners">Partners</a>
 				</li>
 				<li class:active={$page.url.pathname === '/my-assistant'}>
 					<a sveltekit:prefetch href="/my-assistant">My Assistant</a>
+				</li>
+				<li class:active={$page.url.pathname === '/about'}>
+					<a sveltekit:prefetch href="/about">About</a>
 				</li>
 			</ul>
 			<ul id="nav-mobile" class="left hide-on-med-and-down">
