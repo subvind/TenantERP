@@ -10,8 +10,6 @@
 	import ContactMe from "$lib/ContactMe.svelte";
 	import Portfolio from "$lib/Portfolio.svelte";
 	import Welcome from "$lib/Welcome.svelte";
-
-
 </script>
 
 <svelte:head>

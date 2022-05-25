@@ -13,7 +13,14 @@ const config = {
 		// Override http methods in the Todo forms
 		methodOverride: {
 			allowed: ['PATCH', 'DELETE']
-		}
+		},
+    vite: {
+      resolve: {
+        alias: {
+          'node-fetch': 'isomorphic-fetch',
+        },
+      },
+    },
 	}
 };
 

@@ -49,10 +49,11 @@
   <br />
   <br />
   <div class="container">
-    <div style="max-width: 500px; margin: 0 auto;">
+    <div style="max-width: 600px; margin: 0 auto;">
       <h3 class="demo-title">Bulletin Board System</h3>
-      <p class="demo-detail">(notice: /v/{folder}/ resets every 1 hour.)</p>
+      <h2 class="description" style="color: #aaa;">Software that is online, communicative, and interactive.</h2>
     </div>
+    <br />
     <button class="waves-effect waves-light btn grey" class:active={url === 'https://communityfolder.com'} on:click={() => url = `https://communityfolder.com`}>home</button>
     <button class="waves-effect waves-light btn grey" class:active={url === `https://${folder}.communityfolder.com`} on:click={() => url = `https://${folder}.communityfolder.com`}>activity feed</button>
     <button class="waves-effect waves-light btn grey" class:active={url === `https://${folder}.communityfolder.com/forums`} on:click={() => url = `https://${folder}.communityfolder.com/forums`}>forums</button>

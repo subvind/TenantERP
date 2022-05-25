@@ -4,7 +4,6 @@
 		<meta charset="utf-8" />
 		<link rel="icon" href="%svelte.assets%/favicon.png" />
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
-		%svelte.head%
 
     <!-- Compiled and minified CSS -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
@@ -15,6 +14,15 @@
 
 		<!-- leader line -->
 		<script src="https://cdn.jsdelivr.net/npm/leader-line@1.0.7/leader-line.min.js"></script>
+		
+		<!-- github api -->
+		<!-- <script context="module" lang="ts">
+  		import { Octokit } from "@octokit/rest";
+
+			window['Octokit'] = Octokit
+		</script> -->
+
+		%svelte.head%
 	</head>
 	<body>
 		%svelte.body%

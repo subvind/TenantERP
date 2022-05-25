@@ -1,21 +1,9 @@
-<script context="module" lang="ts">
-	export const prerender = true;
-
-  declare module 'matter-js';
-</script>
-
 <script lang="ts">
-	import ReadMe from "$lib/ReadMe.svelte";
-	import Map from "$lib/Map.svelte";
 	import ContactMe from "$lib/ContactMe.svelte";
-	import Portfolio from "$lib/Portfolio.svelte";
-	import Welcome from "$lib/Welcome.svelte";
-
-
 </script>
 
 <svelte:head>
-	<title>isTrav</title>
+	<title>Contact Me - isTrav</title>
 	<meta name="description" content="Svelte demo app" />
 </svelte:head>
 
