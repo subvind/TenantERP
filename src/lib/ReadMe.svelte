@@ -1,8 +1,4 @@
-<script>
-  function contactMe () {
-    alert("Let's talk: travis.burandt@gmail.com ... thank you!")
-  }
-</script>
+
 
 <div class="card">
   <div class="card-image">
@@ -21,7 +17,6 @@
       <br /><br />My platform, <a href="//communityfolder.com" target="_blank">/community_folder/</a> runs 100% on the server and can deploy to Heroku or Kubernetes. It is fully customizable and white-labeled so any developer may fork it. It has a Fair Source 25 (v0.9) license so it's free up until you have 25 active users.
       <br /><br />Your platform, <a href="#">/for_example/</a> runs just like my <a href="/platforms">Platform</a> except you have complete access to run it as you wish for as long as you follow the license agreement.
       <br /><br /><i>My long term goal is work with OpenAI and build a bot that knows how to code and write programs. It will be able to look at a platform's mono database and know how to use it. Essentially a programmer's assistant. </i>
-      <br /><br />If you like the work I'm doing around here <span style="text-decoration: underline;">consider becoming an isTrav <a href="/clients/join">Client</a> today</span>. If your looking for talent print out my <a href="/resume">Resume</a>, send my <a href="https://github.com/trabur">GitHub</a> to the coding team, and <a href="#" on:click={() => contactMe()}>Contact Me</a> for hire.
     </p>
   </div>
   <div class="card-action">
