@@ -20,18 +20,6 @@
 </svelte:head>
 
 <main>
-	<Welcome />
-	<Portfolio />
-	<br />
-	<br />
-	<ReadMe />
-	<br />
-	<br />
-	<br />
-	<br />
-	<Map />
-	<br />
-	<br />
 	<br />
 	<br />
 	<ContactMe />

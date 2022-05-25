@@ -1,10 +1,14 @@
 
 
+<div class="container">
+  <h1 class="title">
+    README.md
+  </h1>
+</div>
+<div class="container">
+  <img src="travis.jpeg" class="image">
+</div>
 <div class="card">
-  <div class="card-image">
-    <img src="travis.jpeg">
-    <span class="card-title">Travis Burandt</span>
-  </div>
   <div class="card-content">
     <p>
       <span style="font-weight: bold;">
@@ -30,9 +34,20 @@
 </div>
 
 <style>
+
+	.title {
+		font-weight: 900;
+		font-size: 4.5em;
+		text-align: left;
+		margin: 0;
+	}
+  .image {
+    width: 100%;
+    border: 1em solid #000;
+  }
   .card {
 		max-width: 500px;
-    margin: 0 auto;
+    margin: 1em auto 0 auto;
     text-align: left;
   }
   .card .card-title {

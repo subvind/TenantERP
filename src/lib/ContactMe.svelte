@@ -12,7 +12,7 @@
 
   function sendEmail(event) {
     event.preventDefault()
-    window.open(`mailto:test@example.com?to=travis.burandt@gmail.com&cc=${email}&subject=${name}: ${subject}&body=${message}`);
+    window.open(`mailto:travis.burandt@gmail.com?to=travis.burandt@gmail.com&cc=${email}&subject=${name}: ${subject}&body=${message}`);
   }
 
 
@@ -21,11 +21,13 @@
   })
 </script>
 
+<div class="container">
+  <h1 class="title">
+    Contact
+  </h1>
+  <img src="bolder.jpeg" class="image">
+</div>
 <div class="card">
-  <div class="card-image">
-    <img src="bolder.jpeg">
-    <span class="card-title">Contact Me</span>
-  </div>
   <div class="card-content">
     <p>
       If you like the work I'm doing around here <span style="text-decoration: underline;">consider becoming an isTrav <a href="/clients/join">Client</a> today</span>. If your looking for talent print out my <a href="/resume">Resume</a>, send my <a href="https://github.com/trabur">GitHub</a> to the coding team, and <a href="#" on:click={() => contactMe()}>contact me</a> for hire.
@@ -57,23 +59,26 @@
       </div>
     </div>
     <div class="card-action">
-      <a href="#" on:click={(e) => sendEmail(e)}>Send Message</a>
+      <a class="btn red lighten-2" href="#" on:click={(e) => sendEmail(e)}>Send Message</a>
     </div>
   </form>
 </div>
 
 <style>
+	.title {
+		font-weight: 900;
+		font-size: 4.5em;
+		text-align: left;
+		margin: 0;
+	}
+  .image {
+    width: 100%;
+    border: 1em solid #000;
+  }
   .card {
 		max-width: 500px;
     margin: 0 auto;
     text-align: left;
   }
-  .card .card-title {
-    color: #fff;
-    text-shadow: 0 0 0.2em #000;
-  }
-
-  .signature {
-    max-width: 50%;
-  }
+  
 </style>

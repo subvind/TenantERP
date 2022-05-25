@@ -29,6 +29,7 @@
     "cookie": "^0.4.1",
     "leader-line": "github:anseki/leader-line",
     "leaflet": "^1.8.0",
-    "matter-js": "^0.18.0"
+    "matter-js": "^0.18.0",
+    "wordcloud": "^1.2.2"
   }
 }

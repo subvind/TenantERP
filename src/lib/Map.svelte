@@ -15,19 +15,35 @@
       }).addTo(map);
 
       leaflet.marker([30.2672, -97.7431]).addTo(map)
-        .bindPopup('Located out of Austin, TX')
+        .bindPopup('Located in Austin, TX')
         .openPopup();
     }
   });
 </script>
 
-<main>
+<div class="container">
+  <h1 class="title">
+    Location
+  </h1>
+</div>
+<div class="wrapper">
   <div id="map"></div>
-</main>
+</div>
 
 <style>
   @import 'https://unpkg.com/leaflet@1.7.1/dist/leaflet.css';
-  main #map {
+  #map {
     height: 800px;
   }
+  .wrapper {
+    border-top: 1em solid #000;
+    border-bottom: 1em solid #000;
+  }
+
+	.title {
+		font-weight: 900;
+		font-size: 4.5em;
+		text-align: left;
+		margin: 0;
+	}
 </style>
