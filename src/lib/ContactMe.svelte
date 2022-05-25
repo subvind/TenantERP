@@ -52,7 +52,7 @@
         </div>
       </div>
       <div class="row" style="margin-bottom: 0;">
-        <div class="input-field col s12">
+        <div class="input-field col s12" style="margin-bottom: 0;">
           <textarea placeholder="" id="message" class="materialize-textarea" bind:value={message}></textarea>
           <label for="message">Message</label>
         </div>
