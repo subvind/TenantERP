@@ -22,13 +22,15 @@
       <br /><br />Your platform, <a href="#">/for_example/</a> runs just like my <a href="/platforms">Platform</a> except you have complete access to run it as you wish for as long as you follow the license agreement.
       <br /><br /><i>My long term goal is work with OpenAI and build a bot that knows how to code and write programs. It will be able to look at a platform's mono database and know how to use it. Essentially a programmer's assistant. </i>
       <br /><br />If you like the work I'm doing around here <span style="text-decoration: underline;">consider becoming an isTrav <a href="/clients/join">Client</a> today</span>. If your looking for talent print out my <a href="/resume">Resume</a>, send my <a href="https://github.com/trabur">GitHub</a> to the coding team, and <a href="#" on:click={() => contactMe()}>Contact Me</a> for hire.
-      <br /><br />Anyways, lots of things todo!
-      <br /> // i'll see you in the <a href="//community.istrav.com">Community</a> :)
-      <br />~/README.md
     </p>
   </div>
   <div class="card-action">
-    <a href="#" on:click={() => contactMe()}>contact me</a>
+    <p>
+      Anyways, lots of things todo!
+      <br />I'll see you in the <a href="//istrav.communityfolder.com" style="margin: 0; text-transform: capitalize;">Community</a> :)
+      <br /><img src="/signature.png" class="signature" alt="Travis Burandt" />
+      <!-- https://seanlon.github.io/text-signature/ -->
+    </p>
   </div>
 </div>
 
@@ -41,5 +43,9 @@
   .card .card-title {
     color: #fff;
     text-shadow: 0 0 0.2em #000;
+  }
+
+  .signature {
+    max-width: 50%;
   }
 </style>

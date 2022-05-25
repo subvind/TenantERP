@@ -29,7 +29,7 @@
 <header on:mouseenter={() => go()} on:mouseleave={() => stop()}>
   <nav class="top">
 		<div class="nav-wrapper">
-			<a href="//communityfolder.com" class="btn right" style="margin: 1em;">community</a>
+			<a href="//istrav.communityfolder.com" class="btn right" style="margin: 1em;">community</a>
       <a href="/" class="brand-logo center">{name}</a>
 			<ul id="nav-mobile" class="right hide-on-med-and-down">
 				<li class:active={$page.url.pathname === '/clients'}>
