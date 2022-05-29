@@ -1,5 +1,10 @@
 
 
+<svelte:head>
+	<title>About - isTrav</title>
+	<meta name="description" content="What does Full Stack Developer mean?" />
+</svelte:head>
+
 <br />
 <br />
 <div class="wrapper container">
@@ -7,7 +12,10 @@
     <div class="col m7">
       <h1 class="title">About</h1>
       <div class="card box">
-        <div class="card-content">What does Full Stack Developer or FSD mean? Most people would probably tell you that it has something to do with the Front End and Back End of an application. As in the conversation between a client (smart phone, browser) and a server (data center). For me FSD means any source code that needs to be written or maintained; which most modern companies provide programming language level API's to interact with their business. This has added a lot of surface area for FSD to explore and code. There are many videos about this on YouTube. So Full Stack Developer could mean a lot of things. It just depends on what problems you are trying to solve. In this about page I'll be talking about the area that I have explored and the path that I have taken through the land of Full Stack Development. </div>
+        <div class="card-content">
+          What does Full Stack Developer or FSD mean? Most people would probably tell you that it has something to do with the Front End and Back End of an application. As in the conversation between a client (smart phone, browser) and a server (data center). For me FSD means any source code that needs to be written or maintained; which most modern companies provide programming language level API's to interact with their business. This has added a lot of surface area for all FSDs to explore and code. There are many videos about this on YouTube. So Full Stack Developer could mean a lot of things. It just depends on what problems you are trying to solve and with what <a href="/solutions">Solutions</a>. In this about page I'll be talking about the area that I have explored and the path that I have taken through the land of Full Stack Development.
+          <br /><br />Because FSDs need to have expertise in all of the areas where software has taken ahold of a business; including, internet of things (IoT), desktop, mobile, website, server, etc. therefor means not all FSDs are the same. That's becuase a lot of these things may be achieved in multiple ways or different programming languages to get the same outcome. Now, I have always been a fan of standards and consistancy so naturally I will try to write and use as much code done in JavaScript/TypeScript and node.js which are all pretty much the same language and, in my opinion as a FSD, cover the entire stack and can be used for 99% of today's Applications. Check out <a href="/apps">Apps</a> for examples.
+        </div>
       </div>
     </div>
     <div class="col m5">
