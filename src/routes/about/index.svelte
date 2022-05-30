@@ -2,7 +2,7 @@
 
 <svelte:head>
 	<title>About - isTrav</title>
-	<meta name="description" content="What does Full Stack Developer mean?" />
+	<meta name="description" content="Travis Burandt" />
 </svelte:head>
 
 <br />

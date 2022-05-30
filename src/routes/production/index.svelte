@@ -45,6 +45,11 @@
   ]
 </script>
 
+<svelte:head>
+	<title>Production - isTrav</title>
+	<meta name="description" content="Travis Burandt" />
+</svelte:head>
+
 <Production />
 <br />
 <br />

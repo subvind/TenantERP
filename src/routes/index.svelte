@@ -14,7 +14,7 @@
 
 <svelte:head>
 	<title>isTrav</title>
-	<meta name="description" content="Svelte demo app" />
+	<meta name="description" content="Travis Burandt" />
 </svelte:head>
 
 <main>

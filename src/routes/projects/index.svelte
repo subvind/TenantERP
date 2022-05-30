@@ -28,6 +28,11 @@
   })
 </script>
 
+<svelte:head>
+	<title>Projects - isTrav</title>
+	<meta name="description" content="Travis Burandt" />
+</svelte:head>
+
 <div class="wrapper">
   {#if records}
     <List records={records} />
