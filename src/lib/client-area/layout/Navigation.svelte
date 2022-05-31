@@ -30,16 +30,19 @@
     <li><a href="/admin-control-panel/admins" class={active === 'admins' ? 'active' : ''}><i class="material-icons">looks_4</i>What Apps Fit</a></li>
     <li><a href="/admin-control-panel/admins" class={active === 'admins' ? 'active' : ''}><i class="material-icons">looks_5</i>3rd Party APIs</a></li>
     <li><a href="/admin-control-panel/admins" class={active === 'admins' ? 'active' : ''}><i class="material-icons">looks_6</i>Domain Name(s)</a></li>
+    <li><div class="divider"></div></li>
     <li><a class="subheader">B. Launch Back-End</a></li>
     <li><a href="/admin-control-panel/users" class={active === 'users' ? 'active' : ''}><i class="material-icons">looks_one</i>SQL Database</a></li>
     <li><a href="/admin-control-panel/users" class={active === 'users' ? 'active' : ''}><i class="material-icons">looks_two</i>S3 Storage</a></li>
     <li><a href="/admin-control-panel/users" class={active === 'users' ? 'active' : ''}><i class="material-icons">looks_3</i>eMail & SMS</a></li>
     <li><a href="/admin-control-panel/users" class={active === 'users' ? 'active' : ''}><i class="material-icons">looks_4</i>User Authentication</a></li>
     <li><a href="/admin-control-panel/users" class={active === 'users' ? 'active' : ''}><i class="material-icons">looks_5</i>Deploy /platform/</a></li>
+    <li><div class="divider"></div></li>
     <li><a class="subheader">C. Launch Front-End(s)</a></li>
     <li><a href="/admin-control-panel/users" class={active === 'users' ? 'active' : ''}><i class="material-icons">looks_one</i>Clone Projects</a></li>
     <li><a href="/admin-control-panel/users" class={active === 'users' ? 'active' : ''}><i class="material-icons">looks_two</i>Custom Code</a></li>
     <li><a href="/admin-control-panel/users" class={active === 'users' ? 'active' : ''}><i class="material-icons">looks_3</i>Deploy [1, 2, 3, etc]</a></li>
+    <li><div class="divider"></div></li>
     <li><a class="subheader">D. Launch Success</a></li>
     <li><a href="/admin-control-panel/users" class={active === 'users' ? 'active' : ''}><i class="material-icons">looks_one</i>Production</a></li>
     <li><a href="/admin-control-panel/users" class={active === 'users' ? 'active' : ''}><i class="material-icons">looks_two</i>Status Pages</a></li>

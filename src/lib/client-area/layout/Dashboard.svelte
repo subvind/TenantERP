@@ -7,26 +7,25 @@
   export let active = 'available-sessions'
 </script>
 
+<Header active="clients" />
 <div class="row dashboard">
   <div class="col m1" style="background: #111; text-align: center;">
-    <nav class="green lighten-2">
-      <div class="nav-wrapper">
-        <a href="/" class="brand-logo center"><i class="material-icons">folder_open</i></a>
-      </div>
-    </nav>
+    <br />
+    <br />
+    <br />
     <br />
     <MainNavigation app={app} />
   </div>
   <div class="col m3" style="background: #222;">
-    <nav class="black lighten-2">
-      <div class="nav-wrapper">
-        <a href="#" class="brand-logo center">/community_folder/</a>
-      </div>
-    </nav>
+    <br />
+    <br />
+    <br />
     <Navigation app={app} active={active} />
   </div>
   <div class="col m8" style="background: #ddd; color: #333;">
-    <Header active="clients" />
+    <br />
+    <br />
+    <br />
     <slot></slot>
   </div>
 </div>
