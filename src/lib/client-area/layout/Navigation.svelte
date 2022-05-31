@@ -51,7 +51,6 @@
 
 {#if app === 'production'}
   <ul class="sidenav" style="display: visible;">
-    <li><div class="divider"></div></li>
     <li><a class="subheader">Production</a></li>
     <li><a href="/client-area/help-desk" class={active === 'help-desk' ? 'active' : ''}><i class="material-icons">assignment_ind</i>Mobile Apps</a></li>
     <li><a href="/client-area/help-desk" class={active === 'help-desk' ? 'active' : ''}><i class="material-icons">assignment_ind</i>Web Apps</a></li>
