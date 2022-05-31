@@ -3,7 +3,7 @@
   
   // Import the functions you need from the SDKs you need
   import { initializeApp } from "firebase/app";
-  import { getAuth, signOut } from "firebase/auth";
+  import { getAuth, onAuthStateChanged } from "firebase/auth";
 
   // TODO: Add SDKs for Firebase products that you want to use
   // https://firebase.google.com/docs/web/setup#available-libraries
@@ -25,9 +25,31 @@
     const app = initializeApp(firebaseConfig);
     const auth = getAuth(app);
   
-    signOut(auth)
-      .then(() => {
-        window.location.href = '/clients'
-      });
+    onAuthStateChanged(auth, (user) => {
+      if (user) {
+        // User is signed in, see docs for a list of available properties
+        // https://firebase.google.com/docs/reference/js/firebase.User
+        const uid = user.uid;
+        window.location.href = '/client-area/dashboard'
+        // ...
+      } else {
+        // User is signed out
+        // ...
+        window.location.href = '/client-area/verify'
+      }
+    });
   })
 </script>
+
+<svelte:head>
+	<title>Clients - isTrav</title>
+	<meta name="description" content="Travis Burandt" />
+</svelte:head>
+
+<div class="wrapper"></div>
+
+<style>
+  .wrapper {
+    min-height: 100vh;
+  }
+</style>

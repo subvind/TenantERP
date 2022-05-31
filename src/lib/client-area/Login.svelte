@@ -7,25 +7,23 @@
 
 	let email = ''
   let password = ''
-  let passwordRepeat = ''
 
-	async function register() {
+  async function login() {
     if (email === '') return alert('Email must be defined.')
     if (password === '') return alert('Password must be defined.')
-    if (passwordRepeat === '') return alert('Confirm Password must be defined.')
-    if (passwordRepeat !== password) return alert('Passwords must match.')
-    
-    createUserWithEmailAndPassword(auth, email, password)
+
+    signInWithEmailAndPassword(auth, email, password)
       .then((userCredential) => {
         // Signed in 
         const user = userCredential.user;
         // ...
-        window.location.href = `/clients/dashboard`
+        // localStorage.setItem('token', response.data)
+        // let token = parseJwt(response.data)
+        window.location.href = `/client-area/dashboard`
       })
       .catch((error) => {
         const errorCode = error.code;
         const errorMessage = error.message;
-        // ..
         alert(errorMessage)
       });
   }
@@ -33,7 +31,7 @@
 
 <div class="contain">
   <h1 class="title">
-    Register / Join
+    Login / Verify
   </h1>
   <div class="card">
     <div class="card-content">
@@ -46,17 +44,13 @@
           <input id="password" type="password" class="validate" bind:value={password}>
           <label for="password">Password</label>
         </div>
-        <div class="input-field col s12">
-          <input id="passwordRepeat" type="password" class="validate" bind:value={passwordRepeat}>
-          <label for="passwordRepeat">Password Confirm</label>
-        </div>
         <br />
-        <button style="margin-left: 1em;" type='submit' class="waves-effect blue lighten-2 btn" on:click={() => register()}>Submit</button>
+        <button style="margin-left: 1em;" type='submit' class="waves-effect blue lighten-2 btn" on:click={() => login()}>Submit</button>
       </div>
     </div>
   </div>
   <div>
-    <a href="/clients/verify" class="waves-effect red lighten-2 btn" style="float: right;">Verify</a>
+    <a href="/client-area/join" class="waves-effect red lighten-2 btn" style="float: right;">Join</a>
     <br />
     <br />
     <br />

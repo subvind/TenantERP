@@ -1,7 +1,7 @@
 <script lang="ts">
   import { onMount } from 'svelte';
   
-  import Register from '$lib/clients/Register.svelte'
+  import Login from '$lib/client-area/Login.svelte'
   
   // Import the functions you need from the SDKs you need
   import { initializeApp } from "firebase/app";
@@ -30,15 +30,12 @@
     const analytics = getAnalytics(app);
     auth = getAuth(app);
   
-    onAuthStateChanged(auth, async (user) => {
+    onAuthStateChanged(auth, (user) => {
       if (user) {
         // User is signed in, see docs for a list of available properties
         // https://firebase.google.com/docs/reference/js/firebase.User
         const uid = user.uid;
         console.log('uid', uid)
-
-        const token = await user.getIdTokenResult()
-        console.log('token', token)
         // ...
       } else {
         // User is signed out
@@ -49,10 +46,15 @@
 
 </script>
 
+<svelte:head>
+	<title>Verify / Login - isTrav</title>
+	<meta name="description" content="Travis Burandt" />
+</svelte:head>
+
 <br />
 <br />
 <div class="wrapper">
-  <Register auth={auth}/>
+  <Login auth={auth}/>
 </div>
 <br />
 <br />

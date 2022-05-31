@@ -30,7 +30,7 @@
 <div class="card">
   <div class="card-content">
     <p>
-      If you like the work I'm doing around here <span style="text-decoration: underline;">consider becoming an isTrav <a href="/clients/join">Client</a> today</span>. If your looking for talent print out my <a href="/resume">Resume</a>, send my <a href="https://github.com/trabur">GitHub</a> to the coding team, and <a href="#!" on:click={() => contactMe()}>contact me</a> for hire.
+      If you like the work I'm doing around here <span style="text-decoration: underline;">consider becoming an isTrav <a href="/client-area/join">Client</a> today</span>. If your looking for talent print out my <a href="/resume">Resume</a>, send my <a href="https://github.com/trabur">GitHub</a> to the coding team, and <a href="#!" on:click={() => contactMe()}>contact me</a> for hire.
     </p>
   </div>
   <form>

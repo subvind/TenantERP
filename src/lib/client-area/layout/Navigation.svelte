@@ -45,7 +45,7 @@
     <li><a href="/client-area/license-keys" class={active === 'license-keys' ? 'active' : ''}><i class="material-icons">key</i>License Keys</a></li>
     <li><a href="/client-area/bills" class={active === 'bills' ? 'active' : ''}><i class="material-icons">attach_money</i>Bills</a></li>
     <li><a href="/client-area/charges" class={active === 'charges' ? 'active' : ''}><i class="material-icons">receipt</i>Charges</a></li>
-    <li><a href="/client-area/clients" class={active === 'clients' ? 'active' : ''}><i class="material-icons">supervisor_account</i>Clients</a></li>
+    <li><a href="/client-area/client-area" class={active === 'clients' ? 'active' : ''}><i class="material-icons">supervisor_account</i>Clients</a></li>
     <li><div class="divider"></div></li>
     <li><a class="subheader">Feedback</a></li>
     <li><a href="/client-area/help-desk" class={active === 'help-desk' ? 'active' : ''}><i class="material-icons">assignment_ind</i>Help Desk</a></li>

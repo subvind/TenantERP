@@ -33,8 +33,8 @@
 			<a href="//istrav.communityfolder.com" class="btn right" style="margin: 1em;">community</a>
       <a href="/" class="brand-logo center">{name}</a>
 			<ul id="nav-mobile" class="right hide-on-med-and-down">
-				<li class:active={$page.url.pathname === '/clients' || active === 'clients'}>
-					<a sveltekit:prefetch href="/clients">Clients</a>
+				<li class:active={$page.url.pathname === '/client-area' || active === 'clients'}>
+					<a sveltekit:prefetch href="/client-area">Clients</a>
 				</li>
 				<li class:active={$page.url.pathname === '/my-assistant'}>
 					<a sveltekit:prefetch href="/my-assistant">My Assistant</a>
