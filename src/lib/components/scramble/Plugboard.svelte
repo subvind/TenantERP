@@ -117,7 +117,7 @@
     </div>
     <div class="title">(Plugboard)</div>
     {#each letters as letter, index}
-      <a id={`middle-${letter}`} href="#" class="btn-floating btn-small grey black-text lighten-2 letter" style={letter === connectOutbound[0] || letter === connectOutbound[1] ? 'background: #ee6e73 !important; color: #fff !important;' : null}>{letter}</a>
+      <a id={`middle-${letter}`} href="#!" class="btn-floating btn-small grey black-text lighten-2 letter" style={letter === connectOutbound[0] || letter === connectOutbound[1] ? 'background: #ee6e73 !important; color: #fff !important;' : null}>{letter}</a>
       {#if index === 8 || index === 16}
         <br />
       {/if}

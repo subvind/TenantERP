@@ -29,6 +29,7 @@
     "@lukeed/uuid": "^2.0.0",
     "@octokit/rest": "^18.12.0",
     "cookie": "^0.4.1",
+    "dayjs": "^1.11.2",
     "firebase": "^9.8.2",
     "isomorphic-fetch": "^3.0.0",
     "leader-line": "github:anseki/leader-line",

@@ -1,7 +1,7 @@
 <script lang="ts">
-import { onMount } from "svelte";
+  import { onMount } from "svelte";
 
-  import Time from "svelte-time";
+  // import Time from "svelte-time";
   export let records: any
 
   onMount(() => {
@@ -20,7 +20,7 @@ import { onMount } from "svelte";
         <span class="language">{record.language}</span> 
         <a href={record.html_url} target="_blank" class="name">{record.name}</a>
         <br /><span class="description">{record.description}</span>
-        <br /><span class="date"><Time timestamp="{new Date(record.updated_at)}" relative /></span>
+        <!-- <br /><span class="date"><Time timestamp="{new Date(record.updated_at)}" relative /></span> -->
       </div>
       <hr>
     {/each}

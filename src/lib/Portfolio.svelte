@@ -9,6 +9,7 @@
     <h1 class="title">
       Portfolio
     </h1>
+    <!-- svelte-ignore a11y-distracting-elements -->
     <marquee direction="right">isTrav, DocBookMD, Staples, Atomic Axis, PNI Media, Gritness, HVAC Buddy, FleetGrid, HaloTracks, /community_folder/</marquee>
   </div>
 

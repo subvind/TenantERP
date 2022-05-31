@@ -75,13 +75,4 @@
     margin: 0;
     padding: 0;
   }
-
-  .top > .col {
-    margin: 0;
-    padding: 0;
-  }
-
-  .top > .col .row {
-    margin: 0;
-  }
 </style>

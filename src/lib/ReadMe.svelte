@@ -6,7 +6,7 @@
   </h1>
 </div>
 <div class="container">
-  <img src="travis.jpeg" class="image">
+  <img src="travis.jpeg" class="image" alt="Travis Burandt">
 </div>
 <div class="card">
   <div class="card-content">
@@ -19,7 +19,7 @@
       <br /><br />These applications or <a href="/apps">Apps</a> are targeted for either a mobile phone, a frontend website, or a backend server. Some applications may target all or multiple devices. Because everything is multi-tenant all apps are compatible with each other under a single platform.
       <br /><br />This website, <a href="//istrav.com">isTrav</a> runs 100% cloud/serverless using CloudFlare's wrangler repository and it's frontend is served by Vercel. So it has amazing uptime, expensive, and less likely to have code rot.
       <br /><br />My platform, <a href="//communityfolder.com" target="_blank">/community_folder/</a> runs 100% on the server and can deploy to Heroku or Kubernetes. It is fully customizable and white-labeled so any developer may fork it. It has a Fair Source 25 (v0.9) license so it's free up until you have 25 active users.
-      <br /><br />Your platform, <a href="#">/for_example/</a> runs just like my <a href="/platforms">Platform</a> except you have complete access to run it as you wish for as long as you follow the license agreement.
+      <br /><br />Your platform, <a href="#!">/for_example/</a> runs just like my <a href="/platforms">Platform</a> except you have complete access to run it as you wish for as long as you follow the license agreement.
       <br /><br /><i>My long term goal is work with OpenAI and build a bot that knows how to code and write programs. It will be able to look at a platform's mono database and know how to use it. Essentially a programmer's assistant. </i>
     </p>
   </div>
@@ -49,10 +49,6 @@
 		max-width: 500px;
     margin: 1em auto 0 auto;
     text-align: left;
-  }
-  .card .card-title {
-    color: #fff;
-    text-shadow: 0 0 0.2em #000;
   }
 
   .signature {

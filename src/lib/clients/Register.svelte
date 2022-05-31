@@ -8,26 +8,6 @@
 	let email = ''
   let password = ''
   let passwordRepeat = ''
-  let username = ''
-  let subscribe = true
-  let agreement = false
-
-  async function login(email: string, password: string) {
-    signInWithEmailAndPassword(auth, email, password)
-      .then((userCredential) => {
-        // Signed in 
-        const user = userCredential.user;
-        // ...
-        // localStorage.setItem('token', response.data)
-        // let token = parseJwt(response.data)
-        // window.location.href = `/members/${token.userId}`
-      })
-      .catch((error) => {
-        const errorCode = error.code;
-        const errorMessage = error.message;
-        alert('unable to fetch auth token')
-      });
-  }
 
 	async function register() {
     if (email === '') return alert('Email must be defined.')
@@ -40,6 +20,7 @@
         // Signed in 
         const user = userCredential.user;
         // ...
+        window.location.href = `/clients/dashboard`
       })
       .catch((error) => {
         const errorCode = error.code;

@@ -104,18 +104,6 @@
     text-align: center;
   }
 
-  .demo-description {
-    color: #eee;
-    font-size: 2em;
-    margin: 0;
-    text-align: center;
-  }
-
-  .demo-detail {
-    font-size: 1.2em;
-    margin: 0 0 1em;
-  }
-
   /* The browser window */
   .browser {
     background: #eee;

@@ -7,7 +7,7 @@
 <div class="card keyboard">
   <div class="title">(Lightboard)</div>
   {#each letters as letter, index}
-    <a href="#" class="btn-floating btn-small grey black-text lighten-2 letter" style={letter === light ? 'background: #000 !important; color: #fff !important;' : null}>{letter}</a>
+    <a href="#!" class="btn-floating btn-small grey black-text lighten-2 letter" style={letter === light ? 'background: #000 !important; color: #fff !important;' : null}>{letter}</a>
     {#if index === 8 || index === 16}
       <br />
     {/if}
@@ -16,9 +16,6 @@
 
 
 <style>
-  .wrapper {
-    margin: 0 auto;
-  }
   .keyboard {
     text-align: center;
     margin: 0 auto;
