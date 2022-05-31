@@ -1,6 +1,7 @@
 <script lang="ts">
 	import { page } from '$app/stores';
 
+	export let active = 'default'
 	let name = 'isTrav'
 	let letters: any = null
 	let timer: any = null
@@ -32,7 +33,7 @@
 			<a href="//istrav.communityfolder.com" class="btn right" style="margin: 1em;">community</a>
       <a href="/" class="brand-logo center">{name}</a>
 			<ul id="nav-mobile" class="right hide-on-med-and-down">
-				<li class:active={$page.url.pathname === '/clients'}>
+				<li class:active={$page.url.pathname === '/clients' || active === 'clients'}>
 					<a sveltekit:prefetch href="/clients">Clients</a>
 				</li>
 				<li class:active={$page.url.pathname === '/my-assistant'}>

@@ -10,6 +10,9 @@
 	import ContactMe from "$lib/ContactMe.svelte";
 	import Portfolio from "$lib/Portfolio.svelte";
 	import Welcome from "$lib/Welcome.svelte";
+	import Header from '$lib/Header.svelte';
+	import Footer from '$lib/Footer.svelte';
+	import '../app.css';
 </script>
 
 <svelte:head>
@@ -17,6 +20,7 @@
 	<meta name="description" content="Travis Burandt" />
 </svelte:head>
 
+<Header />
 <main>
 	<Welcome />
 	<Portfolio />
@@ -38,6 +42,4 @@
 	<br />
 	<br />
 </main>
-
-<style>
-</style>
+<Footer />
