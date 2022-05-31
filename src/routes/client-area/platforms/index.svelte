@@ -3,10 +3,10 @@
 </script>
 
 <svelte:head>
-	<title>Dashboard - Client Area - isTrav</title>
+	<title>Platforms - Client Area - isTrav</title>
 	<meta name="description" content="Travis Burandt" />
 </svelte:head>
 
-<Dashboard app="dashboard" active="dashboard">
-  hello world
+<Dashboard app="platforms" active="platforms">
+  platforms
 </Dashboard>
