@@ -4,8 +4,8 @@
     <div class="center">
       <h1 class="title">
         Fully Commited
-        <br />To 100% Code
-        <br />Quality.
+        <br />To 100%
+        <br />Code Quality.
       </h1>
       <h2 class="description">Kanban / BDD / Tests / Pipelines<br />Reports / Documentation</h2>
       <br />
