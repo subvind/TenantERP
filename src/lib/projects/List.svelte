@@ -2,12 +2,16 @@
 <script lang="ts">
   import { onMount } from "svelte";
   import dayjs from 'dayjs';
+  import isLeapYear from 'dayjs/plugin/isLeapYear'; // import plugin
   import LocalizedFormat from 'dayjs/plugin/LocalizedFormat'; // import plugin
 
   export let records: any
 
+  dayjs.extend(isLeapYear)
+  dayjs.extend(LocalizedFormat)
+  
   onMount(() => {
-    dayjs.extend(LocalizedFormat)
+    // nothing
   })
 </script>
 
