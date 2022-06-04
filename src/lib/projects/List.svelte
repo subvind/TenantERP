@@ -1,17 +1,20 @@
 
 <script lang="ts">
   import { onMount } from "svelte";
-  import dayjs from 'dayjs';
-  import isLeapYear from 'dayjs/plugin/isLeapYear'; // import plugin
-  import LocalizedFormat from 'dayjs/plugin/LocalizedFormat'; // import plugin
+  import TimeAgo from 'javascript-time-ago'
+
+  import en from 'javascript-time-ago/locale/en'
+
+  TimeAgo.addDefaultLocale(en)
+
+  // Create formatter (English).
+  const timeAgo = new TimeAgo('en-US')
 
   export let records: any
-
-  dayjs.extend(isLeapYear)
-  dayjs.extend(LocalizedFormat)
   
   onMount(() => {
     // nothing
+
   })
 </script>
 
@@ -27,7 +30,7 @@
         <span class="language">{record.language}</span> 
         <a href={record.html_url} target="_blank" class="name">{record.name}</a>
         <br /><span class="description">{record.description}</span>
-        <br /><span class="date">{dayjs(record.updated_at).format('LLLL')}</span>
+        <br /><span class="date">Updated: {timeAgo.format(new Date(record.updated_at))}</span>
       </div>
       <hr>
     {/each}
