@@ -49,9 +49,10 @@
       url: 'https://global.trabur.workers.dev',
       git: 'https://github.com/trabur/istrav-global',
       pipeline: 'https://github.com/trabur/istrav-global/actions',
-      statusPage: 'https://stats.uptimerobot.com/1nz1rt61VL/791899655',
+      statusPage: 'https://stats.uptimerobot.com/1nz1rt61VL/791940226',
       kanban: 'https://trello.com/b/5lLtD2VE/traburworkersdev',
       restApi: 'https://documenter.getpostman.com/view/129924/Uz5AqyTV',
+      apiTetss: 'https://test-istrav-global.vercel.app',
     },
   ]
 </script>
