@@ -6,7 +6,7 @@
   let data = [
     {
       name: 'istrav.com',
-      type: 'website', // mobile, website, backend, serverless
+      type: 'web', // mobile, web, backend, global
       url: 'https://istrav.com',
       git: 'https://github.com/trabur/istrav.com',
       pipeline: 'https://github.com/trabur/istrav.com/actions',
@@ -15,7 +15,7 @@
     },
     {
       name: 'communityfolder.com',
-      type: 'website',
+      type: 'web',
       url: 'https://communityfolder.com',
       git: 'https://github.com/trabur/communityfolder.com',
       pipeline: 'https://github.com/trabur/communityfolder.com/actions',
@@ -24,7 +24,7 @@
     },
     {
       name: 'istrav.communityfolder.com',
-      type: 'website',
+      type: 'web',
       url: 'https://istrav.communityfolder.com',
       git: 'https://github.com/trabur/communityfolder-frontend',
       pipeline: 'https://github.com/trabur/communityfolder-frontend/actions',
@@ -41,6 +41,17 @@
       statusPage: 'https://stats.uptimerobot.com/1nz1rt61VL/791899655',
       kanban: 'https://trello.com/b/nOIdEOSO/communityfolderherokuappcom',
       restApi: 'https://documenter.getpostman.com/view/129924/Uz5Aqy9r',
+    },
+    {
+      name: 'global.trabur.workers.dev',
+      type: 'global',
+      library: '',
+      url: 'https://global.trabur.workers.dev',
+      git: 'https://github.com/trabur/istrav-global',
+      pipeline: 'https://github.com/trabur/istrav-global/actions',
+      statusPage: 'https://stats.uptimerobot.com/1nz1rt61VL/791899655',
+      kanban: 'https://trello.com/b/5lLtD2VE/traburworkersdev',
+      restApi: 'https://documenter.getpostman.com/view/129924/Uz5AqyTV',
     },
   ]
 </script>

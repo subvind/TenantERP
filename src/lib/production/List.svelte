@@ -20,8 +20,15 @@
           </div>
             <a href={record.git} target="_blank" class="btn white black-text">Git</a>
             {#if record.type === 'backend'}
+              <a href={record.apiTests} target="_blank" class="btn white black-text">API Tests</a>
               <a href={record.library} target="_blank" class="btn white black-text">Library</a>
-              <a href={record.restApi} target="_blank" class="btn white black-text">REST API</a>
+              <a href={record.restApi} target="_blank" class="btn white black-text">POSTMAN DOCS</a>
+            {/if}
+            {#if record.type === 'global'}
+              <a href={record.apiTests} target="_blank" class="btn white black-text">API Tests</a>
+              <a href={record.restApi} target="_blank" class="btn white black-text">POSTMAN DOCS</a>
+            {/if}
+            {#if record.type === 'web'}
               <a href={record.e2eTests} target="_blank" class="btn white black-text">E2E Tests</a>
             {/if}
             <a href={record.statusPage} target="_blank" class="btn white black-text">Status Page</a>

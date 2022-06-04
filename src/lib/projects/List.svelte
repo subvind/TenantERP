@@ -1,10 +1,15 @@
+
 <script lang="ts">
   import { onMount } from "svelte";
+  import dayjs from 'dayjs';
+  import isLeapYear from 'dayjs/plugin/isLeapYear'; // import plugin
+  import LocalizedFormat from 'dayjs/plugin/LocalizedFormat'; // import plugin
 
-  // import Time from "svelte-time";
   export let records: any
 
   onMount(() => {
+    dayjs.extend(isLeapYear)
+    dayjs.extend(LocalizedFormat)
   })
 </script>
 
@@ -20,7 +25,7 @@
         <span class="language">{record.language}</span> 
         <a href={record.html_url} target="_blank" class="name">{record.name}</a>
         <br /><span class="description">{record.description}</span>
-        <!-- <br /><span class="date"><Time timestamp="{new Date(record.updated_at)}" relative /></span> -->
+        <br /><span class="date">{dayjs(record.updated_at).format('LLLL')}</span>
       </div>
       <hr>
     {/each}

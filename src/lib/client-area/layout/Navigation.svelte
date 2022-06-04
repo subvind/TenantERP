@@ -57,8 +57,8 @@
     <li><a class="subheader">Production</a></li>
     <li><a href="/client-area/help-desk" class={active === 'help-desk' ? 'active' : ''}><i class="material-icons">assignment_ind</i>Mobile Apps</a></li>
     <li><a href="/client-area/help-desk" class={active === 'help-desk' ? 'active' : ''}><i class="material-icons">assignment_ind</i>Web Apps</a></li>
-    <li><a href="/client-area/help-desk" class={active === 'help-desk' ? 'active' : ''}><i class="material-icons">assignment_ind</i>Backend Apps</a></li>
-    <li><a href="/client-area/help-desk" class={active === 'help-desk' ? 'active' : ''}><i class="material-icons">assignment_ind</i>Serverless Apps</a></li>
+    <li><a href="/client-area/help-desk" class={active === 'help-desk' ? 'active' : ''}><i class="material-icons">assignment_ind</i>Back-End Apps</a></li>
+    <li><a href="/client-area/help-desk" class={active === 'help-desk' ? 'active' : ''}><i class="material-icons">assignment_ind</i>Global Apps</a></li>
     <li><div class="divider"></div></li>
   </ul>
 {/if}
@@ -66,12 +66,12 @@
 {#if app === 'platforms'}
   <ul class="sidenav" style="display: visible;">
     <li><a class="subheader">Dependencies</a></li>
-    <li><a href="/webmaster/dashboard" class={active === 'dashboard' ? 'active' : ''}><i class="material-icons">dashboard</i>SQL Databases</a></li>
-    <li><a href="/webmaster/dashboard" class={active === 'dashboard' ? 'active' : ''}><i class="material-icons">dashboard</i>S3 Storages</a></li>
-    <li><a href="/webmaster/dashboard" class={active === 'dashboard' ? 'active' : ''}><i class="material-icons">dashboard</i>eMail Services</a></li>
-    <li><a href="/webmaster/dashboard" class={active === 'dashboard' ? 'active' : ''}><i class="material-icons">dashboard</i>SMS Services</a></li>
-    <li><a href="/webmaster/dashboard" class={active === 'dashboard' ? 'active' : ''}><i class="material-icons">dashboard</i>User Authentications</a></li>
-    <li><a href="/webmaster/dashboard" class={active === 'dashboard' ? 'active' : ''}><i class="material-icons">dashboard</i>Domain Names</a></li>
+    <li><a href="/webmaster/dashboard" class={active === 'dashboard' ? 'active' : ''}><i class="material-icons">create_new_folder</i>SQL Databases</a></li>
+    <li><a href="/webmaster/dashboard" class={active === 'dashboard' ? 'active' : ''}><i class="material-icons">create_new_folder</i>S3 Storages</a></li>
+    <li><a href="/webmaster/dashboard" class={active === 'dashboard' ? 'active' : ''}><i class="material-icons">create_new_folder</i>eMail Services</a></li>
+    <li><a href="/webmaster/dashboard" class={active === 'dashboard' ? 'active' : ''}><i class="material-icons">create_new_folder</i>SMS Services</a></li>
+    <li><a href="/webmaster/dashboard" class={active === 'dashboard' ? 'active' : ''}><i class="material-icons">create_new_folder</i>User Authentications</a></li>
+    <li><a href="/webmaster/dashboard" class={active === 'dashboard' ? 'active' : ''}><i class="material-icons">create_new_folder</i>Domain Names</a></li>
     <li><div class="divider"></div></li>
     <li><a class="subheader">Platforms</a></li>
     <li><a href="/client-area/tenant" class={active === 'tenant' ? 'active' : ''}><i class="material-icons">flash_auto</i>Live Production</a></li>
