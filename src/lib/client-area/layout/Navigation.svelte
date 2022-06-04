@@ -11,10 +11,13 @@
     <li><a href="/my-account" class={active === 'available-sessions' ? 'active' : ''}><i class="material-icons">contacts</i>Employees</a></li>
     <li><a href="/my-account" class={active === 'available-sessions' ? 'active' : ''}><i class="material-icons">people</i>Team Members</a></li>
     <li><div class="divider"></div></li>
-    <li><a class="subheader">My Account</a></li>
+    <li><a class="subheader">Settings</a></li>
     <li><a href="/accounts/change-password" class={active === 'change-password' ? 'active' : ''}><i class="material-icons">key</i>Change Password</a></li>
     <li><a href="/accounts/subscription" class={active === 'subscription' ? 'active' : ''}><i class="material-icons">inbox</i>Subscription</a></li>
     <li><a href="/accounts/verify-email" class={active === 'verify-email' ? 'active' : ''}><i class="material-icons">mail</i>Verify Email</a></li>
+    <li><div class="divider"></div></li>
+    <li><a class="subheader">Actions</a></li>
+    <li><a href="/client-area/exit" class={active === 'verify-email' ? 'active' : ''}><i class="material-icons">clear</i>Logout</a></li>
     <li><div class="divider"></div></li>
   </ul>
 {/if}

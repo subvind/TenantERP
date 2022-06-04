@@ -3,6 +3,9 @@
   
   import Register from '$lib/client-area/Register.svelte'
   
+	import Header from '$lib/Header.svelte';
+	import Footer from '$lib/Footer.svelte';
+
   // Import the functions you need from the SDKs you need
   import { initializeApp } from "firebase/app";
   import { getAnalytics } from "firebase/analytics";
@@ -53,6 +56,7 @@
 	<meta name="description" content="Travis Burandt" />
 </svelte:head>
 
+<Header active="clients" />
 <br />
 <br />
 <div class="wrapper">
@@ -60,6 +64,7 @@
 </div>
 <br />
 <br />
+<Footer />
 
 <style>
   .wrapper {

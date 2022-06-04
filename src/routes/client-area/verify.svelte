@@ -1,6 +1,9 @@
 <script lang="ts">
   import { onMount } from 'svelte';
-  
+	
+  import Header from '$lib/Header.svelte';
+	import Footer from '$lib/Footer.svelte';
+
   import Login from '$lib/client-area/Login.svelte'
   
   // Import the functions you need from the SDKs you need
@@ -51,6 +54,7 @@
 	<meta name="description" content="Travis Burandt" />
 </svelte:head>
 
+<Header active="clients" />
 <br />
 <br />
 <div class="wrapper">
@@ -58,6 +62,7 @@
 </div>
 <br />
 <br />
+<Footer />
 
 <style>
   .wrapper {
