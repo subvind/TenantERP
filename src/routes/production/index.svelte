@@ -41,6 +41,7 @@
       statusPage: 'https://stats.uptimerobot.com/1nz1rt61VL/791899655',
       kanban: 'https://trello.com/b/nOIdEOSO/communityfolderherokuappcom',
       restApi: 'https://documenter.getpostman.com/view/129924/Uz5Aqy9r',
+      apiTests: 'https://test-communityfolder-backend.vercel.app',
     },
     {
       name: 'global.trabur.workers.dev',
@@ -52,7 +53,7 @@
       statusPage: 'https://stats.uptimerobot.com/1nz1rt61VL/791940226',
       kanban: 'https://trello.com/b/5lLtD2VE/traburworkersdev',
       restApi: 'https://documenter.getpostman.com/view/129924/Uz5AqyTV',
-      apiTetss: 'https://test-istrav-global.vercel.app',
+      apiTests: 'https://test-istrav-global.vercel.app',
     },
   ]
 </script>

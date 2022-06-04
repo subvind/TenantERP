@@ -1,4 +1,5 @@
 <script>
+  import ProjectsSidebar from '$lib/projects/Sidebar.svelte'
 	export let app = 'my-account'
 	export let active = 'available-sessions'
 </script>
@@ -55,10 +56,10 @@
 {#if app === 'production'}
   <ul class="sidenav" style="display: visible;">
     <li><a class="subheader">Production</a></li>
-    <li><a href="/client-area/help-desk" class={active === 'help-desk' ? 'active' : ''}><i class="material-icons">assignment_ind</i>Mobile Apps</a></li>
-    <li><a href="/client-area/help-desk" class={active === 'help-desk' ? 'active' : ''}><i class="material-icons">assignment_ind</i>Web Apps</a></li>
-    <li><a href="/client-area/help-desk" class={active === 'help-desk' ? 'active' : ''}><i class="material-icons">assignment_ind</i>Back-End Apps</a></li>
-    <li><a href="/client-area/help-desk" class={active === 'help-desk' ? 'active' : ''}><i class="material-icons">assignment_ind</i>Global Apps</a></li>
+    <li><a href="/client-area/help-desk" class={active === 'help-desk' ? 'active' : ''}><i class="material-icons">phone_iphone</i>Mobile Apps</a></li>
+    <li><a href="/client-area/help-desk" class={active === 'help-desk' ? 'active' : ''}><i class="material-icons">web</i>Web Apps</a></li>
+    <li><a href="/client-area/help-desk" class={active === 'help-desk' ? 'active' : ''}><i class="material-icons">dns</i>Back-End Apps</a></li>
+    <li><a href="/client-area/help-desk" class={active === 'help-desk' ? 'active' : ''}><i class="material-icons">cloud</i>Global Apps</a></li>
     <li><div class="divider"></div></li>
   </ul>
 {/if}
@@ -79,6 +80,10 @@
     <li><a href="/client-area/websites" class={active === 'websites' ? 'active' : ''}><i class="material-icons">text_format</i>Under Development</a></li>
     <li><div class="divider"></div></li>
   </ul>
+{/if}
+
+{#if app === 'projects'}
+  <ProjectsSidebar />
 {/if}
 
 <style>
