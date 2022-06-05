@@ -14,7 +14,7 @@
       <div class="card box">
         <div class="card-content">
           <h3 style="margin-top: 0;">Manifesto</h3>
-          isTrav's goal is push apps to production that solve problems by appling solutions and also apps that spark joy to the end user.
+          isTrav's goal is build apps that spark joy to the end user and push apps to production that solve problems using the right solutions.
 
           <br />
           <br />
