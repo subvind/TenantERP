@@ -14,7 +14,7 @@
       <div class="card box">
         <div class="card-content">
           <h3 style="margin-top: 0;">Manifesto</h3>
-          isTrav's goal is to provide Software as a Service (SaaS) from the technical perspective of a Full Stack Developer (FSD) in order to solve problems by providing solutions through apps which spark joy to the end user.
+          isTrav's goal is push apps to production that solve problems by appling solutions and also apps that spark joy to the end user.
 
           <br />
           <br />
