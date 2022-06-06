@@ -129,12 +129,10 @@
       </div>
     </div>
     <div class="col m4">
-      <div class="">
-        <img src="./travis.jpeg" alt="travis in canada" width="100%" style="padding-bottom: 0.5em; margin-bottom: -1em;" />
-      </div>
       <div class="card">
+        <img src="./travis.jpeg" alt="travis in canada" width="100%" style="padding-bottom: 0.5em; margin-bottom: -1em;" />
         <div class="card-content">
-          <h6 style="margin-top: 0;">Travis Burandt,</h6>
+          <div class="card-title">Travis Burandt</div>
           is a successful cyclist. At one point he was the youngest and only cat 1 racer in the United States. He has podiumed at states, nationals, and internationally. That was a long time ago though. He has sense then dropped out of racing competatively and now focuses on his own mental health and his own personal coding projects. Lately he has been getting into training an AI bot that will be his <a href="/my-assistant">My Assistant</a>; look out for his profile in the Community for more info.
         </div>
       </div>

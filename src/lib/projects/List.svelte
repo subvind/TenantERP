@@ -18,29 +18,23 @@
   })
 </script>
 
-<br />
-<br />
-<div class="container">
-  <h1 class="title">
-    Projects
-  </h1>
-  <div class="card">
-    {#each records as record}
-      <div class="card-content">
-        <span class="language">{record.language}</span> 
-        <a href={record.html_url} target="_blank" class="name">{record.name}</a>
-        <br /><span class="description">{record.description}</span>
-        <br /><span class="date">Updated: {timeAgo.format(new Date(record.updated_at))}</span>
-      </div>
-      <hr>
-    {/each}
+<h1 class="title">
+  Projects
+</h1>
+<div class="card">
+  {#each records as record}
     <div class="card-content">
-      <a href="https://github.com/trabur?tab=repositories" class="btn btn-large fluid" target="_blank">all projects</a>
+      <span class="language">{record.language}</span> 
+      <a href={record.html_url} target="_blank" class="name">{record.name}</a>
+      <br /><span class="description">{record.description}</span>
+      <br /><span class="date">Updated: {timeAgo.format(new Date(record.updated_at))}</span>
     </div>
+    <hr>
+  {/each}
+  <div class="card-content">
+    <a href="https://github.com/trabur?tab=repositories" class="btn btn-large blue lighten-2 fluid" target="_blank">all projects</a>
   </div>
 </div>
-<br />
-<br />
 
 <style>
 	.title {

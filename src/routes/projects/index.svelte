@@ -31,9 +31,29 @@
 </svelte:head>
 
 <div class="wrapper">
-  {#if records}
-    <List records={records} />
-  {/if}
+  <br />
+  <br />
+  <div class="container">
+    <div class="row">
+      <div class="col s4">
+        <div class="card">
+          <img src="./travis.jpeg" alt="travis in canada" width="100%" style="padding-bottom: 0.5em; margin-bottom: -1em;" />
+          <div class="card-content">
+            <div class="card-title">trabur</div>  
+            Here are links to all of my fair source licensed code on GitHub located under the "trabur" username. I've added a detailed description about each project and ordered them by latest activity. A few projects are just fun small experiements. My current language tech stack right now is ... Svelte/TypeScript for the web, frontend, and mobile ... NestJS/TypeScript for the backend ... and Wrangler/JavaScript for global workers. When it comes to deploying to production I use GitHub Actions.
+          </div>
+          <div class="card-action">
+            <a href="https://github.com/trabur" class="btn btn-large blue lighten-2 fluid" target="_blank">GitHub</a>
+          </div>
+        </div>
+      </div>
+      <div class="col s8">
+        {#if records}
+          <List records={records} />
+        {/if}
+      </div>
+    </div>
+  </div>
 </div>
 <br />
 <br />
@@ -46,5 +66,9 @@
 <style>
   .wrapper {
     min-height: 100vh;
+  }
+
+  .fluid {
+    width: 100%;
   }
 </style>
