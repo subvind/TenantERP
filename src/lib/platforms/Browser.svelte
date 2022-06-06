@@ -11,7 +11,7 @@
   <h2 class="description">A simple multi-tenant platform<br /> for the modern web.</h2>
   <br />
   <div style="text-align: center;">
-    <a href="/client-area" class="btn btn-large blue lighten-2">Let's go!</a>
+    <a href="/pricing-levels" class="btn btn-large blue lighten-2">view pricing levels</a>
   </div>
   <br />
   <br />
