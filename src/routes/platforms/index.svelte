@@ -1,5 +1,7 @@
 <script>
-  import Browser from "$lib/platforms/Browser.svelte";
+	
+	import Browser from "$lib/platforms/Browser.svelte";
+	import ClientArea from "$lib/ClientArea.svelte";
 </script>
 
 <svelte:head>
@@ -8,3 +10,12 @@
 </svelte:head>
 
 <Browser />
+<br />
+<br />
+<br />
+<br />
+<ClientArea />
+<br />
+<br />
+<br />
+<br />

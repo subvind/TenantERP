@@ -1,7 +1,9 @@
 
 <script lang="ts">
+  
   import Production from '$lib/Production.svelte'
   import List from '$lib/production/List.svelte'
+  import ClientArea from '$lib/ClientArea.svelte';
 
   let data = [
     {
@@ -69,6 +71,13 @@
 <div class="wrapper">
   <List data={data} />
 </div>
+<br />
+<br />
+<br />
+<br />
+<ClientArea />
+<br />
+<br />
 <br />
 <br />
 

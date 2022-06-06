@@ -56,7 +56,7 @@
     </div>
   </div>
   <div>
-    <a href="/client-area/verify" class="waves-effect red lighten-2 btn" style="float: right;">Verify</a>
+    <a href="/client-area/verify" class="waves-effect red lighten-2 btn" style="float: right;">Login</a>
     <br />
     <br />
     <br />

@@ -2,6 +2,7 @@
   import { onMount } from "svelte";
 
   import List from '$lib/projects/List.svelte'
+  import ClientArea from "$lib/ClientArea.svelte";
   
   let records: any
 
@@ -34,6 +35,13 @@
     <List records={records} />
   {/if}
 </div>
+<br />
+<br />
+<ClientArea />
+<br />
+<br />
+<br />
+<br />
 
 <style>
   .wrapper {

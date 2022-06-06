@@ -50,7 +50,7 @@
     </div>
   </div>
   <div>
-    <a href="/client-area/join" class="waves-effect red lighten-2 btn" style="float: right;">Join</a>
+    <a href="/client-area/join" class="waves-effect red lighten-2 btn" style="float: right;">Register</a>
     <br />
     <br />
     <br />

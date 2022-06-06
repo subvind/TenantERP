@@ -1,4 +1,6 @@
-
+<script>
+  import ClientArea from "$lib/ClientArea.svelte";
+</script>
 
 <svelte:head>
 	<title>About - isTrav</title>
@@ -14,7 +16,7 @@
       <div class="card box">
         <div class="card-content">
           <h3 style="margin-top: 0;">Manifesto</h3>
-          isTrav's goal is build apps that spark joy to the end user and push apps to production that solve problems using the right solutions.
+          isTrav's goal is to solve problems using the right solutions, turn ideas into apps that spark joy to the end user, and then to keep production live with what works best.
 
           <br />
           <br />
@@ -139,6 +141,11 @@
     </div>
   </div>
 </div>
+<br />
+<br />
+<ClientArea />
+<br />
+<br />
 <br />
 <br />
 
