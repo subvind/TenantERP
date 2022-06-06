@@ -49,8 +49,8 @@
   <br />
   <br />
   <div class="container">
+    <h3 class="demo-title">Bulletin Board System</h3>
     <div style="max-width: 600px; margin: 0 auto;">
-      <h3 class="demo-title">Bulletin Board System</h3>
       <h2 class="description" style="color: #aaa;">Community software that is online, conversing, and interactive.</h2>
     </div>
     <br />
@@ -85,7 +85,7 @@
   .title {
     font-weight: 900;
     color: #000;
-    font-size: 3em;
+		font-size: 4.5em;
     margin: 0;
     text-align: center;
   }
@@ -100,7 +100,7 @@
   .demo-title {
     font-weight: 900;
     color: #eee;
-    font-size: 3em;
+		font-size: 4.5em;
     margin: 0;
     text-align: center;
   }
