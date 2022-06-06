@@ -30,7 +30,7 @@
 				<img src="./travis.jpeg" alt="travis in canada" width="100%" style="padding-bottom: 0.5em; margin-bottom: -1em;" />
 				<div class="card-content">
 					<div class="card-title">Launch Today:</div>
-					It doesn't take long to duplicate a platform and rebrand it as your own. Checkout the most recent 15 platforms created, in the black bordered box, for ideas to get started then view our pricing levels and you will have very own platform by the end of today!
+					It doesn't take long to duplicate a platform and rebrand it as your own. Checkout the most recent 15 platforms created, in the black bordered box, for ideas to get started then view our pricing levels and you will have your very own platform by the end of today!
 				</div>
 				<div class="card-action">
 					<a href="/client-area/platforms" class="btn fluid">manage platforms</a>
