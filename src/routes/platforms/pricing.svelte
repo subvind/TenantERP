@@ -14,7 +14,7 @@
       price: 0 + i * 25,
       activeUsersPerHour: i * 50 || 25,
       requestsPerDay: i * 100000 || 100000,
-      requestsPerMonth: i * 100000 * 20 || 100000 * 20
+      requestsPerMonth: i * 100000 * 25 || 100000 * 25
     })
   }
 </script>
