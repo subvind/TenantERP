@@ -11,7 +11,7 @@
   <h2 class="description">A simple multi-tenant BBS platform<br /> for the modern web.</h2>
   <br />
   <div style="text-align: center;">
-    <a href="/pricing-levels" class="btn btn-large blue lighten-2">view pricing levels</a>
+    <a href="/platforms/pricing" class="btn btn-large blue lighten-2">subscription plans</a>
   </div>
   <br />
   <br />
