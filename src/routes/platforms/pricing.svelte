@@ -46,7 +46,7 @@
         <div class="col s6">
           <div class="card-content">
             <div class="card-title">Start a Trial:</div>
-            Test every feature in /community_folder/ free forever. Some record limits apply.
+            Test every feature in /community_folder/ free forever. Some usage limits apply.
             <br /><br />
             <a href="/client-area" class="btn transparent black-text">Start Your Trial</a>
             <br /><div style="margin-top: 1em; color: #888;">No credit card required.</div>
