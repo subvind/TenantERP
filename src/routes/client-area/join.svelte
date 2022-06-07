@@ -56,7 +56,7 @@
 	<meta name="description" content="Travis Burandt" />
 </svelte:head>
 
-<Header active="clients" />
+<Header />
 <br />
 <br />
 <div class="wrapper">

@@ -7,7 +7,7 @@
   export let active = 'available-sessions'
 </script>
 
-<Header active="clients" />
+<Header />
 <div class="row dashboard">
   <div class="col m1" style="background: #111; text-align: center;">
     <br />
