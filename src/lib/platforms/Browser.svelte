@@ -51,7 +51,7 @@
   <div class="container">
     <h3 class="demo-title">Bulletin Board System</h3>
     <div style="max-width: 600px; margin: 0 auto;">
-      <h2 class="description" style="color: #aaa;">Software that manages idea generated app content between public/private social groups.</h2>
+      <h2 class="description" style="color: #aaa;">Software that manages idea generated app content between public & private social groups.</h2>
     </div>
     <br />
     <button class="waves-effect waves-light btn grey" class:active={url === 'https://communityfolder.com'} on:click={() => url = `https://communityfolder.com`}>home</button>
