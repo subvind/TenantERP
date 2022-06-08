@@ -3,9 +3,9 @@
   <div class="container">
     <div class="center">
       <h1 class="title">
-        Hi,
-        <br />I'm Travis,
-        <br />freelance coder
+        My name is
+        <br />Travis and I am
+        <br />a coder.
       </h1>
       <h2 class="description">Full Stack Developer / Cyclist</h2>
       <br />
@@ -15,7 +15,6 @@
 </div>
 
 <style>
-
 	.title {
 		font-weight: 900;
 		font-size: 4.5em;
@@ -39,6 +38,7 @@
     background-size: cover;
     background-repeat: no-repeat;
     background-color: #000;
+    border-bottom: 1em solid #000;
   }
 	.center {
     padding: 5em 0;

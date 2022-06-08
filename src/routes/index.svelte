@@ -5,11 +5,7 @@
 </script>
 
 <script lang="ts">
-	import ReadMe from "$lib/ReadMe.svelte";
-	import Map from "$lib/Map.svelte";
-	import ContactMe from "$lib/ContactMe.svelte";
-	import Portfolio from "$lib/Portfolio.svelte";
-	import Welcome from "$lib/Welcome.svelte";
+	import Portfolio from '$lib/Portfolio.svelte';
 	import Header from '$lib/Header.svelte';
 	import Footer from '$lib/Footer.svelte';
 	import ClientArea from "$lib/ClientArea.svelte";
@@ -21,27 +17,11 @@
 </svelte:head>
 
 <Header />
-<main>
-	<Welcome />
-	<Portfolio />
-	<br />
-	<br />
-	<ReadMe />
-	<br />
-	<br />
-	<br />
-	<br />
-	<Map />
-	<br />
-	<br />
-	<br />
-	<br />
-	<ContactMe />
-	<br />
-	<br />
-	<br />
-	<br />
-</main>
+<Portfolio />
+<br />
+<br />
+<br />
+<br />
 <ClientArea />
 <br />
 <br />

@@ -1,5 +1,9 @@
 <script>
   import ClientArea from "$lib/ClientArea.svelte";
+	import ReadMe from "$lib/ReadMe.svelte";
+	import Map from "$lib/Map.svelte";
+	import ContactMe from "$lib/ContactMe.svelte";
+	import Welcome from "$lib/Welcome.svelte";
 </script>
 
 <svelte:head>
@@ -7,9 +11,20 @@
 	<meta name="description" content="Travis Burandt" />
 </svelte:head>
 
+<Welcome />
 <br />
 <br />
-<div class="wrapper container">
+<ReadMe />
+<br />
+<br />
+<br />
+<br />
+<Map />
+<br />
+<br />
+<br />
+<br />
+<div class="container">
   <div class="row">
     <div class="col m8">
       <h1 class="title">About</h1>
@@ -141,6 +156,11 @@
 </div>
 <br />
 <br />
+<ContactMe />
+<br />
+<br />
+<br />
+<br />
 <ClientArea />
 <br />
 <br />
@@ -148,10 +168,6 @@
 <br />
 
 <style>
-  .wrapper {
-    min-height: 100vh;
-  }
-
   .box {
     border: 1em solid #000;
   }
