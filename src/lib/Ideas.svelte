@@ -19,10 +19,18 @@
   <Cradle />
 </div>
 
+<br />
+<br />
+<h1 class="brand">isTrav</h1>
+<div class="center-dot"></div>
+<div class="center-dash"></div>
+<div class="container" style="padding: 0;">
+  <div class="left-bar"></div>
+</div>
 <div class="steps">
   <div class="container">
     <h1 class="title">
-      Platform for ideas.
+      - Platform for ideas.
     </h1>
     <div class="description">After bouncing ideas back and forth and off the walls product owners should have a solid foundation of like minded thinking built up around what they want and don't want.</div>
     <br />
@@ -32,7 +40,7 @@
 <div class="steps">
   <div class="container">
     <h1 class="title">
-      Existing ideas.
+      - Existing ideas.
     </h1>
     <div class="description">Most ideas are just collections of other ideas. Some ideas are assembled the same yet branded differently. Look here to see how your idea may integrate with other ideas.</div>
     <br />
@@ -42,7 +50,7 @@
 <div class="steps">
   <div class="container">
     <h1 class="title">
-      Fully custom ideas.
+      - Fully custom ideas.
     </h1>
     <div class="description">There are some ideas that may not fit within the scope of our platform or existing applications. Ideas that require a coder to sit down and program. Reach out. We may be able to build your idea and release it as a new feature.</div>
     <br />
@@ -52,7 +60,7 @@
 <div class="steps">
   <div class="container">
     <h1 class="title">
-      Ideas with solutions.
+      - Ideas with solutions.
     </h1>
     <div class="description">There is a market that every idea should target in order to be successful; for instance, perhaps your niche idea solves a pain point in the "cooking" or (etc) industry.</div>
     <br />
@@ -62,7 +70,7 @@
 <div class="steps">
   <div class="container">
     <h1 class="title">
-      Successful ideas.
+      - Successful ideas.
     </h1>
     <div class="description">Notice how we did a couple of things. We identified the problem. Found a solution. Executed on turning our idea into reality.</div>
     <br />
@@ -72,7 +80,7 @@
 <div class="steps">
   <div class="container">
     <h1 class="title">
-      Idea Management System.
+      - Idea Management System.
     </h1>
     <div class="description">Our client area or Idea Management System (IMS) is where isTrav clients may login to a control panel and keep track of and manage their ideas from startup to production.</div>
     <br />
@@ -82,15 +90,44 @@
 <div class="steps">
   <div class="container">
     <h1 class="title">
-      Diagnose an idea.
+      - Diagnose an idea.
     </h1>
     <div class="description">Our AI chat bot or "My Assistant" is capable of looking at our historical system logs and database records and can tell you a thing or two about your idea.</div>
     <br />
     <a href="/my-assistant" class="btn btn-large red lighten-2">my assistant</a>
   </div>
 </div>
+<div class="container" style="padding: 0;">
+  <div class="left-bar"></div>
+</div>
+<div class="center-dash"></div>
+<div class="center-dot"></div>
+<h1 class="brand">isTrav</h1>
 
 <style>
+  .brand {
+    text-align: center;
+    font-weight: 900;
+    font-size: 4.5em;
+    margin: 0;
+    color: #000;
+  }
+  .center-dot {
+    width: 50%;
+    border-right: 1em dotted #000;
+    height: 5em;
+    margin: 1em 0;
+  }
+  .center-dash {
+    width: 50%;
+    border-right: 1em dashed #000;
+    height: 5em;
+    margin: 0.5em 0;
+  }
+  .left-bar {
+    border-top: 1em solid #000;
+    width: 50%;
+  }
   .build-ideas {
     background: #000;
 	}
@@ -109,6 +146,10 @@
   .steps {
     background: transparent;
 	}
+  .steps .container {
+    border-left: 1em solid #000;
+    padding-left: 1em;
+  }
   .steps .title {
     font-weight: 900;
     font-size: 4.5em;

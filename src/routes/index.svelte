@@ -5,7 +5,7 @@
 </script>
 
 <script lang="ts">
-	import Portfolio from '$lib/Portfolio.svelte';
+	import Ideas from '$lib/Ideas.svelte';
 	import Header from '$lib/Header.svelte';
 	import Footer from '$lib/Footer.svelte';
 	import ClientArea from "$lib/ClientArea.svelte";
@@ -17,7 +17,7 @@
 </svelte:head>
 
 <Header />
-<Portfolio />
+<Ideas />
 <br />
 <br />
 <br />
