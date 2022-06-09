@@ -8,7 +8,7 @@
   <br />
   <br />
   <h1 class="title">Launch Today</h1>
-  <h2 class="description">A flexible multi-tenant BBS platform<br /> built for idea success.</h2>
+  <h2 class="description">A platform & multi-layered BBS<br /> built for innovating ideas.</h2>
   <br />
   <div style="text-align: center;">
     <a href="/platforms/pricing" class="btn btn-large blue lighten-2">subscription plans</a>
@@ -51,7 +51,7 @@
   <div class="container">
     <h3 class="demo-title">Bulletin Board System</h3>
     <div style="max-width: 600px; margin: 0 auto;">
-      <h2 class="description" style="color: #aaa;">Software that manages idea generated app content between public & private social groups.</h2>
+      <h2 class="description" style="color: #aaa;">This is software dedicated to the sharing or exchange of ideas or other messages/files on a network.</h2>
     </div>
     <br />
     <button class="waves-effect waves-light btn grey" class:active={url === 'https://communityfolder.com'} on:click={() => url = `https://communityfolder.com`}>home</button>
