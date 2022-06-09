@@ -1,6 +1,5 @@
 <script>
   import ClientArea from "$lib/ClientArea.svelte";
-	import ReadMe from "$lib/ReadMe.svelte";
 	import Map from "$lib/Map.svelte";
 	import ContactMe from "$lib/ContactMe.svelte";
 	import Welcome from "$lib/Welcome.svelte";
@@ -12,16 +11,6 @@
 </svelte:head>
 
 <Welcome />
-<br />
-<br />
-<ReadMe />
-<br />
-<br />
-<br />
-<br />
-<Map />
-<br />
-<br />
 <br />
 <br />
 <div class="container">
@@ -154,6 +143,13 @@
     </div>
   </div>
 </div>
+<br />
+<br />
+<br />
+<br />
+<Map />
+<br />
+<br />
 <br />
 <br />
 <ContactMe />
