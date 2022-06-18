@@ -105,9 +105,9 @@
       - Diagnose an idea.
     </h1>
     <div class="bump">
-      <div class="description">Our AI chat bot or "My Assistant" is capable of looking at our historical system logs and database records and can tell you a thing or two about your idea.</div>
+      <div class="description">Our AI chat bot or "Network AI" is capable of looking at our historical system logs and database records and can tell you a thing or two about your idea.</div>
       <br />
-      <a href="/my-assistant" class="btn btn-large red lighten-2">my assistant</a>
+      <a href="/network-ai" class="btn btn-large red lighten-2">Network AI</a>
     </div>
   </div>
 </div>

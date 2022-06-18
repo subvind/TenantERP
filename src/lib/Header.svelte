@@ -36,8 +36,8 @@
 				<li class:active={$page.url.pathname.startsWith('/client-area')}>
 					<a sveltekit:prefetch href="/client-area">Clients</a>
 				</li>
-				<li class:active={$page.url.pathname === '/my-assistant'}>
-					<a sveltekit:prefetch href="/my-assistant">My Assistant</a>
+				<li class:active={$page.url.pathname === '/network-ai'}>
+					<a sveltekit:prefetch href="/network-ai">Network AI</a>
 				</li>
 				<li class:active={$page.url.pathname === '/about'}>
 					<a sveltekit:prefetch href="/about">About</a>

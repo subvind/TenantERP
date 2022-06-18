@@ -6,11 +6,6 @@
 
 {#if app === 'my-account'}
   <ul class="sidenav" style="display: visible;">
-    <li><a class="subheader">Relations</a></li>
-    <li><a href="/my-account" class={active === 'available-sessions' ? 'active' : ''}><i class="material-icons">business</i>Companies</a></li>
-    <li><a href="/my-account" class={active === 'available-sessions' ? 'active' : ''}><i class="material-icons">contacts</i>Employees</a></li>
-    <li><a href="/my-account" class={active === 'available-sessions' ? 'active' : ''}><i class="material-icons">people</i>Team Members</a></li>
-    <li><div class="divider"></div></li>
     <li><a class="subheader">Settings</a></li>
     <li><a href="/accounts/change-password" class={active === 'change-password' ? 'active' : ''}><i class="material-icons">key</i>Change Password</a></li>
     <li><a href="/accounts/subscription" class={active === 'subscription' ? 'active' : ''}><i class="material-icons">inbox</i>Subscription</a></li>
@@ -25,33 +20,7 @@
 {#if app === 'dashboard'}
   <ul class="sidenav" style="display: visible;">
     <li><a class="subheader">Main</a></li>
-    <li><a href="/admin-control-panel/dashboard" class={active === 'dashboard' ? 'active' : ''}><i class="material-icons">dashboard</i>Dashboard</a></li>
-    <li><div class="divider"></div></li>
-    <li><a class="subheader">A. Launch Checklist</a></li>
-    <li><a href="/admin-control-panel/website" class={active === 'website' ? 'active' : ''}><i class="material-icons">looks_one</i>Define Problem</a></li>
-    <li><a href="/admin-control-panel/social-groups" class={active === 'social-groups' ? 'active' : ''}><i class="material-icons">looks_two</i>Find Solutions</a></li>
-    <li><a href="/admin-control-panel/admins" class={active === 'admins' ? 'active' : ''}><i class="material-icons">looks_3</i>Connect The Two</a></li>
-    <li><a href="/admin-control-panel/admins" class={active === 'admins' ? 'active' : ''}><i class="material-icons">looks_4</i>What Apps Fit</a></li>
-    <li><a href="/admin-control-panel/admins" class={active === 'admins' ? 'active' : ''}><i class="material-icons">looks_5</i>3rd Party APIs</a></li>
-    <li><a href="/admin-control-panel/admins" class={active === 'admins' ? 'active' : ''}><i class="material-icons">looks_6</i>Domain Name(s)</a></li>
-    <li><div class="divider"></div></li>
-    <li><a class="subheader">B. Launch Back-End</a></li>
-    <li><a href="/admin-control-panel/users" class={active === 'users' ? 'active' : ''}><i class="material-icons">looks_one</i>SQL Database</a></li>
-    <li><a href="/admin-control-panel/users" class={active === 'users' ? 'active' : ''}><i class="material-icons">looks_two</i>S3 Storage</a></li>
-    <li><a href="/admin-control-panel/users" class={active === 'users' ? 'active' : ''}><i class="material-icons">looks_3</i>eMail & SMS</a></li>
-    <li><a href="/admin-control-panel/users" class={active === 'users' ? 'active' : ''}><i class="material-icons">looks_4</i>User Authentication</a></li>
-    <li><a href="/admin-control-panel/users" class={active === 'users' ? 'active' : ''}><i class="material-icons">looks_5</i>Deploy /platform/</a></li>
-    <li><div class="divider"></div></li>
-    <li><a class="subheader">C. Launch Front-End(s)</a></li>
-    <li><a href="/admin-control-panel/users" class={active === 'users' ? 'active' : ''}><i class="material-icons">looks_one</i>Clone Projects</a></li>
-    <li><a href="/admin-control-panel/users" class={active === 'users' ? 'active' : ''}><i class="material-icons">looks_two</i>Custom Code</a></li>
-    <li><a href="/admin-control-panel/users" class={active === 'users' ? 'active' : ''}><i class="material-icons">looks_3</i>Deploy [1, 2, 3, etc]</a></li>
-    <li><div class="divider"></div></li>
-    <li><a class="subheader">D. Launch Success</a></li>
-    <li><a href="/admin-control-panel/users" class={active === 'users' ? 'active' : ''}><i class="material-icons">looks_one</i>Production</a></li>
-    <li><a href="/admin-control-panel/users" class={active === 'users' ? 'active' : ''}><i class="material-icons">looks_two</i>Status Pages</a></li>
-    <li><a href="/admin-control-panel/users" class={active === 'users' ? 'active' : ''}><i class="material-icons">looks_3</i>Testing End 2 End</a></li>
-    <li><a href="/admin-control-panel/users" class={active === 'users' ? 'active' : ''}><i class="material-icons">looks_3</i>Alerts</a></li>
+    <li><a href="/client-area/dashboard" class={active === 'dashboard' ? 'active' : ''}><i class="material-icons">dashboard</i>Dashboard</a></li>
     <li><div class="divider"></div></li>
   </ul>
 {/if}

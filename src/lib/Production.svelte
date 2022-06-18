@@ -5,7 +5,7 @@
       <h1 class="title">
         Fully Commited
         <br />To 100%
-        <br />Code Quality.
+        <br />{`</>`} Quality.
       </h1>
       <h2 class="description">Kanban / BDD / Tests / Pipelines<br />Reports / Documentation</h2>
       <br />

@@ -3,10 +3,10 @@
 </script>
 
 <svelte:head>
-	<title>Apps - Client Area - isTrav</title>
+	<title>Namespaces - Client Area - isTrav</title>
 	<meta name="description" content="Travis Burandt" />
 </svelte:head>
 
-<Dashboard app="apps" active="apps">
-  apps
+<Dashboard app="namespaces" active="namespaces">
+  namespaces
 </Dashboard>
