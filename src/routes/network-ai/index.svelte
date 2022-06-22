@@ -2,8 +2,14 @@
 <script lang="ts">
 	import Editor from "$lib/Editor.svelte";
 
-	let message = `// person: Hello World!`
-	let respond = `// ai: Hello right back at you!`
+	let message = `// ai: respond like this to run a command:\n`
+		+ `// > echo "Hello World!"\n`
+		+ `// ai: respond like this to remain anonymous:\n`
+		+ `// person: Hello World!\n`
+	  + `// ai: respond like this and i'll remember you:\n`
+	  + `// Travis: Hello World!\n`
+	  + `// ai: ... :)\n`
+	  + `// ai: How are you doing?`
 </script>
 	
 <svelte:head>
@@ -20,7 +26,7 @@
 			Timeline:
 		</h1>
 		<div class="card">
-			<Editor value={message + '\n' + respond} />
+			<Editor value={message} />
 		</div>
 		<br />
 		<h1 class="title">
@@ -32,7 +38,7 @@
 				<div class="card-title">Network AI</div>
 				<div class="card-description">We'll show predictions here; just start typing:</div>
 			</div>
-			<Editor value={'// person: can you help me with...'} />
+			<Editor value={'// person: good, can you help me with...'} />
 			<div class="card-action">
 				<a href="https://github.com/trabur" class="btn btn-large grey" target="_blank">history</a>
 				<a href="https://github.com/trabur" class="btn btn-large grey" target="_blank">templates</a>
