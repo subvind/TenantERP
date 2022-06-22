@@ -26,9 +26,11 @@
   "type": "module",
   "dependencies": {
     "@fontsource/fira-mono": "^4.5.0",
+    "@joshnuss/svelte-codemirror": "^0.2.6",
     "@lukeed/uuid": "^2.0.0",
     "@octokit/rest": "^18.12.0",
     "axios": "^0.27.2",
+    "codemirror": "^5.65.6",
     "cookie": "^0.4.1",
     "dayjs": "^1.11.2",
     "firebase": "^9.8.2",
