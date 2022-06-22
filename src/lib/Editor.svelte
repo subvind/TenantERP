@@ -1,8 +1,8 @@
 <script lang="ts">
-	
-	import 'codemirror/mode/javascript/javascript'
+	import 'codemirror/mode/javascript/javascript.js'
 	import CodeMirror from './CodeMirror.svelte'
 	import {onMount} from 'svelte'
+
 	const code = `function test() {\n  return 42\n}`
 	const options = {
 		mode: "javascript",
@@ -11,6 +11,7 @@
 	}
 	let editor: any
 	let cursor_activity = false
+
 	onMount(()=>{
 		console.log("Editor: ", editor)
 	})
@@ -26,11 +27,10 @@
 		console.log('changed')
 		// console.log(event.detail)
 	}
-	
-
 </script>
 
 <CodeMirror on:activity={cursorMoved} on:change={changed} bind:editor {options} class="editor"/>
+
 <p>
 	Cursor Activity: {cursor_activity}
 </p>
@@ -38,17 +38,13 @@
 	<button on:click={() => editor.execCommand('selectAll')}>
 		Select All
 	</button>	
-	
 	<button on:click={() => editor.setCursor(0)}>
 		Cursor at Start
 	</button>	
-
 	<button on:click={() => editor.setCursor(editor.getValue().length)}>
 		Cursor at End
 	</button>	
-
 </div>
-
 
 <style>
 	:global(.editor) {
