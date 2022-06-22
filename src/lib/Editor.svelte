@@ -1,6 +1,4 @@
 <script lang="ts">
-	import 'codemirror/mode/javascript/javascript.js'
-	import CodeMirror from './CodeMirror.svelte'
 	import {onMount} from 'svelte'
 
 	const code = `function test() {\n  return 42\n}`
@@ -12,8 +10,14 @@
 	let editor: any
 	let cursor_activity = false
 
-	onMount(()=>{
+	let CodeMirror: any
+
+	onMount(async ()=>{
 		console.log("Editor: ", editor)
+
+		await import('codemirror/mode/javascript/javascript.js');
+		const module = await import('./CodeMirror.svelte');
+		CodeMirror = module.default;
 	})
 	
 	function cursorMoved(event) {
@@ -29,7 +33,7 @@
 	}
 </script>
 
-<CodeMirror on:activity={cursorMoved} on:change={changed} bind:editor {options} class="editor"/>
+<svelte:component this={CodeMirror} on:activity={cursorMoved} on:change={changed} bind:editor {options} class="editor"/>
 
 <p>
 	Cursor Activity: {cursor_activity}
