@@ -5,13 +5,16 @@
 	const options = {
 		mode: "javascript",
 		lineNumbers: true,
-		value: value
+		value
 	}
 	let editor: any
 	let cursor_activity = false
-
+	
 	let CodeMirror: any
 
+	export function onChange (value: string) {
+		options.value = value
+	}
 
 	onMount(async ()=>{
 		console.log("Editor: ", editor)

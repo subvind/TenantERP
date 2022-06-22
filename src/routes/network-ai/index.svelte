@@ -1,15 +1,51 @@
 
 <script lang="ts">
+	import { onMount } from "svelte";
 	import Editor from "$lib/Editor.svelte";
 
-	let message = `// ai: respond like this to run a command:\n`
-		+ `// > echo "Hello World!"\n`
-		+ `// ai: respond like this to remain anonymous:\n`
-		+ `// person: Hello World!\n`
-	  + `// ai: respond like this and i'll remember you:\n`
-	  + `// Travis: Hello World!\n`
-	  + `// ai: ... :)\n`
-	  + `// ai: How are you doing?`
+	let messages: any = [
+		`// ai: respond like this to run a command:`,
+		`// > echo "Hello World!"`,
+		`// ai: respond like this to remain anonymous:`,
+		`// person: Hello World!`,
+	  `// ai: respond like this and i'll remember you:`,
+	  `// Travis: Hello World!`,
+	  `// ai: ... :)`,
+	  `// ai: How are you doing?`,
+	]
+	let message = messages.join('\n')
+	let log  = '// person: good, can you help me with...'
+
+	let socket: any
+	onMount(() => {
+		socket = io('http://localhost:8888');
+
+		socket.on('connect', function() {
+			console.log('Connected');
+
+			socket.emit('my-event', { test: 'test' });
+		});
+		socket.on('my-event', function(data) {
+			console.log('event', data);
+		});
+		socket.on('exception', function(data) {
+			console.log('event', data);
+		});
+		socket.on('disconnect', function() {
+			console.log('Disconnected');
+		});
+	})
+
+	function submit () {
+		message = `${message}\n${log}`
+		socket.emit('my-event', log);
+		log = ''
+		onChangeTimeline(message)
+		onChangeLog(log)
+	}
+
+	let onChangeTimeline: any;
+	let onChangeLog: any;
 </script>
 	
 <svelte:head>
@@ -26,7 +62,7 @@
 			Timeline:
 		</h1>
 		<div class="card">
-			<Editor value={message} />
+			<Editor bind:value={message} bind:onChange={onChangeTimeline} />
 		</div>
 		<br />
 		<h1 class="title">
@@ -38,11 +74,11 @@
 				<div class="card-title">Network AI</div>
 				<div class="card-description">We'll show predictions here; just start typing:</div>
 			</div>
-			<Editor value={'// person: good, can you help me with...'} />
+			<Editor bind:value={log} bind:onChange={onChangeLog} />
 			<div class="card-action">
 				<a href="https://github.com/trabur" class="btn btn-large grey" target="_blank">history</a>
 				<a href="https://github.com/trabur" class="btn btn-large grey" target="_blank">templates</a>
-				<a href="https://github.com/trabur" class="btn btn-large red lighten-2 right" target="_blank">submit</a>
+				<button on:click={() => submit()} class="btn btn-large red lighten-2 right" target="_blank">submit</button>
 			</div>
 		</div>
 	</div>
