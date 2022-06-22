@@ -218,6 +218,7 @@
   position: relative;
   overflow: visible;
   overflow-x: hidden;
+  overflow-Y: hidden;
   height: auto;
 }
 
@@ -231,6 +232,7 @@
   margin-right: -30px;
   */
   padding-bottom: 50px; 
+  margin-bottom: -50px;
   height: 100%;
   outline: none; /* Prevent dragging from highlighting the element */
   position: relative;
