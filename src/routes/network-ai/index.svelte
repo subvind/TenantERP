@@ -2,6 +2,7 @@
 <script lang="ts">
 	import Editor from "$lib/Editor.svelte";
 
+	let message = `// say something to the Network AI\nfunction testing() {\n  return 42\n}`
 </script>
 	
 <svelte:head>
@@ -9,4 +10,9 @@
 	<meta name="description" content="Travis Burandt" />
 </svelte:head>
 
-<Editor />
+<div class="container">
+	<div class="card">
+		<Editor value={message} />
+
+	</div>
+</div>

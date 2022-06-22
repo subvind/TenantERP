@@ -49,10 +49,10 @@
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --cm-border-color: #ccc;
+    --cm-border-color: #555;
     --cm-background-color: #222;
     --cm-medium-color: #ccc;
-    --cm-text-color: white;
+    --cm-text-color: #aaa;
   }
 }
 
@@ -60,7 +60,7 @@
 :global(.CodeMirror) {
   /* Set height, width, borders, and global font properties here */
   font-family: monospace;
-  height: 300px;
+  height: 100%;
   direction: ltr;
   color: var(--cm-text-color);
   background: var(--cm-background-color);
@@ -92,7 +92,7 @@
   padding: 0 3px 0 5px;
   min-width: 20px;
   text-align: right;
-  color: #ddd;
+  color: #555;
   white-space: nowrap;
 }
 
@@ -102,7 +102,7 @@
 /* CURSOR */
 
 :global(.CodeMirror-cursor) {
-  border-left: 2px solid var(--cm-medium-color);
+  border-left: 2px solid #fff;
   border-right: none;
   width: 0;
 }
@@ -175,22 +175,22 @@
 :global(.cm-link) {text-decoration: underline;}
 :global(.cm-strikethrough) {text-decoration: line-through;}
 
-:global(.cm-s-default .cm-keyword) {color: #708;}
-:global(.cm-s-default .cm-atom) {color: #219;}
-:global(.cm-s-default .cm-number) {color: #164;}
-:global(.cm-s-default .cm-def) {color: #00f;}
+:global(.cm-s-default .cm-keyword) {color: #ee6e73;}
+:global(.cm-s-default .cm-atom) {color: #26a69a;}
+:global(.cm-s-default .cm-number) {color: #26a69a;}
+:global(.cm-s-default .cm-def) {color: #64B5F6;}
 :global(.cm-s-default .cm-variable,
 .cm-s-default .cm-punctuation,
 .cm-s-default .cm-property,
 .cm-s-default .cm-operator) {}
 :global(.cm-s-default .cm-variable-2) {color: #05a;}
 :global(.cm-s-default .cm-variable-3, .cm-s-default .cm-type) {color: #085;}
-:global(.cm-s-default .cm-comment) {color: #a50;}
-:global(.cm-s-default .cm-string) {color: #a11;}
-:global(.cm-s-default .cm-string-2) {color: #f50;}
+:global(.cm-s-default .cm-comment) {color: #26a69a;}
+:global(.cm-s-default .cm-string) {color: #26a69a;}
+:global(.cm-s-default .cm-string-2) {color: #ee6e73;}
 :global(.cm-s-default .cm-meta) {color: #555;}
 :global(.cm-s-default .cm-qualifier) {color: #555;}
-:global(.cm-s-default .cm-builtin) {color: #30a;}
+:global(.cm-s-default .cm-builtin) {color: #26a69a;}
 :global(.cm-s-default .cm-bracket) {color: #997;}
 :global(.cm-s-default .cm-tag) {color: #170;}
 :global(.cm-s-default .cm-attribute) {color: #00c;}
@@ -216,18 +216,25 @@
 
 :global(.CodeMirror) {
   position: relative;
-  overflow: hidden;
+  overflow: visible;
+  overflow-x: hidden;
+  height: auto;
 }
 
 :global(.CodeMirror-scroll) {
-  overflow: scroll !important; /* Things will break if this is overridden */
+  overflow-y: hidden;
+  overflow-x: hidden;
   /* 30px is the magic margin used to hide the element's real scrollbars */
   /* See overflow: hidden in .CodeMirror */
-  margin-bottom: -30px; margin-right: -30px;
-  padding-bottom: 30px;
+  /*
+  margin-bottom: -30px; 
+  margin-right: -30px;
+  */
+  padding-bottom: 50px; 
   height: 100%;
   outline: none; /* Prevent dragging from highlighting the element */
   position: relative;
+  overflow: hidden;
 }
 :global(.CodeMirror-sizer) {
   position: relative;

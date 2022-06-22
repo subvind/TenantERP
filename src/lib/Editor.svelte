@@ -1,16 +1,17 @@
 <script lang="ts">
 	import {onMount} from 'svelte'
 
-	const code = `function test() {\n  return 42\n}`
+	export let value = `// nothing`
 	const options = {
 		mode: "javascript",
 		lineNumbers: true,
-		value: code
+		value: value
 	}
 	let editor: any
 	let cursor_activity = false
 
 	let CodeMirror: any
+
 
 	onMount(async ()=>{
 		console.log("Editor: ", editor)
@@ -20,21 +21,23 @@
 		CodeMirror = module.default;
 	})
 	
-	function cursorMoved(event) {
+	function cursorMoved(event: any) {
 		cursor_activity = true
 		console.log('cursor activity')
-		// console.log(event.detail)
-		
+		// console.log(event.detail)	
 	}
 	
-	function changed(event) {
-		console.log('changed')
+	function changed(event: any) {
+		let change = editor.getValue()
+		console.log('changed', change)
+		value = change
 		// console.log(event.detail)
 	}
 </script>
 
-<svelte:component this={CodeMirror} on:activity={cursorMoved} on:change={changed} bind:editor {options} class="editor"/>
+<svelte:component this={CodeMirror} on:activity={cursorMoved} on:change={changed} bind:editor {options} class="editor" />
 
+<!-- 
 <p>
 	Cursor Activity: {cursor_activity}
 </p>
@@ -49,9 +52,11 @@
 		Cursor at End
 	</button>	
 </div>
+-->
 
 <style>
 	:global(.editor) {
 		font-size: 1.5rem;
+		height: 100%;
 	}
 </style>
