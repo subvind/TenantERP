@@ -2,7 +2,7 @@
 <script lang="ts">
 	import Editor from "$lib/Editor.svelte";
 
-	let message = `// person: Hi, my name is Travis.\nfunction submit() {\n  return "Hello World!"\n}`
+	let message = `// person: Hello World!`
 	let respond = `// ai: Hello right back at you!`
 </script>
 	
