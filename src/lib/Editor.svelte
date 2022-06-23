@@ -59,7 +59,7 @@
 
 <style>
 	:global(.editor) {
-		font-size: 1.5rem;
+		font-size: 1.1em;
 		height: 100%;
 	}
 </style>

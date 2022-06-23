@@ -21,18 +21,20 @@
 	onMount(() => {
 		socket = io('http://localhost:8888');
 
-		socket.on('connect', function() {
+		socket.on('connect', function () {
 			console.log('Connected');
 
 			socket.emit('my-event', { test: 'test' });
 		});
-		socket.on('my-event', function(data) {
+		socket.on('my-event', function (data) {
+			message = `${message}\n${data}`
+			console.log('event', data);
+			onChangeTimeline(message)
+		});
+		socket.on('exception', function (data) {
 			console.log('event', data);
 		});
-		socket.on('exception', function(data) {
-			console.log('event', data);
-		});
-		socket.on('disconnect', function() {
+		socket.on('disconnect', function () {
 			console.log('Disconnected');
 		});
 	})
@@ -65,7 +67,7 @@
 				<h1 class="title">
 					Timeline:
 				</h1>
-				<div class="card">
+				<div class="card" style="border: 1em solid #000;">
 					<Editor bind:value={message} bind:onChange={onChangeTimeline} />
 				</div>
 				<br />
