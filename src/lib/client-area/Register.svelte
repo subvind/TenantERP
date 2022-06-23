@@ -33,7 +33,7 @@
 
 <div class="contain">
   <h1 class="title">
-    Register / Join
+    Register
   </h1>
   <div class="card">
     <div class="card-content">
@@ -70,9 +70,10 @@
     margin: 0 auto;
   }
 
-  .title {
-    font-size: 2em;
-    font-weight: 900;
-    text-align: center;
-  }
+	.title {
+		font-weight: 900;
+		font-size: 4.5em;
+		text-align: left;
+		margin: 0;
+	}
 </style>
