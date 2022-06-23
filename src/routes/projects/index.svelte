@@ -1,6 +1,7 @@
 <script lang="ts">
   import { onMount } from "svelte";
 
+  import Header from '$lib/projects/Header.svelte'
   import List from '$lib/projects/List.svelte'
   import ClientArea from "$lib/ClientArea.svelte";
   
@@ -31,6 +32,7 @@
 </svelte:head>
 
 <div class="wrapper">
+  <Header />
   <br />
   <br />
   <div class="container">
