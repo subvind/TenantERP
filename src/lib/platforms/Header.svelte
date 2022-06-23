@@ -5,7 +5,7 @@
       Membership
     </h1>
     <!-- svelte-ignore a11y-distracting-elements -->
-    <div class="description">Free feorever up until you reach the Fair Source 25 (v0.9). license agreement limit. Checkout our Pricing Level slider below to calculate usage limits (active users, requests per day, requests per mounth) with expected costs per month.</div>
+    <div class="description">Free forever up until you reach the Fair Source 25 (v0.9). license agreement limit. Checkout our Pricing Level slider below to calculate usage limits (active users, requests per day, requests per mounth) with expected costs per month.</div>
     <br />
     <a href="/client-area" class="btn btn-large blue lighten-2">subscribe</a>
   </div>
