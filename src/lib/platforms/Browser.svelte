@@ -48,7 +48,7 @@
     <a class="btn-floating btn-large waves-effect waves-light red lighten-2 platform-btn"><i class="material-icons">arrow_upward</i></a>
     <div class="line"></div>
     <h3 class="demo-title">Bulletin Board System</h3>
-    <button class="waves-effect waves-light btn grey" class:active={url === 'https://communityfolder.com'} on:click={() => url = `https://communityfolder.com`}>home</button>
+    <button class="waves-effect waves-light btn grey" class:active={url === 'https://communityfolder.com'} on:click={() => url = `https://communityfolder.com`}>frontgate</button>
     <button class="waves-effect waves-light btn grey" class:active={url === `https://${folder}.communityfolder.com`} on:click={() => url = `https://${folder}.communityfolder.com`}>activity feed</button>
     <button class="waves-effect waves-light btn grey" class:active={url === `https://${folder}.communityfolder.com/forums`} on:click={() => url = `https://${folder}.communityfolder.com/forums`}>forums</button>
     <button class="waves-effect waves-light btn grey" class:active={url === `https://${folder}.communityfolder.com/blogs`} on:click={() => url = `https://${folder}.communityfolder.com/blogs`}>blogs</button>
