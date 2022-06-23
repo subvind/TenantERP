@@ -16,7 +16,7 @@
       kanban: 'https://trello.com/b/LWqVCN14/istravcom',
     },
     {
-      name: 'communityfolder.com',
+      name: 'istrav-platform-frontgate',
       type: 'web',
       url: 'https://communityfolder.com',
       git: 'https://github.com/trabur/communityfolder.com',
@@ -25,7 +25,7 @@
       kanban: 'https://trello.com/b/xS3zTAnC/communityfoldercom',
     },
     {
-      name: 'istrav.communityfolder.com',
+      name: 'istrav-platform-frontend',
       type: 'web',
       url: 'https://istrav.communityfolder.com',
       git: 'https://github.com/trabur/communityfolder-frontend',
@@ -34,7 +34,7 @@
       kanban: 'https://trello.com/b/Iv6f0rrj/istravcommunityfoldercom',
     },
     {
-      name: 'communityfolder.herokuapp.com',
+      name: 'istrav-platform-backend',
       type: 'backend',
       library: '',
       url: 'https://communityfolder.herokuapp.com',
@@ -46,7 +46,7 @@
       apiTests: 'https://test-communityfolder-backend.vercel.app',
     },
     {
-      name: 'global.trabur.workers.dev',
+      name: 'istrav-global',
       type: 'global',
       library: '',
       url: 'https://global.trabur.workers.dev',
