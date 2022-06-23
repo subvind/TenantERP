@@ -13,7 +13,7 @@
 </script>
 
 <svelte:head>
-	<title>isTrav</title>
+	<title>Innovation Management System - isTrav</title>
 	<meta name="description" content="Travis Burandt" />
 </svelte:head>
 
