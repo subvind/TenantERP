@@ -1,8 +1,7 @@
 <script lang="ts">
 	
-	import Browser from "$lib/platforms/Browser.svelte";
+	import Header from "$lib/platforms/Header.svelte";
 	import ClientArea from "$lib/ClientArea.svelte";
-	import List from "$lib/platforms/List.svelte";
 
   let level = 2
 	let records: any[] = []
@@ -24,12 +23,12 @@
 	<meta name="description" content="Travis Burandt" />
 </svelte:head>
 
-<br />
-<br />
-<br />
-<br />
 <div class="wrapper">
-
+  <Header />
+  <br />
+  <br />
+  <br />
+  <br />
   <div class="container">
     <h1 class="title">Pricing</h1>
     <h2 class="description">Level: {level}</h2>
