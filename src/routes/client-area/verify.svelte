@@ -50,8 +50,8 @@
 </script>
 
 <svelte:head>
-	<title>Verify / Login - isTrav</title>
-	<meta name="description" content="Travis Burandt" />
+	<title>Login - Client Area - isTrav</title>
+	<meta name="description" content="Login to isTrav's client area." />
 </svelte:head>
 
 <Header />

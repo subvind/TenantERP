@@ -8,7 +8,7 @@
 
 <svelte:head>
 	<title>Contact Me - isTrav</title>
-	<meta name="description" content="Travis Burandt" />
+	<meta name="description" content="If you like the work I'm doing around here consider becoming an isTrav Client today. If your looking for talent print out my Resume, send my GitHub to the coding team, and contact me for hire." />
 </svelte:head>
 
 <Header />

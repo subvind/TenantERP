@@ -53,7 +53,7 @@
 	
 <svelte:head>
 	<title>Network AI - isTrav</title>
-	<meta name="description" content="Travis Burandt" />
+	<meta name="description" content="isTrav's natural language processor and artificial intelligence is trained to know how to use our software and is especially talented when it comes to networks." />
 </svelte:head>
 
 <div class="wrapper">

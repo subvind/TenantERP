@@ -28,7 +28,7 @@
 
 <svelte:head>
 	<title>Projects - isTrav</title>
-	<meta name="description" content="Travis Burandt" />
+	<meta name="description" content="Here are links to all of my fair source licensed code on GitHub located under the 'trabur' username." />
 </svelte:head>
 
 <div class="wrapper">

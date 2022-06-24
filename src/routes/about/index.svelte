@@ -7,7 +7,7 @@
 
 <svelte:head>
 	<title>About - isTrav</title>
-	<meta name="description" content="Travis Burandt" />
+	<meta name="description" content="My name is Travis and I am a coder." />
 </svelte:head>
 
 <Welcome />

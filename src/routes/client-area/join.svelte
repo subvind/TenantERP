@@ -52,8 +52,8 @@
 </script>
 
 <svelte:head>
-	<title>Join / Register - isTrav</title>
-	<meta name="description" content="Travis Burandt" />
+	<title>Register - Client Area - isTrav</title>
+	<meta name="description" content="Register a new client with isTrav." />
 </svelte:head>
 
 <Header />

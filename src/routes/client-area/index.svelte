@@ -42,8 +42,8 @@
 </script>
 
 <svelte:head>
-	<title>Clients - isTrav</title>
-	<meta name="description" content="Travis Burandt" />
+	<title>Client Area - isTrav</title>
+	<meta name="description" content="Manage your membership with isTrav: Adjust platform pricing levels, add new services & update existing services, and get access to our Innovation Management System." />
 </svelte:head>
 
 <div class="wrapper"></div>

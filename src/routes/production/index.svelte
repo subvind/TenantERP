@@ -62,7 +62,8 @@
 
 <svelte:head>
 	<title>Production - isTrav</title>
-	<meta name="description" content="Travis Burandt" />
+	<meta name="description" content="Here is what I am commited to keeping the lights on. // Fully Commited To 100% </> Quality. This includes ... [Kanban / BDD / Tests / Pipelines];
+  Reports / Documentation." />
 </svelte:head>
 
 <Production />
