@@ -3,7 +3,7 @@
 
 	export let value = `// nothing`
 	const options = {
-		mode: "javascript",
+		mode: "markdown",
 		lineNumbers: true,
 		value
 	}
@@ -19,6 +19,7 @@
 	onMount(async ()=>{
 		console.log("Editor: ", editor)
 
+		await import('codemirror/mode/markdown/markdown.js');
 		await import('codemirror/mode/javascript/javascript.js');
 		const module = await import('./CodeMirror.svelte');
 		CodeMirror = module.default;

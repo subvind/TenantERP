@@ -5,17 +5,10 @@
 	import ClientArea from "$lib/ClientArea.svelte";
 
 	let messages: any = [
-		`// ai: respond like this to run a command:`,
-		`// > echo "Hello World!"`,
-		`// ai: respond like this to remain anonymous:`,
-		`// person: Hello World!`,
-	  `// ai: respond like this and i'll remember you:`,
-	  `// Travis: Hello World!`,
-	  `// ai: ... :)`,
-	  `// ai: How are you doing?`,
+	  `> help`,
 	]
 	let message = messages.join('\n')
-	let log  = '// person: good, can you help me with...'
+	let log  = 'Hello World!'
 
 	let socket: any
 	onMount(() => {
@@ -24,7 +17,7 @@
 		socket.on('connect', function () {
 			console.log('Connected');
 
-			socket.emit('my-event', { test: 'test' });
+			socket.emit('my-event', '> help');
 		});
 		socket.on('my-event', function (data) {
 			message = `${message}\n${data}`
@@ -41,7 +34,13 @@
 
 	function submit () {
 		message = `${message}\n${log}`
-		socket.emit('my-event', log);
+		let payload = {
+			container: 'test',
+			language: 'en',
+			message: log,
+			verbose: false
+		}
+		socket.emit('my-event', payload);
 		log = ''
 		onChangeTimeline(message)
 		onChangeLog(log)
