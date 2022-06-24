@@ -1,6 +1,7 @@
 <script lang="ts">
   import { onMount } from 'svelte';
 	
+  import Marketing from '$lib/client-area/Marketing.svelte';
   import Header from '$lib/Header.svelte';
 	import Footer from '$lib/Footer.svelte';
 
@@ -65,7 +66,7 @@
       <br />
     </div>
     <div class="col m6 right-side">
-      hello
+      <Marketing />
     </div>
   </div>
 </div>

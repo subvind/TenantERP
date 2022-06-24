@@ -3,6 +3,7 @@
   
   import Register from '$lib/client-area/Register.svelte'
   
+  import Marketing from '$lib/client-area/Marketing.svelte';
 	import Header from '$lib/Header.svelte';
 	import Footer from '$lib/Footer.svelte';
 
@@ -65,7 +66,7 @@
       <Register auth={auth}/>
     </div>
     <div class="col m6 right-side">
-      hello
+      <Marketing />
     </div>
   </div>
 </div>
