@@ -12,7 +12,7 @@
 
 	let socket: any
 	onMount(() => {
-		socket = io('http://localhost:8888');
+		socket = io('https://istrav.dev');
 
 		socket.on('connect', function () {
 			console.log('Connected');
