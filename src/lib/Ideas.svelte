@@ -12,7 +12,7 @@
     <!-- svelte-ignore a11y-distracting-elements -->
     <div class="description">isTrav's goal is to solve problems using the right solutions, turn ideas into apps that spark joy to the end user, and then to keep production live with what works best.</div>
     <br />
-    <a href="/about" class="btn btn-large blue lighten-2">about</a>
+    <a href="https://istrav.dev" class="btn btn-large blue lighten-2">System Headquarters</a>
   </div>
 </div>
 <div style="text-align: center;">
