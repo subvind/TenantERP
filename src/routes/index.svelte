@@ -10,6 +10,7 @@
 	import Footer from '$lib/Footer.svelte';
 	import ClientArea from "$lib/ClientArea.svelte";
 	import ReadMe from '$lib/ReadMe.svelte';
+	import YouTube from '$lib/YouTube.svelte';
 </script>
 
 <svelte:head>
@@ -18,6 +19,7 @@
 </svelte:head>
 
 <Header />
+<YouTube />
 <Ideas />
 <br />
 <br />
