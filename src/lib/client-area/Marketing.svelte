@@ -8,7 +8,7 @@
   <br />
   <div class="description">Welcome back! Or, perhaps you are new here? In either case we hope your are as excited as we are to work on that idea of yours. Authenticate yourself as a client so we can move forward.</div>
   <br />
-  <a href="/about" class="btn btn-large white black-text">learn more</a>
+  <a href="https://istrav.dev" class="btn btn-large white black-text">learn more</a>
 </div>
 
 <style>
