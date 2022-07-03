@@ -6,6 +6,7 @@
 
 <div class="build-ideas">
   <div class="container">
+    <br />
     <h1 class="title">
       Let's build ideas.
     </h1>
@@ -13,6 +14,8 @@
     <div class="description">isTrav's goal is to solve problems using the right solutions, turn ideas into apps that spark joy to the end user, and then to keep production live with what works best.</div>
     <br />
     <a href="https://istrav.dev" class="btn btn-large blue lighten-2">System Headquarters</a>
+    <br />
+    <br />
   </div>
 </div>
 <div style="text-align: center;">
