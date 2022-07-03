@@ -7,5 +7,6 @@
     height: 50vh;
     margin-bottom: -0.5em;
     border-bottom: 1em solid #ee6e73;
+    background: #000;
   }
 </style>
