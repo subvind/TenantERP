@@ -46,7 +46,7 @@
       name: 'istrav-platform-backend',
       type: 'backend',
       library: '',
-      url: 'https://platform-communityfolder.istrav.dev',
+      url: 'https://communityfolder.istrav.dev',
       git: 'https://github.com/trabur/istrav-platform-backend',
       pipeline: 'https://github.com/trabur/istrav-platform-backend/actions',
       statusPage: 'https://stats.uptimerobot.com/1nz1rt61VL/791899655',
