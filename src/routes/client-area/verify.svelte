@@ -1,6 +1,8 @@
 <script lang="ts">
   import { onMount } from 'svelte';
 	
+  import axios from 'axios'
+  
   import Marketing from '$lib/client-area/Marketing.svelte';
   import Header from '$lib/Header.svelte';
 	import Footer from '$lib/Footer.svelte';
@@ -34,20 +36,26 @@
     const analytics = getAnalytics(app);
     auth = getAuth(app);
   
-    onAuthStateChanged(auth, (user) => {
+    onAuthStateChanged(auth, async (user) => {
       if (user) {
         // User is signed in, see docs for a list of available properties
         // https://firebase.google.com/docs/reference/js/firebase.User
         const uid = user.uid;
         console.log('uid', uid)
+
+        const idTokenResult = await user.getIdTokenResult()
+        console.log('firebase idTokenResult', idTokenResult)
         // ...
+        let response = await axios.post('https://clients.trabur.workers.dev/istrav/login', idTokenResult)
+        localStorage.setItem('istrav-global-token', response.data)
+
+        window.location.href = `/client-area/dashboard`
       } else {
         // User is signed out
         // ...
       }
     });
   })
-
 </script>
 
 <svelte:head>

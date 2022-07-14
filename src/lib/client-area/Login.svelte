@@ -16,10 +16,6 @@
       .then((userCredential) => {
         // Signed in 
         const user = userCredential.user;
-        // ...
-        // localStorage.setItem('token', response.data)
-        // let token = parseJwt(response.data)
-        window.location.href = `/client-area/dashboard`
       })
       .catch((error) => {
         const errorCode = error.code;

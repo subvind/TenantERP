@@ -35,7 +35,8 @@
         user.getIdToken(true).then(function(idToken) {
           // Send token to your backend via HTTPS
           // ...
-          console.log('token', idToken)
+          console.log('firebase token', idToken)
+          console.log('istrav-global token', localStorage.getItem('istrav-global-token'))
         }).catch(function(error) {
           // Handle error
         });

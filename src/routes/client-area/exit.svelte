@@ -3,7 +3,7 @@
   
   // Import the functions you need from the SDKs you need
   import { initializeApp } from "firebase/app";
-  import { getAuth, signOut } from "firebase/auth";
+  import { getAuth, onIdTokenChanged, signOut } from "firebase/auth";
 
   // TODO: Add SDKs for Firebase products that you want to use
   // https://firebase.google.com/docs/web/setup#available-libraries
@@ -25,8 +25,11 @@
     const app = initializeApp(firebaseConfig);
     const auth = getAuth(app);
   
+    // sign out of firebase
     signOut(auth)
       .then(() => {
+        // sign out of istrav-global
+        window.localStorage.removeItem('istrav-global-token')
         window.location.href = '/client-area'
       });
   })

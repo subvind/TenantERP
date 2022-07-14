@@ -1,5 +1,7 @@
 <script lang="ts">
   import { onMount } from 'svelte';
+
+  import axios from 'axios'
   
   import Register from '$lib/client-area/Register.svelte'
   
@@ -41,9 +43,13 @@
         const uid = user.uid;
         console.log('uid', uid)
 
-        const token = await user.getIdTokenResult()
-        console.log('token', token)
+        const idTokenResult = await user.getIdTokenResult()
+        console.log('firebase idTokenResult', idTokenResult)
         // ...
+        let response = await axios.post('https://clients.trabur.workers.dev/istrav/register', idTokenResult)
+        localStorage.setItem('istrav-global-token', response.data)
+
+        window.location.href = `/client-area/dashboard`
       } else {
         // User is signed out
         // ...

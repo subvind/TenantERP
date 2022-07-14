@@ -19,8 +19,6 @@
       .then((userCredential) => {
         // Signed in 
         const user = userCredential.user;
-        // ...
-        window.location.href = `/client-area/dashboard`
       })
       .catch((error) => {
         const errorCode = error.code;

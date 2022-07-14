@@ -8,7 +8,7 @@
   }
 
   onMount(() => {
-    let token = localStorage.getItem('token')
+    let token = localStorage.getItem('istrav-global-token')
     // account = parseJwt(token)
   })
 </script>
