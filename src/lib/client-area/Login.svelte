@@ -8,7 +8,9 @@
 	let email = ''
   let password = ''
 
-  async function login() {
+  async function login(event: any) {
+    event.preventDefault()
+
     if (email === '') return alert('Email must be defined.')
     if (password === '') return alert('Password must be defined.')
 
@@ -29,7 +31,7 @@
   <h1 class="title">
     Login
   </h1>
-  <div class="card">
+  <form class="card" on:submit={(e) => login(e)}>
     <div class="card-content">
       <div class="row">
         <div class="input-field col s12">
@@ -41,10 +43,10 @@
           <label for="password">Password</label>
         </div>
         <br />
-        <button style="margin-left: 1em;" type='submit' class="waves-effect blue lighten-2 btn" on:click={() => login()}>Submit</button>
+        <button style="margin-left: 1em;" type='submit' class="waves-effect blue lighten-2 btn">Submit</button>
       </div>
     </div>
-  </div>
+  </form>
   <div>
     <a href="/client-area/join" class="waves-effect red lighten-2 btn" style="float: right;">Register</a>
     <br />
