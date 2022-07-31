@@ -6,9 +6,9 @@
 
 	let records: any[] = [
 		{
-			name: '/community_folder/',
+			name: '/istrav/',
 			description: 'This is a Bulletin Board System for talking about application software development, building projects, deploying solutions to production, and integration with artificial inteligence.',
-			url: 'https://communityfolder.com'
+			url: 'https://istrav.net'
 		}
 	]
 </script>

@@ -1,6 +1,6 @@
 <script>
   let folder = 'istrav'
-  let url = `https://communityfolder.com`
+  let url = `https://istrav.net`
 </script>
 
 <div class="header">
@@ -48,16 +48,16 @@
     <a class="btn-floating btn-large waves-effect waves-light red lighten-2 platform-btn"><i class="material-icons">arrow_upward</i></a>
     <div class="line"></div>
     <h3 class="demo-title">Bulletin Board System</h3>
-    <button class="waves-effect waves-light btn grey" class:active={url === 'https://communityfolder.com'} on:click={() => url = `https://communityfolder.com`}>frontgate</button>
-    <button class="waves-effect waves-light btn grey" class:active={url === `https://${folder}.communityfolder.com`} on:click={() => url = `https://${folder}.communityfolder.com`}>activity feed</button>
-    <button class="waves-effect waves-light btn grey" class:active={url === `https://${folder}.communityfolder.com/forums`} on:click={() => url = `https://${folder}.communityfolder.com/forums`}>forums</button>
-    <button class="waves-effect waves-light btn grey" class:active={url === `https://${folder}.communityfolder.com/blogs`} on:click={() => url = `https://${folder}.communityfolder.com/blogs`}>blogs</button>
-    <button class="waves-effect waves-light btn grey" class:active={url === `https://${folder}.communityfolder.com/calendars`} on:click={() => url = `https://${folder}.communityfolder.com/calendars`}>calendars</button>
-    <button class="waves-effect waves-light btn grey" class:active={url === `https://${folder}.communityfolder.com/downloads`} on:click={() => url = `https://${folder}.communityfolder.com/downloads`}>downloads</button>
-    <button class="waves-effect waves-light btn grey" class:active={url === `https://${folder}.communityfolder.com/storefronts`} on:click={() => url = `https://${folder}.communityfolder.com/storefronts`}>storefronts</button>
-    <button class="waves-effect waves-light btn grey" class:active={url === `https://${folder}.communityfolder.com/leaderboards`} on:click={() => url = `https://${folder}.communityfolder.com/leaderboards`}>leaderboards</button>
-    <button class="waves-effect waves-light btn grey" class:active={url === `https://${folder}.communityfolder.com/referrals`} on:click={() => url = `https://${folder}.communityfolder.com/referrals`}>referrals</button>
-    <button class="waves-effect waves-light btn grey" class:active={url === `https://${folder}.communityfolder.com/rules`} on:click={() => url = `https://${folder}.communityfolder.com/rules`}>rules</button>
+    <button class="waves-effect waves-light btn grey" class:active={url === 'https://istrav.net'} on:click={() => url = `https://istrav.net`}>frontgate</button>
+    <button class="waves-effect waves-light btn grey" class:active={url === `https://${folder}.istrav.net`} on:click={() => url = `https://${folder}.istrav.net`}>activity feed</button>
+    <button class="waves-effect waves-light btn grey" class:active={url === `https://${folder}.istrav.net/forums`} on:click={() => url = `https://${folder}.istrav.net/forums`}>forums</button>
+    <button class="waves-effect waves-light btn grey" class:active={url === `https://${folder}.istrav.net/blogs`} on:click={() => url = `https://${folder}.istrav.net/blogs`}>blogs</button>
+    <button class="waves-effect waves-light btn grey" class:active={url === `https://${folder}.istrav.net/calendars`} on:click={() => url = `https://${folder}.istrav.net/calendars`}>calendars</button>
+    <button class="waves-effect waves-light btn grey" class:active={url === `https://${folder}.istrav.net/downloads`} on:click={() => url = `https://${folder}.istrav.net/downloads`}>downloads</button>
+    <button class="waves-effect waves-light btn grey" class:active={url === `https://${folder}.istrav.net/storefronts`} on:click={() => url = `https://${folder}.istrav.net/storefronts`}>storefronts</button>
+    <button class="waves-effect waves-light btn grey" class:active={url === `https://${folder}.istrav.net/leaderboards`} on:click={() => url = `https://${folder}.istrav.net/leaderboards`}>leaderboards</button>
+    <button class="waves-effect waves-light btn grey" class:active={url === `https://${folder}.istrav.net/referrals`} on:click={() => url = `https://${folder}.istrav.net/referrals`}>referrals</button>
+    <button class="waves-effect waves-light btn grey" class:active={url === `https://${folder}.istrav.net/rules`} on:click={() => url = `https://${folder}.istrav.net/rules`}>rules</button>
     <br /><br />
     <div style="max-width: 600px; margin: 0 auto;">
       <h2 class="description" style="color: #aaa;">This is software dedicated to the sharing or exchange of ideas or other messages/files on a network.</h2>

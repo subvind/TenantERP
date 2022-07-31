@@ -45,7 +45,7 @@
         <div class="col s6">
           <div class="card-content">
             <div class="card-title">Start a Trial:</div>
-            Test every feature in /community_folder/ free forever. Some usage limits apply.
+            Test every feature in /istrav/ free forever. Some usage limits apply.
             <br /><br />
             <a href="/client-area" class="btn transparent black-text">Start Your Trial</a>
             <br /><div style="margin-top: 1em; color: #888;">No credit card required.</div>
@@ -54,7 +54,7 @@
         <div class="col s6 demo">
           <div class="card-content">
             <div class="card-title">Grab a Demo:</div>
-            Get a one-on-one walk-through of /community_folder/ with an in-house expert. 
+            Get a one-on-one walk-through of /istrav/ with an in-house expert. 
             <br />
             <br />
             <a href="/contact-me" class="btn red lighten-2">Grab Your Demo</a>

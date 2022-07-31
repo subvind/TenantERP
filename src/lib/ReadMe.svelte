@@ -17,15 +17,15 @@
               <br />My name is Travis. I am a full stack developer. This place is my personal portfolio and ground base for innovating ideas and their brands. Getting started is as simple as just 1-click or chat with <a href="/network-ai">Network AI</a> who is an AI bot.
             </span>
             <br /><br />This website, <a href="//istrav.com">isTrav</a> runs 100% cloud/serverless using CloudFlare's wrangler repository with their KV database and it's frontend is served by Vercel. So it has amazing uptime, expensive, and less likely to have code rot.
-            <br /><br />My platform, <a href="//communityfolder.com" target="_blank">/community_folder/</a> runs 100% on the server and can deploy to Heroku or Kubernetes. It is fully customizable and white-labeled so any developer may fork it. It has a Fair Source 25 (v0.9) license so it's free up until you have 25 active users.
-            <br /><br />Your platform, <a href="#!">/for_example/</a> runs just like my <a href="/platforms">Platform</a> except you have complete access to run it as you wish for as long as you follow the license agreement.
+            <br /><br />My platform, <a href="//istrav.net" target="_blank">/istrav/</a> runs 100% on the server and can deploy to Heroku or Kubernetes. It is fully customizable and white-labeled so any developer may fork it. It has a Fair Source 25 (v0.9) license so it's free up until you have 25 active users.
+            <br /><br />Your platform, <a href="#!">/mybrand/</a> runs just like my <a href="/platforms">Platform</a> except you have complete access to run it as you wish for as long as you follow the license agreement.
             <br /><br />The <a href="/client-area">client area</a>, is where you get to track and manage the progress of your ideas and their platforms. See <a href="/platforms/pricing">pricing levels</a> for developer limits on software usage. Thank you for your support.
           </p>
         </div>
         <div class="card-action">
           <p>
             Anyways, lots of things todo!
-            <br />I'll see you in the <a href="//istrav.communityfolder.com" style="margin: 0; text-transform: capitalize;">Community</a> :)
+            <br />I'll see you in the <a href="//meta.istrav.net" style="margin: 0; text-transform: capitalize;">Community</a> :)
             <br /><img src="/signature.png" class="signature" alt="Travis Burandt" />
             <!-- https://seanlon.github.io/text-signature/ -->
           </p>

@@ -27,7 +27,7 @@
     {
       name: 'istrav-platform-frontgate',
       type: 'web',
-      url: 'https://communityfolder.com',
+      url: 'https://istrav.net',
       git: 'https://github.com/trabur/istrav-platform-frontgate',
       pipeline: 'https://github.com/trabur/istrav-platform-frontgate/actions',
       statusPage: 'https://stats.uptimerobot.com/1nz1rt61VL/791899626',
@@ -36,7 +36,7 @@
     {
       name: 'istrav-platform-frontend',
       type: 'web',
-      url: 'https://istrav.communityfolder.com',
+      url: 'https://meta.istrav.net',
       git: 'https://github.com/trabur/istrav-platform-frontend',
       pipeline: 'https://github.com/trabur/istrav-platform-frontend/actions',
       statusPage: 'https://stats.uptimerobot.com/1nz1rt61VL/791899644',
@@ -46,13 +46,13 @@
       name: 'istrav-platform-backend',
       type: 'backend',
       library: '',
-      url: 'https://communityfolder.istrav.dev',
+      url: 'https://meta.istrav.dev',
       git: 'https://github.com/trabur/istrav-platform-backend',
       pipeline: 'https://github.com/trabur/istrav-platform-backend/actions',
       statusPage: 'https://stats.uptimerobot.com/1nz1rt61VL/791899655',
       kanban: 'https://trello.com/b/nOIdEOSO/istrav-platform-backend',
       restApi: 'https://documenter.getpostman.com/view/129924/Uz5Aqy9r',
-      apiTests: 'https://test-communityfolder-backend.vercel.app',
+      apiTests: 'https://test-platform-backend.vercel.app',
     },
     {
       name: 'istrav-global',

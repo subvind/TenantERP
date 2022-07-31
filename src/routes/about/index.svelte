@@ -47,7 +47,7 @@
             </li>
           </ul>
 
-          Anyways ... the code we are selling on istrav.com is a monolithic platform called /community_folder/ which integrates with other websites and mobile apps.
+          Anyways ... the code we are selling on istrav.com is a monolithic platform called /istrav/ which integrates with other websites and mobile apps.
 
           <h5>What is a platform?</h5>
           In order to sell this code we'll need some sort of Key Management Service or KMS and that's partly what istrav-global does under the hood. The other part is integration with a payment processor called Stripe so code may be billed in a monthly subscription like model. Then lastly is integration with the code we are selling itself; referred to as platforms.
@@ -59,7 +59,7 @@
           These Workers are used with an equally powerful Key Value or KV database. The workers themselves are javascript isolates that have a 0ms cold start and the code runs in over 250 strategic locations around the globe. This istrav-global along with a Single Page App or SPA that runs in a Content Delivery Network or CDN makes isTrav one crazy scalable, performant, and highly available application for client area and business operations. Thus ensuring our clients recieve no downtime.
 
           <h5>Back-End Server</h5>
-          So why not code and deploy every thing to the cloud as Workers? Well, isTrav's monolithic platform or /community_folder/ is deployable to heroku, kubernetes, and bare metal; it is not as redundant as 250 serverless locations however it's much more cost effective.
+          So why not code and deploy every thing to the cloud as Workers? Well, isTrav's monolithic platform or /istrav/ is deployable to heroku, kubernetes, and bare metal; it is not as redundant as 250 serverless locations however it's much more cost effective.
 
           <h5>
             Subscription Management
