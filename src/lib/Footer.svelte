@@ -7,8 +7,9 @@
           <li class=""><a href="/" target="_blank">Made with &hearts; by istrav.com.</a></li>
         </ul>
         <ul class="right">
-          <li><a href={`/resume`}>Resume</a></li>
-          <li><a href={`https://github.com/trabur`}>GitHub</a></li>
+          <li><a href={`https://stream.istrav.dev`}>Stream</a></li>
+          <li><a href={`https://istrav.net`}>Community</a></li>
+          <li><a href={`https://istrav.dev`}>Headquarters</a></li>
         </ul>
       </div>
     </div>
