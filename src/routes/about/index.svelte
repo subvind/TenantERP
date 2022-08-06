@@ -21,7 +21,8 @@
         <div class="card-content">
           <h3 style="margin-top: 0;">Manifesto</h3>
           isTrav's goal is to solve problems using the right solutions, turn ideas into apps that spark joy to the end user, and then to keep production live with what works best.
-
+          
+<!-- 
           <br />
           <br />
           <h4>Software as a Service:</h4>
@@ -129,6 +130,7 @@
           You would be supprised how much faster one can go on a bicycle with gears/shifting and aerodynamics. The same is true with FSDs because they must jump from one role/context to another (marketer, UI/UXer, tester, developer, stager, productioner) and still be performant. A good full stack developer has experience in each area and a desktop setup that gives them more real estate than what a fronty or backy might have. For instance, I have multiple dedicated machines, and a keyboard-video-mouse switch to jump between each machine, then I leave workspaces open inside each machine for each role/context in a FSDs lifecycle. With a single 27 inch monitor and a 4 button switch that can toggle between 4 machines ... I can jump between workspaces and more space is available for other things. 
           <h5>Why would someone hire a single FSD over a devops, fronty, and backy?</h5>
           Start ups are in demand of FSDs because they need not hire extra people. Big companies want to hire talented FSDs so atleast 1 person can explain the entire codebase. Other companies want FSDs because when a team of like minded people get together amazing things can be achievied.
+-->
         </div>
       </div>
     </div>
@@ -140,6 +142,7 @@
           is a successful cyclist. At one point he was the youngest and only cat 1 racer in the United States. He has podiumed at states, nationals, and internationally. That was a long time ago though. He has sense then dropped out of racing competatively and now focuses on his own mental health and his own personal coding projects. Lately he has been getting into training an AI bot that will be his <a href="/network-ai">Network AI</a>; look out for his profile in the Community for more info.
         </div>
       </div>
+      <a href="/resume" class="btn" style="width: 100%;">resume</a>
     </div>
   </div>
 </div>
