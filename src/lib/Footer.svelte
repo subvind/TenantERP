@@ -3,8 +3,8 @@
     <div class="container">
       <div class="nav-wrapper">
         <ul class="">
-          <li class=""><a href="/" target="_blank">isTrav © {new Date().getFullYear()}.</a></li>
-          <li class=""><a href="/" target="_blank">Made with &hearts; by istrav.com.</a></li>
+          <li class=""><a href="/" target="_blank">istrav.com © {new Date().getFullYear()}.</a></li>
+          <li class=""><a href="https://istrav.com" target="_blank">Made with &hearts; by isTrav.</a></li>
         </ul>
         <ul class="right">
           <li><a href={`https://stream.istrav.dev`}>Stream</a></li>
