@@ -1,5 +1,5 @@
 <script>
-  let folder = 'istrav'
+  let folder = 'meta'
   let url = `https://istrav.net`
 </script>
 
