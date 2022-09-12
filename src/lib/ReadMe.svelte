@@ -14,7 +14,7 @@
           <p>
             <span style="font-weight: bold;">
               Hello There!
-              <br />My name is Travis. I am a full stack developer. This place is my personal portfolio and ground base for innovating ideas and their brands. Getting started is as simple as just 1-click or chat with <a href="/network-ai">Network AI</a> who is an AI bot.
+              <br />My name is Travis. I am a full stack developer. This place is my personal portfolio and ground base for innovating ideas and their brands. Getting started is as simple as just 1-click or chat with <a href="/information-transformation">Information Transformation</a> who is an AI bot.
             </span>
             <br /><br />This website, <a href="//istrav.com">isTrav</a> runs 100% cloud/serverless using CloudFlare's wrangler repository with their KV database and it's frontend is served by Vercel. So it has amazing uptime, expensive, and less likely to have code rot.
             <br /><br />My platform, <a href="//istrav.net" target="_blank">/istrav/</a> runs 100% on the server and can deploy to Heroku or Kubernetes. It is fully customizable and white-labeled so any developer may fork it. It has a Fair Source 25 (v0.9) license so it's free up until you have 25 active users.

@@ -51,7 +51,7 @@
 </script>
 	
 <svelte:head>
-	<title>Network AI - isTrav</title>
+	<title>Information Transformation - isTrav</title>
 	<meta name="description" content="isTrav's natural language processor and artificial intelligence is trained to know how to use our software and is especially talented when it comes to networks." />
 </svelte:head>
 
@@ -59,13 +59,10 @@
 	<div class="pattern"></div>
 	<div class="container" style="margin-top: -300px;">
 		<h1 class="title" style="color: #fff;">
-			Network AI
+			Information<br />Transformation
 		</h1>
 		<div class="card">
 			<div class="card-content">
-				<h1 class="title">
-					Timeline:
-				</h1>
 				<div class="card" style="border: 1em solid #000;">
 					<Editor bind:value={message} bind:onChange={onChangeTimeline} />
 				</div>
