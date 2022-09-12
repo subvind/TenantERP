@@ -10,7 +10,7 @@
       <h2 class="description">Kanban / BDD / Tests / Pipelines<br />Reports / Documentation</h2>
       <br />
       <div style="text-align: right">
-        <a href="/contact-me" class="contact btn btn-large red lighten-2">Contact Me</a>
+        <a href="/about" class="contact btn btn-large red lighten-2">About</a>
       </div>
     </div>
   </div>
