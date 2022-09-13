@@ -1,7 +1,7 @@
 <script lang="ts">
 	
 	import Header from "$lib/Header.svelte";
-	import Header2 from "$lib/platforms/Header.svelte";
+	import PricingHeader from "$lib/Pricing/Header.svelte";
 	import ClientArea from "$lib/ClientArea.svelte";
 
   let level = 2
@@ -26,7 +26,7 @@
 
 <Header />
 <div class="wrapper">
-  <Header2 />
+  <PricingHeader />
   <br />
   <br />
   <br />

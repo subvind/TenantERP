@@ -28,9 +28,14 @@
 </script>
 
 <div class="contain">
-  <h1 class="title">
-    Login
-  </h1>
+  <div class="header">
+    <a href="/about">
+      <img src="/anchor.png" alt="" class="anchor">
+    </a>
+    <h1 class="title">
+      Login
+    </h1>
+  </div>
   <form class="card" on:submit={(e) => login(e)}>
     <div class="card-content">
       <div class="row">
@@ -62,10 +67,20 @@
     margin: 0 auto;
   }
 
+  .header {
+    text-align: center;
+  }
+
 	.title {
 		font-weight: 900;
-		font-size: 4.5em;
-		text-align: left;
+		font-size: 2em;
 		margin: 0;
 	}
+
+  .anchor {
+    height: 150px;
+   -webkit-filter: invert(1);
+   filter: invert(1);
+   text-align: center;
+  }
 </style>
