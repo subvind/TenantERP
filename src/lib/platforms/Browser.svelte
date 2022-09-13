@@ -47,6 +47,10 @@
   <div class="container">
     <a class="btn-floating btn-large waves-effect waves-light red lighten-2 platform-btn"><i class="material-icons">arrow_upward</i></a>
     <div class="line"></div>
+    <a href="/about">
+      <img src="/anchor.png" alt="about" style="width: 100px; margin-bottom: -2em;">
+    </a>
+    <div class="line"></div>
     <h3 class="demo-title">Bulletin Board System</h3>
     <button class="waves-effect waves-light btn grey" class:active={url === 'https://istrav.net'} on:click={() => url = `https://istrav.net`}>frontgate</button>
     <button class="waves-effect waves-light btn grey" class:active={url === `https://${folder}.istrav.net`} on:click={() => url = `https://${folder}.istrav.net`}>activity feed</button>
@@ -112,7 +116,7 @@
 
   .line {
     border-left: 1em solid #ee6e73;
-    height: 9em;
+    height: 4em;
     margin: 0 auto;
     width: 0;
   }
