@@ -1,7 +1,7 @@
 
 <div class="anchor">
   <div class="center">
-    <a href="https://stream.istrav.dev" target="_blank">
+    <a href="https://stream.istrav.dev">
       <img src="./anchor.png" alt="isTrav" />
     </a>
     <div class="name">One continuous flow of information.</div>
