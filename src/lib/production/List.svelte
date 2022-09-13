@@ -6,7 +6,7 @@
   <h1 class="title">Production</h1>
   {#each data as record, index}
     {#if index !== 0}
-      <div style="border-left: 1em solid #000; height: 5em; margin-left: calc(390px / 2);"></div>
+      <div style="border-left: 1em solid #000; height: 5em; margin-left: calc(390px / 2 - 0.5em);"></div>
     {/if}
     <div class="record">
       <div class="frame">
@@ -42,6 +42,10 @@
       <br />
     </div>
   {/each}
+  <div style="border-left: 1em solid #000; height: 5em; margin-left: calc(390px / 2 - 0.5em);"></div>
+  <div style="width: 390px;">
+    <img src="/anchor.png" alt="" style="width: 100%; -webkit-filter: invert(1); filter: invert(1);">
+  </div>
 </div>
 
 <style>
