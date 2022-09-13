@@ -13,7 +13,7 @@
     <!-- svelte-ignore a11y-distracting-elements -->
     <div class="description">isTrav's goal is to solve problems using the right solutions, turn ideas into apps that spark joy to the end user, and then to keep production live with what works best.</div>
     <br />
-    <a href="https://istrav.dev" class="btn btn-large blue lighten-2">System Headquarters</a>
+    <a href="https://istrav.dev" class="btn btn-large red lighten-2"><i class="material-icons left">developer_board</i> System Headquarters</a>
     <br />
     <br />
   </div>

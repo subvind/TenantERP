@@ -48,12 +48,12 @@
           <label for="password">Password</label>
         </div>
         <br />
-        <button style="margin-left: 1em;" type='submit' class="waves-effect blue lighten-2 btn">Submit</button>
+        <button style="margin-left: 1em;" type='submit' class="waves-effect red lighten-2 btn">Submit</button>
       </div>
     </div>
   </form>
   <div>
-    <a href="/client-area/join" class="waves-effect red lighten-2 btn" style="float: right;">Register</a>
+    <a href="/client-area/join" class="waves-effect black white-text btn" style="float: right;">Register</a>
     <br />
     <br />
     <br />

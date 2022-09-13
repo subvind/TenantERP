@@ -32,7 +32,7 @@
     <hr>
   {/each}
   <div class="card-content">
-    <a href="https://github.com/trabur?tab=repositories" class="btn btn-large blue lighten-2 fluid" target="_blank">all projects</a>
+    <a href="https://github.com/trabur?tab=repositories" class="btn btn-large red lighten-2 fluid" target="_blank">all projects</a>
   </div>
 </div>
 

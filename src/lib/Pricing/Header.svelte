@@ -10,7 +10,7 @@
     <a href="/about">
       <img src="/anchor.png" alt="" class="anchor">
     </a>
-    <a href="/client-area" class="btn btn-large blue lighten-2">subscribe</a>
+    <a href="/client-area" class="btn btn-large teal lighten-2">subscribe</a>
   </div>
 </div>
 

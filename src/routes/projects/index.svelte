@@ -45,7 +45,7 @@
             Here are links to all of my fair source licensed code on GitHub located under the "trabur" username. I've added a detailed description about each project and ordered them by latest activity. A few projects are just fun small experiements. My current languages and tech stacks of choice are ... Svelte/TypeScript for the web, frontend, and mobile ... NestJS/TypeScript for the backend ... and Wrangler/JavaScript for global workers. When it comes to deploying to production I use GitHub Actions.
           </div>
           <div class="card-action">
-            <a href="https://github.com/trabur" class="btn btn-large blue lighten-2 fluid" target="_blank">GitHub</a>
+            <a href="https://github.com/trabur" class="btn btn-large red lighten-2 fluid" target="_blank">GitHub</a>
           </div>
         </div>
       </div>

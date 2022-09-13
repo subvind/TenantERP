@@ -7,7 +7,7 @@
     <!-- svelte-ignore a11y-distracting-elements -->
     <div class="description">Not open source. Not closed source. The Fair Source License allows everyone to see the source code and makes the software free to use for a limited number of users in your organization. It offers some of the benefits of open source while preserving the ability to charge for the software. <a href="https://fair.io" target="_blank">https://fair.io</a></div>
     <br />
-    <a href="/pricing" class="btn btn-large blue lighten-2">pricing levels</a>
+    <a href="/pricing" class="btn btn-large red lighten-2">pricing levels</a>
   </div>
 </div>
 

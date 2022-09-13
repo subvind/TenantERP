@@ -47,7 +47,7 @@
         </div>
       </div>
       <br />
-      <a href="/pricing" class="btn btn-large blue lighten-2">Pricing Levels</a>
+      <a href="/pricing" class="btn btn-large red lighten-2">Pricing Levels</a>
     </div>
   </div>
 </div>

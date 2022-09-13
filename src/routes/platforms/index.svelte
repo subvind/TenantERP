@@ -33,7 +33,7 @@
 					It doesn't take long to duplicate a platform and rebrand it as your own. To get started checkout the most recent 15 platforms created, in the black bordered box, for inspiration then view our pricing levels, register, and you will have your very own platform by the end of today!
 				</div>
 				<div class="card-action">
-					<a href="/client-area/platforms" class="btn fluid">manage platforms</a>
+					<a href="/client-area/platforms" class="btn fluid red lighten-2">manage platforms</a>
 				</div>
 			</div>
 		</div>

@@ -36,7 +36,7 @@
             <a href={record.kanban} target="_blank" class="btn white black-text">Kanban</a>
         </div>
         <div class="card-action">
-          <a href={record.url} target="_blank" class="btn blue lighten-2">LAUNCH APP</a>
+          <a href={record.url} target="_blank" class="btn red lighten-2">LAUNCH APP</a>
         </div>
       </div>
       <br />
