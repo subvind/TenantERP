@@ -3,6 +3,7 @@
 	import Header from "$lib/Header.svelte";
 	import PricingHeader from "$lib/Pricing/Header.svelte";
 	import ClientArea from "$lib/ClientArea.svelte";
+	import Footer from '$lib/Footer.svelte';
 
   let level = 2
 	let records: any[] = []
@@ -106,9 +107,9 @@
 <br />
 <br />
 <br />
+<Footer />
 
 <style>
-
   .wrapper {
     min-height: 100vh;
   }
