@@ -30,11 +30,14 @@
   <nav class="top">
 		<div class="nav-wrapper">
 			<a href="//meta.istrav.net" class="btn white black-text right" style="margin: 1em 1em 0 0.5em;">community</a>
-			<a href="//istrav.pro" class="btn right white black-text " style="margin: 1em 0.5em;">pro</a>
-			<a href="/ideal-talent" class="btn right white black-text " style="margin: 1em 0.5em;">it</a>
+			<!-- <a href="//istrav.pro" class="btn right white black-text " style="margin: 1em 0.5em;">pro</a>
+			<a href="/ideal-talent" class="btn right white black-text " style="margin: 1em 0.5em;">it</a> -->
       <a href="/" class="brand-logo center">{name}</a>
 			<ul id="nav-mobile" class="right hide-on-med-and-down">
 
+				<li class:active={$page.url.pathname.startsWith('/pricing')}>
+					<a sveltekit:prefetch href="/pricing">Pricing</a>
+				</li>
 				<li class:active={$page.url.pathname.startsWith('/client-area')}>
 					<a sveltekit:prefetch href="/client-area">Client Area</a>
 				</li>

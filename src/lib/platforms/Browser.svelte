@@ -11,7 +11,7 @@
   <h2 class="description">A platform & multi-layered BBS<br /> built for innovating ideas.</h2>
   <br />
   <div style="text-align: center;">
-    <a href="/platforms/pricing" class="btn btn-large blue lighten-2">pricing levels</a>
+    <a href="/pricing" class="btn btn-large blue lighten-2">pricing levels</a>
   </div>
   <br />
   <br />

@@ -19,7 +19,7 @@
             <br /><br />This website, <a href="//istrav.com">isTrav</a> runs 100% cloud/serverless using CloudFlare's wrangler repository with their KV database and it's frontend is served by Vercel. So it has amazing uptime, expensive, and less likely to have code rot.
             <br /><br />My platform, <a href="//istrav.net" target="_blank">/istrav/</a> runs 100% on the server and can deploy to Heroku or Kubernetes. It is fully customizable and white-labeled so any developer may fork it. It has a Fair Source 25 (v0.9) license so it's free up until you have 25 active users.
             <br /><br />Your platform, <a href="#!">/mybrand/</a> runs just like my <a href="/platforms">Platform</a> except you have complete access to run it as you wish for as long as you follow the license agreement.
-            <br /><br />The <a href="/client-area">client area</a>, is where you get to track and manage the progress of your ideas and their platforms. See <a href="/platforms/pricing">pricing levels</a> for developer limits on software usage. Thank you for your support.
+            <br /><br />The <a href="/client-area">client area</a>, is where you get to track and manage the progress of your ideas and their platforms. See <a href="/pricing">pricing levels</a> for developer limits on software usage. Thank you for your support.
           </p>
         </div>
         <div class="card-action">
@@ -47,7 +47,7 @@
         </div>
       </div>
       <br />
-      <a href="/platforms/pricing" class="btn btn-large blue lighten-2">Pricing Levels</a>
+      <a href="/pricing" class="btn btn-large blue lighten-2">Pricing Levels</a>
     </div>
   </div>
 </div>

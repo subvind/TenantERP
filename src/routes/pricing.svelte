@@ -1,6 +1,7 @@
 <script lang="ts">
 	
-	import Header from "$lib/platforms/Header.svelte";
+	import Header from "$lib/Header.svelte";
+	import Header2 from "$lib/platforms/Header.svelte";
 	import ClientArea from "$lib/ClientArea.svelte";
 
   let level = 2
@@ -23,8 +24,9 @@
 	<meta name="description" content="Travis Burandt" />
 </svelte:head>
 
+<Header />
 <div class="wrapper">
-  <Header />
+  <Header2 />
   <br />
   <br />
   <br />
