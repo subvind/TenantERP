@@ -51,7 +51,7 @@
 </script>
 	
 <svelte:head>
-	<title>Information Transformation - isTrav</title>
+	<title>Ideal Talent: Ask/manage a team of AI powered IT bots - isTrav</title>
 	<meta name="description" content="isTrav's natural language processor and artificial intelligence is trained to know how to use our software and is especially talented when it comes to networks." />
 </svelte:head>
 
@@ -59,7 +59,7 @@
 	<div class="pattern"></div>
 	<div class="container" style="margin-top: -300px;">
 		<h1 class="title" style="color: #fff;">
-			Information<br />Transformation
+			Ideal Talent
 		</h1>
 		<div class="card">
 			<div class="card-content">
@@ -67,14 +67,11 @@
 					<Editor bind:value={message} bind:onChange={onChangeTimeline} />
 				</div>
 				<br />
-				<h1 class="title">
-					Log:
-				</h1>
 				<div class="card" style="background: #ee6e73;">
 					<div class="card-content">
 						<a href="https://github.com/trabur" class="btn btn-small black right" target="_blank">settings</a>
-						<div class="card-title">Artificial Intelligence</div>
-						<div class="card-description">We'll show predictions here; just start typing:</div>
+						<div class="card-title">Ask/manage a team of AI powered IT bots:</div>
+						<div class="card-description">(run "> help" for assistance)</div>
 						<br />
 						<Editor bind:value={log} bind:onChange={onChangeLog} />
 					</div>

@@ -108,9 +108,9 @@
       - Diagnose an idea.
     </h1>
     <div class="bump">
-      <div class="description">Our AI chat bot or "Information Transformation" is capable of looking at our historical system logs and database records and can tell you a thing or two about your idea.</div>
+      <div class="description">Our AI chat bot or "Ideal Talent" is capable of looking at our historical system logs and database records and can tell you a thing or two about your idea.</div>
       <br />
-      <a href="/information-transformation" class="btn btn-large red lighten-2">Information Transformation</a>
+      <a href="/ideal-talent" class="btn btn-large red lighten-2">Ideal Talent</a>
     </div>
   </div>
 </div>
