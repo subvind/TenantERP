@@ -5,19 +5,19 @@
 			download: 'https://github.com/trabur/2008-2015',
 			website: 'https://2008-2015.istrav.com',
 			height: '2500px',
-			pdf: ''
+			pdf: 'https://github.com/trabur/2008-2015/raw/master/travis-burandt-resume.pdf'
 		},
 		{
 			download: 'https://github.com/trabur/2016-2021',
 			website: 'https://2016-2021.istrav.com',
 			height: '1000px',
-			pdf: ''
+			pdf: 'https://github.com/trabur/2016-2021/raw/master/travis-burandt-resume.pdf'
 		},
 		{
 			download: 'https://github.com/trabur/2022-now',
 			website: 'https://2022-now.istrav.com',
 			height: '1000px',
-			pdf: ''
+			pdf: 'https://github.com/trabur/2022-now/raw/master/travis-burandt-resume.pdf'
 		},
 	]
 </script>
