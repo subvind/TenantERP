@@ -24,14 +24,16 @@
 
 <svelte:head>
 	<title>Travis Burandt's Resume - isTrav</title>
-	<meta name="description" content="If your looking for talent print out my Resume, send my GitHub to the coding team, and contact me for hire." />
+	<meta name="description" content="(Resume of a FSD) [Full Stack Developer] -Travis Burandt-" />
 </svelte:head>
 
 <div class="container" style="width: 1100px;">
 	<br />
 	<br />
 	<div style="text-align: center;">
-		<h1 style="font-weight: 900;">My Resume</h1>
+		<h3 style="font-weight: 900;">(Resume of a FSD)</h3>
+		<span style="font-size: 4em; font-weight: 900; border-top: 0.2em solid #ee6e73; border-bottom: 0.2em solid #ee6e73;">Full Stack Developer</span>
+		<h3 style="font-weight: 900;">-Travis Burandt-</h3>
 		<a href="#" on:click={() => index = 0} class={`btn btn-large ${index === 0 ? 'red lighten-2' : 'grey'}`}>2008-2015</a>
 		<a href="#" on:click={() => index = 1} class={`btn btn-large ${index === 1 ? 'red lighten-2' : 'grey'}`}>2016-2021</a>
 		<a href="#" on:click={() => index = 2} class={`btn btn-large ${index === 2 ? 'red lighten-2' : 'grey'}`}>2021-NOW</a>
@@ -53,7 +55,7 @@
 </div>
 
 <style>
-	h1 {
+	h3 {
 		margin: 0;
 	}
 	#resume {
