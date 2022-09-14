@@ -35,7 +35,7 @@
 		<span style="font-size: 4em; font-weight: 900; border-top: 0.2em solid #ee6e73; border-bottom: 0.2em solid #ee6e73;">Full Stack Developer</span>
 		<h3 style="font-weight: 900;">-Travis Burandt-</h3>
 		<a href="#" on:click={() => index = 0} class={`btn btn-large ${index === 0 ? 'red lighten-2' : 'grey'}`}>2008-2015</a>
-		<a href="#" on:click={() => index = 1} class={`btn btn-large ${index === 1 ? 'red lighten-2' : 'grey'}`}>2016-2021</a>
+		<a href="#" on:click={() => index = 1} class={`btn btn-large ${index === 1 ? 'red lighten-2' : 'grey'}`}>2016-2022</a>
 		<a href="#" on:click={() => index = 2} class={`btn btn-large ${index === 2 ? 'red lighten-2' : 'grey'}`}>2021-NOW</a>
 	</div>
 	<br />
