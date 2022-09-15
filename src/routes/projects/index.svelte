@@ -54,7 +54,7 @@
             <br /><br />
             As time goes on, technology advances, so we have to update or remove old toolsets with the latest toolsets. The cycle repeats. With each release of some toolset we have to update our skills and knowledge around them; thus, more wisdom becomes available through expereince.
             <br /><br />
-            In the end ... the key to success is about making investments in "learning" + real "life" usage and it's probably one of the smartest things one can do; and the work done here at isTrav reflects that philosophy by showing clear capabilities in field of expertise around coding and FSD.
+            In the end ... the key to success is about making investments in "learning" + real "life" usage and it's probably one of the smartest things one can do; and the work done here at isTrav reflects that philosophy by showing clear capabilities and expertise in the field of coding and FSD.
           </div>
           <div class="card-action" style="padding: 0;">
             <a href="/about" style="display: contents;">
