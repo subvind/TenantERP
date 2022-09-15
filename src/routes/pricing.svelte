@@ -1,7 +1,7 @@
 <script lang="ts">
 	
 	import Header from "$lib/Header.svelte";
-	import PricingHeader from "$lib/pricings/Header.svelte";
+	import PricingHeader from "$lib/pricing/Header.svelte";
 	import ClientArea from "$lib/ClientArea.svelte";
 	import Footer from '$lib/Footer.svelte';
 
