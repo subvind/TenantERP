@@ -42,7 +42,7 @@
           <img src="./travis.jpeg" alt="travis in canada" width="100%" style="padding-bottom: 0.5em; margin-bottom: -1em;" />
           <div class="card-content">
             <div class="card-title">Portfolio</div>
-            Being a self taught coder and adversary of full ownership is one of my core pricipals. These ideals have lead me to be a Full Stack Developer (FSD) and coder. As with any expert their portfolio should demonstrate clear capabilities in their field of expertise. With that said, along side my work, let's get into the details.
+            Being a self taught coder and adversary of full ownership are my two core pricipals. These ideals have lead me to be a Full Stack Developer (FSD) and coder. As with any expert their portfolio should demonstrate clear capabilities in their field of expertise. With that said, along side my work, let's get into the details.
             <br /><br />
             W = (S + K) * E
             <br /><br />
