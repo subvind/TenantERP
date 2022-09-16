@@ -4,7 +4,6 @@
   import TimeAgo from 'javascript-time-ago'
 
   import en from 'javascript-time-ago/locale/en'
-  import { useDeviceLanguage } from "firebase/auth";
 
   TimeAgo.addDefaultLocale(en)
 
@@ -13,8 +12,18 @@
 
   export let records: any
 
+  let showcase = {}
+  let showcaseSelected = 'istrav.pro'
+  let languageSelected = 'Svelte'
+  let languageSelectedIndex = 0
+  let libAndFrameSelected = 'fleet-optimizer'
+  let libAndFrameSelectedIndex = 0
   let technologies = {
     languages: [
+      {
+        name: 'Svelte',
+        projects: ['istrav.pro', 'istrav-platform-frontend', 'istrav-platform-frontgate', 'istrav.stream', 'istrav-headquarters', 'istrav.com']
+      },
       {
         name: 'TypeScript',
         projects: ['pro.istrav.dev', 'fleet-optimizer', 'member-markings', 'family-markings', 'full-stack', 'cosmos', 'istrav-platform-backend']
@@ -24,15 +33,15 @@
         projects: ['talent', 'istrav-global', 'istrav-load-balancer', 'jukebox', 'istrav.dev', 'box-and-creature-kite', 'lead-avatar', 'tester-avatar', 'c-u-l8er-avatar', 'map-maker-avatar']
       },
       {
-        name: 'Svelte',
-        projects: ['istrav.pro', 'istrav-platform-frontend', 'istrav-platform-frontgate', 'istrav.stream', 'istrav-headquarters', 'istrav.com']
-      },
-      {
         name: 'HTML',
         projects: ['2016-2021', '2022-now', '2008-2015', 'ATCH']
       },
     ],
     librariesAndFrameworks: [
+      {
+        name: 'fleet-optimizer',
+        projects: ['istrav.pro']
+      },
       {
         name: 'materializecss',
         projects: ['istrav.pro', 'istrav-platform-frontend', 'istrav-platform-frontgate', 'istrav.stream', 'istrav-headquarters', 'istrav.com']
@@ -87,10 +96,6 @@
       },
       {
         name: 'leaflet-routing-machine',
-        projects: ['istrav.pro']
-      },
-      {
-        name: 'fleet-optimizer',
         projects: ['istrav.pro']
       },
       {
@@ -193,29 +198,54 @@
     // nothing
   })
 </script>
-<h1 class="title">
+<h1 id="technologies"class="title">
   Technologies
 </h1>
 <div class="card">
   <div class="card-content">
     <span class="language">{technologies.languages.length} TOTAL</span> 
-    <a href="" class="name">Languages</a>
+    <a href="#technologies" class="name">Languages</a>
     <hr>
     <span class="description">
       {#each technologies.languages as language, index}
-        {#if index != 0}, {/if}{language.name}
+        {#if index != 0}, {/if}
+        <span on:click={() => {languageSelected = language.name; languageSelectedIndex = index}} class="link" style={languageSelected == language.name ? 'text-decoration: underline;' : ''}>{language.name}</span>
       {/each}
     </span>
   </div>
   <div class="card-content">
     <span class="language">{technologies.librariesAndFrameworks.length} TOTAL</span> 
-    <a href="" class="name">Libraries & Frameworks</a>
+    <a href="#technologies" class="name">Libraries & Frameworks</a>
     <hr>
     <span class="description">
       {#each technologies.librariesAndFrameworks as libAndFrame, index}
-        {#if index != 0}, {/if}{libAndFrame.name}
+        {#if index != 0}, {/if}
+        <span on:click={() => {libAndFrameSelected = libAndFrame.name; libAndFrameSelectedIndex = index}} class="link" style={libAndFrameSelected == libAndFrame.name ? 'text-decoration: underline;' : ''}>{libAndFrame.name}</span>
       {/each}
     </span>
+  </div>
+  <div class="card-content">
+    <span class="language">{technologies.librariesAndFrameworks[libAndFrameSelectedIndex].projects.filter((investment) => {return technologies.languages[languageSelectedIndex].projects.filter((value) => value === investment).length}).length} TOTAL</span> 
+    <a href="#technologies" class="name">Investments</a>
+    <hr>
+    <span class="description">
+      {#each technologies.librariesAndFrameworks[libAndFrameSelectedIndex].projects.filter((investment) => {return technologies.languages[languageSelectedIndex].projects.filter((value) => value === investment).length}) as project, index}
+        {#if index != 0}, {/if}
+        <span class="link" on:click={() => {showcaseSelected = project;}} style={showcaseSelected == project ? 'text-decoration: underline;' : ''}>{project}</span>
+      {/each}
+    </span>
+  </div>
+  <div class="card-content">
+    <span class="language">{showcaseSelected}</span> 
+    <a href="#technologies" class="name">Showcase</a>
+    <hr>
+    <span class="description">
+      {records.filter((r) => {return r.name == showcaseSelected})[0].description}
+    </span>
+    <br /><span class="date">Latest commit: {timeAgo.format(new Date(records.filter((r) => {return r.name == showcaseSelected})[0].pushed_at))} &#8226; {records.filter((r) => {return r.name == showcaseSelected})[0].stargazers_count} Stars</span>
+    <br /><br />
+    <a href={records.filter((r) => {return r.name == showcaseSelected})[0].homepage} target="_blank" class="btn btn-large red lighten-2">homepage</a>
+    <a href={records.filter((r) => {return r.name == showcaseSelected})[0].html_url} target="_blank" class="btn btn-large red lighten-2">Source Code</a>
   </div>
 </div>
 
@@ -228,12 +258,12 @@
       <span class="language">{record.language}</span> 
       <a href={record.html_url} target="_blank" class="name">{record.name}</a>
       <br /><span class="description">{record.description}</span>
-      <br /><span class="date">Updated: {timeAgo.format(new Date(record.updated_at))}</span>
+      <br /><span class="date">Latest commit: {timeAgo.format(new Date(record.pushed_at))} &#8226; {record.stargazers_count} Stars</span>
     </div>
     <hr>
   {/each}
   <div class="card-content">
-    <a href="https://github.com/trabur?tab=repositories" class="btn btn-large red lighten-2 fluid" target="_blank">all projects</a>
+    <a href="https://github.com/trabur?tab=repositories" class="btn btn-large red lighten-2 fluid" target="_blank">projects on github</a>
   </div>
 </div>
 
@@ -263,5 +293,8 @@
   }
   .fluid {
     width: 100%;
+  }
+  .link {
+    cursor: pointer;
   }
 </style>
