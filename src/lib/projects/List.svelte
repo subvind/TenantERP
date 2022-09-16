@@ -128,7 +128,7 @@
       },
       {
         name: 'RESTful API',
-        projects: ['pro.istrav.dev']
+        projects: ['pro.istrav.dev', 'istrav-platform-backend', 'istrav-global']
       },
       {
         name: 'rxjs',
