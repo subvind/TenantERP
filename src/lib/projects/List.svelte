@@ -190,6 +190,10 @@
         name: 'isomer.js',
         projects: ['lead-avatar', 'tester-avatar', 'c-u-l8er-avatar', 'map-maker-avatar']
       },
+      {
+        name: 'cloudflare',
+        projects: ['istrav-global']
+      },
     ],
     stores: []
   }
