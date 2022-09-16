@@ -64,7 +64,6 @@
         </div>
       </div>
       <div class="col s8">
-        test
         {#if records}
           <List records={records} />
         {/if}
