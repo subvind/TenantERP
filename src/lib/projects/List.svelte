@@ -120,11 +120,11 @@
       },
       {
         name: 'pm2',
-        projects: ['istrav-load-balancer']
+        projects: ['istrav-load-balancer', 'istrav-platform-backend', 'pro.istrav.dev']
       },
       {
         name: 'nestjs',
-        projects: ['pro.istrav.dev']
+        projects: ['pro.istrav.dev', 'istrav-platform-backend']
       },
       {
         name: 'RESTful API',
@@ -156,7 +156,7 @@
       },
       {
         name: 'websockets',
-        projects: ['istrav-platform-backend']
+        projects: ['istrav.dev']
       },
       {
         name: 'casl',
@@ -193,6 +193,14 @@
       {
         name: 'cloudflare',
         projects: ['istrav-global']
+      },
+      {
+        name: 'github-actions',
+        projects: ['fleet-optimizer', 'istrav-global']
+      },
+      {
+        name: 'vercel',
+        projects: ['istrav.com', 'istrav-headquarters', '2022-now', '2008-2015', '2016-2021', 'istrav.stream', 'istrav-platform-frontend', 'istrav-platform-frontgate', 'istrav.pro', 'box-and-creature-kite']
       },
     ],
     stores: []
