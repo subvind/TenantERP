@@ -19,9 +19,14 @@
       <h1 class="title">About</h1>
       <div class="card box">
         <div class="card-content">
-          <h3 style="margin-top: 0;">Manifesto</h3>
+          <h4 style="margin-top: 0;">Manifesto</h4>
           isTrav's goal is to solve problems using the right solutions, turn ideas into apps that spark joy to the end user, and then to keep production live with what works best.
-          
+          <h4>Strategy</h4>
+          We achive a new milestone every time someone leaves a star on one of our <a href="/projects">istrav.com/projects</a> GitHub repositories. We show the metric on our site so your appreciation truely matters. A huge shout out to those that support isTrav. Thank you!
+          <h4>Vision</h4>
+          We are the best infrastructure for launching innovative ideas using community platforms; to build a place where people can discover social groups online and explore new posibilities.
+          <h4>Values</h4>
+          [Innovation, SelfTaught, FullOwnership, Honesty, Trust, Integrity, Accountable, Passion, Commitment, Teamwork, Culture]
 <!-- 
           <br />
           <br />
@@ -139,7 +144,7 @@
         <img src="./travis.jpeg" alt="travis in canada" width="100%" style="padding-bottom: 0.5em; margin-bottom: -1em;" />
         <div class="card-content">
           <div class="card-title">Travis Burandt</div>
-          is a successful cyclist. At one point he was the youngest and only cat 1 racer in the United States. He has podiumed at states, nationals, and internationally. That was a long time ago though. He has sense then dropped out of racing competatively and now focuses on his own mental health and his own personal coding projects. Lately he has been getting into training an AI bot that will be his <a href="/ideal-talent">Ideal Talent</a>; look out for his profile in the Community for more info.
+          is a successful cyclist. At one point he was the youngest and only Cat. 1 racer in the United States. He has podiumed at states, nationals, and internationally. That was a long time ago though. He has sense then dropped out of racing competatively and now focuses on his own mental health and his own personal coding projects. Lately he has been getting into training an AI bot that will be his <a href="/ideal-talent">Ideal Talent</a>; look out for his profile in the Community for more info.
         </div>
       </div>
       <a href="/resume" class="btn red lighten-2" style="width: 100%;">resume</a>
