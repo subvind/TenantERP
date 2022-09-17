@@ -60,7 +60,7 @@
       },
       {
         name: 'express',
-        projects: ['talent', 'istrav-platform-backend']
+        projects: ['talent', 'istrav-platform-backend', 'istrav.dev', 'pro.istrav.dev']
       },
       {
         name: 'http-proxy',
@@ -72,7 +72,7 @@
       },
       {
         name: 'node.js',
-        projects: ['talent', 'istrav-load-balancer', 'istrav-platform-backend', 'istrav.dev']
+        projects: ['talent', 'istrav-load-balancer', 'istrav-platform-backend', 'istrav.dev', 'pro.istrav.dev']
       },
       {
         name: 'bootstrap',
