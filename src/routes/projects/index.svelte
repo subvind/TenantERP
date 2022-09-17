@@ -48,7 +48,7 @@
             <br /><br />
             This formula where inputs (Wisdom, Skill, Knowledge, and Experience) are plugged in is one way to measure success; where IMHO skill -> technology and expereince -> projects are important vectors in ones journy throughout their career.
             <br /><br />
-            Now, every coder going down some <a href="https://roadmap.sh" target="_blank">roadmap.sh</a> is going to have their set of tools limited by their enviornment, skill, and/or expereince so it is tough to judge others walking down similar roadmaps unless you have already been there, happen to be a local, or you happen to have GPS.
+            Now, every coder going down some <a href="https://roadmap.sh" target="_blank">roadmap.sh</a> is going to have their set of tools (languages, libraries, frameworks) limited by their enviornment, skill, and/or expereince so it is tough to judge others walking down similar roadmaps unless you have already been there, happen to be a local, or you happen to have GPS.
             <br /><br />
             Obviously, any coder with a limited toolset will yeild results with limited abilities. Such that coders equipped with more powerful and controllable toolsets will yeild results with more capability.
             <br /><br />
