@@ -10,7 +10,7 @@
       <h2 class="description">Kanban / BDD / Tests / Pipelines<br />Reports / Documentation</h2>
       <br />
       <div style="text-align: right">
-        <a href="/about" class="contact btn btn-large red lighten-2">About</a>
+        <a href="/pricing" class="contact btn btn-large red lighten-2">Pricing Levels</a>
       </div>
     </div>
   </div>

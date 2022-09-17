@@ -29,11 +29,12 @@
 			<div class="card">
 				<img src="./travis.jpeg" alt="travis in canada" width="100%" style="padding-bottom: 0.5em; margin-bottom: -1em;" />
 				<div class="card-content">
-					<div class="card-title">Launch Today:</div>
-					It doesn't take long to duplicate a platform and rebrand it as your own. To get started checkout the most recent 15 platforms created, in the black bordered box, for inspiration then view our pricing levels, register, and you will have your very own platform by the end of today!
+					<div class="card-title">Community</div>
+					Every idea needs a community (network of social groups) that provides a feeling of fellowship with others, as a result of sharing common attitudes, interests, and goals. Our software <a href="/platforms">istrav.com/platforms</a> enables just that.
+
 				</div>
 				<div class="card-action">
-					<a href="/client-area/platforms" class="btn fluid red lighten-2">manage platforms</a>
+					<a href="/about" class="btn fluid red lighten-2">about</a>
 				</div>
 			</div>
 		</div>
