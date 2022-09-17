@@ -56,7 +56,7 @@
       },
       {
         name: 'gulp',
-        projects: ['talent', 'jukebox']
+        projects: ['talent', 'jukebox', 'istrav.dev']
       },
       {
         name: 'express',
