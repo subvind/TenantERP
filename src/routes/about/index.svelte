@@ -24,11 +24,11 @@
           <h4>Strategy</h4>
           We achive a new milestone every time someone leaves a star on one of our <a href="/projects">istrav.com/projects</a> GitHub repositories. We show the metric on our site so your appreciation truely matters. A huge shout out to those that support isTrav. Thank you!
           <h4>Vision</h4>
-          We are the best infrastructure for launching innovative ideas using community platforms; to build a place where people can discover social groups online and explore new posibilities.
+          We have the best infrastructure (<a href="/solutions">istrav.com/solutions</a> and <a href="/apps">istrav.com/apps</a>) for incubating innovative ideas using community <a href="/platforms">istrav.com/platforms</a>; to build a place where people can discover social groups online and explore new posibilities.
           <h4>Values</h4>
           [Innovation, SelfTaught, FullOwnership, Honesty, Trust, Integrity, Accountable, Passion, Commitment, Teamwork, Culture]
           <h4>Status</h4>
-          When it comes to our production running projects: most parts are in "active development" ... some parts are in "beta" ... and few parts are considered "stable" and working. Any feedback is welcome.
+          When it comes to our <a href="/production">istrav.com/production</a> running projects: most parts are in "active development" ... some parts are in "beta" ... and few parts are considered "stable" and working. Any feedback is welcome.
           <h4>Contribute</h4>
           Find out what thing you want to do. Find out where that thing could exist in our <a href="/projects">istrav.com/projects</a> and submit a ticket to the related GitHub repo with details about what you are trying to achieve.
           <!-- <h4>Careers</h4>
