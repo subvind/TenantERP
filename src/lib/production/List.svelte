@@ -3,11 +3,10 @@
 </script>
 
 <div class="container">
-  <h1 class="title">Production</h1>
+  <!-- <h1 class="title">Production</h1> -->
+  <div style="margin-left: calc(390px / 2 - 1.9em); margin-bottom: -1em;"><a href="/projects" class="btn btn-large btn-floating black"><i class="material-icons">key</i></a></div>
   {#each data as record, index}
-    {#if index !== 0}
-      <div style="border-left: 1em solid #000; height: 5em; margin-left: calc(390px / 2 - 0.5em);"></div>
-    {/if}
+    <div style="border-left: 1em solid #000; height: 5em; margin-left: calc(390px / 2 - 0.5em);"></div>
     <div class="record">
       <div class="frame">
         <iframe id="frame" title="demo" src={record.url} frameborder="0"></iframe>

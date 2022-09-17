@@ -1,0 +1,75 @@
+
+<div class="main">
+  <div class="container">
+    <br /><br /><br />
+    <div class="slanted">
+      <div class="slanted-left"></div>
+      <div class="slanted-right"></div>
+    </div>
+    <br /><br /><br /><br />
+    <div class="slanted">
+      <div class="slanted-left"></div>
+      <div class="slanted-right"></div>
+    </div>
+    <br /><br /><br /><br />
+    <div class="slanted">
+      <div class="slanted-left"></div>
+      <div class="slanted-right"></div>
+    </div>
+    <div style="text-align: center;">
+      <a href="/about" class="btn white btn-large btn-floating"><i class="material-icons" style="color: #000;">flag</i></a>
+    </div>
+    <br />
+    <h1 style="text-align: center; color: #fff; margin: 0;">{`</Production>`}</h1>
+    <br />
+    <h4 style="text-align: center; max-width: 600px; margin: -0.5em auto 0 auto; color: #eee;">Running deployments that are mission critical. Linked together in a chain by order of importance.</h4>
+    <br />
+    <br />
+    <!-- <p style="color: #eee;"></p> -->
+  </div>
+</div>
+
+<style>
+  .main {
+    background: #111;
+    border-bottom: 1em solid #000;
+    border-top: 1em solid #000;
+    background: repeating-linear-gradient(
+      90deg,
+    #000,
+    #000 10px,
+    #111 10px,
+    #111 20px
+    );
+    background-position: -5px;
+    overflow: hidden;
+  }
+
+  .slanted {
+    display: flex;
+  }
+
+  .slanted-left {
+    margin-top: -75px;
+    flex: 1;
+    height: 100px;
+    -webkit-transform: skewy(-6deg);
+    transform: skewy(-12deg);
+    background-color: #111;
+    border-top: 1em solid #000;
+    border-bottom: 1em solid #000;
+    border-left: 1em solid #000;
+  }
+
+  .slanted-right {
+    margin-top: -75px;
+    flex: 1;
+    height: 100px;
+    -webkit-transform: skewy(6deg);
+    transform: skewy(12deg);
+    background-color: #111;
+    border-top: 1em solid #000;
+    border-bottom: 1em solid #000;
+    border-right: 1em solid #000;
+  }
+</style>
