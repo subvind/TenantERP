@@ -202,6 +202,10 @@
         name: 'vercel',
         projects: ['istrav.com', 'istrav-headquarters', '2022-now', '2008-2015', '2016-2021', 'istrav.stream', 'istrav-platform-frontend', 'istrav-platform-frontgate', 'istrav.pro', 'box-and-creature-kite']
       },
+      {
+        name: 'npm',
+        projects: ['fleet-optimizer']
+      },
     ],
     stores: []
   }
