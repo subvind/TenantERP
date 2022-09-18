@@ -14,7 +14,7 @@
     <br />
     <br />
     <h1 class="title">
-      Frequently Asked Questions
+      Frequently Asked<br /> Questions
     </h1>
     <div class="row">
       <div class="col m6">
@@ -50,6 +50,7 @@
         </ul>
       </div>
     </div>
+    <p style="text-align: center; font-size: 1.3em; margin: 0;">Have any questions of your own? <a href="/contact-me">istrav.com/contact-me</a> for so I can help.</p>
     <br />
     <br />
     <br />
@@ -59,6 +60,8 @@
 
 <style>
   .wrapper {
+    box-shadow: 0 0 8px #000;
+    position: relative;
     border-top: 1em solid #ccc;
     border-bottom: 1em solid #ccc;
     background-color: #ffffff;

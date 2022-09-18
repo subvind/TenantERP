@@ -4,7 +4,10 @@
 	import PricingHeader from "$lib/pricing/Header.svelte";
 	import FAQ from "$lib/pricing/FAQ.svelte";
 	import Footer from '$lib/Footer.svelte';
+  import Benifits from "$lib/pricing/Benifits.svelte";
+  import About from "$lib/About.svelte";
   import ClientArea from "$lib/ClientArea.svelte";
+  import CustomWork from "$lib/pricing/CustomWork.svelte";
 
   let level = 2
 	let records: any[] = []
@@ -102,14 +105,26 @@
   <br />
   <br />
   <br />
+  <br />
+  <br />
+  <Benifits />
   <FAQ />
 </div>
 <br />
 <br />
 <br />
 <br />
-<ClientArea />
 <br />
+<CustomWork />
+<br />
+<br />
+<br />
+<br />
+<About />
+<br />
+<br />
+<br />
+<ClientArea />
 <br />
 <br />
 <br />

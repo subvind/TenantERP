@@ -1,5 +1,5 @@
 <script>
-
+  import Branding from "./Branding.svelte";
 </script>
 
 <div class="top">
@@ -19,9 +19,9 @@
         </a>
         <br />
         <br />
-        <h1 class="title"><span style="font-weight: 900;">isTrav</span>:<br />Manifesto, Strategy, Vision, Values, Status, Contribute, Target</h1>
+        <Branding />
         <br />
-        <a href="/about" class="btn btn-large black white-text">read more</a>
+        <a href="/about" class="btn btn-large black white-text">view details</a>
       </div>
       <br />
       <br />
