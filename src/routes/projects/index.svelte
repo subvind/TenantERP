@@ -27,14 +27,13 @@
 </script>
 
 <svelte:head>
-	<title>Projects - isTrav</title>
-	<meta name="description" content="Here are links to all of my fair source licensed code on GitHub located under the 'trabur' username." />
+	<title>Portfolio of Projects & Technologies - isTrav</title>
+	<meta name="description" content="Being a self taught learner and supporter of full ownership are my two core pricipals. These ideals have lead me to be a Full Stack Developer (FSD) and coder." />
 </svelte:head>
 
+<br />
+<br />
 <div class="wrapper">
-  <Header />
-  <br />
-  <br />
   <div class="container">
     <div class="row">
       <div class="col s4">
@@ -71,6 +70,13 @@
     </div>
   </div>
 </div>
+<br />
+<br />
+<br />
+<br />
+<Header />
+<br />
+<br />
 <br />
 <br />
 <ClientArea />
