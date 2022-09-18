@@ -48,9 +48,9 @@
             <br /><br />
             This formula where inputs (Wisdom, Skill, Knowledge, and Experience) are plugged in is one way to measure success; where IMHO [skill {`<-->`} technology] and [expereince {`<-->`} projects] are important vectors in ones journy throughout their career.
             <br /><br />
-            Now, every coder going down some <a href="https://roadmap.sh" target="_blank">roadmap.sh</a> is going to have their set of tools (languages, libraries, frameworks) limited by their enviornment and/or capability so it is tough to judge (identify & classify) others walking down similar roadmaps unless you have already been there, happen to be a local, or you happen to have GPS.
+            Now, every person going down one <a href="https://roadmap.sh" target="_blank">roadmap.sh</a> or another is going to have their set of tools (languages, libraries, frameworks) limited by their enviornment and/or capability so it is tough to judge (identify & classify) others going down similar roadmaps unless you have already been there, you happen to be a local, or you happen to have GPS.
             <br /><br />
-            Obviously, any coder with a limited toolset will yeild results with limited abilities. Such that coders equipped with more powerful and controllable toolsets will yeild results with more capability.
+            Obviously, any person with a limited toolset will yeild results with limited abilities. Such that people equipped with more powerful and controllable toolsets will yeild results with more capability.
             <br /><br />
             As time goes on, technology advances, so we have to update or remove old toolsets with the latest toolsets. The cycle repeats. With each release of some toolset we have to update our skills and knowledge around them; thus, more wisdom becomes available through expereince.
             <br /><br />
