@@ -24,7 +24,7 @@
           <h4>Strategy</h4>
           We achive a new milestone every time someone leaves a GitHub star on one of our <a href="/projects">istrav.com/projects</a>. We show the metric on our site so your appreciation truely matters. A huge shout out to those that support isTrav. Thank you!
           <h4>Vision</h4>
-          We have the best infrastructure (<a href="/solutions">istrav.com/solutions</a> and <a href="/apps">istrav.com/apps</a>) for incubating innovative ideas using community <a href="/platforms">istrav.com/platforms</a>; to build a place where people can discover social groups online and explore new posibilities.
+          We have the best infrastructure (<a href="/solutions">istrav.com/solutions</a> and <a href="/apps">istrav.com/apps</a>) for incubating innovative ideas using community <a href="/platforms">istrav.com/platforms</a>; to have a place where people can discover social groups online and explore new posibilities.
           <h4>Values</h4>
           [Innovation, SelfTaught, FullOwnership, Honesty, Trust, Integrity, Accountable, Passion, Commitment, Teamwork, Culture]
           <h4>Status</h4>
