@@ -2,8 +2,9 @@
 	
 	import Header from "$lib/Header.svelte";
 	import PricingHeader from "$lib/pricing/Header.svelte";
-	import ClientArea from "$lib/ClientArea.svelte";
+	import FAQ from "$lib/pricing/FAQ.svelte";
 	import Footer from '$lib/Footer.svelte';
+  import ClientArea from "$lib/ClientArea.svelte";
 
   let level = 2
 	let records: any[] = []
@@ -101,8 +102,13 @@
   <br />
   <br />
   <br />
-  <ClientArea />
+  <FAQ />
 </div>
+<br />
+<br />
+<br />
+<br />
+<ClientArea />
 <br />
 <br />
 <br />

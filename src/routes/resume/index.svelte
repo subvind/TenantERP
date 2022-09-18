@@ -1,4 +1,6 @@
 <script lang="ts">
+	import About from '$lib/About.svelte'
+
 	let index: number = 2
 	let links = [
 		{
@@ -53,6 +55,12 @@
 		</nav>
 	</div>
 </div>
+
+<br />
+<br />
+<br />
+<br />
+<About />
 
 <style>
 	h3 {
