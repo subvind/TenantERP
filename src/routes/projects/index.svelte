@@ -48,7 +48,7 @@
             <br /><br />
             This formula where inputs (Wisdom, Skill, Knowledge, and Experience) are plugged in is one way to measure success; where IMHO [skill {`<-->`} technology] and [expereince {`<-->`} projects] are important vectors in ones journy throughout their career.
             <br /><br />
-            Now, every person going down one <a href="https://roadmap.sh" target="_blank">roadmap.sh</a> or another is going to have their set of tools (languages, libraries, frameworks) limited by their enviornment and/or capability so it is tough to judge (identify & classify) and cipher with others going down similar roadmaps unless you have already been there, you happen to be a local, or you happen to have GPS.
+            Now, every person going down one <a href="https://roadmap.sh" target="_blank">roadmap.sh</a> or another is going to have their set of tools (languages, libraries, frameworks) limited by their enviornment and/or capability so it is tough to judge (identify & classify) and communicate cryptographically (the art of writing or solving codes) with others going down related roadmaps unless you have already been there, you happen to be a local, or you happen to have GPS.
             <br /><br />
             Obviously, any person with a limited toolset will yeild results with limited abilities. Such that people equipped with more powerful and controllable toolsets will yeild results with more capability.
             <br /><br />
