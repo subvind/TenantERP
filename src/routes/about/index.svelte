@@ -31,6 +31,8 @@
           When it comes to our <a href="/production">istrav.com/production</a> running projects: most parts are in "active development" ... some parts are in "beta" ... and few parts are considered "stable" and working. Any feedback is welcome.
           <h4>Contribute</h4>
           Find out what thing you want to do. Find out where that thing could exist in our <a href="/projects">istrav.com/projects</a> and submit a ticket to the related GitHub repo with details about what you are trying to achieve.
+          <h4>Target</h4>
+          People with ideas on their mind and are willing to become a member by subscribing to our <a href="/client-area">istrav.com/client-area</a> or <a href="https://istrav.net">istrav.net</a>. Community leaders who are capable of making changes to their organization's underlying infrastructure. Community members who see the value in our goals and are willing to participate.
           <!-- <h4>Careers</h4>
           New job listings will show here. -->
 <!--  
