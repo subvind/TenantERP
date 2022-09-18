@@ -7,7 +7,7 @@
   let message = ''
 
   function contactMe () {
-    alert("Let's talk: travis.burandt@gmail.com ... thank you!")
+    alert("Let's talk: travis.burandt@gmail.com ... cheers!")
   }
 
   function sendEmail(event) {
@@ -29,8 +29,8 @@
 </div>
 <div class="card">
   <div class="card-content">
-    <p>
-      If you like the work I'm doing around here consider <a href="/client-area/join">subscribing</a> to isTrav <span style="text-decoration: underline;">today</span>. If your looking for talent print out my <a href="/resume">Resume</a>, send my <a href="https://github.com/trabur">GitHub</a> to the coding team, and <a href="#!" on:click={() => contactMe()}>contact me</a> for hire.
+    <p style="font-size:  1.2em;">
+      If you like the work I'm doing around here consider <a href="/client-area">subscribing</a> to isTrav <span style="text-decoration: underline;">today</span>. If your looking for talent print out my <a href="/resume">istrav.com/resume</a>, send my <a href="https://github.com/trabur">GitHub</a> to the coding team, and <a href="#" on:click={() => contactMe()}>reach out</a> to me for hire.
     </p>
   </div>
   <form>
