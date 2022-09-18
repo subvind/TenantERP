@@ -42,11 +42,11 @@
           <img src="./travis.jpeg" alt="travis in canada" width="100%" style="padding-bottom: 0.5em; margin-bottom: -1em;" />
           <div class="card-content">
             <div class="card-title">Portfolio</div>
-            Being a self taught learner and supporter of full ownership are my two core pricipals. These ideals have lead me to be a Full Stack Developer (FSD) and coder. As with any expert their portfolio should demonstrate clear capabilities in their field of expertise. With that said, along side my work, let's get into the details.
+            Being a <span style="font-weight: 900;">self taught</span> learner and supporter of <span style="text-decoration: underline;">full ownership</span> are my two core pricipals. These ideals have lead me to be a <span style="text-decoration: underline;">Full Stack Developer (FSD)</span> and <span style="font-weight: 900;">coder</span>. As with any expert their portfolio should demonstrate clear capabilities in their field of expertise. With that said, along side my work, let's get into the details.
             <br /><br />
             W = (S + K) * E
             <br /><br />
-            This formula where inputs (Wisdom, Skill, Knowledge, and Experience) are plugged in is one way to measure success; where IMHO skill -> technology and expereince -> projects are important vectors in ones journy throughout their career.
+            This formula where inputs (Wisdom, Skill, Knowledge, and Experience) are plugged in is one way to measure success; where IMHO [skill {`<-->`} technology] and [expereince {`<-->`} projects] are important vectors in ones journy throughout their career.
             <br /><br />
             Now, every coder going down some <a href="https://roadmap.sh" target="_blank">roadmap.sh</a> is going to have their set of tools (languages, libraries, frameworks) limited by their enviornment, skill, and/or expereince so it is tough to judge others walking down similar roadmaps unless you have already been there, happen to be a local, or you happen to have GPS.
             <br /><br />
@@ -54,7 +54,7 @@
             <br /><br />
             As time goes on, technology advances, so we have to update or remove old toolsets with the latest toolsets. The cycle repeats. With each release of some toolset we have to update our skills and knowledge around them; thus, more wisdom becomes available through expereince.
             <br /><br />
-            In the end ... the key to success is about making investments in "learning" + real "life" usage and it's probably one of the smartest things one can do; and the work done here at isTrav reflects that philosophy by showcasing clear capabilities and expertise in the field of coding and FSD.
+            In the end ... the <span style="font-weight: 900;">key</span> to <span style="text-decoration: underline;">success</span> is about making investments in (S + K) or "learning" and applying those investments to real life (E) or <a href="/production">istrav.com/production</a> and it's probably one of the smartest things one can do (W); and the work done here at isTrav reflects that philosophy by showcasing clear capabilities and expertise in the field of coding and FSD.
           </div>
           <div class="card-action" style="padding: 0;">
             <a href="/about" style="display: contents;">
