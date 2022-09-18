@@ -14,12 +14,12 @@
           <p>
             <span style="font-weight: bold;">
               Hello There!
-              <br />My name is Travis. I am a full stack developer. This place is my personal portfolio and ground base for innovating ideas and their brands. Getting started is as simple as just 1-click or chat with <a href="/ideal-talent">Ideal Talent</a> who is an AI bot.
+              <br />My name is Travis. I am a full stack developer. This collection of websites and apps all under the anchor logo and isTrav branding are for learning, innovating, and progressing. Take a look at our <a href="/about">istrav.com/about</a> page for more on our philosphy, ideals and pricipals.
             </span>
             <br /><br />This website, <a href="//istrav.com">isTrav</a> runs 100% cloud/serverless using CloudFlare's wrangler repository with their KV database and it's frontend is served by Vercel. So it has amazing uptime, expensive, and less likely to have code rot.
             <br /><br />My platform, <a href="//istrav.net" target="_blank">/istrav/</a> runs 100% on the server and can deploy to Heroku or Kubernetes. It is fully customizable and white-labeled so any developer may fork it. It has a Fair Source 25 (v0.9) license so it's free up until you have 25 active users.
-            <br /><br />Your platform, <a href="#!">/mybrand/</a> runs just like my <a href="/platforms">Platform</a> except you have complete access to run it as you wish for as long as you follow the license agreement.
-            <br /><br />The <a href="/client-area">client area</a>, is where you get to track and manage the progress of your ideas and their platforms. See <a href="/pricing">pricing levels</a> for developer limits on software usage. Thank you for your support.
+            <br /><br />Your platform, <a href="#!">/mybrand/</a> runs just like my platform except you have complete access to run it as you wish for as long as you follow the license agreement.
+            <br /><br />The <a href="/client-area">istrav.com/client-area</a>, is where you get to track and manage the progress of your ideas and their platforms. See <a href="/pricing">istrav.com/pricing</a> for developer limits on software usage. Thank you for your support.
           </p>
         </div>
         <div class="card-action">
