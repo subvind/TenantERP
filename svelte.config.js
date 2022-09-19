@@ -10,17 +10,17 @@ const config = {
 	kit: {
 		adapter: adapter(),
 
-		// Override http methods in the Todo forms
-		methodOverride: {
-			allowed: ['PATCH', 'DELETE']
-		},
-    vite: {
-      resolve: {
-        alias: {
-          'node-fetch': 'isomorphic-fetch',
-        },
-      },
-    },
+		// // Override http methods in the Todo forms
+		// methodOverride: {
+		// 	allowed: ['PATCH', 'DELETE']
+		// },
+    // vite: {
+    //   resolve: {
+    //     alias: {
+    //       'node-fetch': 'isomorphic-fetch',
+    //     },
+    //   },
+    // },
 	}
 };
 
