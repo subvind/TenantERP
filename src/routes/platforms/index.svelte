@@ -3,6 +3,7 @@
 	import Browser from "$lib/platforms/Browser.svelte";
 	import ClientArea from "$lib/ClientArea.svelte";
 	import List from "$lib/platforms/List.svelte";
+	import Rocket from "$lib/platforms/Rocket.svelte";
 
 	let records: any[] = [
 		{
@@ -42,6 +43,10 @@
 		</div>
 	</div>
 </div>
+<br />
+<br />
+<br />
+<Rocket />
 <br />
 <br />
 <br />
