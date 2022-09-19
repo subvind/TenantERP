@@ -8,6 +8,7 @@
   import About from "$lib/About.svelte";
   import ClientArea from "$lib/ClientArea.svelte";
   import CustomWork from "$lib/pricing/CustomWork.svelte";
+  import Reason from "$lib/pricing/Reason.svelte";
 
   let level = 2
 	let records: any[] = []
@@ -110,6 +111,7 @@
   <br />
   <br />
   <Benifits />
+  <Reason />
   <FAQ />
 </div>
 <br />

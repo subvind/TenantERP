@@ -1,14 +1,27 @@
-<div class="row">
-  <div class="col s12 m1"></div>
-  <div class="col s12 m10">
-    <div class="container" style="position: relative;">
+
+    <div class="container" style="position: relative; max-width: 900px;">
       <div class="powered-by">
         <h1 class="ribbon">
           <div class="ribbon-content">The Official isTrav</div>
         </h1>
         <div class="padded">
           <br />
-          <div class="names">Manifesto, Strategy, Vision, Values, Status, Contribute, Target</div>
+          <div class="row">
+            <div class="col m4">
+
+              <a href="/about">
+                <img src="/anchor.png" alt="isTrav" style="width: 100%; -webkit-filter: invert(1); filter: invert(1);">
+              </a>
+            </div>
+            <div class="col m8">
+              <div>TRAVIS BURANDT:</div>
+              <div class="names">I am a hard worker. My favorite thing to see is how tech disrupts society. Especially films like Star Trek.</div> 
+              <br />
+              <div>ABOUT:</div>
+              <div class="names">[Manifesto, Strategy, Vision, Values, Status, Contribute, Target]</div> 
+              <div></div>   
+            </div>
+          </div>
           <br />
         </div>
       </div>
@@ -17,9 +30,6 @@
         <div class="slanted-right"></div>
       </div>
     </div>
-  </div>
-  <div class="col s12 m1"></div>
-</div>
 
 <style>
   .container {
@@ -42,7 +52,6 @@
   }
 
   .names {
-    text-align: center;
     font-size: 2em;
     font-weight: 900;
   }

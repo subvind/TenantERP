@@ -13,12 +13,8 @@
       <br />
       <br />
       <br />
+      <br />
       <div style="text-align: center;">
-        <a href="/about">
-          <img src="/anchor.png" alt="isTrav" style="width: 200px; -webkit-filter: invert(1); filter: invert(1);">
-        </a>
-        <br />
-        <br />
         <Branding />
         <br />
         <a href="/about" class="btn btn-large black white-text">view details</a>
@@ -57,16 +53,5 @@
   .evolution {
     width: 50%;
     margin-bottom: -0.5em;;
-  }
-
-  .title {
-    max-width: 600px;
-    margin: 0 auto;
-    text-align: center;
-    color: #000;
-    font-size: 3em;
-    background: #26a69a;
-    padding: 0.5em;
-    border: 5px solid #000;
   }
 </style>
