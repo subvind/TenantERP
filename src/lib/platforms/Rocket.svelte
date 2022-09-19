@@ -40,6 +40,7 @@
     color: #111;
     border-top: 1em solid #000;
     border-bottom: 1em solid #000;
+    overflow: hidden;
   }
 
   .white .header {
