@@ -50,7 +50,7 @@
         </ul>
       </div>
     </div>
-    <p style="text-align: center; font-size: 1.3em; margin: 0;">Have any questions of your own? <a href="/contact-me">istrav.com/contact-me</a> for so I can help.</p>
+    <p style="text-align: center; font-size: 1.3em; margin: 0;">Have any questions of your own? <a href="/contact-me">istrav.com/contact-me</a> so I can help.</p>
     <br />
     <br />
     <br />
