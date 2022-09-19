@@ -1,23 +1,20 @@
 <script>
   import { onMount } from 'svelte';
-  import { browser } from '$app/env';
 
   onMount(async () => {
-    if (browser) {
-      const leaflet = await import('leaflet');
+    const leaflet = await import('leaflet');
 
-      const map = leaflet.map('map', {
-        scrollWheelZoom: false
-      }).setView([30.2672, -97.7431], 13);
+    const map = leaflet.map('map', {
+      scrollWheelZoom: false
+    }).setView([30.2672, -97.7431], 13);
 
-      leaflet.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
-        attribution: '© <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
-      }).addTo(map);
+    leaflet.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+      attribution: '© <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+    }).addTo(map);
 
-      leaflet.marker([30.2672, -97.7431]).addTo(map)
-        .bindPopup('Located in Austin, TX')
-        .openPopup();
-    }
+    leaflet.marker([30.2672, -97.7431]).addTo(map)
+      .bindPopup('Located in Austin, TX')
+      .openPopup();
   });
 </script>
 

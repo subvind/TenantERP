@@ -1,9 +1,6 @@
 <script lang="ts">
-	
-	import Header from "$lib/Header.svelte";
 	import PricingHeader from "$lib/pricing/Header.svelte";
 	import FAQ from "$lib/pricing/FAQ.svelte";
-	import Footer from '$lib/Footer.svelte';
   import Benifits from "$lib/pricing/Benifits.svelte";
   import About from "$lib/About.svelte";
   import ClientArea from "$lib/ClientArea.svelte";
@@ -30,7 +27,6 @@
 	<meta name="description" content="Travis Burandt" />
 </svelte:head>
 
-<Header />
 <div class="wrapper">
   <PricingHeader />
   <br />
@@ -133,7 +129,6 @@
 <br />
 <br />
 <br />
-<Footer />
 
 <style>
   .wrapper {
