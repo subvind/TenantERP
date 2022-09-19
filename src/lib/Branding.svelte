@@ -44,6 +44,7 @@
   .names {
     text-align: center;
     font-size: 2em;
+    font-weight: 900;
   }
 
   /**
