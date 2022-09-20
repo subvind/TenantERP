@@ -1,20 +1,11 @@
 
 <script lang="ts">
   import { onMount } from "svelte";
-  import TimeAgo from 'javascript-time-ago'
-
-  import en from 'javascript-time-ago/locale/en'
-
-  TimeAgo.addDefaultLocale(en)
-
-  // Create formatter (English).
-  const timeAgo = new TimeAgo('en-US')
 
   export let records: any[]
   
   onMount(() => {
     // nothing
-
   })
 </script>
 

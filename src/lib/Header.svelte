@@ -64,13 +64,13 @@
 						<li class:active={$page.url.pathname === '/solutions'}>
 							<a sveltekit:prefetch href="/solutions">Solutions</a>
 						</li>
-						<li class:active={$page.url.pathname === '/apps'}>
+						<li class:active={$page.url.pathname.startsWith('/apps')}>
 							<a sveltekit:prefetch href="/apps">Apps</a>
 						</li>
 						<li class:active={$page.url.pathname.startsWith('/platforms')}>
 							<a sveltekit:prefetch href="/platforms">Platforms</a>
 						</li>
-						<li class:active={$page.url.pathname === '/projects'}>
+						<li class:active={$page.url.pathname.startsWith('/projects')}>
 							<a sveltekit:prefetch href="/projects">Projects</a>
 						</li>
 					</ul>

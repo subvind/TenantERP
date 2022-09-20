@@ -2,9 +2,9 @@
 import { error } from '@sveltejs/kit';
   
 export function load({ params }: any) {
-  if (params.appId) {
+  if (params.projectId) {
     return {
-      appId: params.appId
+      projectId: params.projectId
     };
   }
   

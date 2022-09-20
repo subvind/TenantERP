@@ -1,14 +1,8 @@
 
 <script lang="ts">
   import { onMount } from "svelte";
-  import TimeAgo from 'javascript-time-ago'
 
-  import en from 'javascript-time-ago/locale/en'
-
-  TimeAgo.addDefaultLocale(en)
-
-  // Create formatter (English).
-  const timeAgo = new TimeAgo('en-US')
+  import Time from "svelte-time";
 
   export let records: any
 
@@ -209,11 +203,8 @@
     ],
     stores: []
   }
-  
-  onMount(() => {
-    // nothing
-  })
 </script>
+
 <h1 id="technologies"class="title">
   Technologies
 </h1>
@@ -258,9 +249,11 @@
     <span class="description">
       {records.filter((r) => {return r.name == showcaseSelected})[0].description}
     </span>
-    <br /><span class="date">Latest commit: {timeAgo.format(new Date(records.filter((r) => {return r.name == showcaseSelected})[0].pushed_at))} &#8226; {records.filter((r) => {return r.name == showcaseSelected})[0].stargazers_count} Stars</span>
+    {#if true}
+      <br /><span class="date">Latest commit: <Time relative timestamp={new Date(records.filter((r) => {return r.name == showcaseSelected})[0].pushed_at)} /> &#8226; {records.filter((r) => {return r.name == showcaseSelected})[0].stargazers_count} Stars</span>
+    {/if}
     <br /><br />
-    <a href={records.filter((r) => {return r.name == showcaseSelected})[0].homepage} target="_blank" class="btn btn-large red lighten-2">homepage</a>
+    <a data-sveltekit-reload href={`/projects/${showcaseSelected}`} class="btn btn-large red lighten-2">display</a>
     <a href={records.filter((r) => {return r.name == showcaseSelected})[0].html_url} target="_blank" class="btn btn-large red lighten-2">Source Code</a>
   </div>
 </div>
@@ -273,9 +266,11 @@
   {#each records as record}
     <div class="card-content">
       <span class="language">{record.language}</span> 
-      <a href={record.html_url} target="_blank" class="name">{record.name}</a>
+      <a data-sveltekit-reload href={`/projects/${record.name}`} class="name">{record.name}</a>
       <br /><span class="description">{record.description}</span>
-      <br /><span class="date">Latest commit: {timeAgo.format(new Date(record.pushed_at))} &#8226; {record.stargazers_count} Stars</span>
+      {#if true}
+        <br /><span class="date">Latest commit: <Time relative timestamp={new Date(record.pushed_at)} /> &#8226; {record.stargazers_count} Stars</span>
+      {/if}
     </div>
     <hr>
   {/each}

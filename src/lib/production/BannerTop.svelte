@@ -31,14 +31,14 @@
 
 <style>
   .main {
-    background: #111;
+    background: #222;
     border-bottom: 1em solid #000;
     background: repeating-linear-gradient(
       90deg,
-    #000,
-    #000 10px,
-    #111 10px,
-    #111 20px
+    #222,
+    #222 10px,
+    #333 10px,
+    #333 20px
     );
     background-position: -5px;
     overflow: hidden;
