@@ -20,6 +20,8 @@
 </script>
 
 <div class="container">
+  <a href={`https://github.com/trabur/${project.name}`} class="btn btn-large right red lighten-2 stats" target="_blank"><i class="material-icons left">star</i> Stared = {project.stargazers_count}</a>
+  <a href={`https://github.com/trabur/${project.name}`} class="btn btn-large right red lighten-2 stats" target="_blank"><i class="material-icons left">visibility</i> Watching = {project.watchers_count}</a>
   <h1 class="title">Display</h1>
   <div class="card" style="border: 1em solid #000;">
     {#if project}
@@ -29,10 +31,6 @@
           <a href="#" class="name">{project.name}</a>
           <br /><span class="description white-text">{project.description}</span>
           <br /><span class="date grey-text">Latest commit: <Time relative timestamp={new Date(project.pushed_at)} /> &#8226; {project.stargazers_count} Stars</span>
-        </div>
-        <hr style="border-color: #000;">
-        <div class="card-content">
-          <a href={`https://github.com/trabur/${project.name}`} class="btn btn-large red lighten-2" target="_blank">source code</a>
         </div>
       </div>
     {/if}
@@ -44,6 +42,9 @@
 </div>
 
 <style>
+  .stats {
+    margin: 0.75em 0 0 0.5em;
+  }
 	.title {
 		font-weight: 900;
 		font-size: 4.5em;
