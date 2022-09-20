@@ -45,7 +45,7 @@
             <br /><br />
             W = (S + K) * E
             <br /><br />
-            This formula where inputs (Wisdom, Skill, Knowledge, and Experience) are plugged in is one way to measure success; where IMHO [skill {`<-->`} technology] and [expereince {`<-->`} projects] are important vectors in ones journy throughout their career. Checkout my <a href="/resume">istrav.com/resume</a> to see how I have progressed over the years.
+            This formula where inputs (Wisdom, Skill, Knowledge, and Experience) are plugged in is one way to measure success; where IMHO [skill {`<-->`} technology] and [expereince {`<-->`} repository] are important vectors in ones journy throughout their career. Checkout my <a href="/resume">istrav.com/resume</a> to see how I have progressed over the years.
             <br /><br />
             Now, every person going down one <a href="https://roadmap.sh" target="_blank">roadmap.sh</a> or another is going to have their set of tools (languages, libraries, frameworks) limited by their enviornment and/or capability so it is tough to judge (identify & classify) and communicate cryptographically (the art of writing or solving codes) with others going down related roadmaps unless you have already been there, you happen to be a local, or you happen to have GPS.
             <br /><br />
