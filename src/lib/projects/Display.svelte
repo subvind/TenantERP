@@ -40,7 +40,7 @@
       <SvelteMarkdown {source} />
     </div>
   </div>
-  <a href="/projects" class="btn btn-large red lighten-2">← Back to projects</a>
+  <a href="/projects" class="btn btn-large red lighten-2">← Back to showcase</a>
 </div>
 
 <style>
