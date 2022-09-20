@@ -1,5 +1,6 @@
 
 <script lang="ts">
+  import { GithubAuthProvider } from "firebase/auth";
   import { onMount } from "svelte";
 
   import SvelteMarkdown from 'svelte-markdown'
@@ -28,7 +29,7 @@
       <div class="card" style="margin-top: 0; background: #222;">
         <div class="card-content">
           <span class="language grey-text">{project.language}</span> 
-          <a href="#" class="name">{project.name}</a>
+          <a href={`https://github.com/trabur/${project.name}`} target="_blank" class="name">github.com/trabur/{project.name}</a>
           <br /><span class="description white-text">{project.description}</span>
           <br /><span class="date grey-text">Latest commit: <Time relative timestamp={new Date(project.pushed_at)} /> &#8226; {project.stargazers_count} Stars</span>
         </div>
