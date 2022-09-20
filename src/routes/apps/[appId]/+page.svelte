@@ -2,6 +2,8 @@
   import Header from "$lib/apps/Header.svelte";
   import List from "$lib/apps/List.svelte";
 
+  export let data: any;
+
 	let apps = [
 		{ 
 			name: 'Main Website',
@@ -37,12 +39,12 @@
 </script>
 
 <svelte:head>
-	<title>Applications Produced by isTrav</title>
+	<title>Application: {data.appId} - isTrav</title>
 	<meta name="description" content="Travis Burandt" />
 </svelte:head>
 
 <Header />
-<List apps={apps} selected="istrav.com" />
+<List apps={apps} selected={data.appId} />
 <br />
 <br />
 <br />
