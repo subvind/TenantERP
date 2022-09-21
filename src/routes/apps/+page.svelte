@@ -6,8 +6,7 @@
   import Browser from "$lib/apps/Browser.svelte";
 
 	let apps: any = []
-  let app: any = undefined
-  let selected = "istrav.com"
+  let selected = "default"
 
 	onMount(() => {
     fetch(`/api/apps.json`)
@@ -15,9 +14,6 @@
       .then(data => {
         console.log(data);
         apps = data
-        app = apps.filter((value: any) => {
-          return value.website === selected
-        })[0]
       })
 	})
 </script>
@@ -29,4 +25,3 @@
 
 <Header />
 <Navigation apps={apps} selected={selected} />
-<Browser app={app} selected={selected} />
