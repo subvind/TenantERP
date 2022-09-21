@@ -74,7 +74,7 @@
     <div class="bump">
       <div class="description">There is a market that every idea should target in order to be successful; for instance, perhaps your niche idea solves a pain point in the "cooking" or (etc) industry.</div>
       <br />
-      <a href="/solutions" class="btn btn-large red lighten-2">solutions</a>
+      <a href="/innovation/solutions" class="btn btn-large red lighten-2">solutions</a>
     </div>
   </div>
 </div>

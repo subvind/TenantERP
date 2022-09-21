@@ -1,5 +1,5 @@
 
 <svelte:head>
-	<title>Solutions - isTrav</title>
+	<title>Innovation - isTrav</title>
 	<meta name="description" content="Travis Burandt" />
 </svelte:head>

@@ -5,9 +5,9 @@
       Programs
     </h1>
     <!-- svelte-ignore a11y-distracting-elements -->
-    <div class="description">or applications are pieces of software designed and written to fulfill a particular purpose of the user. The primary reason why people choose our software is because they believe in our principals. Others choose us because of all the innovative solutions that we have to offer.</div>
+    <div class="description">or applications are pieces of software designed and written to fulfill a particular purpose of the user. The primary reason why people choose our software is because they believe in our principals. Others choose us because of all the innovation that we have done to our features and our solutions solve their pain points for their unique industry(s).</div>
     <br />
-    <a href="/solutions" class="btn btn-large white black-text">features & use cases</a>
+    <a href="/innovation" class="btn btn-large white black-text">innovation</a>
   </div>
 </div>
 

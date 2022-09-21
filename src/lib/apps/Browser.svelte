@@ -1,21 +1,19 @@
-<script>
-  let folder = 'meta'
-  let url = `https://istrav.net`
+<script lang="ts">
+  export let selected: string = `istrav.net`
+  export let app: any
 </script>
 
 <div class="header">
   <br />
   <br />
   <br />
-  <h1 class="title">Launch Today</h1>
-  <h2 class="description">A platform & multi-layered BBS<br /> built for innovating ideas.</h2>
-  <br />
-  <div style="text-align: center;">
-    <a href="/pricing" class="btn btn-large red lighten-2">pricing levels</a>
+  <div class="container">
+    <div class="title">
+      {#if app}
+        {app.name}
+      {/if}
+    </div>
   </div>
-  <br />
-  <br />
-  <br />
   <div class="browser z-depth-5">
     <div class="toolbar">
       <div class="column left">
@@ -24,7 +22,7 @@
         <span class="dot" style="background:#5AC05A;"></span>
       </div>
       <div class="column middle">
-        <input type="text" value={url}>
+        <input type="text" value={`https://${selected}`}>
       </div>
       <div class="column right">
         <div style="float:right">
@@ -34,39 +32,35 @@
         </div>
       </div>
     </div>
-  
     <div class="content">
       <div id="wrap">
-        <iframe id="frame" title="demo" src={url} frameborder="0"></iframe>
+        <iframe id="frame" title="demo" src={`https://${selected}`} frameborder="0"></iframe>
       </div>
     </div>
   </div>
-</div>
-
-<div class="panel">
-  <div class="container">
-    <a class="btn-floating btn-large waves-effect waves-light red lighten-2 platform-btn"><i class="material-icons">arrow_upward</i></a>
-    <div class="line"></div>
-    <a href="/about">
-      <img src="/anchor.png" alt="about" style="width: 100px; margin-bottom: -2em;">
-    </a>
-    <div class="line"></div>
-    <h3 class="demo-title">Bulletin Board System</h3>
-    <button class="waves-effect waves-light btn grey" class:active={url === 'https://istrav.net'} on:click={() => url = `https://istrav.net`}>frontgate</button>
-    <button class="waves-effect waves-light btn grey" class:active={url === `https://${folder}.istrav.net`} on:click={() => url = `https://${folder}.istrav.net`}>activity feed</button>
-    <button class="waves-effect waves-light btn grey" class:active={url === `https://${folder}.istrav.net/forums`} on:click={() => url = `https://${folder}.istrav.net/forums`}>forums</button>
-    <button class="waves-effect waves-light btn grey" class:active={url === `https://${folder}.istrav.net/blogs`} on:click={() => url = `https://${folder}.istrav.net/blogs`}>blogs</button>
-    <button class="waves-effect waves-light btn grey" class:active={url === `https://${folder}.istrav.net/calendars`} on:click={() => url = `https://${folder}.istrav.net/calendars`}>calendars</button>
-    <button class="waves-effect waves-light btn grey" class:active={url === `https://${folder}.istrav.net/downloads`} on:click={() => url = `https://${folder}.istrav.net/downloads`}>downloads</button>
-    <button class="waves-effect waves-light btn grey" class:active={url === `https://${folder}.istrav.net/storefronts`} on:click={() => url = `https://${folder}.istrav.net/storefronts`}>storefronts</button>
-    <button class="waves-effect waves-light btn grey" class:active={url === `https://${folder}.istrav.net/leaderboards`} on:click={() => url = `https://${folder}.istrav.net/leaderboards`}>leaderboards</button>
-    <button class="waves-effect waves-light btn grey" class:active={url === `https://${folder}.istrav.net/referrals`} on:click={() => url = `https://${folder}.istrav.net/referrals`}>referrals</button>
-    <button class="waves-effect waves-light btn grey" class:active={url === `https://${folder}.istrav.net/rules`} on:click={() => url = `https://${folder}.istrav.net/rules`}>rules</button>
-    <br /><br />
-    <div style="max-width: 600px; margin: 0 auto;">
-      <h2 class="description" style="color: #aaa;">This is software dedicated to the sharing or exchange of ideas or other messages/files on a network.</h2>
+  <div class="container" style="max-width: 600px; border-top: 1em solid #000;"></div>
+  <div style="border-left: 1em solid #000; height: 5em; width: 0; margin: 0 auto;"></div>
+  {#if app}
+    <div class="container" style="max-width: 600px;">
+      <div class="card z-depth-5" style="margin: 0 auto; background: #eee;">
+        <div style="text-align: center; height: 0;">
+          <a href={app.url} class="btn btn-floating btn-large black white-text" style="margin-top: -2em;"><i class="material-icons">public</i></a>
+        </div>
+        <div class="card-image">
+          <!-- <img src="images/sample-1.jpg"> -->
+        </div>
+        <div class="card-content">
+          <span class="card-title">{app.name}</span>
+          <p>I am a very simple card. I am good at containing small bits of information.
+          I am convenient because I require little markup to use effectively.</p>
+        </div>
+        <div class="card-action">
+          <a class="btn red lighten-2" href={app.url}>{app.website}</a>
+        </div>
+      </div>
     </div>
-  </div>
+  {/if}
+  <br />
   <br />
   <br />
   <br />
@@ -74,19 +68,12 @@
 </div>
 
 <style>
-  .platform-btn {
-    margin: -1.9em;
-    position: absolute;
-  }
 
-  .active {
-    background: #fff !important;
-    color: #000 !important;
-  }
-
-  .header {    
+  .header {
     background-color: #cccccc;
     background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100' height='100' viewBox='0 0 100 100'%3E%3Cg fill-rule='evenodd'%3E%3Cg fill='%23bbbbbb' fill-opacity='1'%3E%3Cpath opacity='.5' d='M96 95h4v1h-4v4h-1v-4h-9v4h-1v-4h-9v4h-1v-4h-9v4h-1v-4h-9v4h-1v-4h-9v4h-1v-4h-9v4h-1v-4h-9v4h-1v-4h-9v4h-1v-4H0v-1h15v-9H0v-1h15v-9H0v-1h15v-9H0v-1h15v-9H0v-1h15v-9H0v-1h15v-9H0v-1h15v-9H0v-1h15v-9H0v-1h15V0h1v15h9V0h1v15h9V0h1v15h9V0h1v15h9V0h1v15h9V0h1v15h9V0h1v15h9V0h1v15h9V0h1v15h4v1h-4v9h4v1h-4v9h4v1h-4v9h4v1h-4v9h4v1h-4v9h4v1h-4v9h4v1h-4v9h4v1h-4v9zm-1 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-9-10h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm9-10v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-9-10h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm9-10v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-9-10h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm9-10v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-9-10h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9z'/%3E%3Cpath d='M6 5V0H5v5H0v1h5v94h1V6h94V5H6z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+    border-top: 1em solid #000;
+    border-bottom: 1em solid #000;
   }
 
   .title {
@@ -94,32 +81,8 @@
     color: #000;
 		font-size: 4.5em;
     margin: 0;
-    text-align: center;
   }
 
-  .description {
-    color: #000;
-    font-size: 2.5em;
-    margin: 0;
-    text-align: center;
-  }
-
-  .demo-title {
-    font-weight: 900;
-    color: #eee;
-		font-size: 4.5em;
-    margin: 0;
-    text-align: center;
-    margin-bottom: 0.2em;
-    border: 0.2em solid #ee6e73;
-  }
-
-  .line {
-    border-left: 1em solid #ee6e73;
-    height: 4em;
-    margin: 0 auto;
-    width: 0;
-  }
 
   /* The browser window */
   .browser {
@@ -127,7 +90,9 @@
     border: 3px solid #f1f1f1;
     border-top-left-radius: 4px;
     border-top-right-radius: 4px;
-    border-bottom: 0;
+    border-bottom-left-radius: 4px;
+    border-bottom-right-radius: 4px;
+    /* border-bottom: 0; */
     max-width: 900px;
     margin: 0 auto;
   }
@@ -204,14 +169,14 @@
 
   #wrap {
     width: 900px;
-    height: 490px;
+    height: 690px;
     padding: 0;
     overflow: hidden; 
   }
   
   #frame {
     width: 1200px;
-    height: 660px;
+    min-height: 920px;
     border: 0;
   }
 
