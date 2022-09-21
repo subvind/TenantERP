@@ -33,8 +33,8 @@
 </script>
 
 <div class="container">
-  <a href={`https://github.com/trabur/${project.name}`} class="btn btn-large right red lighten-2 stats" target="_blank"><i class="material-icons left">star</i> Starred = {project.stargazers_count}</a>
-  <a href={`https://github.com/trabur/${project.name}`} class="btn btn-large right red lighten-2 stats" target="_blank"><i class="material-icons left">visibility</i> Watching = {project.watchers_count}</a>
+  <a href={`https://github.com/trabur/${project.name}`} class="btn btn-large right red lighten-2 stats" target="_blank"><i class="material-icons left">star</i> Stars = {project.stargazers_count}</a>
+  <a href={`https://github.com/trabur/${project.name}`} class="btn btn-large right red lighten-2 stats" target="_blank"><i class="material-icons left">visibility</i> Watchers = {project.watchers_count}</a>
   <h1 class="title">Display</h1>
   <div class="card" style="border: 1em solid #000;">
     {#if project}
