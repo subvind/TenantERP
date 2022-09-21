@@ -11,6 +11,7 @@
 
   let source = ``
   let builtWith: any = []
+  let selectedApp: string = ''
 
   onMount(async () => {
     let el = document.querySelectorAll('.tabs')
@@ -28,6 +29,13 @@
       .then(data => {
         console.log(data);
         builtWith = data
+      })
+
+    fetch(`/api/built-with.json`)
+      .then(response => response.json())
+      .then(data => {
+        console.log(data);
+        selectedApp = data[project.name]
       })
   })
 </script>
@@ -57,7 +65,7 @@
     </div>
     <div id="built-with" class="card-content">
       <h1 class="title">Applications</h1>
-      <AppList selected="" apps={builtWith} />
+      <AppList selected={selectedApp} apps={builtWith} />
     </div>
   </div>
   <a href="/projects" class="btn btn-large red lighten-2">← Back to showcase</a>
