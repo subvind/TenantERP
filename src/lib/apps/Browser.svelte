@@ -80,7 +80,7 @@
     font-weight: 900;
     color: #000;
 		font-size: 4.5em;
-    margin: 0;
+    text-align: center;
   }
 
 
