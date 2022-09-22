@@ -22,7 +22,7 @@
     <br />
     <h1 style="text-align: center; color: #fff; margin: 0;">{`</Production>`}</h1>
     <br />
-    <h4 style="text-align: center; max-width: 600px; margin: -0.5em auto 0 auto; color: #eee;">Running deployments that are mission critical. Linked together in a chain by order of importance.</h4>
+    <h4 style="text-align: center; max-width: 600px; margin: -0.5em auto 0 auto; color: #ccc;">Running deployments that are mission critical. Linked together in a chain by order of importance.</h4>
     <br />
     <br />
     <!-- <p style="color: #eee;"></p> -->
