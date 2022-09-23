@@ -1,15 +1,52 @@
+<div style="background: #fff; border-top: 1em solid #000;">
+  <br />
+  <br />
+  <br />
+  <br />
+  <div class="container">
+    <div class="row">
+      <div class="col m8">
+        <h1 class="title black-text">White Label</h1>
+        <div class="description black-text">Clone our apps then roll with your own name and logo.</div>
+        <br />
+        <div class="white-label">
+          <button class="btn btn-large white black-text">idea.com</button>
+          <button class="btn btn-large white black-text">idea.net</button>
+          <button class="btn btn-large white black-text">idea.pro</button>
+          <button class="btn btn-large white black-text">idea.top</button>
+          <button class="btn btn-large white black-text">idea.one</button>
+          <button class="btn btn-large white black-text">idea.dev</button>
+        </div>
+      </div>
+      <div class="col m4" style="text-align: right;">
+        <a href="/about" style="">
+          <img src="/anchor.png" class="anchor" alt="isTrav">
+        </a>
+      </div>
+    </div>
+  </div>
+  <br />
+  <br />
+  <br />
+  <br />
+</div>
 <div class="circut z-depth-5" style="position: relative;">
   <div class="it-panel">
-    
     <br />
     <br />
     <br />
     <br />
+    <div class="container">
+      <h1 class="title">Solid Branding</h1>
+      <div class="description">Concepts that promote a single image across all apps.</div>
+    </div>
   </div>
   <!-- https://getwaves.io/ -->
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#42a5f5" fill-opacity="1" d="M0,320L14.1,266.7C28.2,213,56,107,85,96C112.9,85,141,171,169,202.7C197.6,235,226,213,254,197.3C282.4,181,311,171,339,186.7C367.1,203,395,245,424,245.3C451.8,245,480,203,508,208C536.5,213,565,267,593,266.7C621.2,267,649,213,678,170.7C705.9,128,734,96,762,106.7C790.6,117,819,171,847,197.3C875.3,224,904,224,932,192C960,160,988,96,1016,106.7C1044.7,117,1073,203,1101,224C1129.4,245,1158,203,1186,154.7C1214.1,107,1242,53,1271,53.3C1298.8,53,1327,107,1355,149.3C1383.5,192,1412,224,1426,240L1440,256L1440,0L1425.9,0C1411.8,0,1384,0,1355,0C1327.1,0,1299,0,1271,0C1242.4,0,1214,0,1186,0C1157.6,0,1129,0,1101,0C1072.9,0,1045,0,1016,0C988.2,0,960,0,932,0C903.5,0,875,0,847,0C818.8,0,791,0,762,0C734.1,0,706,0,678,0C649.4,0,621,0,593,0C564.7,0,536,0,508,0C480,0,452,0,424,0C395.3,0,367,0,339,0C310.6,0,282,0,254,0C225.9,0,198,0,169,0C141.2,0,113,0,85,0C56.5,0,28,0,14,0L0,0Z"></path></svg>
-  <br />
-  <br />
+  <div class="container">
+    <h1 class="title">Dot Notation</h1>
+    <div class="description">Navigate through an idea using top level domain names.</div>
+  </div>
   <br />
   <br />
   <br />
@@ -28,5 +65,28 @@
     background-color: #42a5f5;
     overflow: hidden;
     color: #fff;
+  }
+
+  .title {
+    font-weight: 900;
+    font-size: 4.5em;
+    text-align: left;
+    margin: 0;
+    color: #fff;
+  }
+
+  .description {
+    color: #fff;
+    font-size: 1.5em;
+  }
+
+  .white-label button {
+    margin: 0 0.2em 0.5em 0;
+  }
+
+  .anchor {
+    height: 200px;
+    -webkit-filter: invert(1);
+    filter: invert(1);
   }
 </style>

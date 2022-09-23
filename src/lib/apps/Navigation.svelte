@@ -15,6 +15,10 @@
     <h1 class="title">
       Applications
     </h1>
+    <div class="description">
+      Made with &hearts; by isTrav:
+    </div>
+    <br />
     {#if apps.length && selected}
       <List selected={selected} apps={apps} />
     {:else}
@@ -71,5 +75,9 @@
     font-size: 4.5em;
     text-align: left;
     margin: 0;
+  }
+  .description {
+    color: #111;
+    font-size: 1.5em;
   }
 </style>

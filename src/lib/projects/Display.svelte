@@ -65,6 +65,10 @@
     </div>
     <div id="built-with" class="card-content">
       <h1 class="title">Applications</h1>
+      <div class="description">
+        Made with &hearts; by isTrav:
+      </div>
+      <br />
       <AppList selected={selectedApp} apps={builtWith} />
     </div>
   </div>
