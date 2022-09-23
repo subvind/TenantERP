@@ -5,7 +5,7 @@
       Cultivate Ideas
     </h1>
     <!-- svelte-ignore a11y-distracting-elements -->
-    <div class="description">With a practical Innovation Management System (IMS)...</div>
+    <div class="description">Practical usage of an Innovation Management System (IMS)...</div>
     <ul class="pattern">
       <li>
         users may: implement ideas that result in the introduction of new goods or services or improvement in offering goods or services; it is for <span style="text-decoration: underline;">innovation</span>.

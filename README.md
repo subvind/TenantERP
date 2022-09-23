@@ -1,6 +1,6 @@
 istrav.com
 ========
-Innovation Management Software (IMS)
+Innovation Management System (IMS)
 
 istrav source code:
 - istrav.com: https://github.com/trabur/istrav.com

@@ -7,11 +7,15 @@
   <br />
   <br />
   <br />
-  <h1 class="title">Launch Today</h1>
-  <h2 class="description">A platform & multi-layered BBS<br /> built for innovating ideas.</h2>
+  <h1 class="title">Launch Ideas</h1>
+  <div class="description" style="color: #000;">Stage zero of an Innovation Management System (IMS)...</div>
   <br />
+  <div style="max-width: 500px; margin: 0 auto;">
+    <div class="description" style="color: #333;">Community run multi-layered bulletin board system dedicated to the sharing or exchange of ideas or other messages/files on a network.</div>
+    <br />
+  </div>
   <div style="text-align: center;">
-    <a href="/pricing" class="btn btn-large red lighten-2">pricing levels</a>
+    <a href="/platforms" class="btn btn-large black white-text">platforms</a>
   </div>
   <br />
   <br />
@@ -63,9 +67,6 @@
     <button class="waves-effect waves-light btn grey" class:active={url === `https://${folder}.istrav.net/referrals`} on:click={() => url = `https://${folder}.istrav.net/referrals`}>referrals</button>
     <button class="waves-effect waves-light btn grey" class:active={url === `https://${folder}.istrav.net/rules`} on:click={() => url = `https://${folder}.istrav.net/rules`}>rules</button>
     <br /><br />
-    <div style="max-width: 600px; margin: 0 auto;">
-      <h2 class="description" style="color: #aaa;">This is software dedicated to the sharing or exchange of ideas or other messages/files on a network.</h2>
-    </div>
   </div>
   <br />
   <br />
@@ -98,8 +99,8 @@
   }
 
   .description {
-    color: #000;
-    font-size: 2.5em;
+    color: #ccc;
+    font-size: 1.5em;
     margin: 0;
     text-align: center;
   }
@@ -229,8 +230,8 @@
     padding: 2em;
     padding-top: 0;
     text-align: center;
-    background-color: #000000;
-    background-image: url("data:image/svg+xml,%3Csvg width='42' height='44' viewBox='0 0 42 44' xmlns='http://www.w3.org/2000/svg'%3E%3Cg id='Page-1' fill='none' fill-rule='evenodd'%3E%3Cg id='brick-wall' fill='%23111111' fill-opacity='1'%3E%3Cpath d='M0 0h42v44H0V0zm1 1h40v20H1V1zM0 23h20v20H0V23zm22 0h20v20H22V23z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+    background-color: #222222;
+    background-image: url("data:image/svg+xml,%3Csvg width='42' height='44' viewBox='0 0 42 44' xmlns='http://www.w3.org/2000/svg'%3E%3Cg id='Page-1' fill='none' fill-rule='evenodd'%3E%3Cg id='brick-wall' fill='%23333333' fill-opacity='1'%3E%3Cpath d='M0 0h42v44H0V0zm1 1h40v20H1V1zM0 23h20v20H0V23zm22 0h20v20H22V23z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
   }
 
   .panel button {

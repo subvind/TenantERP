@@ -6,20 +6,22 @@
 <div class="github">
   <div class="container">
     <h1 class="title">
-      Projects
+      Maintain Ideas
     </h1>
-    <!-- svelte-ignore a11y-distracting-elements -->
+    <div class="description" style="color: #fff;">Moving parts of an Innovation Management System (IMS)...</div>
+    <br />
     <div class="description">
       {#if projects}
         {#each projects as project, index}
           {#if index !== 0},{` `}{/if}
-          <a data-sveltekit-reload href={`/projects/${project.name}`} style="color: #fff;">{project.name}</a>
+          <a data-sveltekit-reload href={`/projects/${project.name}`}>{project.name}</a>
         {/each}
       {/if}
     </div>
     <br />
-    <a href="/projects" class="btn btn-large white black-text">showcase</a>
+    <a href="/projects" class="btn btn-large white black-text">projects</a>
   </div>
+  <br />
 </div>
 
 <style>
@@ -39,7 +41,10 @@
     color: #fff;
   }
   .github .description {
-    color: #fff;
+    color: #ccc;
     font-size: 1.5em;
+  }
+  .github .description a {
+    color: #ccc;
   }
 </style>

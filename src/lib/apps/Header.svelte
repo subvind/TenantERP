@@ -1,33 +1,41 @@
 
-<div class="fair-source">
+<div class="routing">
   <div class="container">
     <h1 class="title">
-      Programs
+      Route Ideas
     </h1>
     <!-- svelte-ignore a11y-distracting-elements -->
-    <div class="description">or applications are pieces of software designed and written to fulfill a particular purpose of the user. The primary reason why people choose our software is because they believe in our principals. Others choose us because of all the innovation that we have done to our features and our solutions solve their pain points for their unique industry(s).</div>
+    <div class="ims">Pieces of an Innovation Management System (IMS)...</div>
+    <br />
+    <div class="description">Our apps are programs (which are pieces of software) that enable users to cultivate, route, launch, and maintain their ideas; they are designed and written by us to fulfill the objectives as outlined at <a href="/innovation">istrav.com/innovation</a>. The primary reason why people choose our software is because they believe in our principals. Others choose us because of all the progress that we have made to our features and our solutions solve their pain points for their particular industry(s).</div>
+    <br />
     <br />
     <a href="/apps" class="btn btn-large white black-text">apps made by us</a>
   </div>
+  <br />
 </div>
 
 <style>
   .container {
     padding: 5em 0;
   }
-  .fair-source {
+  .routing {
     border-bottom: 1em solid #000;
     background-color: #222222;
     background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='88' height='24' viewBox='0 0 88 24'%3E%3Cg fill-rule='evenodd'%3E%3Cg id='autumn' fill='%23333333' fill-opacity='1'%3E%3Cpath d='M10 0l30 15 2 1V2.18A10 10 0 0 0 41.76 0H39.7a8 8 0 0 1 .3 2.18v10.58L14.47 0H10zm31.76 24a10 10 0 0 0-5.29-6.76L4 1 2 0v13.82a10 10 0 0 0 5.53 8.94L10 24h4.47l-6.05-3.02A8 8 0 0 1 4 13.82V3.24l31.58 15.78A8 8 0 0 1 39.7 24h2.06zM78 24l2.47-1.24A10 10 0 0 0 86 13.82V0l-2 1-32.47 16.24A10 10 0 0 0 46.24 24h2.06a8 8 0 0 1 4.12-4.98L84 3.24v10.58a8 8 0 0 1-4.42 7.16L73.53 24H78zm0-24L48 15l-2 1V2.18A10 10 0 0 1 46.24 0h2.06a8 8 0 0 0-.3 2.18v10.58L73.53 0H78z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
 	}
-  .fair-source .title {
+  .routing .title {
     font-weight: 900;
     font-size: 4.5em;
     text-align: left;
     margin: 0;
     color: #fff;
   }
-  .fair-source .description {
+  .routing .description {
+    color: #ccc;
+    font-size: 1.5em;
+  }
+  .routing .ims {
     color: #fff;
     font-size: 1.5em;
   }
