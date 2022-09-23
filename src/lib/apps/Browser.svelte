@@ -44,7 +44,7 @@
     <div class="container" style="max-width: 600px;">
       <div class="card z-depth-5" style="margin: 0 auto; background: #eee;">
         <div style="text-align: center; height: 0;">
-          <a href={app.url} class="btn btn-floating btn-large black white-text" style="margin-top: -2em;"><i class="material-icons">public</i></a>
+          <a href={`https://${app.website}`} target="_blank" class="btn btn-floating btn-large black white-text" style="margin-top: -2em;"><i class="material-icons">public</i></a>
         </div>
         <div class="card-image">
           <!-- <img src="images/sample-1.jpg"> -->
