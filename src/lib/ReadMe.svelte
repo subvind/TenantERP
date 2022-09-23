@@ -41,7 +41,7 @@
           <div class="card-title">
             Innovation Management System (IMS)
           </div>
-          as a Service (SaaS)... is a collection of tools for cultivating, routing, launching, and maintaining ideas (a thought or suggestion as to a possible course of action.) that we provide for our clients; with an IMS strategy an idea's full life cycle may be tracked from creation to taking action and turning it into a reality. Our client area allows idea founders or product owners to put their ideas on platforms which are backed by a bulletin board system where users can multi-layer network with one another and share content and other messages/files all in relation to the founder's idea.
+          as a Service (SaaS)... is a collection of tools for cultivating, routing, launching, and maintaining ideas (a thought or suggestion as to a possible course of action.) that we provide for our clients; with an IMS strategy an idea's full life cycle may be developed from ideation to taking action and turning it into a reality. Our client area allows idea founders or product owners to put their ideas on platforms which are backed by a bulletin board system where users can multi-layer network with one another and share content and other messages/files all in relation to the founder's idea.
           <br /><br />isTrav is a hub for companies, businesses, or other groups to collaborate on their ideas; innovation is our first priority. 
         </div>
       </div>
