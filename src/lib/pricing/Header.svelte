@@ -1,7 +1,7 @@
 <div class="membership">
   <div class="container">
     <h1 class="title">
-      isTrav Ideas
+      Original Ideas
     </h1>
     <div class="description" style="color: #fff;">
       Membership to an Innovation Management System (IMS)...

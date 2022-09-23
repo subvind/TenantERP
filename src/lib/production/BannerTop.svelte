@@ -4,8 +4,9 @@
     <br />
     <br />
     <h1 style="text-align: center; color: #fff; margin: 0;">{`<Production>`}</h1>
+    <div class="ims">Key infrastructure of an Innovation Management System (IMS)...</div>
     <br />
-    <h4 style="text-align: center; max-width: 600px; margin: -0.5em auto 0 auto; color: #ccc;">Running deployments that are mission critical. Linked together in a chain by order of importance.</h4>
+    <h2 style="text-align: center; max-width: 600px; margin: -0.5em auto 0 auto; color: #ccc; font-size: 1.5em;">Running deployments that are mission critical. Linked together in a chain by order of importance.</h2>
     <br />
     <!-- <p style="color: #eee;"></p> -->
     <div style="text-align: center;">
@@ -42,6 +43,12 @@
     );
     background-position: -5px;
     overflow: hidden;
+  }
+
+  .ims {
+    font-size: 1.5em;
+    color: #fff;
+    text-align: center;
   }
 
   .slanted {
