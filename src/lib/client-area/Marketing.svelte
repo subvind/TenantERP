@@ -10,7 +10,7 @@
   <br />
   <div class="description">Feeling stuck? Take a look at our headquarters which could answer any questions that you may still have lingering around.</div>
   <br />
-  <a href="https://istrav.dev" class="btn btn-large white black-text">system headquarters</a>
+  <a href="https://istrav.dev" class="btn btn-large white black-text"><i class="material-icons left">developer_board</i> system headquarters</a>
   <br />
   <br />
   <br />
