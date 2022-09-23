@@ -16,7 +16,7 @@
   <br />
   <div class="container">
     <div style="float: right;">
-      <img src="/graphics/rocket.png" alt="" style="width: 150px; margin-left: -175px; position: absolute; bottom: 20px; z-index: 0" /><br />
+      <img src="/graphics/rocket.png" alt="" style="width: 150px; margin-left: -175px; position: absolute; bottom: 10px; z-index: 0" /><br />
     </div>
     <div class="row">
       <div class="col m6">
