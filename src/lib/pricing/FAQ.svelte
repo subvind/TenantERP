@@ -7,7 +7,7 @@
   })
 </script>
 
-<div class="wrapper">
+<div class="wrapper z-depth-5">
   <div class="container">
     <br />
     <br />
@@ -60,7 +60,6 @@
 
 <style>
   .wrapper {
-    box-shadow: 0 0 8px #000;
     position: relative;
     border-top: 1em solid #ccc;
     border-bottom: 1em solid #ccc;
