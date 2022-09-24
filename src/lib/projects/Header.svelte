@@ -4,7 +4,8 @@
     <h1 class="title">
       Fair Source 25 (v0.9).
     </h1>
-    <!-- svelte-ignore a11y-distracting-elements -->
+    <div class="description" style="color: #fff;">Invitation to join an Innovation Management System (IMS)...</div>
+    <br />
     <div class="description">Not open source. Not closed source. The Fair Source License allows everyone to see the source code and makes the software free to use for a limited number of users in your organization. It offers some of the benefits of open source while preserving the ability to charge for the software. <a href="https://fair.io" target="_blank">https://fair.io</a></div>
     <br />
     <a href="/pricing" class="btn btn-large red lighten-2">pricing levels</a>
@@ -29,7 +30,7 @@
     color: #fff;
   }
   .fair-source .description {
-    color: #fff;
-    font-size: 2em;
+    color: #ccc;
+    font-size: 1.5em;
   }
 </style>

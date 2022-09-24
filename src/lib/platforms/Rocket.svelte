@@ -20,7 +20,7 @@
     </div>
     <div class="row">
       <div class="col m6">
-        <h4>The most expensive and difficult part to get right is stage zero; because your idea's <span style="text-decoration: underline;">main base</span> of <span style="font-weight: bold;">operations</span> is the most important.</h4>
+        <h4>"The most expensive and difficult part to get right is stage zero; because your idea's <span style="text-decoration: underline;">main base</span> of <span style="font-weight: bold;">operations</span> is the most important." - rocket</h4>
       </div>
     </div>
   </div>
@@ -30,6 +30,20 @@
   <img src="/graphics/clouds.png" alt="" style="width: 100%; position: absolute; bottom: 0; min-width: 1500px;" />
 </div>
 
+<br />
+<br />
+<br />
+<br />
+<div class="container">
+  <h1 class="title black-text">Successful Ideas</h1>
+  <div class="description black-text">Invitation to join an Innovation Management System (IMS)...</div>
+  <br />
+  <div class="description black-text">What makes an idea successful? Perhaps a few things. Does it have an intent or objective that it is well known for? Does it have an impactful community surrounding it? Does it have people that are considered to have expert knowledge in the field with it? Does it have a thirsty industry relying on it as a hub for something? Does it get copied and innovated upon every day? When it breaks down does it quickly stand back up in a forgiving way?</div>
+  <br />
+  <br />
+  <a href="/pricing" class="btn btn-large black">pricing levels</a>
+</div>
+
 <style>
 	.title {
 		font-weight: 900;
@@ -37,6 +51,11 @@
 		text-align: left;
 		margin: 0;
 	}
+
+  .description {
+    color: #fff;
+    font-size: 1.5em;
+  }
 
   .clearfix::after {
     content: "";

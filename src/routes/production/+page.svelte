@@ -6,6 +6,7 @@
   import BannerTop from '$lib/production/BannerTop.svelte'
   import BannerBottom from '$lib/production/BannerBottom.svelte'
   import ClientArea from '$lib/ClientArea.svelte';
+  import Footer from '$lib/production/Footer.svelte';
 
   let data = [
     {
@@ -89,6 +90,7 @@
   <br />
 </div>
 <BannerBottom />
+<Footer />
 <br />
 <br />
 <br />

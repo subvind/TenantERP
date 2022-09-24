@@ -1,19 +1,25 @@
 
 <div class="wrapper">
+  <br />
+  <br />
+  <br />
+  <br />
   <div class="container">
-    <div class="center">
-      <h1 class="title">
-        Fully Commited
-        <br />To 100%
-        <br />{`<>Quality</>`}
-      </h1>
-      <h2 class="description">Kanban / BDD / Tests / Pipelines<br />Reports / Documentation</h2>
-      <br />
-      <div style="text-align: right">
-        <a href="/pricing" class="contact btn btn-large red lighten-2">Pricing Levels</a>
-      </div>
+    <h1 class="title">
+      Fully Commited
+      <br />To 100%
+      <br />{`<>Quality</>`}
+    </h1>
+    <h2 class="description">Kanban / BDD / Tests / Pipelines<br />Reports / Documentation</h2>
+    <br />
+    <div style="text-align: right">
+      <a href="/production" class="contact btn btn-large red lighten-2">Production</a>
     </div>
   </div>
+  <br />
+  <br />
+  <br />
+  <br />
 </div>
 
 <style>
@@ -42,8 +48,4 @@
     background-color: #000;
     border-bottom: 1em solid #000;
   }
-	.center {
-    padding: 5em 0;
-    text-align: left;
-	}
 </style>
