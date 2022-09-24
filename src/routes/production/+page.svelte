@@ -7,6 +7,7 @@
   import BannerBottom from '$lib/production/BannerBottom.svelte'
   import ClientArea from '$lib/ClientArea.svelte';
   import Footer from '$lib/production/Footer.svelte';
+  import About from '$lib/production/About.svelte';
 
   let data = [
     {
@@ -84,7 +85,11 @@
   <br />
   <br />
   <br />
+  <br />
+  <About />
+  <br />
   <List data={data} />
+  <br />
   <br />
   <br />
   <br />
