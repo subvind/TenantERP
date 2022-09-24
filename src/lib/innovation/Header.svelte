@@ -18,6 +18,7 @@
       </li>
     </ul>
     <br />
+    <br />
     <a href="/innovation" class="btn btn-large white black-text">Innovation Management System</a>
   </div>
 </div>
