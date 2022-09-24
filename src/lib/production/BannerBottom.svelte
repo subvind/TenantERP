@@ -24,7 +24,7 @@
     <br />
     <div class="ims">Key infrastructure of an Innovation Management System (IMS)...</div>
     <br />
-    <h2 style="text-align: center; max-width: 600px; margin: -0.5em auto 0 auto; color: #ccc; font-size: 1.5em;">Running deployments that are mission critical. Linked together in a chain by order of importance.</h2>
+    <div style="text-align: center; max-width: 600px; margin: -0.5em auto 0 auto; color: #ccc; font-size: 1.5em;">Running deployments that are mission critical. Linked together in a chain by order of importance.</div>
     <br />
     <br />
     <br />
