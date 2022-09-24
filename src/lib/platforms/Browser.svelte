@@ -7,16 +7,19 @@
   <br />
   <br />
   <br />
+  <br />
   <h1 class="title">Launch Ideas</h1>
   <div class="description" style="color: #000;">Stage zero of an Innovation Management System (IMS)...</div>
   <br />
   <div style="max-width: 500px; margin: 0 auto;">
     <div class="description" style="color: #333;">Community run multi-layered bulletin board system dedicated to the sharing or exchange of ideas or other messages/files on a network.</div>
-    <br />
   </div>
+  <br />
+  <br />
   <div style="text-align: center;">
     <a href="/platforms" class="btn btn-large black white-text">platforms</a>
   </div>
+  <br />
   <br />
   <br />
   <br />
