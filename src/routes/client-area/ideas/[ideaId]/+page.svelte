@@ -1,11 +1,10 @@
 <script lang="ts">
   import { onMount } from 'svelte';
 
-  import Banner from '../../../../components/Banner.svelte'
+  import Banner from '$lib/Banner.svelte'
 
   import { sidebarActive, sidebarMode } from '../../../../stores';
   import pro from 'fleet-optimizer'
-  import { v4 as uuidv4 } from 'uuid';
   
   export let data: any;
   let vehicle: any;
