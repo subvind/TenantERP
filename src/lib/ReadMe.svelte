@@ -46,7 +46,7 @@
         </div>
       </div>
       <br />
-      <a href="/innovation" class="btn btn-large red lighten-2">Innovation</a>
+      <a href="/innovation" class="btn btn-large red lighten-2"><i class="material-icons left">history</i>Innovation</a>
     </div>
   </div>
 </div>
