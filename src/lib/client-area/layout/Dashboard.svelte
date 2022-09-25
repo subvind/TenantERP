@@ -1,31 +1,20 @@
 <script>
   import Header from '../../Header.svelte'
   import MainNavigation from './MainNavigation.svelte';
-  import Navigation from './Navigation.svelte';
   
   export let app = 'my-account'
-  export let active = 'available-sessions'
 </script>
 
 <Header />
 <div class="row dashboard">
-  <div class="col m1" style="background: #111; text-align: center;">
+  <div class="col m1" style="background: #555; text-align: center;">
     <br />
     <br />
     <br />
     <br />
     <MainNavigation app={app} />
   </div>
-  <div class="col m3" style="background: #222;">
-    <br />
-    <br />
-    <br />
-    <Navigation app={app} active={active} />
-  </div>
-  <div class="col m8" style="background: #ddd; color: #333;">
-    <br />
-    <br />
-    <br />
+  <div class="col m11" style="background: #f4f4f4; color: #333; padding-top: 64px;">
     <slot></slot>
   </div>
 </div>
@@ -33,10 +22,6 @@
 
 
 <style>
-  .brand-logo i {
-    margin: 0;
-  }
-
   .dashboard {
     position: absolute;
     right: 0;

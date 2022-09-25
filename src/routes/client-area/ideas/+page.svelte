@@ -77,7 +77,7 @@
 </script>
 
 
-<Banner icon="directions_bus" name="Vehicles">
+<Banner icon="flag" name="Ideas">
   <a href="/dashboard" class="breadcrumb">Home</a>
   <a href="/fleets" class="breadcrumb">Fleets</a>
   <a href="/vehicles" class="breadcrumb">Vehicles</a>
