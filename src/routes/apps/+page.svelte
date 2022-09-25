@@ -3,7 +3,6 @@
 
   import Header from "$lib/apps/Header.svelte";
   import Navigation from "$lib/apps/Navigation.svelte";
-  import Browser from "$lib/apps/Browser.svelte";
 
 	let apps: any = []
   let selected = "default"
@@ -19,10 +18,9 @@
 </script>
 
 <svelte:head>
-	<title>Applications Produced by isTrav</title>
+	<title>Applications: Made in Austin, TX - isTrav</title>
 	<meta name="description" content="Travis Burandt" />
 </svelte:head>
 
 <Header />
 <Navigation apps={apps} selected={selected} />
-<!-- <div style="border-top: 1em solid #000;"></div> -->

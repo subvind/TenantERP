@@ -1,21 +1,25 @@
 <script lang="ts">
+  import { onMount } from "svelte";
 	
 	import Browser from "$lib/platforms/Browser.svelte";
 	import ClientArea from "$lib/ClientArea.svelte";
 	import List from "$lib/platforms/List.svelte";
 	import Rocket from "$lib/platforms/Rocket.svelte";
 
-	let records: any[] = [
-		{
-			name: '/istrav/',
-			description: 'This is a Bulletin Board System for talking about application software development, building projects, deploying solutions to production, and integration with artificial inteligence.',
-			url: 'https://istrav.net'
-		}
-	]
+	let platforms: any = []
+	
+	onMount(() => {
+		fetch('/api/platforms.json')
+      .then(response => response.json())
+      .then(data => {
+        console.log(data);
+        platforms = data
+      })
+	})
 </script>
 
 <svelte:head>
-	<title>Platforms - isTrav</title>
+	<title>Community Platforms - isTrav</title>
 	<meta name="description" content="A platform & multi-layered BBS built for innovating ideas. BBS: This is software dedicated to the sharing or exchange of ideas or other messages/files on a network." />
 </svelte:head>
 
@@ -39,7 +43,7 @@
 			</div>
 		</div>
 		<div class="col s8">
-			<List records={records} />
+			<List records={platforms} />
 		</div>
 	</div>
 </div>

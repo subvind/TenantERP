@@ -24,7 +24,7 @@
 </script>
 
 <svelte:head>
-	<title>Pricing - isTrav</title>
+	<title>Membership Pricing - isTrav</title>
 	<meta name="description" content="Travis Burandt" />
 </svelte:head>
 

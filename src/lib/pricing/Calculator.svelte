@@ -12,7 +12,7 @@
       <input type="range" id="pricing-slider" min="0" max="10" bind:value={level} />
     </p>
   </form>
-  <div>At this pricing level platforms will be allowed to process {records[level].activeUsersPerHour} active users per hour with {records[level].requestsPerDay.toLocaleString("en-US")} requests per day and {records[level].requestsPerMonth.toLocaleString("en-US")} requests per month; all of which will cost the owner ${(records[level].price).toLocaleString("en-US")} per month per platform.</div>
+  <div>At this pricing level subscribers will be allowed to process {records[level].activeUsersPerHour} active users per hour with {records[level].requestsPerDay.toLocaleString("en-US")} requests per day and {records[level].requestsPerMonth.toLocaleString("en-US")} requests per month; all of which will cost the owner ${(records[level].price).toLocaleString("en-US")} per month.</div>
   <br />
   <br />
   <div class="card z-depth-5">

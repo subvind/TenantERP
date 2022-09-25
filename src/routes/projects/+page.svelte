@@ -27,7 +27,7 @@
 </script>
 
 <svelte:head>
-	<title>Portfolio of Projects & Technologies - isTrav</title>
+	<title>Portfolio of Technologies & Repositories - isTrav</title>
 	<meta name="description" content="Being a self taught learner and supporter of full ownership are my two core pricipals. These ideals have lead me to be a Full Stack Developer (FSD) and coder." />
 </svelte:head>
 

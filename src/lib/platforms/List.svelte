@@ -13,15 +13,17 @@
   Platforms
 </h1>
 <div class="card">
-  {#each records as record}
-    <div class="card-content">
-      <a href={record.url} target="_blank" class="name">{record.name}</a>
-      <br /><span class="description">{record.description}</span>
-    </div>
-    <hr>
-  {/each}
+  {#if records.length}
+    {#each records as record}
+      <div class="card-content">
+        <a href={record.url} target="_blank" class="name">{record.name}</a>
+        <br /><span class="description">{record.description}</span>
+      </div>
+      <hr>
+    {/each}
+  {/if}
   <div class="card-content">
-    (Showing most recent 15 public platforms sorted in order by the date each platform was created at.)
+    (Top 10 list of communities that we support.)
   </div>
 </div>
 

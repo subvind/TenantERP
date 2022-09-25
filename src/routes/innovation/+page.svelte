@@ -7,7 +7,7 @@
 
 
 <svelte:head>
-	<title>Innovation - isTrav</title>
+	<title>Innovation Management System (IMS) - isTrav</title>
 	<meta name="description" content="Travis Burandt" />
 </svelte:head>
 
