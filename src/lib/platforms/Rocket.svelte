@@ -41,7 +41,7 @@
   <div class="description black-text">What makes an idea successful? Perhaps a few things. Does it have an intent or objective that it is well known for? Does it have an impactful community surrounding it? Does it have people that are considered to have expert knowledge within it's field? Does it have a thirsty industry relying on it as a hub for something? Does it get copied and innovated upon every day? When it breaks down does it quickly stand back up in a forgiving way?</div>
   <br />
   <br />
-  <a href="/pricing" class="btn btn-large black">pricing levels</a>
+  <a href="/pricing" class="btn btn-large black"><i class="material-icons left">tune</i>pricing levels</a>
 </div>
 
 <style>

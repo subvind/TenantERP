@@ -4,7 +4,7 @@
 
 <div class="container">
   <!-- <h1 class="title">Production</h1> -->
-  <div style="margin-left: calc(390px / 2 - 1.9em); margin-bottom: -1em;"><a href="/about" class="btn btn-large btn-floating black"><i class="material-icons">directions_boat</i></a></div>
+  <div style="margin-left: calc(390px / 2 - 1.9em); margin-bottom: -1em;"><a href="/apps" class="btn btn-large btn-floating black"><i class="material-icons">directions_boat</i></a></div>
   {#if data.length}
     {#each data as record, index}
       <div style="border-left: 1em solid #000; height: 5em; margin-left: calc(390px / 2 - 0.5em);"></div>

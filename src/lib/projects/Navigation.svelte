@@ -19,7 +19,7 @@
       {/if}
     </div>
     <br />
-    <a href="/projects" class="btn btn-large white black-text">projects</a>
+    <a href="/projects" class="btn btn-large white black-text"><i class="material-icons left">highlight</i>projects</a>
   </div>
   <br />
 </div>

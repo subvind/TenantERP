@@ -63,7 +63,7 @@
   <div class="description black-text">What makes an idea complete? Perhaps a few things. Does it have an intent or objective? Does it have programs or apps built around it? Does it have a single label that identifies it across all environments? Does it have a simple way for users to sort and filter domain based information by dot notation? Does it have the ability to be cloned and rebranded into something else? When it's broken down into pieces then put back together again does the idea still produce a complete concept?</div>
   <br />
   <br />
-  <a href="/pricing" class="btn btn-large black">pricing levels</a>
+  <a href="/pricing" class="btn btn-large black"><i class="material-icons left">tune</i>pricing levels</a>
 </div>
 
 <style>

@@ -13,7 +13,7 @@
     <h2 class="description">Kanban / BDD / Tests / Pipelines<br />Reports / Documentation</h2>
     <br />
     <div style="text-align: right">
-      <a href="/production" class="contact btn btn-large red lighten-2">Production</a>
+      <a href="/production" class="contact btn btn-large red lighten-2"><i class="material-icons left">done</i>Production</a>
     </div>
   </div>
   <br />

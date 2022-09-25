@@ -17,7 +17,7 @@
   <br />
   <br />
   <div style="text-align: center;">
-    <a href="/platforms" class="btn btn-large black white-text">platforms</a>
+    <a href="/platforms" class="btn btn-large black white-text" style="width: 350px;"><i class="material-icons left">folder</i>community platforms</a>
   </div>
   <br />
   <br />

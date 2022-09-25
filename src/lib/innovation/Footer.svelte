@@ -10,7 +10,7 @@
   <div class="description black-text">What makes an idea above average? Perhaps a few things. Does it have a name that others can easily hear, say, and identify? Does it exist in a place that makes it special? Does it have a team behind it that is motivated? Does it have a design so good that others know it by word of mouth. Does it open up a new market for industries? When it comes to the test of time will others still be using it?</div>
   <br />
   <br />
-  <a href="/pricing" class="btn btn-large black">pricing levels</a>
+  <a href="/pricing" class="btn btn-large black"><i class="material-icons left">tune</i>pricing levels</a>
 </div>
 
 <style>

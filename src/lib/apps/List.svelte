@@ -17,9 +17,9 @@
 				</div>
 				<div class="card-action">
 					{#if app.website == selected}
-						<a data-sveltekit-reload class="btn red lighten-2" href={app.url}>{app.website}</a>
+						<a data-sveltekit-reload class="btn red lighten-2" href={app.url}><i class="material-icons left">extension</i>{app.website}</a>
 					{:else}
-						<a data-sveltekit-reload class="btn black white-text" href={app.url}>{app.website}</a>
+						<a data-sveltekit-reload class="btn black white-text" href={app.url}><i class="material-icons left">extension</i>{app.website}</a>
 					{/if}
 				</div>
 			</div>

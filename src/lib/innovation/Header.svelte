@@ -19,7 +19,7 @@
     </ul>
     <br />
     <br />
-    <a href="/innovation" class="btn btn-large white black-text">Innovation Management System</a>
+    <a href="/innovation" class="btn btn-large white black-text"><i class="material-icons left">history</i>Innovation Management System</a>
   </div>
 </div>
 

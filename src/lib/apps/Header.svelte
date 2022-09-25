@@ -7,10 +7,10 @@
     <!-- svelte-ignore a11y-distracting-elements -->
     <div class="ims">Pieces of an Innovation Management System (IMS)...</div>
     <br />
-    <div class="description">Our apps are programs (which are pieces of software) that enable users to navigate and discover new posibilities; they are designed and written by us to fulfill the objectives as outlined at <a href="/innovation">istrav.com/innovation</a>. The primary reason why people choose our software is because they believe in our principals. Others choose us because of all the progress that we have made to our features and our solutions solve their pain points for their particular industry(s).</div>
+    <div class="description"> Our applications are programs (which are pieces of software) that enable users to navigate and discover new posibilities; they are designed and written by us to fulfill our <a href="/innovation">istrav.com/innovation</a> objectives. When put together the pieces form a large vessel or ship where every part as a whole moves or sails under the same flag or ideology.</div>
     <br />
     <br />
-    <a href="/apps" class="btn btn-large white black-text">apps made by us</a>
+    <a href="/apps" class="btn btn-large white black-text"><i class="material-icons left">flag</i>apps<i class="material-icons right">directions_boat</i></a>
   </div>
   <br />
 </div>

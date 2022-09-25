@@ -73,7 +73,7 @@
       {/if}
       <br /><br />
       <a data-sveltekit-reload href={`/projects/${showcaseSelected}`} class="btn btn-large red lighten-2">display</a>
-      <a href={records.filter((r) => {return r.name == showcaseSelected})[0].html_url} target="_blank" class="btn btn-large red lighten-2">Source Code</a>
+      <a href={records.filter((r) => {return r.name == showcaseSelected})[0].html_url} target="_blank" class="btn btn-large red lighten-2"><i class="material-icons left">code</i>Source Code</a>
     </div>
   </div>
 {/if}

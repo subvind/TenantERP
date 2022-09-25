@@ -13,7 +13,7 @@
     <a href="/about">
       <img src="/anchor.png" alt="" class="anchor">
     </a>
-    <a href="/client-area" class="btn btn-large teal lighten-2">subscribe</a>
+    <a href="/client-area" class="btn btn-large teal lighten-2"><i class="material-icons left">verified_user</i>subscribe</a>
   </div>
   <br />
 </div>

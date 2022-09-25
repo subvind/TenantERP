@@ -17,7 +17,7 @@
       <div class="slanted-right"></div>
     </div>
     <div style="text-align: center;">
-      <a href="/about" class="btn white btn-large btn-floating"><i class="material-icons" style="color: #000;">flag</i></a>
+      <a href="/apps" class="btn white btn-large btn-floating"><i class="material-icons" style="color: #000;">flag</i></a>
     </div>
     <br />
     <h1 style="text-align: center; color: #fff; margin: 0;">{`</Production>`}</h1>

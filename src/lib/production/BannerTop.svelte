@@ -10,7 +10,7 @@
     <br />
     <!-- <p style="color: #eee;"></p> -->
     <div style="text-align: center;">
-      <a href="/about" class="btn white btn-large btn-floating"><i class="material-icons" style="color: #000;">flag</i></a>
+      <a href="/apps" class="btn white btn-large btn-floating"><i class="material-icons" style="color: #000;">flag</i></a>
     </div>
     <br /><br /><br />
     <div class="slanted">
