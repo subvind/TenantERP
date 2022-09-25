@@ -66,7 +66,7 @@
     <div class="bump">
       <div class="description">There are some ideas that may not fit within the scope of our platform or existing applications. Ideas that require a coder to sit down and program. Reach out. We may be able to build your idea and release it as a new feature.</div>
       <br />
-      <a href="/contact-me" class="btn btn-large red lighten-2"><i class="material-icons left">person</i>contact me</a>
+      <a href="/contact-me" class="btn btn-large red lighten-2"><i class="material-icons left">face</i>contact me</a>
     </div>
   </div>
 </div>

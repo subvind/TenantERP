@@ -38,7 +38,7 @@
 					Every idea needs a community (network of social groups) that provides a feeling of fellowship with others, as a result of sharing common attitudes, interests, and goals. Our software <a href="/platforms">istrav.com/platforms</a> enables just that.
 				</div>
 				<div class="card-action">
-					<a href="/about" class="btn fluid red lighten-2">about</a>
+					<a href="/about" class="btn fluid red lighten-2"><i class="material-icons left">directions_boat</i>about<i class="material-icons right">directions</i></a>
 				</div>
 			</div>
 		</div>

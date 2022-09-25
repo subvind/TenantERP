@@ -156,7 +156,7 @@
         </div>
 
 				<div class="card-action">
-          <a href="/resume" class="btn red lighten-2" style="width: 100%;">resume</a>
+          <a href="/resume" class="btn red lighten-2" style="width: 100%;"><i class="material-icons left">event_seat</i>resume<i class="material-icons right">description</i></a>
         </div>
       </div>
     </div>

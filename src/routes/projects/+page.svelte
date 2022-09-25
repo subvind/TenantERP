@@ -55,6 +55,9 @@
             <br /><br />
             In the end ... the <span style="font-weight: 900;">key</span> to <span style="text-decoration: underline;">success</span> is about making investments in (S + K) or "learning" and applying those investments to real life (E) or <a href="/production">istrav.com/production</a> and it's probably one of the smartest things one can do (W); and the work done here at isTrav reflects that philosophy by showcasing clear capabilities and expertise in the field of coding and FSD.
           </div>
+          <div class="card-action">
+            <a href="/about" class="btn fluid red lighten-2"><i class="material-icons left">directions_boat</i>about<i class="material-icons right">directions</i></a>
+          </div>
           <div class="card-action" style="padding: 0;">
             <a href="/about" style="display: contents;">
               <img src="/anchor.png" alt="isTrav" style="width: 100%;">

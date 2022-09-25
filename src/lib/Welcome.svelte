@@ -9,7 +9,7 @@
       </h1>
       <h2 class="description">Full Stack Developer / Cyclist</h2>
       <br />
-      <a href="/contact-me" class="btn btn-large red lighten-2">Contact Me</a>
+      <a href="/contact-me" class="btn btn-large red lighten-2"><i class="material-icons left">face</i>Contact Me</a>
     </div>
   </div>
 </div>

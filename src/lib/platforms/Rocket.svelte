@@ -4,7 +4,7 @@
 <div class="container">
   <h1 class="title">
     Stage Zero
-    <a href="/innovation" class="btn btn-large right red lighten-2" style="margin: 0.5em;">check list</a>
+    <a href="/innovation" class="btn btn-large right red lighten-2" style="margin: 0.5em;"><i class="material-icons left">playlist_add_check</i>check list</a>
   </h1>
 </div>
 <div class="white">
