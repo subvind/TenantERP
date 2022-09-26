@@ -3,6 +3,7 @@
 	import Map from "$lib/Map.svelte";
 	import ContactMe from "$lib/ContactMe.svelte";
 	import Welcome from "$lib/Welcome.svelte";
+	import PracticalIdeas from '$lib/PracticalIdeas.svelte';
 </script>
 
 <svelte:head>
@@ -172,6 +173,7 @@
 <br />
 <br />
 <ContactMe />
+<PracticalIdeas />
 <br />
 <br />
 <br />

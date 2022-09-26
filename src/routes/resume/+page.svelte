@@ -2,6 +2,7 @@
   import { onMount } from 'svelte';
 
 	import About from '$lib/About.svelte'
+	import PracticalIdeas from '$lib/PracticalIdeas.svelte';
 
 	let linkIndex: number = 0
 	let links: any = []
@@ -57,6 +58,7 @@
 <br />
 <br />
 <About />
+<PracticalIdeas />
 
 <style>
 	h3 {

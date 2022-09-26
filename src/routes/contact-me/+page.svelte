@@ -1,6 +1,5 @@
 <script lang="ts">
 	import ContactMe from "$lib/ContactMe.svelte";
-	import ClientArea from "$lib/ClientArea.svelte";
 </script>
 
 <svelte:head>
@@ -17,10 +16,5 @@
 	<br />
 	<br />
 </main>
-<ClientArea />
-<br />
-<br />
-<br />
-<br />
 
 

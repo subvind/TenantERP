@@ -11,6 +11,7 @@
 	import ClientArea from "$lib/ClientArea.svelte";
 	import ReadMe from '$lib/ReadMe.svelte';
 	import Anchor from '$lib/Anchor.svelte';
+	import PracticalIdeas from '$lib/PracticalIdeas.svelte';
 </script>
 
 <svelte:head>
@@ -28,6 +29,7 @@
 <br />
 <br />
 <ReadMe />
+<PracticalIdeas />
 <br />
 <br />
 <br />
