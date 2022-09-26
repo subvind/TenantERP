@@ -9,14 +9,14 @@
   import Footer from '$lib/production/Footer.svelte';
   import About from '$lib/production/About.svelte';
 
-  let production: any = []
+  let deployments: any = []
 
 	onMount(() => {
-		fetch('/api/production.json')
+		fetch('/api/deployments.json')
       .then(response => response.json())
       .then(data => {
         console.log(data);
-        production = data
+        deployments = data
       })
 	})
 </script>
@@ -36,7 +36,7 @@
   <br />
   <About />
   <br />
-  <List data={production} />
+  <List data={deployments} />
   <br />
   <br />
   <br />
