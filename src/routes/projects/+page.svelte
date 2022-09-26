@@ -4,6 +4,7 @@
   import Header from '$lib/projects/Header.svelte'
   import List from '$lib/projects/List.svelte'
   import ClientArea from "$lib/ClientArea.svelte";
+  import Footer from '$lib/projects/Footer.svelte'
   
   let records: any
 
@@ -78,6 +79,7 @@
 <br />
 <br />
 <Header />
+<Footer />
 <br />
 <br />
 <br />
