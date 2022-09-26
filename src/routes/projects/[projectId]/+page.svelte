@@ -6,6 +6,7 @@
   import ClientArea from "$lib/ClientArea.svelte";
   import Header from '$lib/projects/Header.svelte'
   import Display from '$lib/projects/Display.svelte'
+  import Footer from '$lib/projects/Footer.svelte'
 
   // console.log(data.projectId)
   
@@ -56,9 +57,8 @@
 <br />
 <br />
 <br />
-<br />
-<br />
 <Header />
+<Footer />
 <br />
 <br />
 <br />
