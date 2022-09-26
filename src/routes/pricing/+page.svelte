@@ -7,6 +7,7 @@
   import CustomWork from "$lib/pricing/CustomWork.svelte";
   import Reason from "$lib/pricing/Reason.svelte";
   import Calculator from "$lib/pricing/Calculator.svelte";
+  import Footer from "$lib/pricing/Footer.svelte";
 
   let level = 2
 	let records: any[] = []
@@ -58,6 +59,8 @@
 <br />
 <br />
 <About />
+<Footer />
+<br />
 <br />
 <br />
 <br />
