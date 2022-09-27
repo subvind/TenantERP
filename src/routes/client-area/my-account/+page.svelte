@@ -7,7 +7,7 @@
   import * as gridjs from "gridjs";
 
   import { sidebarActive, sidebarMode } from '../../../stores';
-  import pro from 'fleet-optimizer'
+  import com from 'idea-optimizer'
   import { v4 as uuidv4 } from 'uuid';
 
   sidebarMode.set('fleets')
@@ -63,8 +63,8 @@
       alignment: 'right'
     });
 
-    let fleetOptimizer = pro.FleetOptimizer.getInstance()
-    let db = await fleetOptimizer.db()
+    let ideaOptimizer = com.IdeaOptimizer.getInstance()
+    let db = await ideaOptimizer.db()
     let vehicles = await db.vehicle.find().exec()
     console.dir(vehicles)
 

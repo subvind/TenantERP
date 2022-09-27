@@ -4,7 +4,7 @@
   import Banner from '$lib/Banner.svelte'
 
   import { sidebarActive, sidebarMode } from '../../../../stores';
-  import pro from 'fleet-optimizer'
+  import com from 'idea-optimizer'
   
   export let data: any;
   let vehicle: any;
@@ -15,8 +15,8 @@
   let loading: boolean = true
 
   onMount(async () => {
-    let fleetOptimizer = pro.FleetOptimizer.getInstance()
-    let db = await fleetOptimizer.db()
+    let ideaOptimizer = com.IdeaOptimizer.getInstance()
+    let db = await ideaOptimizer.db()
     vehicle = await db.vehicle.findOne({
       selector: {
         id: data.vehicleId

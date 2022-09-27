@@ -4,18 +4,18 @@
 	import '../app.css';
 
   import { backend, sidebarVisibility, sidebarActive, sidebarMode } from '../stores.js';
-  import pro from 'fleet-optimizer'
+  import com from 'idea-optimizer'
 
   let loading = true
 	onMount(async () => {
 		console.log('layout main')
-    backend.set(`https://pro.istrav.dev`)
+    backend.set(`https://api.istrav.dev`)
 
     loading = false
 
     setTimeout(async () => {
-      let fleetOptimizer = pro.FleetOptimizer.getInstance()
-      let database = await fleetOptimizer.database(pro.database.browser)
+      let ideaOptimizer = com.IdeaOptimizer.getInstance()
+      let database = await ideaOptimizer.database(com.database.browser)
     }, 0)
 	})
 </script>
