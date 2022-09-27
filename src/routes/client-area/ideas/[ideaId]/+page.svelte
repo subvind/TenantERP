@@ -7,7 +7,7 @@
   import com from 'idea-optimizer'
   
   export let data: any;
-  let vehicle: any;
+  let idea: any;
 
   sidebarMode.set('fleets')
   sidebarActive.set('vehicles')
@@ -17,12 +17,12 @@
   onMount(async () => {
     let ideaOptimizer = com.IdeaOptimizer.getInstance()
     let db = await ideaOptimizer.db()
-    vehicle = await db.vehicle.findOne({
+    idea = await db.idea.findOne({
       selector: {
-        id: data.vehicleId
+        id: data.ideaId
       }
     }).exec()
-    console.dir(vehicle)
+    console.dir(idea)
     
     loading = false
 
@@ -36,11 +36,11 @@
 </script>
 
 {#if loading === false}
-  <Banner icon="directions_bus" name={vehicle.name}>
+  <Banner icon="directions_bus" name={idea.name}>
     <a href="/dashboard" class="breadcrumb">Home</a>
     <a href="/fleets" class="breadcrumb">Fleets</a>
     <a href="/fleets/vehicles" class="breadcrumb">Vehicles</a>
-    <a href={`/fleets/vehicles/${data.vehicleId}`} class="breadcrumb">View</a>
+    <a href={`/fleets/vehicles/${data.ideaId}`} class="breadcrumb">View</a>
   </Banner>
 
   <div class="container">
@@ -57,6 +57,6 @@
       <li><a href="#!" class="light-blue-text"><i class="material-icons">cloud</i>five</a></li>
     </ul>
   
-    {JSON.stringify(vehicle)}
+    {JSON.stringify(idea)}
   </div>
 {/if}

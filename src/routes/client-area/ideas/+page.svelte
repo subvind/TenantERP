@@ -11,7 +11,7 @@
   import { v4 as uuidv4 } from 'uuid';
 
   sidebarMode.set('fleets')
-  sidebarActive.set('vehicles')
+  sidebarActive.set('ideas')
 
   let search = {
     enabled: true
@@ -43,7 +43,7 @@
       hidden: false,
       formatter: (cell: any, row: any) => {
         return gridjs.h('a', {
-          href: `/fleets/vehicles/${row.cells[0].data}`,
+          href: `/fleets/ideas/${row.cells[0].data}`,
           className: 'btn btn-small blue lighten-2 right',
         }, 'VIEW');
       }
@@ -65,10 +65,10 @@
 
     let ideaOptimizer = com.IdeaOptimizer.getInstance()
     let db = await ideaOptimizer.db()
-    let vehicles = await db.vehicle.find().exec()
-    console.dir(vehicles)
+    let ideas = await db.idea.find().exec()
+    console.dir(ideas)
 
-    vehicles.forEach((value: any) => {
+    ideas.forEach((value: any) => {
       data.push([value.id, value.name, value.color, value.make, value.model])
     })
     
@@ -79,8 +79,7 @@
 
 <Banner icon="flag" name="Ideas">
   <a href="/dashboard" class="breadcrumb">Home</a>
-  <a href="/fleets" class="breadcrumb">Fleets</a>
-  <a href="/vehicles" class="breadcrumb">Vehicles</a>
+  <a href="/ideas" class="breadcrumb">Ideas</a>
 </Banner>
 
 <div class="container">
