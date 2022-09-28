@@ -72,6 +72,7 @@
     await query.update({
       $set: {
         username,
+        email: firebaseRecord.email
       }
     })
 
