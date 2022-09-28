@@ -32,7 +32,9 @@
         // User is signed in, see docs for a list of available properties
         // https://firebase.google.com/docs/reference/js/firebase.User
         const uid = user.uid;
-        firebase.set(uid)
+        console.log('uid', uid)
+        firebase.set(JSON.stringify(user))
+        
         window.location.href = '/client-area/dashboard'
         // ...
       } else {

@@ -7,20 +7,24 @@
   import user from '$lib/stores/user';
   import firebase from '$lib/stores/firebase';
 
-  let record: any;
+  let userRecord: any;
+  let firebaseRecord: any;
   let firebaseUid: string = '';
   let username: string = '';
 
   user.subscribe((value: any) => {
     if (value) {
-      record = JSON.parse(value)
-      username = record.username
-		  firebaseUid = record.firebase;
+      userRecord = JSON.parse(value)
+      username = userRecord.username
+		  firebaseUid = userRecord.firebase;
     }
   });
 
-	firebase.subscribe(value => {
-		firebaseUid = value;
+	firebase.subscribe((value: any) => {
+    if (value) {
+      firebaseRecord = JSON.parse(value)
+		  firebaseUid = firebaseRecord.uid;
+    }
 	});
 
   onMount(async () => {
@@ -32,7 +36,6 @@
     }).exec()
 
     if (r) {
-      firebase.set(r.firebase)
       user.set(JSON.stringify(r))
     }
 
@@ -63,7 +66,7 @@
     let db = await ideaOptimizer.db()
 
     let query = await db.user.find({
-      username: record.username,
+      username: userRecord.username,
     })
 
     await query.update({
@@ -84,26 +87,32 @@
 <div class="card">
   <div class="card-action">
     <div class="card-title">
-      {#if record}
-        Main <button class="btn disabled right">{record.username}</button>
+      {#if userRecord}
+        Main <button class="btn disabled right">{userRecord.username}</button>
       {:else}
         Main <button class="btn disabled right"><i class="material-icons">close</i></button>
       {/if}
     </div>
     <p>With usernames we have a single label that can be used to idenify each other across all of our apps. This also means all of your profiles between our different enviornments exist under a single entity.</p>
   </div>
-  <div class="card-action">
-    <div class="input-field">
-      <input id="firebase" type="text" disabled class="validate" bind:value={firebaseUid}>
-      <label for="firebase">Firebase UID</label>
+  {#if firebaseRecord}
+    <div class="card-action">
+      <div class="input-field">
+        <input id="firebase" type="text" disabled class="validate" bind:value={firebaseRecord.uid}>
+        <label for="firebase">Firebase UID</label>
+      </div>
+      <div class="input-field">
+        <input id="firebase" type="text" disabled class="validate" bind:value={firebaseRecord.email}>
+        <label for="firebase">Email Address</label>
+      </div>
     </div>
-  </div>
+  {/if}
   <div class="card-action">
     <div class="input-field">
       <input id="username" type="text" class="validate" bind:value={username}>
       <label for="username">Username</label>
     </div>
-    {#if record}
+    {#if userRecord}
       <a href="#" class="btn" on:click={() => update()}><i class="material-icons left">account_circle</i>update</a>
     {:else}
       <a href="#" class="btn" on:click={() => create()}><i class="material-icons left">account_circle</i>submit</a>

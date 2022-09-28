@@ -44,7 +44,7 @@
         // https://firebase.google.com/docs/reference/js/firebase.User
         const uid = user.uid;
         console.log('uid', uid)
-        firebase.set(uid)
+        firebase.set(JSON.stringify(user))
 
         const idTokenResult = await user.getIdTokenResult()
         console.log('firebase idTokenResult', idTokenResult)
