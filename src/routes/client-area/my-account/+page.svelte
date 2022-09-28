@@ -6,12 +6,10 @@
   import Table from "$lib/Table.svelte"
   import * as gridjs from "gridjs";
 
-  import { sidebarActive, sidebarMode } from '../../../stores';
+  import navigation from '$lib/stores/navigation';
   import com from 'idea-optimizer'
-  import { v4 as uuidv4 } from 'uuid';
 
-  sidebarMode.set('fleets')
-  sidebarActive.set('vehicles')
+  navigation.set('vehicles')
 
   let search = {
     enabled: true

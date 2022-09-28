@@ -6,12 +6,11 @@
   import Table from "$lib/Table.svelte"
   import * as gridjs from "gridjs";
 
-  import { sidebarActive, sidebarMode } from '../../../stores';
+  import navigation from '$lib/stores/navigation';
   import com from 'idea-optimizer'
   import { v4 as uuidv4 } from 'uuid';
 
-  sidebarMode.set('fleets')
-  sidebarActive.set('ideas')
+  navigation.set('ideas')
 
   let search = {
     enabled: true
@@ -33,17 +32,16 @@
         }, row.cells[0].data);
       }
     },
+    'slug',
     'name',
-    'color',
-    'make',
-    'model',
+    'description',
     { 
       name: 'Actions',
       sort: false,
       hidden: false,
       formatter: (cell: any, row: any) => {
         return gridjs.h('a', {
-          href: `/fleets/ideas/${row.cells[0].data}`,
+          href: `/client-area/ideas/view/${row.cells[1].data}`,
           className: 'btn btn-small blue lighten-2 right',
         }, 'VIEW');
       }
@@ -69,7 +67,7 @@
     console.dir(ideas)
 
     ideas.forEach((value: any) => {
-      data.push([value.id, value.name, value.color, value.make, value.model])
+      data.push([value.id, value.slug, value.name, value.description])
     })
     
     loading = false
@@ -78,8 +76,8 @@
 
 
 <Banner icon="flag" name="Ideas">
-  <a href="/dashboard" class="breadcrumb">Home</a>
-  <a href="/ideas" class="breadcrumb">Ideas</a>
+  <a href="/client-area/dashboard" class="breadcrumb">Home</a>
+  <a href="/client-area/ideas" class="breadcrumb">Ideas</a>
 </Banner>
 
 <div class="container">
@@ -88,12 +86,10 @@
 
   <!-- Dropdown Structure -->
   <ul id='dropdownMore' class='dropdown-content' style="min-width: 200px;">
-    <li><a href="#!" class="light-blue-text">one</a></li>
-    <li><a href="#!" class="light-blue-text">two</a></li>
+    <li><a href="/client-area/ideas/create" class="light-blue-text"><i class="material-icons">add</i>Add Record</a></li>
     <li class="divider" tabindex="-1"></li>
-    <li><a href="#!" class="light-blue-text">three</a></li>
-    <li><a href="#!" class="light-blue-text"><i class="material-icons">view_module</i>four</a></li>
-    <li><a href="#!" class="light-blue-text"><i class="material-icons">cloud</i>five</a></li>
+    <li><a href="#!" class="light-blue-text"><i class="material-icons">cloud_download</i>Import Records</a></li>
+    <li><a href="#!" class="light-blue-text"><i class="material-icons">cloud_upload</i>Export Records</a></li>
   </ul>
   {#if loading === false}
     <Table columns={columns} data={data} search={search} pagination={pagination} sort={sort} />

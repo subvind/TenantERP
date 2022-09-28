@@ -1,6 +1,8 @@
 <script lang="ts">
   import { onMount } from 'svelte';
   
+  import firebase from '$lib/stores/firebase';
+  
   // Import the functions you need from the SDKs you need
   import { initializeApp } from "firebase/app";
   import { getAuth, onIdTokenChanged, signOut } from "firebase/auth";
@@ -29,6 +31,7 @@
     signOut(auth)
       .then(() => {
         // sign out of istrav-global
+        firebase.set('')
         window.localStorage.removeItem('istrav-global-token')
         window.location.href = '/client-area'
       });

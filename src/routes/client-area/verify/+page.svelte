@@ -1,6 +1,8 @@
 <script lang="ts">
   import { onMount } from 'svelte';
 	
+  import firebase from '$lib/stores/firebase';
+
   import axios from 'axios'
   
   import Marketing from '$lib/client-area/Marketing.svelte';
@@ -42,6 +44,7 @@
         // https://firebase.google.com/docs/reference/js/firebase.User
         const uid = user.uid;
         console.log('uid', uid)
+        firebase.set(uid)
 
         const idTokenResult = await user.getIdTokenResult()
         console.log('firebase idTokenResult', idTokenResult)

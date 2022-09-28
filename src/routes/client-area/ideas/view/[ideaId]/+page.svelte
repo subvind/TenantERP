@@ -3,25 +3,46 @@
 
   import Banner from '$lib/Banner.svelte'
 
-  import { sidebarActive, sidebarMode } from '../../../../stores';
+  import navigation from '$lib/stores/navigation';
+  import namespace from '$lib/stores/namespace';
+
   import com from 'idea-optimizer'
+
+	let namespaceSlug: string;
+	namespace.subscribe(value => {
+		namespaceSlug = value;
+	});
   
   export let data: any;
   let idea: any;
 
-  sidebarMode.set('fleets')
-  sidebarActive.set('vehicles')
+  navigation.set('ideas')
 
   let loading: boolean = true
+
+  async function getNamespaceId(slug: string) {
+    let ideaOptimizer = com.IdeaOptimizer.getInstance()
+    let db = await ideaOptimizer.db()
+
+    let record = await db.namespace.findOne({
+      selector: {
+        slug: slug
+      }
+    }).exec()
+
+    return record.id
+  }
 
   onMount(async () => {
     let ideaOptimizer = com.IdeaOptimizer.getInstance()
     let db = await ideaOptimizer.db()
-    idea = await db.idea.findOne({
+    let record = await db.idea.findOne({
       selector: {
-        id: data.ideaId
+        slug: data.ideaId,
+        namespace: getNamespaceId(namespaceSlug)
       }
     }).exec()
+    idea = record.toJSON()
     console.dir(idea)
     
     loading = false
@@ -37,10 +58,9 @@
 
 {#if loading === false}
   <Banner icon="directions_bus" name={idea.name}>
-    <a href="/dashboard" class="breadcrumb">Home</a>
-    <a href="/fleets" class="breadcrumb">Fleets</a>
-    <a href="/fleets/vehicles" class="breadcrumb">Vehicles</a>
-    <a href={`/fleets/vehicles/${data.ideaId}`} class="breadcrumb">View</a>
+    <a href="/client-area/dashboard" class="breadcrumb">Home</a>
+    <a href="/client-area/ideas" class="breadcrumb">Ideas</a>
+    <a href={`/client-area/ideas/${data.ideaId}`} class="breadcrumb">View</a>
   </Banner>
 
   <div class="container">

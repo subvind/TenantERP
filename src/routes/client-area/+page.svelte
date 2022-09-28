@@ -1,6 +1,8 @@
 <script lang="ts">
   import { onMount } from 'svelte';
   
+  import firebase from '$lib/stores/firebase';
+
   // Import the functions you need from the SDKs you need
   import { initializeApp } from "firebase/app";
   import { getAuth, onAuthStateChanged } from "firebase/auth";
@@ -30,6 +32,7 @@
         // User is signed in, see docs for a list of available properties
         // https://firebase.google.com/docs/reference/js/firebase.User
         const uid = user.uid;
+        firebase.set(uid)
         window.location.href = '/client-area/dashboard'
         // ...
       } else {

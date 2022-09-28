@@ -3,7 +3,7 @@
 	
 	import '../app.css';
 
-  import { backend, sidebarVisibility, sidebarActive, sidebarMode } from '../stores.js';
+  import backend from '$lib/stores/backend';
   import com from 'idea-optimizer'
 
   let loading = true
