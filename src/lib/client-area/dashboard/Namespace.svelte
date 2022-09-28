@@ -38,11 +38,11 @@
   });
 
   onMount(async () => {
-
     M.updateTextFields();
   })
 
   async function toggleNamespace () {
+    if (namespaceRecord.slug === slug) return; // already showing ns
     if (slug === '') return alert('Namespace Slug must be defined.')
 
     let ideaOptimizer = com.IdeaOptimizer.getInstance()
@@ -182,7 +182,7 @@
         <input id="last_name" type="text" class="validate" bind:value={slug}>
         <label for="last_name">Namespace Slug</label>
       </div>
-      <a href="#" class="btn" on:click={() => toggleNamespace()}><i class="material-icons left">swap_calls</i>select</a>
+      <a href="#" class="btn" on:click={() => {toggleNamespace()}}><i class="material-icons left">swap_calls</i>select</a>
     </div>
       {#if namespaceRecord}
         {#if namespaceRecord.clients && namespaceRecord.clients.length}
@@ -210,7 +210,7 @@
               {#if namespaceRecord.inviteOnly}
                 <a href="#" class="btn"><i class="material-icons left">people</i>request an invite</a>
               {:else}
-                <a href="#" class="btn"><i class="material-icons left">people</i>join namespace</a>
+                <a href="#" class="btn" on:click={() => registerClientToNamespace()}><i class="material-icons left">people</i>join namespace</a>
               {/if}
             </div>
           {:else}
