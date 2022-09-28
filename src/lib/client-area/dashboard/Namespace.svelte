@@ -6,11 +6,13 @@
 
   import user from '$lib/stores/user';
   import namespace from '$lib/stores/namespace';
+  import client from '$lib/stores/client';
 
   let slug: string;
   let userRecord: any;
   let namespaceRecord: any;
   let clientRecord: any;
+  let isMemberOfNamespace: boolean;
   
   user.subscribe((value: any) => {
     if (value) {
@@ -18,11 +20,21 @@
     }
   });
 
-  namespace.subscribe(value => {
+  namespace.subscribe((value: any) => {
     if (value) {
       namespaceRecord = JSON.parse(value)
       slug = namespaceRecord.slug
+      checkUserMembership()
     }
+  });
+
+  client.subscribe((value: any) => {
+    if (value) {
+      clientRecord = JSON.parse(value)
+    } else {
+      clientRecord = undefined
+    }
+    checkClientMembership()
   });
 
   onMount(async () => {
@@ -54,6 +66,96 @@
         slug,
       })
       namespace.set(JSON.stringify(r))
+    }
+
+    console.log('reset client')
+    client.set('')
+  }
+
+  async function registerClientToNamespace () {
+    if (userRecord === '') return alert('User record must exist.')
+    if (namespaceRecord === '') return alert('Namespace record must exist.')
+
+    let ideaOptimizer = com.IdeaOptimizer.getInstance()
+    let db = await ideaOptimizer.db()
+
+    let c = await db.client.insert({
+      id: uuidv4(),
+      namespace: namespaceRecord.id,
+      user: userRecord.id,
+    })
+    client.set(JSON.stringify(c))
+    console.log('created client', c)
+    
+    console.log('updating namespace')
+    let query = await db.namespace.find({
+      slug: namespaceRecord.slug,
+    })
+
+    let clients = []
+    if (namespaceRecord.clients) {
+      clients = namespaceRecord.clients.push(c.id)
+    } else {
+      clients = [c.id]
+    }
+    console.log('changed namespace clients', clients)
+
+    await query.update({
+      $set: {
+        clients: clients
+      }
+    })
+
+    let ns = await db.namespace.findOne({
+      slug: namespaceRecord.slug,
+    }).exec()
+    console.log('updated namespace', ns)
+
+    namespace.set(JSON.stringify(ns))
+    isMemberOfNamespace = true
+  }
+
+  function checkClientMembership () {
+    if (clientRecord && namespaceRecord) {
+      if (clientRecord.namespace === namespaceRecord.id) {
+        isMemberOfNamespace = true
+      } else {
+        isMemberOfNamespace = false
+      }
+      console.log('isMemberOfNamespace', isMemberOfNamespace)
+    } else {
+      isMemberOfNamespace = false
+    }
+  }
+
+  async function checkUserMembership () {
+    let ideaOptimizer = com.IdeaOptimizer.getInstance()
+    let db = await ideaOptimizer.db()
+    
+    let allClients = await db.client.find().exec()
+    console.log('all clients', JSON.parse(JSON.stringify(allClients)))
+
+    if (namespaceRecord.clients && namespaceRecord.clients.length) {
+      console.log('namespaceRecord.clients', namespaceRecord.clients)
+      let c = await db.client.findOne({
+        selector: {
+          user: userRecord.id,
+          namespace: namespaceRecord.id
+        }
+      }).exec()
+      console.log('userRecord.id', userRecord.id)
+      console.log('namespaceRecord.id', namespaceRecord.id)
+      console.log('check if user is client in namespace result', c)
+
+      if (c) {
+        console.log('user is already a client of this namespace')
+        client.set(JSON.stringify(c))
+        
+      } else {
+        console.log('user is not a client of this namespace')
+      }
+    } else {
+      client.set('')
     }
   }
 </script>
@@ -91,7 +193,7 @@
             <p>This namespace is owned and operated by clients.</p>
           </div>
         {/if}
-        {#if clientRecord}
+        {#if isMemberOfNamespace}
           <div class="card-action">
             <div class="card-title">
               Client <button class="btn disabled right"><i class="material-icons">check</i></button>
@@ -117,7 +219,7 @@
                 Initialized <button class="btn disabled right"><i class="material-icons">close</i></button>
               </div>
               <p>This namespace has yet to be owned and operated.</p>
-              <a href="#" class="btn"><i class="material-icons left">add</i>register</a>
+              <a href="#" class="btn" on:click={() => registerClientToNamespace()}><i class="material-icons left">add</i>register</a>
             </div>
           {/if}
         {/if}
