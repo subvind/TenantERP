@@ -114,9 +114,9 @@
       <label for="username">Username</label>
     </div>
     {#if userRecord}
-      <a href="#" class="btn" on:click={() => update()}><i class="material-icons left">account_circle</i>update</a>
+      <a href="#" class="btn black" on:click={() => update()}><i class="material-icons left">account_circle</i>update</a>
     {:else}
-      <a href="#" class="btn" on:click={() => create()}><i class="material-icons left">account_circle</i>submit</a>
+      <a href="#" class="btn black" on:click={() => create()}><i class="material-icons left">account_circle</i>submit</a>
     {/if}
   </div>
 </div>

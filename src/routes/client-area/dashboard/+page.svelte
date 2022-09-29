@@ -1,6 +1,7 @@
 <script>
   import Client from '$lib/client-area/dashboard/Client.svelte';
 	import Namespace from '$lib/client-area/dashboard/Namespace.svelte';
+  import Team from '$lib/client-area/dashboard/Team.svelte';
   import User from '$lib/client-area/dashboard/User.svelte';
 </script>
 
@@ -20,6 +21,8 @@
 		</div>
 		<div class="col m6">
 			<Namespace />
+			<br />
+			<Team />
 		</div>
 	</div>
 </div>

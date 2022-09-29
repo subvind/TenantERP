@@ -68,9 +68,9 @@
     <div class="card-action">
       <div class="card-title">
         {#if clientRecord.firstName && clientRecord.lastName}
-          Permission <button class="btn disabled right"><i class="material-icons">check</i></button>
+          Identity <button class="btn disabled right"><i class="material-icons">check</i></button>
         {:else}
-          Permission <button class="btn disabled right"><i class="material-icons">close</i></button>
+          Identity <button class="btn disabled right"><i class="material-icons">close</i></button>
         {/if}
       </div>
       <p>This will show on your profile within the "{namespaceRecord.slug}" namespace.</p>
@@ -84,7 +84,7 @@
         <input id="lastName" type="text" class="validate" bind:value={lastName}>
         <label for="lastName">Last Name</label>
       </div>
-      <a href="#" class="btn" on:click={() => updateRecord()}><i class="material-icons left">account_circle</i>update</a>
+      <a href="#" class="btn black" on:click={() => updateRecord()}><i class="material-icons left">person</i>update</a>
     </div>
   </div>
 {:else}

@@ -182,7 +182,7 @@
         <input id="last_name" type="text" class="validate" bind:value={slug}>
         <label for="last_name">Namespace Slug</label>
       </div>
-      <a href="#" class="btn" on:click={() => {toggleNamespace()}}><i class="material-icons left">swap_calls</i>select</a>
+      <a href="#" class="btn black" on:click={() => {toggleNamespace()}}><i class="material-icons left">swap_calls</i>select</a>
     </div>
       {#if namespaceRecord}
         {#if namespaceRecord.clients && namespaceRecord.clients.length}
@@ -198,7 +198,7 @@
             <div class="card-title">
               Client <button class="btn disabled right"><i class="material-icons">check</i></button>
             </div>
-            <p>As a member of the "{namespaceRecord.slug}" namespace you have permission to view all of your related data thoughout our client area.</p>
+            <p>As a team member of the "{namespaceRecord.slug}" namespace you have permission to view all of your related data thoughout our client area.</p>
           </div>
         {:else}
           {#if namespaceRecord.clients && namespaceRecord.clients.length}
@@ -208,9 +208,9 @@
               </div>
               <p>You must become a member of this namespace before proceeding.</p>
               {#if namespaceRecord.inviteOnly}
-                <a href="#" class="btn"><i class="material-icons left">people</i>request an invite</a>
+                <a href="#" class="btn black"><i class="material-icons left">people</i>request an invite</a>
               {:else}
-                <a href="#" class="btn" on:click={() => registerClientToNamespace()}><i class="material-icons left">people</i>join namespace</a>
+                <a href="#" class="btn black" on:click={() => registerClientToNamespace()}><i class="material-icons left">people</i>join namespace</a>
               {/if}
             </div>
           {:else}
@@ -219,7 +219,7 @@
                 Initialized <button class="btn disabled right"><i class="material-icons">close</i></button>
               </div>
               <p>This namespace has yet to be owned and operated.</p>
-              <a href="#" class="btn" on:click={() => registerClientToNamespace()}><i class="material-icons left">add</i>register</a>
+              <a href="#" class="btn black" on:click={() => registerClientToNamespace()}><i class="material-icons left">add</i>register</a>
             </div>
           {/if}
         {/if}
