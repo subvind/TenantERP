@@ -1,11 +1,12 @@
 <script lang="ts">
+  import { onMount } from 'svelte';
+	
   import Banner from '$lib/Banner.svelte';
   import Client from '$lib/client-area/dashboard/Client.svelte';
   import Idea from '$lib/client-area/dashboard/Innovate.svelte';
 	import Namespace from '$lib/client-area/dashboard/Namespace.svelte';
   import Team from '$lib/client-area/dashboard/Team.svelte';
   import User from '$lib/client-area/dashboard/User.svelte';
-  import { onMount } from 'svelte';
 
 	onMount(() => {
 		let elms = document.querySelectorAll('.tabs')
