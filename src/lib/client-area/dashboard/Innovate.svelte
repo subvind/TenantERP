@@ -64,7 +64,7 @@
           Ideas <button class="btn disabled right"><i class="material-icons">close</i></button>
         {/if}
       </div>
-      <p>Those that will be supporting the idea(s) under the "{namespaceRecord.slug}" namespace silo by using this client area. </p>
+      <p>Start with a simple concept and then little by little rapidly iterate more details ontop of that foundation.</p>
       {#if ideas && ideas.length}
         <table class="" style="border: 1px solid #eee;">
           <thead>
@@ -77,7 +77,7 @@
             {#each ideas as idea}
               <tr>
                 <td><span style="font-weight: 900;">{idea.name}</span><br />{idea.description}</td>
-                <td style="text-align: right;"><a href="#" class="btn white black-text">{idea.slug}</a></td>
+                <td style="text-align: right;"><a href={`/client-area/ideas/view/${idea.slug}`} class="btn white black-text">{idea.slug}</a></td>
               </tr>
             {/each}
           </tbody>
