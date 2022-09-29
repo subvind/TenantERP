@@ -43,7 +43,7 @@
   })
 
   async function toggleNamespace () {
-    if (namespaceRecord.slug === slug) return; // already showing ns
+    if (namespaceRecord && (namespaceRecord.slug === slug)) return; // already showing ns
     if (slug === '') return alert('Namespace Slug must be defined.')
 
     let ideaOptimizer = com.IdeaOptimizer.getInstance()

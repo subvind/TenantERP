@@ -1,7 +1,24 @@
 <script lang="ts">
+  import namespace from "$lib/stores/namespace";
+  import idea from "$lib/stores/idea";
+
+  let namespaceRecord: any;
+  let ideaRecord: any;
   export let name: string;
   export let icon: string | null;
   export let description: string | null = '';
+  
+  namespace.subscribe((value: any) => {
+    if (value) {
+      namespaceRecord = JSON.parse(value)
+    }
+  });
+
+  idea.subscribe((value: any) => {
+    if (value) {
+      ideaRecord = JSON.parse(value)
+    }
+  });
 </script>
 
 <div class="banner">
@@ -26,7 +43,20 @@
         </nav>
       </div>
       <div class="col m6">
-        
+        <div style="text-align: right;">
+          {#if namespaceRecord}
+            <a href="#" class="btn right black">
+              {namespaceRecord.slug}
+            </a>
+            <a href="#" class="btn right white black-text">
+              <i class="material-icons left">space_bar</i>namespace
+            </a>
+            <br/>
+          {/if}
+          {#if ideaRecord}
+            idea: {ideaRecord.slug}<br/>
+          {/if}
+        </div>
       </div>
     </div>
   </div>
