@@ -15,7 +15,7 @@
   <div class="card-content row">
     <form class="col s12">
       <div class="input-field">
-        <input placeholder="Placeholder" id="first_name" type="text" class="validate" bind:value={githubPath} >
+        <input placeholder="" id="first_name" type="text" class="validate" bind:value={githubPath} >
         <label for="first_name">github.com/{githubPath}</label>
         <p>Notice: we are only showing repositories from users and orgs that are public. Private repos are not supported yet.</p>
       </div>

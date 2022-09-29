@@ -50,7 +50,7 @@
       <div class="row" >
         <div class="col m6">
           <div class="input-field">
-            <input placeholder="Placeholder" id="slug" type="text" class="validate" bind:value={slug}>
+            <input placeholder="" id="slug" type="text" class="validate" bind:value={slug}>
             <label for="slug">Slug</label>
           </div>
         </div>
@@ -61,7 +61,7 @@
       <div class="row">
         <div class="col m6">
           <div class="input-field">
-            <input placeholder="Placeholder" id="name" type="text" class="validate" bind:value={name}>
+            <input placeholder="" id="name" type="text" class="validate" bind:value={name}>
             <label for="name">Name</label>
           </div>
         </div>
