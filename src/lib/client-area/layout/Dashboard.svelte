@@ -1,4 +1,5 @@
 <script>
+  import Footer from '../../Footer.svelte';
   import Header from '../../Header.svelte'
   import MainNavigation from './MainNavigation.svelte';
   
@@ -15,7 +16,10 @@
     <MainNavigation app={app} />
   </div>
   <div class="col m11" style="background: #f4f4f4; color: #333; padding-top: 64px;">
-    <slot></slot>
+    <div style="min-height: 100vh;">
+      <slot></slot>
+    </div>
+    <Footer />
   </div>
 </div>
 

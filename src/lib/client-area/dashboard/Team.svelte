@@ -100,17 +100,18 @@
       {/if}
     </div>
     <div class="card-action">
-      <div class="card-title">List</div>
+      <div class="card-title">
+        Clients <button class="btn disabled right"><i class="material-icons">check</i></button>
+      </div>
+      <br />
       {#if team && team.length}
-
         <table class="centered" style="border: 1px solid #eee;">
           <thead>
             <tr>
-                <th>Client</th>
-                <th>Authorize</th>
+                <th>Identity</th>
+                <th>Authorization</th>
             </tr>
           </thead>
-
           <tbody>
             {#each team as member}
               <tr>

@@ -7,6 +7,7 @@
   import user from '$lib/stores/user';
   import namespace from '$lib/stores/namespace';
   import client from '$lib/stores/client';
+  import Namespaces from './Namespaces.svelte';
 
   let slug: string;
   let userRecord: any;
@@ -183,6 +184,7 @@
         <label for="last_name">Namespace Slug</label>
       </div>
       <a href="#" class="btn black" on:click={() => {toggleNamespace()}}><i class="material-icons left">swap_calls</i>select</a>
+      <Namespaces bind:slug={slug} />
     </div>
       {#if namespaceRecord}
         {#if namespaceRecord.clients && namespaceRecord.clients.length}

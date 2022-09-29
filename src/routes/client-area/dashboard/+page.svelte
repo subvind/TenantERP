@@ -1,4 +1,4 @@
-<script>
+<script lang="ts">
   import Client from '$lib/client-area/dashboard/Client.svelte';
 	import Namespace from '$lib/client-area/dashboard/Namespace.svelte';
   import Team from '$lib/client-area/dashboard/Team.svelte';
