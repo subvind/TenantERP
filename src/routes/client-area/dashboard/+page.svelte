@@ -41,15 +41,18 @@
 		<div class="row">
 			<div class="col m6">
 				<User />
-				<br />
-				<Client />
-				<br />
-				<Idea />
 			</div>
 			<div class="col m6">
 				<Namespace />
-				<br />
+			</div>
+			<div class="col m6">
+				<Client />
+			</div>
+			<div class="col m6">
 				<Team />
+			</div>
+			<div class="col m6">
+				<Idea />
 			</div>
 		</div>
 	</div>
