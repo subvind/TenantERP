@@ -99,6 +99,6 @@
     {/if}
   </div>
   <div class="modal-footer">
-    <a href="#!" class="btn modal-close black">close</a>
+    <a href="#!" class="btn modal-close red lighten-2">close</a>
   </div>
 </div>
