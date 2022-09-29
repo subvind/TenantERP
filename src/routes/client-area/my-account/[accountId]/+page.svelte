@@ -44,16 +44,16 @@
 
   <div class="container">
     <!-- Dropdown Trigger -->
-    <a class='dropdown-trigger btn-floating btn-large right blue lighten-2' style="position: float; margin-top: -2em;" href='#' data-target='dropdownMore'><i class="material-icons">more_vert</i></a>
+    <a class='dropdown-trigger btn-floating btn-large right red lighten-2' style="position: float; margin-top: -2em;" href='#' data-target='dropdownMore'><i class="material-icons">more_vert</i></a>
   
     <!-- Dropdown Structure -->
     <ul id='dropdownMore' class='dropdown-content' style="min-width: 200px;">
-      <li><a href="#!" class="light-blue-text">one</a></li>
-      <li><a href="#!" class="light-blue-text">two</a></li>
+      <li><a href="#!" class="black-text">one</a></li>
+      <li><a href="#!" class="black-text">two</a></li>
       <li class="divider" tabindex="-1"></li>
-      <li><a href="#!" class="light-blue-text">three</a></li>
-      <li><a href="#!" class="light-blue-text"><i class="material-icons">view_module</i>four</a></li>
-      <li><a href="#!" class="light-blue-text"><i class="material-icons">cloud</i>five</a></li>
+      <li><a href="#!" class="black-text">three</a></li>
+      <li><a href="#!" class="black-text"><i class="material-icons">view_module</i>four</a></li>
+      <li><a href="#!" class="black-text"><i class="material-icons">cloud</i>five</a></li>
     </ul>
   
     {JSON.stringify(vehicle)}

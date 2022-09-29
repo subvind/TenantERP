@@ -42,7 +42,7 @@
       formatter: (cell: any, row: any) => {
         return gridjs.h('a', {
           href: `/client-area/ideas/view/${row.cells[1].data}`,
-          className: 'btn btn-small blue lighten-2 right',
+          className: 'btn btn-small red lighten-2 right',
         }, 'VIEW');
       }
     },
@@ -82,14 +82,14 @@
 
 <div class="container">
   <!-- Dropdown Trigger -->
-  <a class='dropdown-trigger btn-floating btn-large right blue lighten-2' style="position: float; margin-top: -2em;" href='#' data-target='dropdownMore'><i class="material-icons">more_vert</i></a>
+  <a class='dropdown-trigger btn-floating btn-large right red lighten-2' style="position: float; margin-top: -2em;" href='#' data-target='dropdownMore'><i class="material-icons">more_vert</i></a>
 
   <!-- Dropdown Structure -->
   <ul id='dropdownMore' class='dropdown-content' style="min-width: 200px;">
-    <li><a href="/client-area/ideas/create" class="light-blue-text"><i class="material-icons">add</i>Add Record</a></li>
+    <li><a href="/client-area/ideas/create" class="black-text"><i class="material-icons">add</i>Add Record</a></li>
     <li class="divider" tabindex="-1"></li>
-    <li><a href="#!" class="light-blue-text"><i class="material-icons">cloud_download</i>Import Records</a></li>
-    <li><a href="#!" class="light-blue-text"><i class="material-icons">cloud_upload</i>Export Records</a></li>
+    <li><a href="#!" class="black-text"><i class="material-icons">cloud_download</i>Import Records</a></li>
+    <li><a href="#!" class="black-text"><i class="material-icons">cloud_upload</i>Export Records</a></li>
   </ul>
   {#if loading === false}
     <Table columns={columns} data={data} search={search} pagination={pagination} sort={sort} />
