@@ -75,8 +75,8 @@
 </script>
 
 
-<Banner icon="flag" name="Ideas">
-  <a href="/client-area/dashboard" class="breadcrumb">Home</a>
+<Banner icon="flag" name="Ideas" description="Innovation Management System">
+  <a href="/client-area/dashboard" class="breadcrumb">Dashboard</a>
   <a href="/client-area/ideas" class="breadcrumb">Ideas</a>
 </Banner>
 

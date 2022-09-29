@@ -105,7 +105,7 @@
       </div>
       <br />
       {#if team && team.length}
-        <table class="centered" style="border: 1px solid #eee;">
+        <table class="" style="border: 1px solid #eee;">
           <thead>
             <tr>
                 <th>Identity</th>
@@ -122,8 +122,7 @@
           </tbody>
         </table>
       {/if}
-    </div>
-    <div class="card-action">
+      <br />
       <a href="/client-area/clients" class="btn black"><i class="material-icons left">people</i>view all</a>
     </div>
   </div>

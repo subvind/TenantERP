@@ -35,11 +35,11 @@
 </script>
 
 {#if loading === false}
-  <Banner icon="directions_bus" name={vehicle.name}>
-    <a href="/dashboard" class="breadcrumb">Home</a>
-    <a href="/fleets" class="breadcrumb">Fleets</a>
-    <a href="/fleets/vehicles" class="breadcrumb">Vehicles</a>
-    <a href={`/fleets/vehicles/${data.vehicleId}`} class="breadcrumb">View</a>
+  <Banner icon="directions_bus" name={vehicle.name} description="Innovation Management System">
+    <a href="/client-area/dashboard" class="breadcrumb">Dashboard</a>
+    <a href="/client-area/fleets" class="breadcrumb">Fleets</a>
+    <a href="/client-area/fleets/vehicles" class="breadcrumb">Vehicles</a>
+    <a href={`/client-area/fleets/vehicles/${data.vehicleId}`} class="breadcrumb">View</a>
   </Banner>
 
   <div class="container">

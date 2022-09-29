@@ -75,10 +75,10 @@
 </script>
 
 
-<Banner icon="directions_bus" name="Vehicles">
-  <a href="/dashboard" class="breadcrumb">Home</a>
-  <a href="/fleets" class="breadcrumb">Fleets</a>
-  <a href="/vehicles" class="breadcrumb">Vehicles</a>
+<Banner icon="directions_bus" name="Vehicles" description="Innovation Management System">
+  <a href="/client-area/dashboard" class="breadcrumb">Dashboard</a>
+  <a href="/client-area/fleets" class="breadcrumb">Fleets</a>
+  <a href="/client-area/vehicles" class="breadcrumb">Vehicles</a>
 </Banner>
 
 <div class="container">

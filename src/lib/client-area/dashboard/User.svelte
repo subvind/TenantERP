@@ -118,5 +118,6 @@
     {:else}
       <a href="#" class="btn black" on:click={() => create()}><i class="material-icons left">account_circle</i>submit</a>
     {/if}
+    <a href="/client-area/my-account" class="btn white black-text">my account</a>
   </div>
 </div>

@@ -16,7 +16,7 @@
     <h1 class="title">
       Frequently Asked<br /> Questions
     </h1>
-    <div class="row">
+    <div class="row" style="margin: 0 -0.6em;">
       <div class="col m6">
         <ul class="collapsible">
           <li>

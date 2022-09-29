@@ -1,9 +1,5 @@
-
-
 <div class="container">
-</div>
-<div class="container">
-  <div class="row">
+  <div class="row" style="margin: 0 -0.6em;">
     <div class="col s6">
       <div class="card">
         <img src="travis.jpeg" class="image" alt="Travis Burandt">
@@ -52,7 +48,6 @@
 </div>
 
 <style>
-
 	.title {
 		font-weight: 900;
 		font-size: 4.5em;
@@ -67,11 +62,9 @@
     margin: 1em 0 0 0;
     text-align: left;
   }
-  
   .box {
     border: 1em solid #000;
   }
-
   .signature {
     max-width: 50%;
   }

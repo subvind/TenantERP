@@ -85,6 +85,7 @@
         <label for="lastName">Last Name</label>
       </div>
       <a href="#" class="btn black" on:click={() => updateRecord()}><i class="material-icons left">person</i>update</a>
+      <a href={`/client-area/clients/view/${clientRecord.id}`} class="btn white black-text">my profile</a>
     </div>
   </div>
 {:else}

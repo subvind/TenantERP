@@ -29,7 +29,7 @@
 <br />
 <br />
 <div class="container">
-	<div class="row">
+	<div class="row" style="margin: 0 -0.6em;">
 		<div class="col s4">
 			<div class="card">
 				<img src="./travis.jpeg" alt="travis in canada" width="100%" style="padding-bottom: 0.5em; margin-bottom: -1em;" />

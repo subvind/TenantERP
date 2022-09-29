@@ -3,7 +3,7 @@
   export let apps: any
 </script>
 
-<div class="row">
+<div class="row" style="margin: 0 -0.6em;">
 	{#each apps as app}
 		<div class="col s12 m6">
 			<div class="card">

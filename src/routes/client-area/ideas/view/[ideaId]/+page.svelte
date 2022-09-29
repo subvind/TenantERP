@@ -52,8 +52,8 @@
 </script>
 
 {#if idea}
-  <Banner icon="flag" name={idea.name}>
-    <a href="/client-area/dashboard" class="breadcrumb">Home</a>
+  <Banner icon="flag" name={idea.name} description="Innovation Management System">
+    <a href="/client-area/dashboard" class="breadcrumb">Dashboard</a>
     <a href="/client-area/ideas" class="breadcrumb">Ideas</a>
     <a href={`/client-area/ideas/view/${data.ideaId}`} class="breadcrumb">View</a>
   </Banner>
