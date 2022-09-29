@@ -35,7 +35,7 @@
     "dayjs": "^1.11.2",
     "firebase": "^9.8.2",
     "gridjs": "^5.1.0",
-    "idea-optimizer": "^1.0.3",
+    "idea-optimizer": "^1.0.4",
     "isomorphic-fetch": "^3.0.0",
     "javascript-time-ago": "^2.5.4",
     "leader-line": "github:anseki/leader-line",
