@@ -7,60 +7,55 @@
   import namespace from '$lib/stores/namespace';
 
   import com from 'idea-optimizer'
-
-	let namespaceSlug: string;
-	namespace.subscribe(value => {
-		namespaceSlug = value;
-	});
   
   export let data: any;
+  let namespaceRecord: any;
   let idea: any;
-
+  
   navigation.set('ideas')
-
-  let loading: boolean = true
-
-  async function getNamespaceId(slug: string) {
-    let ideaOptimizer = com.IdeaOptimizer.getInstance()
-    let db = await ideaOptimizer.db()
-
-    let record = await db.namespace.findOne({
-      selector: {
-        slug: slug
-      }
-    }).exec()
-
-    return record.id
-  }
+  
+  namespace.subscribe(async (value) => {
+    if (value) {
+      namespaceRecord = JSON.parse(value);
+      await loadIdea()
+      initMaterial()
+    }
+  });
 
   onMount(async () => {
-    let ideaOptimizer = com.IdeaOptimizer.getInstance()
-    let db = await ideaOptimizer.db()
-    let record = await db.idea.findOne({
-      selector: {
-        slug: data.ideaId,
-        namespace: getNamespaceId(namespaceSlug)
-      }
-    }).exec()
-    idea = record.toJSON()
-    console.dir(idea)
-    
-    loading = false
+    // nothing
+  })
 
+  function initMaterial() {
     setTimeout(() => {
       var elems = document.querySelectorAll('.dropdown-trigger');
       var instances = M.Dropdown.init(elems, {
         alignment: 'right'
       });
     }, 0)
-  })
+  }
+  
+  async function loadIdea() {
+    let ideaOptimizer = com.IdeaOptimizer.getInstance()
+    let db = await ideaOptimizer.db()
+    
+    console.log('load idea', data.ideaId)
+    console.log('load idea', namespaceRecord.id)
+    idea = await db.idea.findOne({
+      selector: {
+        slug: data.ideaId,
+        namespace: namespaceRecord.id
+      }
+    }).exec()
+    console.log(idea)
+  }
 </script>
 
-{#if loading === false}
-  <Banner icon="directions_bus" name={idea.name}>
+{#if idea}
+  <Banner icon="flag" name={idea.name}>
     <a href="/client-area/dashboard" class="breadcrumb">Home</a>
     <a href="/client-area/ideas" class="breadcrumb">Ideas</a>
-    <a href={`/client-area/ideas/${data.ideaId}`} class="breadcrumb">View</a>
+    <a href={`/client-area/ideas/view/${data.ideaId}`} class="breadcrumb">View</a>
   </Banner>
 
   <div class="container">
