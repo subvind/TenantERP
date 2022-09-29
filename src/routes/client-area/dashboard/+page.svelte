@@ -1,5 +1,6 @@
 <script lang="ts">
   import Client from '$lib/client-area/dashboard/Client.svelte';
+  import Idea from '$lib/client-area/dashboard/Idea.svelte';
 	import Namespace from '$lib/client-area/dashboard/Namespace.svelte';
   import Team from '$lib/client-area/dashboard/Team.svelte';
   import User from '$lib/client-area/dashboard/User.svelte';
@@ -18,6 +19,8 @@
 			<User />
 			<br />
 			<Client />
+			<br />
+			<Idea />
 		</div>
 		<div class="col m6">
 			<Namespace />
