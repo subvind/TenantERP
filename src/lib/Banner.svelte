@@ -67,7 +67,7 @@
 
 <style>
   .banner {
-    background: #ddd;
+    background: #aaa;
     min-height: 100px;
     overflow: hidden;
   }
