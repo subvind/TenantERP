@@ -53,7 +53,7 @@
   }
 </script>
 
-<h4>5) System</h4>
+<h4>5) Foundation</h4>
 {#if clientRecord && clientRecord.firstName && clientRecord.lastName}
   <div class="card">
     <div class="card-action">

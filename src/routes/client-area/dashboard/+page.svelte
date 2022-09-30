@@ -21,13 +21,13 @@
 
 <Banner icon="dashboard" name="Client Area" description="Innovation Management System">
   <a href="/" class="breadcrumb">isTrav</a>
-  <a href="/client-area/ideas" class="breadcrumb">Dashboard</a>
+  <a href="/client-area/dashboard" class="breadcrumb">Dashboard</a>
 </Banner>
 
 <div class="navigation z-depth-2">
 	<div class="container">
 		<ul class="tabs">
-			<li class="tab col s2"><a class="active" href="#test1">Welcome</a></li>
+			<li class="tab col s2"><a class="active" href="#test1">Ideation</a></li>
 			<li class="tab col s3"><a href="#test2">Foundation</a></li>
 			<li class="tab col s2"><a href="#test3">Manage</a></li>
 			<li class="tab col s3"><a href="#test4">Innovate</a></li>
@@ -67,7 +67,7 @@
 		platforms, tenants, chatbots, apps
 	</div>
 	<div id="test5">
-		deployments, access keys, reports, billing
+		deployments, access keys, clients, reports, billing
 	</div>
 </div>
 <br />

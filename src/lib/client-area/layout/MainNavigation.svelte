@@ -11,15 +11,11 @@
 
 <div class="nav">
   <a href="/client-area/dashboard" data-position="right" data-tooltip="Dashboard" class={`tooltipped btn-floating btn-large waves-effect waves-light ${app === 'dashboard' ? 'red lighten-2' : 'grey'}`}><i class="material-icons">dashboard</i></a>
-  <a href="/client-area/ideas" data-position="right" data-tooltip="Ideas" class={`tooltipped btn-floating btn-large waves-effect waves-light ${app === 'ideas' ? 'red lighten-2' : 'grey'}`}><i class="material-icons">flag</i></a>
-  <a href="/client-area/domain-names" data-position="right" data-tooltip="Domain Names" class={`tooltipped btn-floating btn-large waves-effect waves-light ${app === 'websites' ? 'red lighten-2' : 'grey'}`}><i class="material-icons">dns</i></a>
-  <a href="/client-area/platforms" data-position="right" data-tooltip="Platforms" class={`tooltipped btn-floating btn-large waves-effect waves-light ${app === 'platforms' ? 'red lighten-2' : 'grey'}`}><i class="material-icons">folder</i></a>
-  <a href="/client-area/tenants" data-position="right" data-tooltip="Tenants" class={`tooltipped btn-floating btn-large waves-effect waves-light ${app === 'tenants' ? 'red lighten-2' : 'grey'}`}><i class="material-icons">business</i></a>
-  <a href="/client-area/chatbots" data-position="right" data-tooltip="Chatbots" class={`tooltipped btn-floating btn-large waves-effect waves-light ${app === 'chatbots' ? 'red lighten-2' : 'grey'}`}><i class="material-icons">chat</i></a>
-  <a href="/client-area/clients" data-position="right" data-tooltip="Clients" class={`tooltipped btn-floating btn-large waves-effect waves-light ${app === 'clients' ? 'red lighten-2' : 'grey'}`}><i class="material-icons">people</i></a>
-  <a href="/client-area/access-keys" data-position="right" data-tooltip="Access Keys" class={`tooltipped btn-floating btn-large waves-effect waves-light ${app === 'access-keys' ? 'red lighten-2' : 'grey'}`}><i class="material-icons">key</i></a>
-  <a href="/client-area/license-keys" data-position="right" data-tooltip="License Keys" class={`tooltipped btn-floating btn-large waves-effect waves-light ${app === 'license-keys' ? 'red lighten-2' : 'grey'}`}><i class="material-icons">badge</i></a>
-  <a href="/client-area/reports" data-position="right" data-tooltip="Reports" class={`tooltipped btn-floating btn-large waves-effect waves-light ${app === 'reports' ? 'red lighten-2' : 'grey'}`}><i class="material-icons">receipt</i></a>
+  <a href="/client-area/ideas" data-position="right" data-tooltip="Ideation" class={`tooltipped btn-floating btn-large waves-effect waves-light ${app === 'ideas' ? 'red lighten-2' : 'grey'}`}><i class="material-icons">flag</i></a>
+  <a href="/client-area/foundation" data-position="right" data-tooltip="Foundation" class={`tooltipped btn-floating btn-large waves-effect waves-light ${app === 'websites' ? 'red lighten-2' : 'grey'}`}><i class="material-icons">layers</i></a>
+  <a href="/client-area/manage" data-position="right" data-tooltip="Manage" class={`tooltipped btn-floating btn-large waves-effect waves-light ${app === 'platforms' ? 'red lighten-2' : 'grey'}`}><i class="material-icons">mood</i></a>
+  <a href="/client-area/innovate" data-position="right" data-tooltip="Innovate" class={`tooltipped btn-floating btn-large waves-effect waves-light ${app === 'tenants' ? 'red lighten-2' : 'grey'}`}><i class="material-icons">trending_up</i></a>
+  <a href="/client-area/system" data-position="right" data-tooltip="System" class={`tooltipped btn-floating btn-large waves-effect waves-light ${app === 'system' ? 'red lighten-2' : 'grey'}`}><i class="material-icons">traffic</i></a>
   <br />
   <br />
   <br />
