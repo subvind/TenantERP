@@ -3,7 +3,6 @@
 
   import Banner from '$lib/Banner.svelte'
 
-  import navigation from '$lib/stores/navigation';
   import namespace from '$lib/stores/namespace';
 
   import com from 'idea-optimizer'
@@ -11,8 +10,6 @@
   export let data: any;
   let namespaceRecord: any;
   let idea: any;
-  
-  navigation.set('ideas')
   
   namespace.subscribe(async (value) => {
     if (value) {

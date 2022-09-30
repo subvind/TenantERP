@@ -12,9 +12,9 @@
 <div class="nav">
   <a href="/client-area/dashboard" data-position="right" data-tooltip="Dashboard" class={`tooltipped btn-floating btn-large waves-effect waves-light ${app === 'dashboard' ? 'red lighten-2' : 'grey'}`}><i class="material-icons">dashboard</i></a>
   <a href="/client-area/ideas" data-position="right" data-tooltip="Ideation" class={`tooltipped btn-floating btn-large waves-effect waves-light ${app === 'ideas' ? 'red lighten-2' : 'grey'}`}><i class="material-icons">flag</i></a>
-  <a href="/client-area/foundation" data-position="right" data-tooltip="Foundation" class={`tooltipped btn-floating btn-large waves-effect waves-light ${app === 'websites' ? 'red lighten-2' : 'grey'}`}><i class="material-icons">layers</i></a>
-  <a href="/client-area/manage" data-position="right" data-tooltip="Manage" class={`tooltipped btn-floating btn-large waves-effect waves-light ${app === 'platforms' ? 'red lighten-2' : 'grey'}`}><i class="material-icons">mood</i></a>
-  <a href="/client-area/innovate" data-position="right" data-tooltip="Innovate" class={`tooltipped btn-floating btn-large waves-effect waves-light ${app === 'tenants' ? 'red lighten-2' : 'grey'}`}><i class="material-icons">trending_up</i></a>
+  <a href="/client-area/foundation" data-position="right" data-tooltip="Foundation" class={`tooltipped btn-floating btn-large waves-effect waves-light ${app === 'foundation' ? 'red lighten-2' : 'grey'}`}><i class="material-icons">layers</i></a>
+  <a href="/client-area/manage" data-position="right" data-tooltip="Manage" class={`tooltipped btn-floating btn-large waves-effect waves-light ${app === 'manage' ? 'red lighten-2' : 'grey'}`}><i class="material-icons">mood</i></a>
+  <a href="/client-area/innovate" data-position="right" data-tooltip="Innovate" class={`tooltipped btn-floating btn-large waves-effect waves-light ${app === 'innovate' ? 'red lighten-2' : 'grey'}`}><i class="material-icons">trending_up</i></a>
   <a href="/client-area/system" data-position="right" data-tooltip="System" class={`tooltipped btn-floating btn-large waves-effect waves-light ${app === 'system' ? 'red lighten-2' : 'grey'}`}><i class="material-icons">traffic</i></a>
   <br />
   <br />

@@ -6,11 +6,8 @@
   import Table from "$lib/Table.svelte"
   import * as gridjs from "gridjs";
 
-  import navigation from '$lib/stores/navigation';
   import com from 'idea-optimizer'
   import { v4 as uuidv4 } from 'uuid';
-
-  navigation.set('ideas')
 
   let search = {
     enabled: true

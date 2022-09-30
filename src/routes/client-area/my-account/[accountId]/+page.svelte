@@ -3,13 +3,10 @@
 
   import Banner from '$lib/Banner.svelte'
 
-  import navigation from '$lib/stores/navigation';
   import com from 'idea-optimizer'
   
   export let data: any;
   let vehicle: any;
-
-  navigation.set('fleets')
 
   let loading: boolean = true
 
