@@ -3,7 +3,7 @@
 	
   import Banner from '$lib/Banner.svelte';
   import Client from '$lib/client-area/dashboard/Client.svelte';
-  import Idea from '$lib/client-area/dashboard/Innovate.svelte';
+  import Idea from '$lib/client-area/dashboard/Foundation.svelte';
 	import Namespace from '$lib/client-area/dashboard/Namespace.svelte';
   import Team from '$lib/client-area/dashboard/Team.svelte';
   import User from '$lib/client-area/dashboard/User.svelte';

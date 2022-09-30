@@ -7,10 +7,12 @@
   import user from '$lib/stores/user';
   import namespace from '$lib/stores/namespace';
   import client from '$lib/stores/client';
+  import idea from '$lib/stores/idea';
 
   let userRecord: any;
   let namespaceRecord: any;
   let clientRecord: any;
+  let ideaRecord: any;
   let inviteOnly: boolean;
   let username: string;
   let ideas: any;
@@ -37,6 +39,12 @@
     }
   });
 
+  idea.subscribe((value: any) => {
+    if (value) {
+      ideaRecord = JSON.parse(value)
+    }
+  });
+
   onMount(() => {
     M.updateTextFields();
   })
@@ -50,6 +58,10 @@
         namespace: namespaceRecord.id
       }
     }).exec()
+  }
+
+  function selectIdea (value: any) {
+    idea.set(JSON.stringify(value))
   }
 </script>
 
@@ -77,7 +89,7 @@
             {#each ideas as idea}
               <tr>
                 <td><span style="font-weight: 900;">{idea.name}</span><br />{idea.description}</td>
-                <td style="text-align: right;"><a href={`/client-area/ideas/view/${idea.slug}`} class="btn white black-text">{idea.slug}</a></td>
+                <td style="text-align: right;"><a href="#" on:click={() => selectIdea(idea)} class={`btn ${ideaRecord.id === idea.id ? 'red lighten-2' : 'white black-text'}`}>{idea.slug}</a></td>
               </tr>
             {/each}
           </tbody>

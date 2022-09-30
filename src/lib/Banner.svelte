@@ -45,16 +45,24 @@
       <div class="col m6">
         <div style="text-align: right;">
           {#if namespaceRecord}
-            <a href="#" class="btn right black">
-              {namespaceRecord.slug}
-            </a>
-            <a href="#" class="btn right white black-text">
-              <i class="material-icons left">space_bar</i>namespace
-            </a>
-            <br/>
+            <div style="width: 100%; overflow: hidden; margin: 0 0 0.5em;">
+              <a href="#" class="btn right black">
+                {namespaceRecord.slug}
+              </a>
+              <a href="#" class="btn right white black-text">
+                <i class="material-icons left">space_bar</i>namespace
+              </a>
+            </div>
           {/if}
           {#if ideaRecord}
-            idea: {ideaRecord.slug}<br/>
+            <div style="width: 100%; overflow: hidden; margin: 0 0 0.5em;">
+              <a href="#" class="btn right black">
+                {ideaRecord.slug}
+              </a>
+              <a href="#" class="btn right white black-text">
+                <i class="material-icons left">flag</i>idea
+              </a>
+            </div>
           {/if}
         </div>
       </div>
