@@ -7,7 +7,7 @@
           <li class=""><a href="https://istrav.com" target="_blank">Made with &hearts; by isTrav.</a></li>
         </ul>
         <ul class="right">
-          <li><a href={`https://stream.istrav.dev`}>Stream</a></li>
+          <li><a href={`https://istrav.live`}>Live</a></li>
           <li><a href={`https://istrav.net`}>Community</a></li>
           <li><a href={`https://istrav.dev`}>Headquarters</a></li>
         </ul>
