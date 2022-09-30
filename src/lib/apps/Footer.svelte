@@ -13,8 +13,8 @@
           <button class="btn btn-large white black-text">idea.com</button>
           <button class="btn btn-large white black-text">idea.net</button>
           <button class="btn btn-large white black-text">idea.pro</button>
-          <button class="btn btn-large white black-text">idea.top</button>
-          <button class="btn btn-large white black-text">idea.one</button>
+          <button class="btn btn-large white black-text">idea.chat</button>
+          <button class="btn btn-large white black-text">idea.live</button>
           <button class="btn btn-large white black-text">idea.dev</button>
         </div>
       </div>
