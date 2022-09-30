@@ -53,7 +53,7 @@
   }
 </script>
 
-<h4>5) Innovate</h4>
+<h4>5) System</h4>
 {#if clientRecord && clientRecord.firstName && clientRecord.lastName}
   <div class="card">
     <div class="card-action">
@@ -64,7 +64,7 @@
           Ideas <button class="btn disabled right"><i class="material-icons">close</i></button>
         {/if}
       </div>
-      <p>Start with a simple concept and then little by little rapidly iterate more details ontop of that foundation.</p>
+      <p>Start with a simple concept then little by little add more and more details to it.</p>
       {#if ideas && ideas.length}
         <table class="" style="border: 1px solid #eee;">
           <thead>

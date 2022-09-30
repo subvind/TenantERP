@@ -27,10 +27,11 @@
 <div class="navigation z-depth-2">
 	<div class="container">
 		<ul class="tabs">
-			<li class="tab col s3"><a class="active" href="#test1">Setup</a></li>
+			<li class="tab col s2"><a class="active" href="#test1">Welcome</a></li>
 			<li class="tab col s3"><a href="#test2">Foundation</a></li>
-			<li class="tab col s3"><a href="#test3">Innovate</a></li>
-			<li class="tab col s3"><a href="#test4">Manage</a></li>
+			<li class="tab col s2"><a href="#test3">Manage</a></li>
+			<li class="tab col s3"><a href="#test4">Innovate</a></li>
+			<li class="tab col s2"><a href="#test5">System</a></li>
 		</ul>
 	</div>
 </div>
@@ -56,9 +57,18 @@
 			</div>
 		</div>
 	</div>
-	<div id="test2">Test 2</div>
-	<div id="test3">Test 3</div>
-	<div id="test4">Test 4</div>
+	<div id="test2">
+		values, mission, features, industries, solutions, objectives
+	</div>
+	<div id="test3">
+		stripe, firebase, domain names, license keys
+	</div>
+	<div id="test4">
+		platforms, tenants, chatbots, apps
+	</div>
+	<div id="test5">
+		deployments, access keys, reports, billing
+	</div>
 </div>
 <br />
 <br />
