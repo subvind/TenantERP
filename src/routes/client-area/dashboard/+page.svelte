@@ -64,7 +64,7 @@
 		stripe, firebase, domain names, license keys
 	</div>
 	<div id="test4">
-		platforms, tenants, chatbots, apps
+		platforms, tenants, channels, apps
 	</div>
 	<div id="test5">
 		deployments, access keys, clients, reports, billing

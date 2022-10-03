@@ -24,7 +24,7 @@
 		<ul class="tabs">
 			<li class="tab col s3"><a class="active" href="#test1">Platforms</a></li>
 			<li class="tab col s3"><a href="#test2">Tenants</a></li>
-			<li class="tab col s3"><a href="#test3">Chatbots</a></li>
+			<li class="tab col s3"><a href="#test3">Channels</a></li>
 			<li class="tab col s3"><a href="#test4">Apps</a></li>
 		</ul>
 	</div>
