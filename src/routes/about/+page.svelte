@@ -23,7 +23,7 @@
           <h4 style="margin-top: 0;">Manifesto</h4>
           isTrav's goal is to solve problems using the right solutions, turn ideas into apps that spark joy to the end user, and then to keep production live with what works best.
           <h4>Strategy</h4>
-          
+          Our kernel is made up of 4 key principals; 1) secret-optimizer, 2) fleet-optimizer, 3) idea-optimizer, and 4) society-optimizer.
           <h4>Tactics</h4>
           We achive a new milestone every time someone leaves a GitHub star on one of our <a href="/projects">istrav.com/projects</a>. We show the metric on our site so your appreciation truely matters. A huge shout out to those that support isTrav. Thank you!
           <h4>Vision</h4>
