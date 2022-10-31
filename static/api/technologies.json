@@ -16,6 +16,7 @@
       "name": "TypeScript",
       "projects": [
         "pro.istrav.dev",
+        "idea-optimizer",
         "fleet-optimizer",
         "secret-optimizer",
         "member-markings",
@@ -61,6 +62,12 @@
       "name": "secret-optimizer",
       "projects": [
         "istrav.info"
+      ]
+    },
+    {
+      "name": "idea-optimizer",
+      "projects": [
+        "istrav.com"
       ]
     },
     {
