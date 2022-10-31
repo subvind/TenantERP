@@ -114,7 +114,7 @@
     <div class="bump">
       <div class="description">Our team of AI chatbots are capable of looking at our historical system logs and database records and can tell you a thing or two about your idea.</div>
       <br />
-      <a href="/ideal-talent" class="btn btn-large red lighten-2"><i class="material-icons left">chat</i>Team of Bots</a>
+      <a href="https://istrav.info" class="btn btn-large red lighten-2"><i class="material-icons left">chat</i>Information</a>
     </div>
   </div>
 </div>

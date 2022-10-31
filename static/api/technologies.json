@@ -49,12 +49,18 @@
      }
   ],
   "librariesAndFrameworks": [
-     {
-        "name": "fleet-optimizer",
-        "projects": [
-           "istrav.pro"
-        ]
-     },
+      {
+         "name": "secret-optimizer",
+         "projects": [
+            "istrav.info"
+         ]
+      },
+      {
+         "name": "fleet-optimizer",
+         "projects": [
+            "istrav.pro"
+         ]
+      },
      {
         "name": "materializecss",
         "projects": [
