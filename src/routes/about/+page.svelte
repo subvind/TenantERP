@@ -155,7 +155,7 @@
         <img src="./travis.jpeg" alt="travis in canada" width="100%" style="padding-bottom: 0.5em; margin-bottom: -1em;" />
         <div class="card-content">
           <div class="card-title">Travis Burandt</div>
-          is a successful cyclist. At one point he was the youngest and only Cat. 1 racer in the United States. He has podiumed at states, nationals, and internationally. That was a long time ago though. He has sense then dropped out of racing competatively and now focuses on his own mental health and his own personal coding projects. Lately he has been getting into training an AI bot that will be his <a href="/ideal-talent">Ideal Talent</a>; look out for his profile in the Community for more info.
+          is a successful cyclist. At one point he was the youngest and only Cat. 1 racer in the United States. He has podiumed at states, nationals, and internationally. That was a long time ago though. He has sense then dropped out of racing competatively and now focuses on his own mental health and his own personal coding projects. Lately he has been getting into NLP and ciphers; look out for his profile in the Community for more info.
         </div>
 
 				<div class="card-action">
