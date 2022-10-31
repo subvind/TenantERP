@@ -23,6 +23,8 @@
           <h4 style="margin-top: 0;">Manifesto</h4>
           isTrav's goal is to solve problems using the right solutions, turn ideas into apps that spark joy to the end user, and then to keep production live with what works best.
           <h4>Strategy</h4>
+          
+          <h4>Tactics</h4>
           We achive a new milestone every time someone leaves a GitHub star on one of our <a href="/projects">istrav.com/projects</a>. We show the metric on our site so your appreciation truely matters. A huge shout out to those that support isTrav. Thank you!
           <h4>Vision</h4>
           We have the best infrastructure in <a href="/production">istrav.com/production</a> for incubating ideas using community driven <a href="/platforms">istrav.com/platforms</a>; to have a place where people can discover social groups online and explore new posibilities.
