@@ -356,7 +356,20 @@
     {
       "name": "npm",
       "projects": [
-        "fleet-optimizer"
+        "fleet-optimizer",
+        "secret-optimizer"
+      ]
+    },
+    {
+      "name": "dijkstra",
+      "projects": [
+        "secret-optimizer"
+      ]
+    },
+    {
+      "name": "seedrandom",
+      "projects": [
+        "secret-optimizer"
       ]
     }
   ],
