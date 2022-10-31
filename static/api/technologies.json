@@ -366,7 +366,8 @@
       "name": "npm",
       "projects": [
         "fleet-optimizer",
-        "secret-optimizer"
+        "secret-optimizer",
+        "idea-optimizer"
       ]
     },
     {
