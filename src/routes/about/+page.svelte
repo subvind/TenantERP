@@ -15,7 +15,7 @@
 <br />
 <br />
 <div class="container">
-  <div class="row">
+  <div class="row" style="margin: 0 -0.6em;">
     <div class="col m8">
       <h1 class="title">About</h1>
       <div class="card box">
