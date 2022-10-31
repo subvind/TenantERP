@@ -8,7 +8,8 @@
         "istrav-platform-frontgate",
         "istrav.stream",
         "istrav-headquarters",
-        "istrav.com"
+        "istrav.com",
+        "istrav.info"
       ]
     },
     {
@@ -16,6 +17,7 @@
       "projects": [
         "pro.istrav.dev",
         "fleet-optimizer",
+        "secret-optimizer",
         "member-markings",
         "family-markings",
         "full-stack",
