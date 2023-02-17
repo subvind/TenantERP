@@ -45,7 +45,6 @@
 			<nav class="red lighten-2">
 				<div class="nav-wrapper">
 					<a href="/" class="brand-logo center">{name}</a>
-		
 					<a href="//meta.istrav.net" class="btn black white-text left" style="margin: 1em;">community</a>
 					<!-- <a href="//istrav.pro" class="btn right white black-text " style="margin: 1em 0.5em;">pro</a>
 					<a href="/ideal-talent" class="btn right white black-text " style="margin: 1em 0.5em;">it</a> -->
@@ -64,11 +63,11 @@
 						<li class:active={$page.url.pathname === '/innovation'}>
 							<a sveltekit:prefetch href="/innovation">Innovation</a>
 						</li>
-						<li class:active={$page.url.pathname.startsWith('/apps')}>
-							<a sveltekit:prefetch href="/apps">Apps</a>
-						</li>
 						<li class:active={$page.url.pathname.startsWith('/platforms')}>
 							<a sveltekit:prefetch href="/platforms">Platforms</a>
+						</li>
+						<li class:active={$page.url.pathname.startsWith('/apps')}>
+							<a sveltekit:prefetch href="/apps">Apps</a>
 						</li>
 						<li class:active={$page.url.pathname.startsWith('/projects')}>
 							<a sveltekit:prefetch href="/projects">Projects</a>
@@ -76,7 +75,6 @@
 					</ul>
 				<div>
 			</nav>
-
 		</div>
 	</div>
 </header>
@@ -97,7 +95,6 @@
     margin: 0;
     padding: 0;
   }
-
   .top > .col .row {
     margin: 0;
   }
