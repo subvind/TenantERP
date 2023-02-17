@@ -35,7 +35,8 @@
 				<img src="./travis.jpeg" alt="travis in canada" width="100%" style="padding-bottom: 0.5em; margin-bottom: -1em;" />
 				<div class="card-content">
 					<div class="card-title">Community</div>
-					Every idea needs a community (network of social groups) that provides a feeling of fellowship with others, as a result of sharing common attitudes, interests, and goals. Our software <a href="/platforms">istrav.com/platforms</a> enables just that.
+					There is a place and a time for everything. Innovative ideas coexist in communities that provide a feeling of fellowship with others, as a result of sharing common attitudes, interests, and goals. 
+					<br /><br />Our software <a href="/platforms">istrav.com/platforms</a> enables just that.
 				</div>
 				<div class="card-action">
 					<a href="/about" class="btn fluid red lighten-2"><i class="material-icons left">directions_boat</i>about<i class="material-icons right">directions</i></a>

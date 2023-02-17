@@ -10,19 +10,17 @@
           <p>
             <span style="font-weight: bold;">
               Hello There!
-              <br />My name is Travis. I am a full stack developer. This collection of websites and apps all under the anchor logo and isTrav branding are for learning, innovating, and progressing. Take a look at our <a href="/about">istrav.com/about</a> page for more on our philosphy, ideals and pricipals.
+              <br />My name is Travis. I am a full stack developer. This collection of websites and apps that are all under the anchor logo and isTrav branding are for research, learning, and exploring purposes. Take a look at our <a href="/about">istrav.com/about</a> page for more point-of-reference and philosphy.
             </span>
-            <br /><br />This website, <a href="//istrav.com">isTrav</a> runs 100% cloud/serverless using CloudFlare's wrangler repository with their KV database and it's frontend is served by Vercel. So it has amazing uptime, expensive, and less likely to have code rot.
-            <br /><br />My platform, <a href="//istrav.net" target="_blank">/istrav/</a> runs 100% on the server and can deploy to Heroku or Kubernetes. It is fully customizable and white-labeled so any developer may fork it. It has a Fair Source 25 (v0.9) license so it's free up until you have 25 active users.
-            <br /><br />Your platform, <a href="#!">/mybrand/</a> runs just like my platform except you have complete access to run it as you wish for as long as you follow the license agreement.
-            <br /><br />The <a href="/client-area">istrav.com/client-area</a>, is where you get to track and manage the progress of your ideas and their platforms. See <a href="/pricing">istrav.com/pricing</a> for developer limits on software usage. Thank you for your support.
+            <br /><br />This website, <a href="//istrav.com">isTrav</a> runs 100% on the <span style="text-decoration: underline;">client</span> and will deploy to any architecture. It is built from scratch on a shoe string buget. So it has amazing uptime, expensive, and less likely to have code rot.
+            <br /><br />My platform, <a href="//istrav.net" target="_blank">/istrav/</a> runs 100% on the <span style="text-decoration: underline;">server</span> and will deploy to any container serivce. It is fully customizable and white-labeled so others may fork it. It has a Fair Source 25 (v0.9) license so it's free up until the 25 active users limit is reached.
+            <br /><br />Your platform, <a href="#!">/brandx/</a> runs just like my platform except you have complete access to run it as you wish for as long as you follow the same license agreement.
+            <br /><br />The <a href="/client-area">istrav.com/client-area</a> is where members are granted access control panels. See <a href="/pricing">istrav.com/pricing</a> for advertising limits and no hidden fees. Thank you for your support!
           </p>
         </div>
         <div class="card-action">
           <p>
-            Anyways, lots of things todo!
-            <br />I'll see you in the <a href="//meta.istrav.net" style="margin: 0; text-transform: capitalize;">Community</a> :)
-            <br /><img src="/signature.png" class="signature" alt="Travis Burandt" />
+            <img src="/signature.png" class="signature" alt="Travis Burandt" />
             <!-- https://seanlon.github.io/text-signature/ -->
           </p>
         </div>
@@ -37,8 +35,8 @@
           <div class="card-title">
             Innovation Management System (IMS)
           </div>
-          as a Service (SaaS)... is a collection of tools for cultivating, routing, launching, and maintaining ideas (a thought or suggestion as to a possible course of action.) that we provide for our clients; with an IMS strategy an idea's full life cycle may be developed from ideation to taking action and turning it into a reality. Our client area allows idea founders or product owners to put their ideas on platforms which are backed by a bulletin board system where users can multi-layer network with one another and share content and other messages/files all in relation to the founder's idea.
-          <br /><br />isTrav is a hub for companies, businesses, or other groups to collaborate on their ideas; innovation is our first priority. 
+          as a Service (SaaS)... is a collection of tools for cultivating, launching, routing, and maintaining ideas (things that are thoughts or suggestions as to a possible course of action.) that we provide for our clients; with an IMS strategy an idea's full life cycle (uni or multi-seasonal) may be developed from ideation to reality with or without "the concept of zero" // Our client area allows anyone to put their ideas on platforms which are backed by a bulletin board system where anybody can align through a multi-layer network, distribute messages/files, and carry on conversations about any discussion.
+          <br /><br />isTrav is a hub positioned near the center of an era where collaboration means survival; innovation is priority #1 thus downstream from that is all just matter reflecting off of energy.
         </div>
       </div>
       <br />
