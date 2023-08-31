@@ -67,21 +67,29 @@
 </svelte:head>
 
 <Header />
-<div class="wrapper">
-  <div class="row main">
-    <div class="col m6 left-side">
-      <br />
-      <br />
-      <Register auth={auth}/>
-    </div>
-    <div class="col m6 right-side">
-      <Marketing />
+<main>
+  <div class="wrapper">
+    <div class="row main">
+      <div class="col s12 m12 l6 left-side">
+        <br />
+        <br />
+        <Register auth={auth}/>
+      </div>
+      <div class="col s12 m12 l6 right-side">
+        <Marketing />
+      </div>
     </div>
   </div>
-</div>
+</main>
 <Footer />
 
 <style>
+  main {
+    min-width: 400px;
+    position: relative;
+    overflow: hidden;
+    padding-top: 4em;
+  }
   .wrapper {
     min-height: 100vh;
   }

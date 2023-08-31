@@ -19,6 +19,8 @@
     <span style="border-bottom: 0.2em solid #ee6e73;">Accelerate</span> <span style="border-bottom: 0.2em solid #ee6e73;">progress</span>
     <br /><span style="border-bottom: 0.2em solid #aaa;">and</span> <span style="border-bottom: 0.2em solid #64B5F6;">change</span> <span style="border-bottom: 0.2em solid #64B5F6;">quickly</span>
     <br /><span style="border-bottom: 0.2em solid #aaa;">with</span> <span style="border-bottom: 0.2em solid #26a69a;">isTrav</span>.
+    <br />
+    <br />
   </h2>
 </div>
 
