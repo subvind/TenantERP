@@ -20,23 +20,33 @@
 </svelte:head>
 
 <Header />
-<Anchor />
-<Ideas />
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />
-<ReadMe />
-<PracticalIdeas />
-<br />
-<br />
-<br />
-<br />
-<ClientArea />
-<br />
-<br />
-<br />
-<br />
+<main>
+	<Anchor />
+	<Ideas />
+	<br />
+	<br />
+	<br />
+	<br />
+	<br />
+	<br />
+	<ReadMe />
+	<PracticalIdeas />
+	<br />
+	<br />
+	<br />
+	<br />
+	<ClientArea />
+	<br />
+	<br />
+	<br />
+	<br />
+</main>
 <Footer />
+
+<style>
+	main {
+		min-width: 400px;
+		position: relative;
+		overflow: hidden;
+	}
+</style>

@@ -7,7 +7,7 @@
 </script>
 
 <svelte:head>
-	<title>My name is Travis and I am a coder, FSD, cyclist - isTrav</title>
+	<title>My name is Travis and I am a devgrammer, Senior FSD, cyclist - isTrav</title>
 	<meta name="description" content="Travis Burandt is a successful cyclist. At one point he was the youngest and only Cat. 1 racer in the United States. He has podiumed at states, nationals, and internationally. That was a long time ago though. He has sense then dropped out of racing competatively and now focuses on his own mental health and his own personal coding projects. " />
 </svelte:head>
 
@@ -20,22 +20,9 @@
       <h1 class="title">About</h1>
       <div class="card box">
         <div class="card-content">
-          <h4 style="margin-top: 0;">Manifesto</h4>
-          isTrav's goal is to solve problems using the right solutions, turn ideas into apps that spark joy to the end user, and then to keep production live with what works best.
-          <h4>Strategy</h4>
-          The most central component, our kernel, is comprised of four main parts; 1) secret-optimizer, 2) fleet-optimizer, 3) idea-optimizer, and 4) society-optimizer.
-          <h4>Tactics</h4>
-          We achive a new milestone every time someone leaves a GitHub star on one of our <a href="/projects">istrav.com/projects</a>. We show the metric on our site so your appreciation truely matters. A huge shout out to those that support isTrav. Thank you!
-          <h4>Vision</h4>
-          We have the best infrastructure in <a href="/production">istrav.com/production</a> for incubating ideas using community driven <a href="/platforms">istrav.com/platforms</a>; to have a place where people can discover social groups online and explore new posibilities.
-          <h4>Values</h4>
-          [Innovation, SelfTaught, FullOwnership, Honesty, Trust, Integrity, Accountable, Passion, Commitment, Teamwork, Culture]
-          <h4>Status</h4>
-          When it comes to our <a href="/production">istrav.com/production</a> running projects: most parts are in "active development" ... some parts are in "beta" ... and few parts are considered "stable" and working. Any feedback is welcome.
-          <h4>Contribute</h4>
-          Find out what thing you want to do. Find out where that thing could exist in our <a href="/projects">istrav.com/projects</a> and submit a ticket to the related GitHub repo with details about what you are trying to achieve.
-          <h4>Target</h4>
-          People with ideas on their mind and are willing to become a member by subscribing to our <a href="/client-area">istrav.com/client-area</a> or <a href="https://istrav.net">istrav.net</a>. Community leaders who are capable of making changes to their organization's underlying infrastructure. Community members who see the value in our goals and are willing to participate.
+          <h4 style="margin-top: 0;">Mission Statement</h4>
+          To do the things that one wants to do. To explore areas of language, code, and blueprints. To work hard on things that need to be worked on. To challenge oneself to achieve greater. To fall asleep knowing that an impact was made. To become a fully autonomous full-stack developer and beyond.
+
           <!-- <h4>Careers</h4>
           New job listings will show here. -->
 <!--  

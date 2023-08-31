@@ -128,5 +128,7 @@
     margin: 0 auto;
     background: transparent !important;
     min-height: 250px;
+    justify-content: center;
+    display: flex;
   }
 </style>

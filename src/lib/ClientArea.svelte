@@ -35,15 +35,22 @@
   })
 </script>
 
-<div class="border"></div>
+<div class="border hide-on-med-and-down"></div>
 <div class="container">
   <div class="box">
-    {#if authenticated === true}
-      <a href="/client-area" class="btn btn-large right controls">DASHBOARD</a>
-    {:else}
-      <a href="/client-area" class="btn btn-large right controls">GET STARTED</a>
-    {/if}
-    <h1 class="title"><i class="material-icons badge">security</i><div class="name">Client Area</div></h1>
+    <div class="row" style="margin: 0;">
+      <div class="col s12 m6">
+        <h3 class="title"><i class="material-icons badge">security</i><div class="name">Client Area</div></h3>
+      </div>
+      <div class="col s12 m6">
+        {#if authenticated === true}
+          <a href="/client-area" class="btn btn-large right controls">DASHBOARD</a>
+        {:else}
+          <a href="/client-area" class="btn btn-large right controls hide-on-small-only">GET STARTED</a>
+          <a href="/client-area" class="btn btn-large controls hide-on-med-and-up">GET STARTED</a>
+        {/if}
+      </div>
+    </div>
   </div>
 </div>
 
@@ -61,10 +68,9 @@
     font-weight: 900;
   }
   .title {
-    font-size: 4.5em;
     color: #ee6e73;
     margin: 0;
-    
+    padding: 0.2em 0;
   }
   .box {
     border: 1em solid #ee6e73;

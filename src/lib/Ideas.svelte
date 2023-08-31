@@ -8,15 +8,15 @@
   <div class="container">
     <br />
     <h1 class="title">
-      Collaborate Ideas
+      GET STARTED!
     </h1>
     <div class="description" style="color: #fff;">
-      From start up to success with an Innovation Management System (IMS)...
+      From start up to success with an Enterprise Resource Planning (ERP) system...
     </div>
     <br />
     <div class="description">isTrav's goal is to solve problems using the right solutions, turn ideas into apps that spark joy to the end user, and then to keep production live with what works best.</div>
     <br />
-    <a href="https://istrav.dev" class="btn btn-large red lighten-2"><i class="material-icons left">developer_board</i> System Headquarters</a>
+    <a href="/inam-erp" class="btn btn-large red lighten-2"><i class="material-icons left">developer_board</i> GET STARTED</a>
     <br />
     <br />
   </div>
@@ -36,9 +36,9 @@
 </div>
 <div class="steps">
   <div class="container">
-    <h1 class="title">
+    <h3 class="title">
       - Platform for ideas.
-    </h1>
+    </h3>
     <div class="bump">
       <div class="description">After bouncing ideas back and forth and off the walls product owners should have a solid foundation of like minded thinking built up around what they want and don't want.</div>
       <br />
@@ -48,9 +48,9 @@
 </div>
 <div class="steps">
   <div class="container">
-    <h1 class="title">
+    <h3 class="title">
       - Existing ideas.
-    </h1>
+    </h3>
     <div class="bump">
       <div class="description">Most ideas are just collections of other ideas. Some ideas are assembled the same yet branded differently. Look here to see how your idea may integrate with other ideas.</div>
       <br />
@@ -60,9 +60,9 @@
 </div>
 <div class="steps">
   <div class="container">
-    <h1 class="title">
+    <h3 class="title">
       - Fully custom ideas.
-    </h1>
+    </h3>
     <div class="bump">
       <div class="description">There are some ideas that may not fit within the scope of our platform or existing applications. Ideas that require a coder to sit down and program. Reach out. We may be able to build your idea and release it as a new feature.</div>
       <br />
@@ -72,9 +72,9 @@
 </div>
 <div class="steps">
   <div class="container">
-    <h1 class="title">
+    <h3 class="title">
       - Ideas with solutions.
-    </h1>
+    </h3>
     <div class="bump">
       <div class="description">There is a market that every idea should target in order to be successful; for instance, perhaps your niche idea solves a pain point in the "cooking" or (etc) industry.</div>
       <br />
@@ -84,9 +84,9 @@
 </div>
 <div class="steps">
   <div class="container">
-    <h1 class="title">
+    <h3 class="title">
       - Successful ideas.
-    </h1>
+    </h3>
     <div class="bump">
       <div class="description">Notice how we did a couple of things. We identified the problem. Found a solution. Executed on turning our idea into reality.</div>
       <br />
@@ -96,9 +96,9 @@
 </div>
 <div class="steps">
   <div class="container">
-    <h1 class="title">
+    <h3 class="title">
       - Idea automation.
-    </h1>
+    </h3>
     <div class="bump">
       <div class="description">Our client area or Idea Management Software (IMS) is where isTrav clients may login to a control panel and keep track of and manage their ideas from startup to production.</div>
       <br />
@@ -108,9 +108,9 @@
 </div>
 <div class="steps">
   <div class="container">
-    <h1 class="title">
+    <h3 class="title">
       - Diagnose an idea.
-    </h1>
+    </h3>
     <div class="bump">
       <div class="description">Our team of AI chatbots are capable of looking at our historical system logs and database records and can tell you a thing or two about your idea.</div>
       <br />
@@ -127,7 +127,7 @@
 
 <style>
   .bump {
-    padding-left: 3em;
+    padding-left: 2em;
   }
   .brand {
     text-align: center;
@@ -178,16 +178,15 @@
   }
   .steps .title {
     font-weight: 900;
-    font-size: 4.5em;
     text-align: left;
     margin: 0;
     color: #000;
   }
   .steps .description {
     color: #000;
-    font-size: 2em;
+    font-size: 1em;
   }
   .container {
-    padding: 5em 0;
+    padding: 2em 0;
   }
 </style>

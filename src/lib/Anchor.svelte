@@ -1,10 +1,10 @@
 
 <div class="anchor">
   <div class="center">
-    <a href="https://istrav.live">
+    <a href="https://entropy.subvind.com">
       <img src="./anchor.png" alt="isTrav" />
     </a>
-    <div class="name">One continuous flow of information.</div>
+    <div class="name">One continuous flow of entropy.</div>
   </div>
 </div>
 <style>

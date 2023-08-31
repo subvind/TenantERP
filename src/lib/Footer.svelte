@@ -6,7 +6,7 @@
           <li class=""><a href="/" target="_blank">istrav.com © {new Date().getFullYear()}.</a></li>
           <li class=""><a href="https://istrav.com" target="_blank">Made with &hearts; by isTrav.</a></li>
         </ul>
-        <ul class="right">
+        <ul class="right hide-on-med-and-down">
           <li><a href={`https://istrav.live`}>Live</a></li>
           <li><a href={`https://istrav.net`}>Community</a></li>
           <li><a href={`https://istrav.dev`}>Headquarters</a></li>

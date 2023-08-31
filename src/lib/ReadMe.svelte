@@ -1,6 +1,6 @@
 <div class="container">
   <div class="row" style="margin: 0 -0.6em;">
-    <div class="col s6">
+    <div class="col s12 m6">
       <div class="card">
         <img src="travis.jpeg" class="image" alt="Travis Burandt">
         <div class="card-content">
@@ -26,17 +26,22 @@
         </div>
       </div>
     </div>
-    <div class="col s6">
+    <div class="col s12 m6">
       <h1 class="title">
-        IMS
+        ERP
       </h1>
       <div class="card box">
         <div class="card-content">
           <div class="card-title">
-            Innovation Management System (IMS)
+            Enterprise Resource Planning (ERP)
           </div>
-          as a Service (SaaS)... is a collection of tools for cultivating, launching, routing, and maintaining ideas (things that are thoughts or suggestions as to a possible course of action.) that we provide for our clients; with an IMS intent an idea's full life cycle (uni or multi-seasonal) may be developed from ideation to reality with or without "the concept of zero" // Our client area allows anyone to put their ideas on platforms which are backed by a bulletin board system where anybody can align through a multi-layer network, distribute messages/files, and carry on conversations about any discussion point.
-          <br /><br />isTrav is a hub positioned near the center of an era where collaboration means survival; innovation is priority #1 thus downstream from that is all just matter reflecting off of energy.
+          subvind was formed in 2023 as a factory for generating open source products.
+          <br />
+          <br />
+          inam.ERP, powered by subvind, is a fast growing IT solution for E-Commerce.
+          <br />
+          <br />
+          It contains CRM, HR, Purchases, Orders, Payments, Invoices, Quotes, Inventory, Supply Chain, Expenses, Reports, Accounting.
         </div>
       </div>
       <br />

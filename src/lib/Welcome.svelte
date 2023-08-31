@@ -2,12 +2,17 @@
 <div class="wrapper">
   <div class="container">
     <div class="center">
-      <h1 class="title">
+      <h1 class="title hide-on-med-and-down">
         My name is
         <br />Travis and I am
-        <br />a coder.
+        <br />a devgrammer.
       </h1>
-      <h2 class="description">Full Stack Developer / Cyclist</h2>
+      <h4 class="title hide-on-large-only">
+        My name is
+        <br />Travis and I am
+        <br />a devgrammer.
+      </h4>
+      <h2 class="description">Senior FSD / Cyclist</h2>
       <br />
       <a href="/contact-me" class="btn btn-large red lighten-2"><i class="material-icons left">face</i>Contact Me</a>
     </div>
@@ -17,7 +22,6 @@
 <style>
 	.title {
 		font-weight: 900;
-		font-size: 4.5em;
 		text-align: left;
 		margin: 0;
     color: #fff;
@@ -41,7 +45,7 @@
     border-bottom: 1em solid #000;
   }
 	.center {
-    padding: 5em 0;
+    padding: 2em 0;
     text-align: left;
 	}
 </style>

@@ -28,24 +28,24 @@
 
 <header on:mouseenter={() => go()} on:mouseleave={() => stop()}>
 	<div class="row top">
-		<div class="col m1" style="background: #111; text-align: center;">
+		<div class="col s2 m2 l1" style="background: #111; text-align: center;">
 			<nav class="white">
 				<div class="nav-wrapper" style="text-align: center;">
-					<ul>
-						<li style="float: none;">
-							<a href="/about" style="height: 64px;">
-								<img src="/anchor.png" alt="about" style="height: 50px; margin: 0.5em 0;">
+					<ul style="height: inherit;">
+						<li style="height: inherit; float: none;">
+							<a href="/about" style="height: inherit; justify-content: center; display: flex; align-items: center;">
+								<img src="/anchor.png" alt="about" style="height: 45px;">
 							</a>
 						</li>
 					</ul>
 				</div>
 			</nav>
 		</div>
-		<div class="col m11">
+		<div class="col s10 m10 l11">
 			<nav class="red lighten-2">
 				<div class="nav-wrapper">
 					<a href="/" class="brand-logo center">{name}</a>
-					<a href="//meta.istrav.net" class="btn black white-text left" style="margin: 1em;">community</a>
+					<a href="https://subvind.com" class="btn black white-text left hide-on-med-and-down" style="margin: 1em;">subvind</a>
 					<!-- <a href="//istrav.pro" class="btn right white black-text " style="margin: 1em 0.5em;">pro</a>
 					<a href="/ideal-talent" class="btn right white black-text " style="margin: 1em 0.5em;">it</a> -->
 					<ul id="nav-mobile" class="left hide-on-med-and-down">
@@ -57,20 +57,8 @@
 						</li>
 					</ul>
 					<ul id="nav-mobile" class="right hide-on-med-and-down">
-						<li class:active={$page.url.pathname === '/production'}>
-							<a sveltekit:prefetch href="/production">Production</a>
-						</li>
-						<li class:active={$page.url.pathname === '/innovation'}>
-							<a sveltekit:prefetch href="/innovation">Innovation</a>
-						</li>
-						<li class:active={$page.url.pathname.startsWith('/platforms')}>
-							<a sveltekit:prefetch href="/platforms">Platforms</a>
-						</li>
-						<li class:active={$page.url.pathname.startsWith('/apps')}>
-							<a sveltekit:prefetch href="/apps">Apps</a>
-						</li>
-						<li class:active={$page.url.pathname.startsWith('/projects')}>
-							<a sveltekit:prefetch href="/projects">Projects</a>
+						<li class:active={$page.url.pathname.startsWith('/inam-erp')}>
+							<a sveltekit:prefetch href="/inam-erp">GET STARTED!</a>
 						</li>
 					</ul>
 				<div>
@@ -80,9 +68,6 @@
 </header>
 
 <style>
-	header {
-		height: 4.25em;
-	}
   .top {
     z-index: 1000;
     position: fixed;
