@@ -17,9 +17,8 @@
         <br />Travis and I am
         <br />a devgrammer.
       </h4>
-      <h2 class="description">Senior FSD / Cyclist</h2>
-      <br />
-      <a href="/contact-me" class="btn btn-large red lighten-2"><i class="material-icons left">face</i>Contact Me</a>
+      <h5 class="description">Senior FSD / Cyclist</h5>
+      <a href="/contact-me" class="btn red lighten-2"><i class="material-icons left">face</i>Contact Me</a>
     </div>
   </div>
 </div>
