@@ -4,13 +4,10 @@
       <div class="nav-wrapper">
         <ul class="">
           <li class=""><a href="/" target="_blank">istrav.com © {new Date().getFullYear()}.</a></li>
-          <li class=""><a href="https://istrav.com" target="_blank">Made with &hearts; by isTrav.</a></li>
+          <li><a href={`https://subvind.com`}>powered by subvind</a></li>
         </ul>
         <ul class="right hide-on-med-and-down">
-          <li><a href={`https://istrav.live`}>Live</a></li>
-          <li><a href={`https://istrav.net`}>Community</a></li>
-          <li><a href={`https://istrav.dev`}>Headquarters</a></li>
-          <li><a href={`https://istrav.info`}>Information</a></li>
+          <li class=""><a href="https://istrav.com" target="_blank">With &hearts; by Travis Burandt.</a></li>
         </ul>
       </div>
     </div>

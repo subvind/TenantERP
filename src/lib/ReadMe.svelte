@@ -25,6 +25,7 @@
           </p>
         </div>
       </div>
+      <br />
     </div>
     <div class="col s12 m6">
       <h1 class="title">
@@ -45,7 +46,7 @@
         </div>
       </div>
       <br />
-      <a href="/innovation" class="btn btn-large red lighten-2"><i class="material-icons left">history</i>Innovation</a>
+      <a href="/inam-erp" class="btn btn-large red lighten-2"><i class="material-icons left">developer_board</i>GET STARTED!</a>
     </div>
   </div>
 </div>
