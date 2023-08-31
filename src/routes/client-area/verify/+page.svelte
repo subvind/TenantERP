@@ -87,7 +87,6 @@
 
 <style>
   main {
-    min-width: 400px;
     position: relative;
     overflow: hidden;
     padding-top: 4em;
