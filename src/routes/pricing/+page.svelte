@@ -29,48 +29,53 @@
 	<meta name="description" content="Travis Burandt" />
 </svelte:head>
 
-<div class="wrapper">
-  <PricingHeader />
+<main>
+  <div class="wrapper">
+    <PricingHeader />
+    <br />
+    <br />
+    <br />
+    <br />
+    <Calculator level={level} records={records} />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <Benifits />
+    <Reason />
+    <FAQ />
+  </div>
   <br />
   <br />
   <br />
   <br />
-  <Calculator level={level} records={records} />
+  <br />
+  <CustomWork />
   <br />
   <br />
   <br />
   <br />
+  <About />
+  <Footer />
   <br />
   <br />
   <br />
   <br />
-  <Benifits />
-  <Reason />
-  <FAQ />
-</div>
-<br />
-<br />
-<br />
-<br />
-<br />
-<CustomWork />
-<br />
-<br />
-<br />
-<br />
-<About />
-<Footer />
-<br />
-<br />
-<br />
-<br />
-<ClientArea />
-<br />
-<br />
-<br />
-<br />
+  <ClientArea />
+  <br />
+  <br />
+  <br />
+  <br />
+</main>
 
 <style>
+  main {
+    padding-top: 4em;
+  }
   .wrapper {
     min-height: 100vh;
   }

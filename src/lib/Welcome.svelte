@@ -1,13 +1,18 @@
 
 <div class="wrapper">
   <div class="container">
-    <div class="center">
-      <h1 class="title hide-on-med-and-down">
+    <div class="center hide-on-med-and-down" style="padding: 6em 0;">
+      <h1 class="title ">
         My name is
         <br />Travis and I am
         <br />a devgrammer.
       </h1>
-      <h4 class="title hide-on-large-only">
+      <h2 class="description">Senior FSD / Cyclist</h2>
+      <br />
+      <a href="/contact-me" class="btn btn-large red lighten-2"><i class="material-icons left">face</i>Contact Me</a>
+    </div>
+    <div class="center hide-on-large-only" style="padding: 2em 0;">
+      <h4 class="title ">
         My name is
         <br />Travis and I am
         <br />a devgrammer.
@@ -45,7 +50,6 @@
     border-bottom: 1em solid #000;
   }
 	.center {
-    padding: 2em 0;
     text-align: left;
 	}
 </style>

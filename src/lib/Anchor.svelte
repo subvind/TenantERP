@@ -1,10 +1,10 @@
 
 <div class="anchor">
   <div class="center">
-    <a href="https://entropy.subvind.com">
-      <img src="./anchor.png" alt="isTrav" />
+    <a href="https://subvind.com">
+      <img src="./anchor.png" alt="subvind" />
     </a>
-    <div class="name">One continuous flow of entropy.</div>
+    <div class="name">A dangerous place to get some flow-based devgramming done.</div>
   </div>
 </div>
 <style>
@@ -18,25 +18,22 @@
     background-position: cover;
     background-position: center;
     background-size: cover;
-    text-align: center;
+    justify-content: center;
+    align-items: center;
+    display: flex;
     position: relative;
   }
-
+  
   .center {
-    width: 284px;
-    height: 290px;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    margin-top: -147px;
-    margin-left: -144px;
+    max-width: 400px;
   }
-
+  
   .anchor img {
     width: 12em;
   }
-
+  
   .anchor .name {
+    text-align: center;
     color: #fff;
     font-size: 1.5em;
     font-weight: 900;
