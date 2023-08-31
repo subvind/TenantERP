@@ -7,17 +7,17 @@
         <br />Travis and I am
         <br />a devgrammer.
       </h1>
-      <h2 class="description">Senior FSD / Cyclist</h2>
+      <h5 class="description">Senior FSD / Cyclist</h5>
       <br />
       <a href="/contact-me" class="btn btn-large red lighten-2"><i class="material-icons left">face</i>Contact Me</a>
     </div>
     <div class="center hide-on-large-only" style="padding: 2em 0;">
-      <h4 class="title ">
+      <h5 class="title ">
         My name is
         <br />Travis and I am
         <br />a devgrammer.
-      </h4>
-      <h5 class="description">Senior FSD / Cyclist</h5>
+      </h5>
+      <h6 class="description">Senior FSD / Cyclist</h6>
       <a href="/contact-me" class="btn red lighten-2"><i class="material-icons left">face</i>Contact Me</a>
     </div>
   </div>
@@ -33,7 +33,6 @@
 	}
 	.description {
 		font-weight: 900;
-		font-size: 1.5em;
 		text-align: left;
 		margin: 0.5em 0;
     color: #fff;
