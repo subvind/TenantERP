@@ -16,7 +16,7 @@
     <br />
     <div class="description">isTrav's goal is to solve problems using the right solutions, turn ideas into apps that spark joy to the end user, and then to keep production live with what works best.</div>
     <br />
-    <a href="/inam-erp" class="btn btn-large red lighten-2"><i class="material-icons left">developer_board</i> GET STARTED!</a>
+    <a href="/erpnomy" class="btn btn-large red lighten-2"><i class="material-icons left">developer_board</i> GET STARTED!</a>
     <br />
     <br />
   </div>
