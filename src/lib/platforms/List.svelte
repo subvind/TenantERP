@@ -9,9 +9,9 @@
   })
 </script>
 
-<h1 class="title">
-  Platforms
-</h1>
+<h3 class="title">
+  E-Commerce Stores
+</h3>
 <div class="card">
   {#if records.length}
     {#each records as record}
@@ -23,14 +23,13 @@
     {/each}
   {/if}
   <div class="card-content">
-    (Top 10 list of communities that we support.)
+    (Top 10 list of e-commerce stores that we support.)
   </div>
 </div>
 
 <style>
 	.title {
 		font-weight: 900;
-		font-size: 4.5em;
 		text-align: left;
 		margin: 0;
 	}

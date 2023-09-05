@@ -6,14 +6,14 @@
 	import List from "$lib/platforms/List.svelte";
 	import Rocket from "$lib/platforms/Rocket.svelte";
 
-	let platforms: any = []
+	let organizations: any = []
 	
 	onMount(() => {
-		fetch('/api/platforms.json')
+		fetch('/api/organizations.json')
       .then(response => response.json())
       .then(data => {
         console.log(data);
-        platforms = data
+        organizations = data
       })
 	})
 </script>
@@ -31,21 +31,28 @@
 	<br />
 	<div class="container">
 		<div class="row" style="margin: 0 -0.6em;">
-			<div class="col s4">
+			<div class="col s12 m4">
 				<div class="card">
 					<img src="./travis.jpeg" alt="travis in canada" width="100%" style="padding-bottom: 0.5em; margin-bottom: -1em;" />
 					<div class="card-content">
-						<div class="card-title">Community</div>
-						There is a place and a time for everything. Innovative ideas coexist in communities that provide a feeling of fellowship with others, as a result of sharing common attitudes, interests, and goals. 
-						<br /><br />Our software <a href="/platforms">istrav.com/platforms</a> enables just that.
+						<div class="card-title">Getting Started</div>
+						The quickest way to get ahold of a full demo is to <a href="https://erpnomy.com/auth/register" target="_blank">register</a> an account at erpnomy.com. Another quick alternative is to <a href="https://erpnomy.com/auth/login" target="_blank">login</a> to one of our existing test accounts for a limited demonstration.
+						<br />
+						<br />
+						free demo:<br />
+						username: test@test.com<br />
+						password: test123<br />
+						<br />
+						If you find our software to be the right solution for your needs then checkout <a href="/pricing">istrav.com/pricing</a> for unlimited access to our services.
 					</div>
 					<div class="card-action">
 						<a href="/about" class="btn fluid red lighten-2"><i class="material-icons left">directions_boat</i>about<i class="material-icons right">directions</i></a>
 					</div>
 				</div>
+				<br />
 			</div>
-			<div class="col s8">
-				<List records={platforms} />
+			<div class="col s12 m8">
+				<List records={organizations} />
 			</div>
 		</div>
 	</div>

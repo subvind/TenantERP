@@ -4,7 +4,7 @@
 <div class="container">
   <h1 class="title">
     Stage Zero
-    <a href="/innovation" class="btn btn-large right red lighten-2" style="margin: 0.5em;"><i class="material-icons left">playlist_add_check</i>check list</a>
+    <a href="https://github.com/subvind" target="_blank" class="btn btn-large right red lighten-2 hide-on-med-and-down" style="margin: 0.5em;"><i class="material-icons left">playlist_add_check</i>source code</a>
   </h1>
 </div>
 <div class="white">
@@ -15,12 +15,12 @@
   <br />
   <br />
   <div class="container">
-    <div style="float: right;">
-      <img src="/graphics/rocket.png" alt="" style="width: 150px; margin-left: -175px; position: absolute; bottom: 10px; z-index: 0" /><br />
-    </div>
     <div class="row">
-      <div class="col m6">
-        <h4>"The most expensive and difficult part to get right is stage zero; because your product's <span style="text-decoration: underline;">main base</span> of <span style="font-weight: bold;">operations</span> is the most important." - rocket</h4>
+      <div class="col s12 m6">
+        <h4 style="position: relative; z-index: 11">"The most expensive and difficult part to get right is stage zero; because your product's <span style="text-decoration: underline;">main base</span> of <span style="font-weight: bold;">operations</span> is the most important." - rocket</h4>
+      </div>
+      <div class="col s12 m6" style="text-align: right;">
+        <img src="/graphics/rocket.png" alt="" style="width: 150px; margin-left: -175px; position: absolute; bottom: 10px; z-index: 0" /><br />
       </div>
     </div>
   </div>
@@ -35,10 +35,10 @@
 <br />
 <br />
 <div class="container">
-  <h1 class="title black-text">Successful Ideas</h1>
-  <div class="description black-text">Invitation to join an Innovation Management System (IMS)...</div>
+  <h1 class="title black-text">Let's Go!</h1>
+  <div class="description black-text">Invitation to join an Enterprise Resource Planning (ERP) system...</div>
   <br />
-  <div class="description black-text">What makes an idea successful? Perhaps a few things. Does it have an intent or objective that it is well known for? Does it have an impactful community surrounding it? Does it have people that are considered to have expert knowledge within it's field? Does it have a thirsty industry relying on it as a hub for something? Does it get copied and innovated upon every day? When it breaks down does it quickly stand back up in a forgiving way?</div>
+  <div class="description black-text">Our ERP solution is the perfect choice for your business. With a user-friendly interface and robust features tailored to streamline your operations, it empowers you to drive efficiency, reduce costs, and make data-driven decisions. Our solution is scalable, adapting to your business's evolving needs, and it provides real-time insights to help you stay ahead of the competition. Plus, our dedicated support team is always ready to assist you, ensuring a seamless transition and ongoing success. Choose our ERP solution to unlock your business's full potential and achieve sustained growth.</div>
   <br />
   <br />
   <a href="/pricing" class="btn btn-large black"><i class="material-icons left">tune</i>pricing levels</a>

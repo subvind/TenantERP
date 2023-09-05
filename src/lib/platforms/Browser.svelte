@@ -1,6 +1,7 @@
 <script>
   let folder = 'meta'
   let url = `https://erpnomy.com`
+  let active = ''
 </script>
 
 <div class="header">
@@ -9,15 +10,15 @@
   <br />
   <br />
   <h1 class="title">Launch Products</h1>
-  <div class="description" style="color: #000;">Stage zero of an Enterprise Resource Planning (ERP) system...</div>
+  <div class="description" style="color: #000;">Enterprise Resource Planning (ERP)</div>
   <br />
   <div style="max-width: 500px; margin: 0 auto;">
-    <div class="description" style="color: #333;">Community run multi-layered bulletin board system dedicated to the sharing or exchange of ideas or other messages/files on a network.</div>
+    <div class="description" style="color: #333;">It contains CRM, HR, Purchases, Orders, Payments, Invoices, Quotes, Inventory, Supply Chain, Expenses, Reports, Accounting.</div>
   </div>
   <br />
   <br />
   <div style="text-align: center;">
-    <a href="https://erpnomy.com/organizations" class="btn btn-large black white-text" style="display: inline-flex;"><i class="material-icons left">folder</i>organizations</a>
+    <a href="https://erpnomy.com/organizations" target="_blank" class="btn btn-large black white-text" style="display: inline-flex;"><i class="material-icons left">folder</i>organizations</a>
   </div>
   <br />
   <br />
@@ -59,22 +60,21 @@
     </a>
     <div class="line"></div>
     <h3 class="demo-title">nomy.ERP</h3>
-    <!-- <button class="waves-effect waves-light btn grey" class:active={url === 'https://istrav.net'} on:click={() => url = `https://istrav.net`}>frontgate</button>
-    <button class="waves-effect waves-light btn grey" class:active={url === `https://${folder}.istrav.net`} on:click={() => url = `https://${folder}.istrav.net`}>activity feed</button>
-    <button class="waves-effect waves-light btn grey" class:active={url === `https://${folder}.istrav.net/forums`} on:click={() => url = `https://${folder}.istrav.net/forums`}>forums</button>
-    <button class="waves-effect waves-light btn grey" class:active={url === `https://${folder}.istrav.net/blogs`} on:click={() => url = `https://${folder}.istrav.net/blogs`}>blogs</button>
-    <button class="waves-effect waves-light btn grey" class:active={url === `https://${folder}.istrav.net/calendars`} on:click={() => url = `https://${folder}.istrav.net/calendars`}>calendars</button>
-    <button class="waves-effect waves-light btn grey" class:active={url === `https://${folder}.istrav.net/downloads`} on:click={() => url = `https://${folder}.istrav.net/downloads`}>downloads</button>
-    <button class="waves-effect waves-light btn grey" class:active={url === `https://${folder}.istrav.net/storefronts`} on:click={() => url = `https://${folder}.istrav.net/storefronts`}>storefronts</button>
-    <button class="waves-effect waves-light btn grey" class:active={url === `https://${folder}.istrav.net/leaderboards`} on:click={() => url = `https://${folder}.istrav.net/leaderboards`}>leaderboards</button>
-    <button class="waves-effect waves-light btn grey" class:active={url === `https://${folder}.istrav.net/referrals`} on:click={() => url = `https://${folder}.istrav.net/referrals`}>referrals</button>
-    <button class="waves-effect waves-light btn grey" class:active={url === `https://${folder}.istrav.net/rules`} on:click={() => url = `https://${folder}.istrav.net/rules`}>rules</button>
-    <br /><br /> -->
+    <button class="waves-effect waves-light btn grey" class:active={active === 'information'} on:click={() => active = `information`}>information</button>
+    <button class="waves-effect waves-light btn grey" class:active={active === `materials`} on:click={() => active = `materials`}>materials</button>
+    <button class="waves-effect waves-light btn grey" class:active={active === `cash`} on:click={() => active = `cash`}>cash</button>
+    {#if active === 'information'}
+      <p>In addition to cash and materials, ERP systems play a pivotal role in managing the information flows between suppliers, employees, and customers within an organization. These systems serve as a centralized hub for storing and processing data related to supplier relationships, employee details, and customer interactions. ERP facilitates seamless communication between suppliers and the organization by managing procurement, order processing, and inventory levels. It enhances employee management through features like HR records, payroll, and performance tracking. Moreover, ERP systems enable a comprehensive view of customer interactions, supporting functions such as sales, marketing, and customer service. By efficiently managing these information flows, ERP enhances collaboration, data accuracy, and customer satisfaction, contributing to a more agile and responsive organization.</p>
+    {/if}
+    {#if active === 'materials'}
+      <p>Materials within an Enterprise Resource Planning (ERP) system refer to the tangible resources that a company requires to conduct its operations and fulfill its business objectives. These resources can encompass a wide range of items, including raw materials, components, finished products, equipment, and supplies. In an ERP context, materials are managed through integrated modules that handle various aspects of their lifecycle, such as procurement, inventory management, production planning, and distribution. Effective material management within an ERP system allows organizations to optimize their supply chain, streamline processes, maintain accurate inventory levels, and make informed decisions based on real-time data, contributing to increased operational efficiency and improved resource utilization.</p>
+    {/if}
+    {#if active === 'cash'}
+      <p>Cash management is a crucial aspect of Enterprise Resource Planning (ERP) systems. Within an ERP framework, cash-related processes are meticulously tracked and managed, encompassing areas like accounts payable, accounts receivable, financial forecasting, budgeting, and cash flow analysis. By integrating cash management into the ERP ecosystem, organizations can gain real-time visibility into their financial health, monitor inflows and outflows, automate payment processes, and optimize cash utilization. This comprehensive approach to cash management ensures accurate financial reporting, aids in making informed decisions, and contributes to overall fiscal discipline and stability within the organization.</p>
+    {/if}
+    <br />
+    <br />
   </div>
-  <br />
-  <br />
-  <br />
-  <br />
 </div>
 
 <style>
@@ -233,6 +233,7 @@
     padding: 2em;
     padding-top: 0;
     text-align: center;
+    color: #eee;
     background-color: #222222;
     background-image: url("data:image/svg+xml,%3Csvg width='42' height='44' viewBox='0 0 42 44' xmlns='http://www.w3.org/2000/svg'%3E%3Cg id='Page-1' fill='none' fill-rule='evenodd'%3E%3Cg id='brick-wall' fill='%23333333' fill-opacity='1'%3E%3Cpath d='M0 0h42v44H0V0zm1 1h40v20H1V1zM0 23h20v20H0V23zm22 0h20v20H22V23z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
   }
