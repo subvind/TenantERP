@@ -30,7 +30,7 @@
 <div class="card">
   <div class="card-content">
     <p style="font-size:  1.2em;">
-      If you <span style="font-weight: 900;">like</span> the work I'm doing around here consider joing our <a href="/client-area">istrav.com/client-area</a> <span style="text-decoration: underline;">today</span>. If your looking for talent print out my <a href="/resume">istrav.com/resume</a>, send my <a href="https://github.com/trabur">GitHub</a> to the coding team, and <a href="#" on:click={() => contactMe()}>reach out</a> to me for hire.
+      If you <span style="font-weight: 900;">like</span> the work I'm doing around here consider joing our <a href="/client-area">istrav.com/client-area</a> <span style="text-decoration: underline;">today</span>. If your looking for talent print out my <a href="/resume">istrav.com/resume</a>, send my <a href="https://github.com/subvind">GitHub</a> to the coding team, and <a href="#" on:click={() => contactMe()}>reach out</a> to me for hire.
     </p>
   </div>
   <form>

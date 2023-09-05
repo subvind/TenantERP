@@ -49,7 +49,7 @@
         const idTokenResult = await user.getIdTokenResult()
         console.log('firebase idTokenResult', idTokenResult)
         // ...
-        let response = await axios.post('https://clients.trabur.workers.dev/istrav/register', idTokenResult)
+        let response = await axios.post('https://clients.subvind.workers.dev/istrav/register', idTokenResult)
         localStorage.setItem('istrav-global-token', response.data)
 
         window.location.href = `/client-area/dashboard`

@@ -17,7 +17,7 @@
     let el = document.querySelectorAll('.tabs')
     var instance = M.Tabs.init(el, {});
 
-    fetch(`https://raw.githubusercontent.com/trabur/${project.name}/master/README.md`)
+    fetch(`https://raw.githubusercontent.com/subvind/${project.name}/master/README.md`)
       .then(response => response.text())
       .then(data => {
         console.log(data);
@@ -41,15 +41,15 @@
 </script>
 
 <div class="container">
-  <a href={`https://github.com/trabur/${project.name}`} class="btn btn-large right red lighten-2 stats" target="_blank"><i class="material-icons left">star</i> Stars = {project.stargazers_count}</a>
-  <a href={`https://github.com/trabur/${project.name}`} class="btn btn-large right red lighten-2 stats" target="_blank"><i class="material-icons left">visibility</i> Watchers = {project.watchers_count}</a>
+  <a href={`https://github.com/subvind/${project.name}`} class="btn btn-large right red lighten-2 stats" target="_blank"><i class="material-icons left">star</i> Stars = {project.stargazers_count}</a>
+  <a href={`https://github.com/subvind/${project.name}`} class="btn btn-large right red lighten-2 stats" target="_blank"><i class="material-icons left">visibility</i> Watchers = {project.watchers_count}</a>
   <h1 class="title">Display</h1>
   <div class="card" style="border: 1em solid #000;">
     {#if project}
       <div style="margin: 0; background: #222;">
         <div class="card-content">
           <span class="language grey-text">{project.language}</span> 
-          <a href={`https://github.com/trabur/${project.name}`} target="_blank" class="name">github.com/trabur/{project.name}</a>
+          <a href={`https://github.com/subvind/${project.name}`} target="_blank" class="name">github.com/subvind/{project.name}</a>
           <br /><span class="description white-text">{project.description}</span>
           <br /><span class="date grey-text">Latest commit: <Time relative timestamp={new Date(project.pushed_at)} /> &#8226; {project.stargazers_count} Stars</span>
         </div>

@@ -1,7 +1,7 @@
 <script lang="ts">
   import { onMount } from "svelte";
 
-  let githubPath = 'trabur'
+  let githubPath = 'subvind'
   onMount(() => {
     M.updateTextFields();
 

@@ -14,7 +14,7 @@
   let record: any
 
   onMount(async () => {
-    let endpoint = `https://projects.trabur.workers.dev`;
+    let endpoint = `https://projects.subvind.workers.dev`;
     const init = {
       headers: {
         'content-type': 'application/json;charset=UTF-8',
