@@ -1,6 +1,6 @@
 <script>
   let folder = 'meta'
-  let url = `https://istrav.net`
+  let url = `https://erpnomy.com`
 </script>
 
 <div class="header">
@@ -8,8 +8,8 @@
   <br />
   <br />
   <br />
-  <h1 class="title">Launch Ideas</h1>
-  <div class="description" style="color: #000;">Stage zero of an Innovation Management System (IMS)...</div>
+  <h1 class="title">Launch Products</h1>
+  <div class="description" style="color: #000;">Stage zero of an Enterprise Resource Planning (ERP) system...</div>
   <br />
   <div style="max-width: 500px; margin: 0 auto;">
     <div class="description" style="color: #333;">Community run multi-layered bulletin board system dedicated to the sharing or exchange of ideas or other messages/files on a network.</div>
@@ -17,7 +17,7 @@
   <br />
   <br />
   <div style="text-align: center;">
-    <a href="/platforms" class="btn btn-large black white-text" style="display: inline-flex;"><i class="material-icons left">folder</i>community&nbsp;platforms</a>
+    <a href="https://erpnomy.com/organizations" class="btn btn-large black white-text" style="display: inline-flex;"><i class="material-icons left">folder</i>organizations</a>
   </div>
   <br />
   <br />
@@ -58,8 +58,8 @@
       <img src="/anchor.png" alt="about" style="width: 100px; margin-bottom: -2em;">
     </a>
     <div class="line"></div>
-    <h3 class="demo-title">Bulletin Board System</h3>
-    <button class="waves-effect waves-light btn grey" class:active={url === 'https://istrav.net'} on:click={() => url = `https://istrav.net`}>frontgate</button>
+    <h3 class="demo-title">nomy.ERP</h3>
+    <!-- <button class="waves-effect waves-light btn grey" class:active={url === 'https://istrav.net'} on:click={() => url = `https://istrav.net`}>frontgate</button>
     <button class="waves-effect waves-light btn grey" class:active={url === `https://${folder}.istrav.net`} on:click={() => url = `https://${folder}.istrav.net`}>activity feed</button>
     <button class="waves-effect waves-light btn grey" class:active={url === `https://${folder}.istrav.net/forums`} on:click={() => url = `https://${folder}.istrav.net/forums`}>forums</button>
     <button class="waves-effect waves-light btn grey" class:active={url === `https://${folder}.istrav.net/blogs`} on:click={() => url = `https://${folder}.istrav.net/blogs`}>blogs</button>
@@ -69,7 +69,7 @@
     <button class="waves-effect waves-light btn grey" class:active={url === `https://${folder}.istrav.net/leaderboards`} on:click={() => url = `https://${folder}.istrav.net/leaderboards`}>leaderboards</button>
     <button class="waves-effect waves-light btn grey" class:active={url === `https://${folder}.istrav.net/referrals`} on:click={() => url = `https://${folder}.istrav.net/referrals`}>referrals</button>
     <button class="waves-effect waves-light btn grey" class:active={url === `https://${folder}.istrav.net/rules`} on:click={() => url = `https://${folder}.istrav.net/rules`}>rules</button>
-    <br /><br />
+    <br /><br /> -->
   </div>
   <br />
   <br />

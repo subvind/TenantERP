@@ -20,7 +20,7 @@
     </div>
     <div class="row">
       <div class="col m6">
-        <h4>"The most expensive and difficult part to get right is stage zero; because your idea's <span style="text-decoration: underline;">main base</span> of <span style="font-weight: bold;">operations</span> is the most important." - rocket</h4>
+        <h4>"The most expensive and difficult part to get right is stage zero; because your product's <span style="text-decoration: underline;">main base</span> of <span style="font-weight: bold;">operations</span> is the most important." - rocket</h4>
       </div>
     </div>
   </div>
