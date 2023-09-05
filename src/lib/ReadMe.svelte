@@ -46,7 +46,7 @@
         </div>
       </div>
       <br />
-      <a href="/erpnomy" class="btn btn-large red lighten-2"><i class="material-icons left">developer_board</i>GET STARTED!</a>
+      <a href="/erpnomy" class="btn btn-large red lighten-2"><i class="material-icons left">directions_boat</i>Discover More</a>
     </div>
   </div>
 </div>

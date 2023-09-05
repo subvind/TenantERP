@@ -39,7 +39,7 @@
 						The quickest way to get ahold of a full demo is to <a href="https://erpnomy.com/auth/register" target="_blank">register</a> an account at erpnomy.com. Another quick alternative is to <a href="https://erpnomy.com/auth/login" target="_blank">login</a> to one of our existing test accounts for a limited demonstration.
 						<br />
 						<br />
-						free demo:<br />
+						free demo...<br />
 						username: test@test.com<br />
 						password: test123<br />
 						<br />

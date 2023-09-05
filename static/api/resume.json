@@ -1,23 +1,16 @@
 [
   {
     "name": "2008-2015",
-    "sourceCode":"https://github.com/trabur/2008-2015",
-    "website":"https://2008-2015.istrav.com",
-    "height":"2500px",
-    "pdf":"https://2008-2015.istrav.com/travis-burandt-resume.pdf"
+    "sourceCode": "https://github.com/subvind/2008-2015",
+    "website": "https://2008-2015.istrav.com",
+    "height": "2500px",
+    "pdf": "https://2008-2015.istrav.com/travis-burandt-resume.pdf"
   },
   {
-    "name": "2016-2021",
-    "sourceCode":"https://github.com/trabur/2016-2021",
-    "website":"https://2016-2021.istrav.com",
-    "height":"1000px",
-    "pdf":"https://2016-2021.istrav.com/travis-burandt-resume.pdf"
-  },
-  {
-    "name": "2022-now",
-    "sourceCode":"https://github.com/trabur/2022-now",
-    "website":"https://2022-now.istrav.com",
-    "height":"1000px",
-    "pdf":"https://2022-now.istrav.com/travis-burandt-resume.pdf"
+    "name": "2016-now",
+    "sourceCode": "https://github.com/subvind/2016-now",
+    "website": "https://2016-now.istrav.com",
+    "height": "1500px",
+    "pdf": "https://2016-now.istrav.com/travis-burandt-resume.pdf"
   }
 ]

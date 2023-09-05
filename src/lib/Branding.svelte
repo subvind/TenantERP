@@ -15,10 +15,10 @@
             </div>
             <div class="col m8">
               <div>TRAVIS BURANDT:</div>
-              <div class="names">I am a hard worker. My favorite thing to see is how tech disrupts behavior. Especially in films like Star Trek.</div> 
-              <br />
+              <div class="names">I am a hard worker. My favorite thing to see is how tech disrupts behavior. Especially in films like Dr. Who and Star Trek.</div> 
+              <!-- <br />
               <div>ABOUT:</div>
-              <div class="names">[Manifesto, Strategy, Tactics, Vision, Values, Status, Contribute, Target]</div> 
+              <div class="names">[Manifesto, Strategy, Tactics, Vision, Values, Status, Contribute, Target]</div>  -->
               <div></div>   
             </div>
           </div>
