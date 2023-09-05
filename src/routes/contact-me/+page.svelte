@@ -17,4 +17,11 @@
 	<br />
 </main>
 
+<style>
+	main {
+		position: relative;
+		overflow: hidden;
+		padding-top: 4em;
+	}
+</style>
 
