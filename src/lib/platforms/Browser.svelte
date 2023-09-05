@@ -111,7 +111,6 @@
   .demo-title {
     font-weight: 900;
     color: #eee;
-		font-size: 4.5em;
     margin: 0;
     text-align: center;
     margin-bottom: 0.2em;
