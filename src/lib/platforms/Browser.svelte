@@ -200,14 +200,14 @@
 
   #wrap {
     width: 900px;
-    height: 490px;
+    height: 440px;
     padding: 0;
     overflow: hidden; 
   }
   
   #frame {
     width: 1200px;
-    height: 660px;
+    height: 590px;
     border: 0;
   }
 
