@@ -10,7 +10,7 @@
   <div class="description black-text">We invite you to experience the future of business management with a free demo of our Enterprise Resource Planning (ERP) system. Witness firsthand how our Inventory Management System (IMS) can transform your operations, enhance productivity, and streamline your workflow. Take this opportunity to explore the features, test its user-friendliness, and see how it aligns with your specific needs. Try our demo today and embark on a journey toward greater efficiency and success.</div>
   <br />
   <br />
-  <a href="/erpnomy" class="btn btn-large black"><i class="material-icons left">directions_run</i>let's go</a>
+  <a href="/erpnomy" class="btn btn-large black"><i class="material-icons left">directions_run</i>i'm ready</a>
 </div>
 
 <style>

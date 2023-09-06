@@ -8,7 +8,7 @@
   <div class="container">
     <br />
     <h1 class="title">
-      START TODAY
+      WELCOME
     </h1>
     <div class="description" style="color: #fff;">
       From start up to success with an Enterprise Resource Planning (ERP) system...
