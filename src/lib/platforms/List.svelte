@@ -10,7 +10,7 @@
 </script>
 
 <h3 class="title">
-  E-Commerce Stores
+  E-Commerce Stores:
 </h3>
 <div class="card">
   {#if records.length}
@@ -26,6 +26,9 @@
     (Top 10 list of e-commerce stores that we support.)
   </div>
 </div>
+<a href="https://erpnomy.com/organizations" target="_blank" class="btn btn-large black white-text" style="display: inline-flex;"><i class="material-icons left">domain</i>organizations</a>
+<br />
+<br />
 
 <style>
 	.title {

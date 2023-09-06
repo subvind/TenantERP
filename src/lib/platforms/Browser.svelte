@@ -9,19 +9,12 @@
   <br />
   <br />
   <br />
-  <h1 class="title">Launch Products</h1>
+  <h1 class="title">Launch Today</h1>
   <div class="description" style="color: #000;">Enterprise Resource Planning (ERP)</div>
   <br />
   <div style="max-width: 500px; margin: 0 auto;">
     <div class="description" style="color: #333;">It contains CRM, HR, Purchases, Orders, Payments, Invoices, Quotes, Inventory, Supply Chain, Expenses, Reports, Accounting.</div>
   </div>
-  <br />
-  <br />
-  <div style="text-align: center;">
-    <a href="https://erpnomy.com/organizations" target="_blank" class="btn btn-large black white-text" style="display: inline-flex;"><i class="material-icons left">folder</i>organizations</a>
-  </div>
-  <br />
-  <br />
   <br />
   <br />
   <div class="browser z-depth-5">

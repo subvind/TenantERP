@@ -5,13 +5,14 @@
 </script> -->
 
 <script lang="ts">
-	import Ideas from '$lib/Ideas.svelte';
+	import StartToday from '$lib/StartToday.svelte';
 	import Header from '$lib/Header.svelte';
 	import Footer from '$lib/Footer.svelte';
 	import ClientArea from "$lib/ClientArea.svelte";
 	import ReadMe from '$lib/ReadMe.svelte';
 	import Anchor from '$lib/Anchor.svelte';
-	import PracticalIdeas from '$lib/PracticalIdeas.svelte';
+	import FreeDemo from '$lib/FreeDemo.svelte';
+	import Path from '$lib/Path.svelte';
 </script>
 
 <svelte:head>
@@ -22,15 +23,16 @@
 <Header />
 <main>
 	<Anchor />
-	<Ideas />
-	<br />
-	<br />
-	<br />
-	<br />
+	<StartToday />
 	<br />
 	<br />
 	<ReadMe />
-	<PracticalIdeas />
+	<br />
+	<br />
+	<Path />
+	<br />
+	<br />
+	<FreeDemo />
 	<br />
 	<br />
 	<br />
