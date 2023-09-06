@@ -33,7 +33,7 @@
           <div class="card-title">
             Enterprise Resource Planning (ERP)
           </div>
-          subvind was formed in 2023 as a factory for generating open source products.
+          subvind was formed in 2023 as a factory for generating fair source products.
           <br />
           <br />
           nomy.ERP, powered by subvind, is a fast growing IT solution for E-Commerce.
