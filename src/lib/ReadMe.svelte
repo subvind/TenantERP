@@ -26,24 +26,18 @@
     </div>
     <div class="col s12 m6">
       <h1 class="title">
-        ERP
+        -nomy
       </h1>
       <div class="card box">
         <div class="card-content">
-          <div class="card-title">
-            Enterprise Resource Planning (ERP)
-          </div>
-          subvind was formed in 2023 as a factory for generating fair source products.
-          <br />
-          <br />
-          nomy.ERP, powered by subvind, is a fast growing IT solution for E-Commerce.
-          <br />
-          <br />
-          It contains CRM, HR, Purchases, Orders, Payments, Invoices, Quotes, Inventory, Supply Chain, Expenses, Reports, Accounting.
+          <!-- <div class="card-title">
+            Software as a Service (SaaS)
+          </div> -->
+          The suffix "-nomy" is derived from the Greek word "nomos," which means "law," "custom," or "management." When added to the end of a word, it forms nouns that typically refer to a system, science, or study of a particular subject or field. These words are often used to describe the principles, rules, or governance of that subject.
         </div>
       </div>
       <br />
-      <a href="/solutions" class="btn btn-large red lighten-2"><i class="material-icons left">directions_boat</i>nomy.ERP</a>
+      <a href="/solutions" class="btn btn-large red lighten-2"><i class="material-icons left">directions_boat</i>modules</a>
     </div>
   </div>
 </div>
