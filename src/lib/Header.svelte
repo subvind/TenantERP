@@ -57,8 +57,8 @@
 						</li>
 					</ul>
 					<ul id="nav-mobile" class="right hide-on-med-and-down">
-						<li class:active={$page.url.pathname.startsWith('/erpnomy')}>
-							<a sveltekit:prefetch href="/erpnomy">GET STARTED!</a>
+						<li class:active={$page.url.pathname.startsWith('/solutions')}>
+							<a sveltekit:prefetch href="/solutions">GET STARTED!</a>
 						</li>
 					</ul>
 				<div>

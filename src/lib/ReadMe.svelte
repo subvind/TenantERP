@@ -43,7 +43,7 @@
         </div>
       </div>
       <br />
-      <a href="/erpnomy" class="btn btn-large red lighten-2"><i class="material-icons left">directions_boat</i>nomy.ERP</a>
+      <a href="/solutions" class="btn btn-large red lighten-2"><i class="material-icons left">directions_boat</i>nomy.ERP</a>
     </div>
   </div>
 </div>
