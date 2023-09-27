@@ -2,11 +2,33 @@
   {
     "name": "Broken Record",
     "description": "This organization buys and sells vintage and antiqueues. From neck ties to coloring books.",
-    "url": "https://www.brokenrecord.store"
+    "username": "brokenrecord",
+    "orgname": "brokenrecord",
+    "solutions": [
+      {
+        "module": "erpnomy",
+        "url": "https://www.brokenrecord.store"
+      }
+    ]
   },
   {
     "name": "isTrav",
     "description": "This organization produces software and sells it. From Software as a Service (SaaS) to license keys.",
-    "url": "https://shop.istrav.com"
+    "username": "subvind",
+    "orgname": "istrav",
+    "solutions": [
+      {
+        "module": "erpnomy",
+        "url": "https://store.istrav.com"
+      },
+      {
+        "module": "desknomy",
+        "url": "https://desk.istrav.com"
+      },
+      {
+        "module": "tubenomy",
+        "url": "https://tube.istrav.com"
+      }
+    ]
   }
 ]

@@ -36,9 +36,9 @@
 <br />
 <div class="container">
   <h1 class="title black-text">Let's Go!</h1>
-  <div class="description black-text">Invitation to join an Enterprise Resource Planning (ERP) system...</div>
+  <div class="description black-text">From stage zero to outer space and beyond!</div>
   <br />
-  <div class="description black-text">Our ERP solution is the perfect choice for your business. With a user-friendly interface and robust features tailored to streamline your operations, it empowers you to drive efficiency, reduce costs, and make data-driven decisions. Our solution is scalable, adapting to your business's evolving needs, and it provides real-time insights to help you stay ahead of the competition. Plus, our dedicated support team is always ready to assist you, ensuring a seamless transition and ongoing success. Choose our ERP solution to unlock your business's full potential and achieve sustained growth.</div>
+  <div class="description black-text">Ready to take your website to the next level? Imagine the endless possibilities of enhancing your online presence with our modular solutions. It's time to transform your website into a dynamic, adaptable powerhouse that grows with your business. Don't wait any longer—explore our pricing levels now and unlock the potential of your digital future. Your website's evolution begins here.</div>
   <br />
   <br />
   <a href="/pricing" class="btn btn-large black"><i class="material-icons left">tune</i>pricing levels</a>

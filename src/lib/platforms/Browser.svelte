@@ -1,21 +1,49 @@
-<script>
+<script lang="ts">
+    import { onMount } from "svelte";
+
   let folder = 'meta'
   let url = `https://erpnomy.com`
   let active = ''
+  let display = ''
+  let description = ''
+
+  function toggle(value: any) {
+    active = value
+    switch (active) {
+      case 'erpnomy':
+        display = 'nomy.ERP'
+        url = `https://erpnomy.com`
+        description = 'It contains CRM, HR, Purchases, Orders, Payments, Invoices, Quotes, Inventory, Supply Chain, Expenses, Reports, Accounting.'
+        break;
+      case 'desknomy':
+        display = 'nomy.DESK'
+        url = `https://desknomy.com`
+        description = 'Coming soon...'
+        break;
+      case 'tubenomy':
+        display = 'nomy.TUBE'
+        url = `https://tubenomy.com`
+        description = 'Coming soon...'
+        break;
+    }
+  }
+
+  onMount(() => {
+    // It retrieves the hash value from the URL and assigns it to the variable.
+    function getHashValue() {
+      return window.location.hash.substring(1); // Removes the "#" character
+    }
+    let hash = getHashValue() || 'erpnomy';
+
+    toggle(hash)
+  })
 </script>
 
 <div class="header">
   <br />
   <br />
-  <br />
-  <br />
-  <h1 class="title">Launch Today</h1>
-  <div class="description" style="color: #000;">Enterprise Resource Planning (ERP)</div>
-  <br />
-  <div style="max-width: 500px; margin: 0 auto;">
-    <div class="description" style="color: #333;">It contains CRM, HR, Purchases, Orders, Payments, Invoices, Quotes, Inventory, Supply Chain, Expenses, Reports, Accounting.</div>
-  </div>
-  <br />
+  <h1 class="title">µSaaS Modules</h1>
+  <div class="description" style="color: #000;">Micro software as a service modules that<br />bolt-on to your website via subdomain.</div>
   <br />
   <div class="browser z-depth-5">
     <div class="toolbar">
@@ -52,19 +80,15 @@
       <img src="/anchor.png" alt="about" style="width: 100px; margin-bottom: -2em;">
     </a>
     <div class="line"></div>
-    <h3 class="demo-title">nomy.ERP</h3>
-    <button class="waves-effect waves-light btn grey" class:active={active === 'information'} on:click={() => active = `information`}>information</button>
-    <button class="waves-effect waves-light btn grey" class:active={active === `materials`} on:click={() => active = `materials`}>materials</button>
-    <button class="waves-effect waves-light btn grey" class:active={active === `cash`} on:click={() => active = `cash`}>cash</button>
-    {#if active === 'information'}
-      <p>In addition to cash and materials, ERP systems play a pivotal role in managing the information flows between suppliers, employees, and customers within an organization. These systems serve as a centralized hub for storing and processing data related to supplier relationships, employee details, and customer interactions. ERP facilitates seamless communication between suppliers and the organization by managing procurement, order processing, and inventory levels. It enhances employee management through features like HR records, payroll, and performance tracking. Moreover, ERP systems enable a comprehensive view of customer interactions, supporting functions such as sales, marketing, and customer service. By efficiently managing these information flows, ERP enhances collaboration, data accuracy, and customer satisfaction, contributing to a more agile and responsive organization.</p>
-    {/if}
-    {#if active === 'materials'}
-      <p>Materials within an Enterprise Resource Planning (ERP) system refer to the tangible resources that a company requires to conduct its operations and fulfill its business objectives. These resources can encompass a wide range of items, including raw materials, components, finished products, equipment, and supplies. In an ERP context, materials are managed through integrated modules that handle various aspects of their lifecycle, such as procurement, inventory management, production planning, and distribution. Effective material management within an ERP system allows organizations to optimize their supply chain, streamline processes, maintain accurate inventory levels, and make informed decisions based on real-time data, contributing to increased operational efficiency and improved resource utilization.</p>
-    {/if}
-    {#if active === 'cash'}
-      <p>Cash management is a crucial aspect of Enterprise Resource Planning (ERP) systems. Within an ERP framework, cash-related processes are meticulously tracked and managed, encompassing areas like accounts payable, accounts receivable, financial forecasting, budgeting, and cash flow analysis. By integrating cash management into the ERP ecosystem, organizations can gain real-time visibility into their financial health, monitor inflows and outflows, automate payment processes, and optimize cash utilization. This comprehensive approach to cash management ensures accurate financial reporting, aids in making informed decisions, and contributes to overall fiscal discipline and stability within the organization.</p>
-    {/if}
+    <h3 class="demo-title">{display}</h3>
+    <button class="waves-effect waves-light btn grey" class:active={active === 'erpnomy'} on:click={() => toggle('erpnomy')}>erpnomy</button>
+    <button class="waves-effect waves-light btn grey" class:active={active === `desknomy`} on:click={() => toggle('desknomy')}>desknomy</button>
+    <button class="waves-effect waves-light btn grey" class:active={active === `tubenomy`} on:click={() => toggle('tubenomy')}>tubenomy</button>
+    <br />
+    <br />
+    <div style="max-width: 500px; margin: 0 auto;">
+      <div class="description" style="color: #ccc;">{description}</div>
+    </div>
     <br />
     <br />
   </div>
