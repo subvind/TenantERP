@@ -4,7 +4,7 @@
     <a href="https://subvind.com">
       <img src="./anchor.png" alt="subvind" />
     </a>
-    <div class="name">Full Stack Developer; coding since 2008.</div>
+    <div class="name">Full Stack Developer;<br />coding since 2008.</div>
   </div>
 </div>
 <style>
