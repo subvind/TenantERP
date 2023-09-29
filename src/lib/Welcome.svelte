@@ -5,7 +5,7 @@
       <h1 class="title ">
         My name is
         <br />Travis and I am
-        <br />a devgrammer.
+        <br />a programmer.
       </h1>
       <h5 class="description">Sr. Full Stack Developer / Cyclist</h5>
       <br />
@@ -15,7 +15,7 @@
       <h5 class="title ">
         My name is
         <br />Travis and I am
-        <br />a devgrammer.
+        <br />a programmer.
       </h5>
       <h6 class="description">Sr. Full Stack Developer / Cyclist</h6>
       <a href="/contact-me" class="btn red lighten-2"><i class="material-icons left">face</i>Contact Me</a>

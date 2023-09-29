@@ -44,10 +44,10 @@
       </div>
       <div class="col s12 m6">
         {#if authenticated === true}
-          <a href="/client-area" class="btn btn-large right controls">DASHBOARD</a>
+          <a href="https://client-area.istrav.com" class="btn btn-large right controls">DASHBOARD</a>
         {:else}
-          <a href="/client-area" class="btn btn-large right controls hide-on-small-only">MEMBERS ONLY</a>
-          <a href="/client-area" class="btn btn-large controls hide-on-med-and-up">MEMBERS ONLY</a>
+          <a href="https://client-area.istrav.com" class="btn btn-large right controls hide-on-small-only">MEMBERS ONLY</a>
+          <a href="https://client-area.istrav.com" class="btn btn-large controls hide-on-med-and-up">MEMBERS ONLY</a>
         {/if}
       </div>
     </div>

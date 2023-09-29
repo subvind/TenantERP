@@ -49,8 +49,8 @@
 					<!-- <a href="//istrav.pro" class="btn right white black-text " style="margin: 1em 0.5em;">pro</a>
 					<a href="/ideal-talent" class="btn right white black-text " style="margin: 1em 0.5em;">it</a> -->
 					<ul id="nav-mobile" class="left hide-on-med-and-down">
-						<li class:active={$page.url.pathname.startsWith('/client-area')}>
-							<a sveltekit:prefetch href="/client-area">Client Area</a>
+						<li>
+							<a href="https://client-area.istrav.com">Client Area</a>
 						</li>
 						<li class:active={$page.url.pathname.startsWith('/pricing')}>
 							<a sveltekit:prefetch href="/pricing">Pricing</a>

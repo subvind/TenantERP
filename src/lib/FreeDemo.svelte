@@ -5,9 +5,9 @@
 <br />
 <div class="container">
   <h1 class="title black-text">Free Demo</h1>
-  <div class="description black-text">Invitation to checkout an Enterprise Resource Planning (IMS) system...</div>
+  <div class="description black-text">Invitation to checkout our µSaaS modules...</div>
   <br />
-  <div class="description black-text">We invite you to experience the future of business management with a free demo of our Enterprise Resource Planning (ERP) system. Witness firsthand how our Inventory Management System (IMS) can transform your operations, enhance productivity, and streamline your workflow. Take this opportunity to explore the features, test its user-friendliness, and see how it aligns with your specific needs. Try our demo today and embark on a journey toward greater efficiency and success.</div>
+  <div class="description black-text">Experience innovation like never before with our free demo! We invite you to explore our micro Software as a Service (µSaaS) modules and take your digital journey from stage zero to outer space and beyond. Unleash the power of customization and discover how our modules can propel your online presence to new heights. Don't miss out on this opportunity to elevate your website – let's embark on this exciting journey together. Let's go!</div>
   <br />
   <br />
   <a href="/solutions" class="btn btn-large black"><i class="material-icons left">directions_run</i>i'm ready</a>

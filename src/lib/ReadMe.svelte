@@ -12,7 +12,7 @@
               Hello There!
               <br />My name is Travis. I am a full stack developer. This collection of websites and apps that are all under the anchor logo and isTrav branding are for research, learning, and exploring purposes. Take a look at our <a href="/about">istrav.com/about</a> page for more point-of-reference and philosphy.
             </span>
-            <br /><br />The <a href="/client-area">istrav.com/client-area</a> is where members are granted access control panels. See <a href="/pricing">istrav.com/pricing</a> for branding removal and license fees. Thank you for your support!
+            <br /><br />The <a href="https://client-area.istrav.com">client-area.istrav.com</a> is where members are granted access control panels. See <a href="/pricing">istrav.com/pricing</a> for branding removal and license fees. Thank you for your support!
           </p>
         </div>
         <div class="card-action">
