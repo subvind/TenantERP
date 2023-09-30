@@ -25,8 +25,8 @@
 </script>
 
 <svelte:head>
-	<title>Membership Pricing - isTrav</title>
-	<meta name="description" content="Travis Burandt" />
+	<title>Membership - STARTS AT $19 PER MONTH - isTrav</title>
+	<meta name="description" content="Free forever up until you reach the Fair Source 25 (v0.9). license agreement limit. Checkout our Pricing Level slider below to calculate usage limits (active users, requests per day, requests per mounth) with expected costs per month." />
 </svelte:head>
 
 <main>

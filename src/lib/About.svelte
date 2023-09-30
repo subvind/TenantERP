@@ -17,7 +17,7 @@
       <div style="text-align: center;">
         <Branding />
         <br />
-        <a href="/about" class="btn btn-large black white-text">view details</a>
+        <a href="/about" class="btn btn-large black white-text">about me</a>
       </div>
       <br />
       <br />
