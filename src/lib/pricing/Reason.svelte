@@ -13,7 +13,7 @@
             <br />
             <div>In order to empower our users with greater control and flexibility, we've taken a significant step towards detaching from our user interface (UI) while keeping our backend seamlessly headless. This move allows our customers to roll with their own customized UI experiences, tailored precisely to their unique needs and preferences. By decoupling the UI from the backend, we've opened up a world of possibilities for innovation and personalization. For developers and businesses seeking to explore this newfound freedom, our Swagger documentation provides comprehensive insights into the APIs and functionalities that underpin our platform.</div>
             <br />
-            <a href="https://api.subvind.com/swagger" class="btn btn-large">FOR DEVELOPERS</a>
+            <a href="https://api.subvind.com/swagger" class="btn btn-large" target="_blank">FOR DEVELOPERS</a>
           </div>
           <div class="col m6 s12">
             <img src="/graphics/jwst.png" width="100%" alt="" style="filter: grayscale(100%)" />
