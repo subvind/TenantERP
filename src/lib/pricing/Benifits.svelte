@@ -30,50 +30,25 @@
     <br />
     <br />
     <br />
-    <div style="position: absolute; text-algin: center; width: 100%;">
+    <div style="text-algin: center; width: 100%;">
       <div class="container">
         <div class="row">
           <div class="col s12 m4">
-            <p>Client Area:</p>
-            <p>itPanel gives your team the ability to coordinate and manage support inquiries. Keep ticket, from open to closed, resolve times low by quickly connecting the right people.</p>
+            <p>Headless API:</p>
+            <p>Our Headless API is a game-changer for businesses seeking ultimate flexibility and scalability in their digital operations. By decoupling the front-end from the back-end, it allows you to design, customize, and roll out user interfaces independently, providing the agility needed to stay ahead in today's rapidly evolving digital landscape. Whether you're building a web application, mobile app, or integrating with various touchpoints, our Headless API empowers you to create seamless and tailored user experiences with ease.</p>
           </div>
           <div class="col s12 m4">
-            <p>Knowledge Base:</p>
-            <p>Neatly organize public documents with in a searchable repository. Then, put that knowledge right where it is most helpful. Which is any page with in itPanel placed at the top.</p>
+            <p>Bolt-on Modules:</p>
+            <p>Unlock the potential of your digital ecosystem with our Bolt-on Modules. These modular extensions seamlessly integrate into your existing infrastructure, providing specialized functionality to meet specific business needs. No more one-size-fits-all solutions. Whether you require advanced analytics, e-commerce capabilities, or CRM integration, our Bolt-on Modules allow you to enhance your platform's capabilities without the complexity of a full-scale overhaul.</p>
           </div>
           <div class="col s12 m4">
-            <p>Support Desk:</p>
-            <p>We have gone out of our way to seperate tenant (data center admin), account (machine admin), and owner (website admin) each into their own panels.</p>
+            <p>Fully Customizable:</p>
+            <p>We understand that your business is unique, and your technology should reflect that. That's why we offer a fully customizable solution that empowers you to mold your digital environment to align perfectly with your brand and objectives. Whether it's the user interface, workflow automation, or data integrations, you have the freedom to adapt and evolve your platform as your business evolves, ensuring it remains a true reflection of your vision and goals. With full customization at your fingertips, you're in control of your digital destiny.</p>
           </div>
         </div>
       </div>
     </div>
   </div>
-  <br class="hide-on-med-and-up" />
-  <br class="hide-on-med-and-up" />
-  <br class="hide-on-med-and-up" />
-  <br class="hide-on-med-and-up" />
-  <br class="hide-on-med-and-up" />
-  <br class="hide-on-med-and-up" />
-  <br class="hide-on-med-and-up" />
-  <br class="hide-on-med-and-up" />
-  <br class="hide-on-med-and-up" />
-  <br class="hide-on-med-and-up" />
-  <br class="hide-on-med-and-up" />
-  <br class="hide-on-med-and-up" />
-  <br class="hide-on-med-and-up" />
-  <br class="hide-on-med-and-up" />
-  <br class="hide-on-med-and-up" />
-  <br class="hide-on-med-and-up" />
-  <br />
-  <br />
-  <br />
-  <br />
-  <br />
-  <br />
-  <br />
-  <br />
-  <br />
 </div>
 <div class="container" style="margin-top: -200px; height: 200px; overflow: hidden; padding: 6em 0 0;">
   <div id="clouds" style="">

@@ -1,6 +1,6 @@
 
 <div class="container">
-  <a href="https://istrav.dev">
+  <a href="/resume">
     <div class="get-started-now">
       <h1 style="text-align: center; margin-top: 0; font-weight: 900;">Custom Work:</h1>
       <h4 style="text-align: center; margin-top: -0.5em;">Full Stack Developer<br /> starting at $80/hour</h4>

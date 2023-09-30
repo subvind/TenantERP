@@ -11,11 +11,9 @@
             <h1 style="margin: 0; font-weight: 900;">Reason</h1>
             <h4 class="header">Detach from our UIs<br />and roll with your own.</h4>
             <br />
-            <div>Getting software to run on a machine is half the battle. Further configuration, such as keeping products up to date in your online store or coding a script, is beyond the scope of our base services that we provide. With that being said, we do offer advanced support, however it is extra.</div>
+            <div>In order to empower our users with greater control and flexibility, we've taken a significant step towards detaching from our user interface (UI) while keeping our backend seamlessly headless. This move allows our customers to roll with their own customized UI experiences, tailored precisely to their unique needs and preferences. By decoupling the UI from the backend, we've opened up a world of possibilities for innovation and personalization. For developers and businesses seeking to explore this newfound freedom, our Swagger documentation provides comprehensive insights into the APIs and functionalities that underpin our platform.</div>
             <br />
-            <div>This mainly depends on what you are trying to achieve. Send us your requirements and well see what we can do. Source code modifications require a programmer (for software feature set changes) while tasks like keeping products up to date requires a developer (for business feature set changes). </div>
-            <br />
-            <a href="https://istrav.com/projects" class="btn btn-large">FOR DEVELOPERS</a>
+            <a href="https://api.subvind.com/swagger" class="btn btn-large">FOR DEVELOPERS</a>
           </div>
           <div class="col m6 s12">
             <img src="/graphics/jwst.png" width="100%" alt="" style="filter: grayscale(100%)" />

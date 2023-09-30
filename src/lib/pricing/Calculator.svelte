@@ -20,16 +20,16 @@
       <div class="col s6">
         <div class="card-content">
           <div class="card-title">Start a Trial:</div>
-          Test every feature in /istrav/ free forever. Some usage limits apply.
+          Test every feature in subvind free forever. Some usage limits apply.
           <br /><br />
-          <a href="/client-area" class="btn transparent black-text">Start Your Trial</a>
+          <a href="https://client-area.istrav.com" class="btn transparent black-text">Start Your Trial</a>
           <br /><div style="margin-top: 1em; color: #888;">No credit card required.</div>
         </div>
       </div>
       <div class="col s6 demo">
         <div class="card-content">
           <div class="card-title">Grab a Demo:</div>
-          Get a one-on-one walk-through of /istrav/ with an in-house expert. 
+          Get a one-on-one walk-through of subvind with an in-house expert. 
           <br />
           <br />
           <a href="/contact-me" class="btn red lighten-2">Grab Your Demo</a>
@@ -43,10 +43,10 @@
       <div class="row" style="margin: 0;">
         <div class="col s4">
           <ul class="collection">
-            <li class="collection-item"><i class="material-icons">check</i> Unlimited users</li>
-            <li class="collection-item"><i class="material-icons">check</i> Unlimited topics & posts</li>
-            <li class="collection-item"><i class="material-icons">check</i> Unlimited chats</li>
-            <li class="collection-item"><i class="material-icons">check</i> Unlimited DB records</li>
+            <li class="collection-item"><i class="material-icons">check</i> Unlimited accounts</li>
+            <li class="collection-item"><i class="material-icons">check</i> Unlimited products</li>
+            <li class="collection-item"><i class="material-icons">check</i> Unlimited inventory</li>
+            <li class="collection-item"><i class="material-icons">check</i> Unlimited orders</li>
           </ul>
         </div>
         <div class="col s4">
@@ -54,12 +54,12 @@
             <li class="collection-item"><i class="material-icons">check</i> SSL encryption for security</li>
             <li class="collection-item"><i class="material-icons">check</i> 3rd Party Integrations</li>
             <li class="collection-item"><i class="material-icons">check</i> Headless API</li>
-            <li class="collection-item"><i class="material-icons">check</i> Multiple Websites</li>
+            <li class="collection-item"><i class="material-icons">check</i> Bolt-on Modules</li>
           </ul>
         </div>
         <div class="col s4">
           <ul class="collection">
-            <li class="collection-item"><i class="material-icons">check</i> Web & Mobile Apps</li>
+            <li class="collection-item"><i class="material-icons">check</i> Micro Software as a Service</li>
             <li class="collection-item"><i class="material-icons">check</i> Monolithic Back-End</li>
             <li class="collection-item"><i class="material-icons">check</i> White Labeled</li>
             <li class="collection-item"><i class="material-icons">check</i> Fully Customizable</li>

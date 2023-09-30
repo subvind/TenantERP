@@ -16,10 +16,10 @@
   for (let i = 0; i <= 10; i++) {
     records.push({
       number: i,
-      price: 0 + i * 25,
+      price: 0 + i * 19,
       activeUsersPerHour: i * 50 || 25,
-      requestsPerDay: i * 100000 || 100000,
-      requestsPerMonth: i * 100000 * 25 || 100000 * 25
+      requestsPerDay: i * 100000 || 50000,
+      requestsPerMonth: i * 100000 * 25 || 100000 * 25 / 2
     })
   }
 </script>
