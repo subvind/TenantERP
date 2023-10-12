@@ -60,8 +60,8 @@
             <a href="/about" class="btn fluid red lighten-2"><i class="material-icons left">directions_boat</i>about<i class="material-icons right">directions</i></a>
           </div>
           <div class="card-action" style="padding: 0;">
-            <a href="/about" style="display: contents;">
-              <img src="/anchor.png" alt="isTrav" style="width: 100%;">
+            <a href="https://underwind.solutions" style="display: contents;">
+              <img src="/anchor.png" alt="underwind.solutions" style="width: 100%;">
             </a>
           </div>
         </div>

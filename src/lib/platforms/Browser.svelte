@@ -76,8 +76,8 @@
   <div class="container">
     <a href="#" class="btn-floating btn-large waves-effect waves-light red lighten-2 platform-btn"><i class="material-icons">arrow_upward</i></a>
     <div class="line"></div>
-    <a href="/about">
-      <img src="/anchor.png" alt="about" style="width: 100px; margin-bottom: -2em;">
+    <a href="https://underwind.solutions">
+      <img src="/anchor.png" alt="underwind.solutions" style="width: 100px; margin-bottom: -2em;">
     </a>
     <div class="line"></div>
     <h3 class="demo-title">{display}</h3>

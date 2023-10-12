@@ -19,8 +19,8 @@
         </div>
       </div>
       <div class="col m4" style="text-align: right;">
-        <a href="/about" style="">
-          <img src="/anchor.png" class="anchor" alt="isTrav">
+        <a href="https://underwind.solutions" style="">
+          <img src="/anchor.png" class="anchor" alt="underwind.solutions">
         </a>
       </div>
     </div>
