@@ -22,7 +22,7 @@
         <div class="card box">
           <div class="card-content">
             <h4 style="margin-top: 0;">Mission Statement</h4>
-            To do the things that one wants to do. To explore areas of language, code, and blueprints. To work hard on things that need to be worked on. To challenge oneself to achieve greater. To fall asleep knowing that an impact was made. To become a fully autonomous full-stack developer and beyond.
+            To do the things that one wants to do. To explore areas of language, code, and blueprints. To work hard on things that need to be worked on. To challenge oneself to achieve greater. To fall asleep knowing that an impact was made. To become a fully autonomous full-stack developer, force multiplier, and beyond.
   
             <!-- <h4>Careers</h4>
             New job listings will show here. -->
