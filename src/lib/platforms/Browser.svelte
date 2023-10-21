@@ -13,17 +13,17 @@
       case 'erpnomy':
         display = 'nomy.ERP'
         url = `https://erpnomy.com`
-        description = 'It contains CRM, HR, Purchases, Orders, Payments, Invoices, Quotes, Inventory, Supply Chain, Expenses, Reports, Accounting.'
+        description = 'Easily create and manage your e-commerce business.<br><br> Accept orders, manage products and sell online using your very own storefront in minutes. No code needed.'
         break;
       case 'desknomy':
         display = 'nomy.DESK'
         url = `https://desknomy.com`
-        description = 'Coming soon...'
+        description = 'Easily create and manage your productized service.<br><br> Accept monthly subscription plans, manage tasks and communicate using your very own client area in minutes. No code needed.'
         break;
       case 'tubenomy':
         display = 'nomy.TUBE'
         url = `https://tubenomy.com`
-        description = 'Coming soon...'
+        description = 'Easily promote and sell your goods and services.<br><br> Notify subscribers, manage playlists, and showcase videos using your very own catalog in minutes. No code needed.'
         break;
     }
   }
@@ -86,9 +86,11 @@
     <button class="waves-effect waves-light btn grey" class:active={active === `tubenomy`} on:click={() => toggle('tubenomy')}>tubenomy</button>
     <br />
     <br />
-    <div style="max-width: 500px; margin: 0 auto;">
-      <div class="description" style="color: #ccc;">{description}</div>
+    <div style="max-width: 600px; margin: 0 auto;">
+      <div class="description" style="color: #ccc;">{@html description}</div>
     </div>
+    <br />
+    <a href={url} class="btn btn-small black lighten-2 white-text">{url}</a>
     <br />
     <br />
   </div>
