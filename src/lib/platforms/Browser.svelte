@@ -80,7 +80,7 @@
       <img src="/anchor.png" alt="underwind.solutions" style="width: 100px; margin-bottom: -2em;">
     </a>
     <div class="line"></div>
-    <h3 class="demo-title">{display}</h3>
+    <h1 class="demo-title">{display}</h1>
     <button class="waves-effect waves-light btn grey" class:active={active === 'erpnomy'} on:click={() => toggle('erpnomy')}>erpnomy</button>
     <button class="waves-effect waves-light btn grey" class:active={active === `desknomy`} on:click={() => toggle('desknomy')}>desknomy</button>
     <button class="waves-effect waves-light btn grey" class:active={active === `tubenomy`} on:click={() => toggle('tubenomy')}>tubenomy</button>
@@ -133,7 +133,7 @@
     margin: 0;
     text-align: center;
     margin-bottom: 0.2em;
-    border: 0.2em solid #ee6e73;
+    border: 0.25em solid #ee6e73;
   }
 
   .line {
