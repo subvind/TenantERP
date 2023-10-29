@@ -36,7 +36,7 @@
 					<img src="./travis.jpeg" alt="travis in canada" width="100%" style="padding-bottom: 0.5em; margin-bottom: -1em;" />
 					<div class="card-content">
 						<div class="card-title">Getting Started</div>
-						The quickest way to get ahold of a full demo is to <a href="https://erpnomy.com/auth/register" target="_blank">register</a> an account at erpnomy.com. Another quick alternative is to <a href="https://erpnomy.com/auth/login" target="_blank">login</a> to one of our existing test accounts for a limited demonstration.
+						The quickest way to get ahold of a full demo is to <a href="https://erpnomy.subvind.com/auth/register" target="_blank">register</a> an account at erpnomy.subvind.com. Another quick alternative is to <a href="https://erpnomy.subvind.com/auth/login" target="_blank">login</a> to one of our existing test accounts for a limited demonstration.
 						<br />
 						<br />
 						free demo...<br />

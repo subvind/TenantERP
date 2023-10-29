@@ -16,7 +16,7 @@
   {#if records.length}
     {#each records as record}
       <div class="card-content">
-        <a href={`https://erpnomy.com/${record.username}/${record.orgname}`} target="_blank" class="name">{record.name}</a>
+        <a href={`https://erpnomy.subvind.com/${record.username}/${record.orgname}`} target="_blank" class="name">{record.name}</a>
         <br /><span class="description">{record.description}</span>
         <br />
         <br />
@@ -39,7 +39,7 @@
     (Top 10 list of organizations that we support.)
   </div>
 </div>
-<a href="https://erpnomy.com/organizations" target="_blank" class="btn btn-large black white-text" style="display: inline-flex;"><i class="material-icons left">domain</i>organizations</a>
+<a href="https://erpnomy.subvind.com/organizations" target="_blank" class="btn btn-large black white-text" style="display: inline-flex;"><i class="material-icons left">domain</i>organizations</a>
 <br />
 <br />
 

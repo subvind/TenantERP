@@ -2,7 +2,7 @@
     import { onMount } from "svelte";
 
   let folder = 'meta'
-  let url = `https://erpnomy.com`
+  let url = `https://erpnomy.subvind.com`
   let active = ''
   let display = ''
   let description = ''
@@ -12,17 +12,17 @@
     switch (active) {
       case 'erpnomy':
         display = 'nomy.ERP'
-        url = `https://erpnomy.com`
+        url = `https://erpnomy.subvind.com`
         description = 'Easily create and manage your e-commerce business.<br><br> Accept orders, manage products and sell online using your very own storefront in minutes. No code needed.'
         break;
       case 'desknomy':
         display = 'nomy.DESK'
-        url = `https://desknomy.com`
+        url = `https://desknomy.subvind.com`
         description = 'Easily create and manage your productized service.<br><br> Accept monthly subscription plans, manage tasks and communicate using your very own client area in minutes. No code needed.'
         break;
       case 'tubenomy':
         display = 'nomy.TUBE'
-        url = `https://tubenomy.com`
+        url = `https://tubenomy.subvind.com`
         description = 'Easily promote and sell your goods and services.<br><br> Notify subscribers, manage playlists, and showcase videos using your very own catalog in minutes. No code needed.'
         break;
     }
