@@ -24,7 +24,7 @@
         {#each record.solutions as solution}
           <ul class="solutions">
             <li>
-              &#8226; module: <a href={`https://${record.orgname}.${solution.module}.com`} target="_blank">{`https://${record.orgname}.${solution.module}.com`}</a>
+              &#8226; module: <a href={`https://${record.orgname}.${solution.module}.subvind.com`} target="_blank">{`https://${record.orgname}.${solution.module}.subvind.com`}</a>
             </li>
             <li>
               &#8226; bolt-on: <a href={solution.url} target="_blank">{solution.url}</a>
