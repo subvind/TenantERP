@@ -13,6 +13,18 @@
 <div class="steps">
   <div class="container">
     <h3 class="title">
+      - nomy.HOME
+    </h3>
+    <div class="bump">
+      <div class="description">a homenomy frontend and backend module that covers settings and configuration for an oganization as well as analytics and members plus it is the splash landing homepage for everything installed org wide.</div>
+      <!-- <br /> -->
+      <!-- <a href="/platforms" class="btn btn-large red lighten-2"><i class="material-icons left">folder</i>Platforms</a> -->
+    </div>
+  </div>
+</div>
+<div class="steps">
+  <div class="container">
+    <h3 class="title">
       - nomy.ERP
     </h3>
     <div class="bump">
@@ -28,7 +40,7 @@
       - nomy.DESK
     </h3>
     <div class="bump">
-      <div class="description">a desknomy frontend and backend module which has a support desk admin area for employees plus it is capable of supporting many suppliers and customers behind many support desks.</div>
+      <div class="description">a desknomy frontend and backend module which has a client area or control panel for clients plus it is capable of handling many tasks behind many kanban boards.</div>
       <!-- <br /> -->
       <!-- <a href="/apps" class="btn btn-large red lighten-2"><i class="material-icons left">extension</i>Applications</a> -->
     </div>

@@ -11,7 +11,7 @@
       WELCOME
     </h1>
     <div class="description" style="color: #fff;">
-      We have a collection of "-nomy" modules for your website. Each module has a frontend main website and a backend admin panel. It integrates with your website by pointing your subdomain to a module's frontend; for example: store.istrav.com -> the erpnomy module. We currently have 1 module ready for production, 2 modules in development, and many more modules planned. Find out more by getting started today! Checkout our solutions and be sure to let us know how we are doing.
+      We have a collection of "-nomy" modules for your website. Each module has a frontend main website and a backend admin panel. It integrates with your website by pointing your subdomain to a module's frontend; for example: store.istrav.com -> the erpnomy module. We currently have 1 module ready for production, 3 modules in development, and many more modules planned. Find out more by getting started today! Checkout our solutions and be sure to let us know how we are doing.
     </div>
     <!-- <br /> -->
     <!-- <div class="description">isTrav's goal is to solve problems using the right solutions, turn ideas into modules that spark joy to the end user, and then to keep production live with what works best.</div> -->

@@ -10,6 +10,11 @@
   function toggle(value: any) {
     active = value
     switch (active) {
+      case 'homenomy':
+        display = 'nomy.HOME'
+        url = `https://homenomy.subvind.com`
+        description = 'Easily engage and empower your community.<br><br> Load balance traffic by creating a splash page landing or homepage that is optimized for every user. No code needed.'
+        break;
       case 'erpnomy':
         display = 'nomy.ERP'
         url = `https://erpnomy.subvind.com`
@@ -33,7 +38,7 @@
     function getHashValue() {
       return window.location.hash.substring(1); // Removes the "#" character
     }
-    let hash = getHashValue() || 'erpnomy';
+    let hash = getHashValue() || 'homenomy';
 
     toggle(hash)
   })
@@ -81,6 +86,7 @@
     </a>
     <div class="line"></div>
     <h1 class="demo-title">{display}</h1>
+    <button class="waves-effect waves-light btn grey" class:active={active === 'homenomy'} on:click={() => toggle('homenomy')}>homenomy</button>
     <button class="waves-effect waves-light btn grey" class:active={active === 'erpnomy'} on:click={() => toggle('erpnomy')}>erpnomy</button>
     <button class="waves-effect waves-light btn grey" class:active={active === `desknomy`} on:click={() => toggle('desknomy')}>desknomy</button>
     <button class="waves-effect waves-light btn grey" class:active={active === `tubenomy`} on:click={() => toggle('tubenomy')}>tubenomy</button>

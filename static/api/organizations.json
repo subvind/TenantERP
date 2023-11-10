@@ -18,6 +18,10 @@
     "orgname": "istrav",
     "solutions": [
       {
+        "module": "homenomy",
+        "url": "https://underwind.solutions"
+      },
+      {
         "module": "erpnomy",
         "url": "https://store.istrav.com"
       },
