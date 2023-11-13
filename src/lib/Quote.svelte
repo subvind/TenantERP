@@ -24,6 +24,8 @@
     overflow: hidden;
     position: relative;
     padding: 2em 0;
+    border-top: 1em solid #42a5f5;
+    border-bottom: 1em solid #42a5f5;
   }
 
   .banner .map {
@@ -49,7 +51,7 @@
     margin: 0 auto;
     text-align: center;
     font-size: 4.5em;
-    color: #fff;
+    color: #42a5f5;
     font-weight: 900;
     max-width: 600px;
   }

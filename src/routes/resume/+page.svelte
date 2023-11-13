@@ -19,7 +19,7 @@
 </script>
 
 <svelte:head>
-	<title>The Official Resume of Travis Burandt - isTrav</title>
+	<title>Full Stack Developer - Resume - isTrav Subvind</title>
 	<meta name="description" content="(Resume of a FSD) [Full Stack Developer] -Travis Burandt-" />
 </svelte:head>
 

@@ -7,7 +7,7 @@
 </script>
 
 <svelte:head>
-	<title>My name is Travis and I am a programmer, Sr. Full Stack Developer, cyclist - isTrav</title>
+	<title>About Me: Travis Burandt - isTrav Subvind</title>
 	<meta name="description" content="Travis Burandt is a successful cyclist. At one point he was the youngest and only Cat. 1 racer in the United States. He has podiumed at states, nationals, and internationally. That was a long time ago though. He has since then dropped out of racing competatively and now focuses on his own mental health and his own personal coding projects. " />
 </svelte:head>
 

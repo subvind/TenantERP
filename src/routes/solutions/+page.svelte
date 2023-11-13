@@ -19,7 +19,7 @@
 </script>
 
 <svelte:head>
-	<title>Solutions - Software as a Service - isTrav</title>
+	<title>Solutions - µSaaS Modules - isTrav Subvind</title>
 	<meta name="description" content="A platform & multi-layered BBS built for innovating ideas. BBS: This is software dedicated to the sharing or exchange of ideas or other messages/files on a network." />
 </svelte:head>
 
