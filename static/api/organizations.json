@@ -6,8 +6,12 @@
     "orgname": "brokenrecord",
     "solutions": [
       {
+        "module": "homenomy",
+        "url": "https://brokenrecord.store"
+      },
+      {
         "module": "erpnomy",
-        "url": "https://www.brokenrecord.store"
+        "url": "https://shop.brokenrecord.store"
       }
     ]
   },
@@ -19,7 +23,7 @@
     "solutions": [
       {
         "module": "homenomy",
-        "url": "https://underwind.solutions"
+        "url": "https://istrav.com"
       },
       {
         "module": "erpnomy",
