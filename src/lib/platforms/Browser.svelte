@@ -81,8 +81,8 @@
   <div class="container">
     <a href="#" class="btn-floating btn-large waves-effect waves-light red lighten-2 platform-btn"><i class="material-icons">arrow_upward</i></a>
     <div class="line"></div>
-    <a href="https://underwind.solutions">
-      <img src="/anchor.png" alt="underwind.solutions" style="width: 100px; margin-bottom: -2em;">
+    <a href="https://istrav.com">
+      <img src="/anchor.png" alt="isTrav Subvind" style="width: 100px; margin-bottom: -2em;">
     </a>
     <div class="line"></div>
     <h1 class="demo-title">{display}</h1>

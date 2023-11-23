@@ -9,8 +9,8 @@
           <div class="row">
             <div class="col m4">
 
-              <a href="https://underwind.solutions">
-                <img src="/anchor.png" alt="underwind.solutions" style="width: 100%; -webkit-filter: invert(1); filter: invert(1);">
+              <a href="https://istrav.com">
+                <img src="/anchor.png" alt="isTrav Subvind" style="width: 100%; -webkit-filter: invert(1); filter: invert(1);">
               </a>
             </div>
             <div class="col m8">

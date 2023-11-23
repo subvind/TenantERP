@@ -10,8 +10,8 @@
     <div class="description">Free forever up until you reach the Fair Source 25 (v0.9). license agreement limit. Checkout our Pricing Level slider below to calculate usage limits (active users, requests per day, requests per mounth) with expected costs per month.</div>
     <br />
     <br />
-    <a href="https://underwind.solutions">
-      <img src="/anchor.png" alt="underwind.solutions" class="anchor">
+    <a href="https://istrav.com">
+      <img src="/anchor.png" alt="isTrav Subvind" class="anchor">
     </a>
     <a href="https://client-area.istrav.com" class="btn btn-large teal lighten-2"><i class="material-icons left">verified_user</i>subscribe</a>
   </div>

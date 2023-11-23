@@ -33,8 +33,8 @@
 				<div class="nav-wrapper" style="text-align: center;">
 					<ul style="height: inherit;">
 						<li style="height: inherit; float: none;">
-							<a href="https://underwind.solutions" style="height: inherit; justify-content: center; display: flex; align-items: center;">
-								<img src="/anchor.png" alt="underwind.solutions" style="height: 45px;">
+							<a href="https://istrav.com" style="height: inherit; justify-content: center; display: flex; align-items: center;">
+								<img src="/anchor.png" alt="isTrav Subvind" style="height: 45px;">
 							</a>
 						</li>
 					</ul>

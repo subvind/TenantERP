@@ -45,7 +45,7 @@
   {/if}
   <div style="border-left: 1em solid #000; height: 5em; margin-left: calc(390px / 2 - 0.5em);"></div>
   <div style="width: 390px;">
-    <img src="/anchor.png" alt="underwind.solutions" style="width: 100%; -webkit-filter: invert(1); filter: invert(1);">
+    <img src="/anchor.png" alt="isTrav Subvind" style="width: 100%; -webkit-filter: invert(1); filter: invert(1);">
   </div>
 </div>
 

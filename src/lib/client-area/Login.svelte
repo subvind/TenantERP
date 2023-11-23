@@ -29,9 +29,6 @@
 
 <div class="contain">
   <div class="header">
-    <a href="https://underwind.solutions">
-      <img src="/anchor.png" alt="underwind.solutions" class="anchor">
-    </a>
     <h1 class="title">
       Login
     </h1>
