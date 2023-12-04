@@ -28,10 +28,10 @@
       <div class="col s6 demo">
         <div class="card-content">
           <div class="card-title">Grab a Demo:</div>
-          Get a one-on-one walk-through of subvind with an in-house expert. 
+          For a one-on-one walk-through of subvind with an in-house expert please contact us. 
           <br />
           <br />
-          <a href="/contact-me" class="btn red lighten-2">Grab Your Demo</a>
+          <a href="https://demo.subvind.com" target="_blank" class="btn red lighten-2">Goto Demo</a>
           <br />
           <br />
           <br />
