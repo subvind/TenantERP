@@ -36,10 +36,10 @@
     {/each}
   {/if}
   <div class="card-content">
-    (Top 10 list of organizations that we support.)
+    (Top 5 list of awesome examples.)
   </div>
 </div>
-<a href="https://erpnomy.subvind.com/organizations" target="_blank" class="btn btn-large black white-text" style="display: inline-flex;"><i class="material-icons left">domain</i>organizations</a>
+<a href="https://underwind.solutions/organizations" target="_blank" class="btn btn-large black white-text" style="display: inline-flex;"><i class="material-icons left">domain</i>organizations</a>
 <br />
 <br />
 
