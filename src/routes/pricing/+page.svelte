@@ -11,16 +11,28 @@
   import Production from "$lib/Production.svelte";
 
   let level = 2
-	let records: any[] = []
+	let records: any[] = [
+    {
+      level: 0,
+      price: 0,
+      storage: 1,
+      requestsPerMonth: 25000
+    },
+    {
+      level: 1,
+      price: 19,
+      storage: 10,
+      requestsPerMonth: 250000
+    }
+  ]
 
   // create 10 levels
-  for (let i = 0; i <= 10; i++) {
+  for (let i = 1; i <= 9; i++) {
     records.push({
-      number: i,
-      price: 0 + i * 19,
-      activeUsersPerHour: i * 50 || 25,
-      requestsPerDay: i * 100000 || 50000,
-      requestsPerMonth: i * 100000 * 25 || 100000 * 25 / 2
+      level: i + 1,
+      price: i * 250,
+      storage: i * 100,
+      requestsPerMonth: i * 3000000
     })
   }
 </script>
